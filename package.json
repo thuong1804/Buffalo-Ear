@@ -1,0 +1,27 @@
+{
+  "name": "buffalo-ear",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vite --host 127.0.0.1 --port 5174 --strictPort",
+    "dev": "vite --host 127.0.0.1 --port 5174 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5174 --strictPort",
+    "test": "node --test tests/learning.test.js",
+    "test:browser": "node tests/browser.cjs",
+    "format": "prettier --write src data.js style.css index.html vite.config.js tests README.md docs package.json",
+    "format:check": "prettier --check src data.js style.css index.html vite.config.js tests README.md docs package.json"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "playwright": "^1.64.1",
+    "prettier": "^3.9.10",
+    "vite": "^6.1.0"
+  }
+}
