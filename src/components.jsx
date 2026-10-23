@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
   ArrowRight,
   BookOpen,
@@ -17,6 +17,46 @@ import {
 } from "lucide-react";
 import { groups, words } from "../data.js";
 import { getPool } from "./learning.js";
+import { levels } from "./levels.js";
+
+const levelCounts = Object.fromEntries(
+  levels.map((level) => [
+    level.id,
+    level.id === "all"
+      ? words.length
+      : words.filter((w) => w.level === level.id).length,
+  ]),
+);
+
+export function LevelFilter({ level, onChange }) {
+  return (
+    <section className="level-filter" aria-labelledby="level-heading">
+      <div className="level-filter-heading">
+        <span className="eyebrow">LỘ TRÌNH CỦA BẠN</span>
+        <h2 id="level-heading">Chọn cấp độ</h2>
+        <p>Kết hợp với âm IPA để luyện đúng trình độ.</p>
+      </div>
+      <div className="level-options" role="group" aria-label="Cấp độ từ vựng">
+        {levels.map((item) => (
+          <button
+            key={item.id}
+            className={`level-option ${level === item.id ? "active" : ""}`}
+            aria-label={`Cấp độ ${item.label}`}
+            aria-pressed={level === item.id}
+            onClick={() => onChange(item.id)}
+          >
+            <span className="level-option-top">
+              <strong>{item.label}</strong>
+              {level === item.id && <Check size={14} />}
+            </span>
+            <span>{item.description}</span>
+            <small>{levelCounts[item.id].toLocaleString("vi-VN")} từ</small>
+          </button>
+        ))}
+      </div>
+    </section>
+  );
+}
 
 export const localDay = (date) => new Date(date).toLocaleDateString("en-CA");
 const tabs = [
@@ -354,17 +394,18 @@ export function Practice({
   );
 }
 
-export function Library({ selected, group, mode, learned, onPractice }) {
+export function Library({ selected, group, mode, level, learned, onPractice }) {
   const [query, setQuery] = useState("");
   const [page, setPage] = useState(0);
+  useEffect(() => setPage(0), [level, selected, group, mode]);
   const pool = useMemo(
     () =>
-      getPool(selected, group, mode).filter((w) =>
+      getPool(selected, group, mode, null, level).filter((w) =>
         `${w.word} ${w.meaning}`
           .toLocaleLowerCase("vi")
           .includes(query.toLocaleLowerCase("vi").trim()),
       ),
-    [selected, group, mode, query],
+    [selected, group, mode, query, level],
   );
   const pages = Math.max(1, Math.ceil(pool.length / 24));
   const safePage = Math.min(page, pages - 1);
@@ -374,8 +415,8 @@ export function Library({ selected, group, mode, learned, onPractice }) {
         <span className="count-pill">{words.length} từ</span>
       </SectionTitle>
       <p className="section-description">
-        Tra cứu từ và chọn từ để luyện nghe. Bộ lọc IPA ở màn hình Luyện nghe
-        cũng áp dụng tại đây.
+        Tra cứu từ và chọn từ để luyện nghe. Bộ lọc cấp độ và IPA cùng áp dụng
+        tại đây.
       </p>
       <label className="search-field">
         <Search size={18} />
@@ -415,6 +456,9 @@ export function Library({ selected, group, mode, learned, onPractice }) {
                 )}
               </h3>
               <span className="ipa">/{w.ipa}/</span>
+              <span className="word-level" aria-label={`Cấp độ ${w.level}`}>
+                {w.level}
+              </span>
               <p>{w.meaning}</p>
             </div>
             <button

@@ -45,6 +45,49 @@ const fs = require("node:fs");
     });
     await page.goto(process.env.APP_URL || "http://127.0.0.1:5174");
     await page.waitForLoadState("networkidle");
+    assert.equal(
+      await page
+        .getByRole("group", { name: "Cấp độ từ vựng" })
+        .getByRole("button")
+        .count(),
+      5,
+    );
+    await page.getByRole("button", { name: "Cấp độ A1", exact: true }).click();
+    assert.match(
+      await page.locator(".practice-controls").innerText(),
+      /904 từ/,
+    );
+    await page.getByRole("button", { name: "Cấp độ B2", exact: true }).click();
+    assert.match(
+      await page.locator(".practice-controls").innerText(),
+      /594 từ/,
+    );
+    await page.getByRole("button", { name: "Thư viện", exact: true }).click();
+    assert.ok(
+      (await page.locator(".word-level").allTextContents()).every(
+        (text) => text === "B2",
+      ),
+    );
+    const utterances = await page.evaluate(() => window.spoken.length);
+    await page.getByRole("button", { name: "Cấp độ A1", exact: true }).click();
+    assert.equal(await page.evaluate(() => window.spoken.length), utterances);
+    await page
+      .getByRole("textbox", { name: "Tìm từ hoặc nghĩa tiếng Việt" })
+      .fill("cheese");
+    assert.equal(await page.locator(".word-card").count(), 1);
+    await page.getByRole("button", { name: "Cấp độ B2", exact: true }).click();
+    assert.equal(await page.locator(".word-card").count(), 0);
+    await page.reload();
+    await page.waitForLoadState("networkidle");
+    assert.equal(
+      await page
+        .getByRole("button", { name: "Cấp độ B2", exact: true })
+        .getAttribute("aria-pressed"),
+      "true",
+    );
+    await page
+      .getByRole("button", { name: "Cấp độ Tất cả", exact: true })
+      .click();
     assert.equal(await page.locator(".sound").count(), 44);
     assert.equal(await page.locator(".secret-word").innerText(), "••••••");
     await page
@@ -102,7 +145,13 @@ const fs = require("node:fs");
       "true",
     );
     await page
-      .getByRole("button", { name: "Chọn âm /uː/", exact: true })
+      .getByRole("button", { name: "Chọn âm /ʊə/", exact: true })
+      .click();
+    await page
+      .getByRole("button", { name: "Chọn âm /æ/", exact: true })
+      .click();
+    await page
+      .getByRole("button", { name: "Chọn âm /ɪə/", exact: true })
       .click();
     await page.getByLabel("Từ chứa").selectOption("all");
     assert.match(await page.locator(".empty-state").innerText(), /Chưa có từ/);

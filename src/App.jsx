@@ -23,6 +23,7 @@ import {
 } from "./learning.js";
 import {
   Library,
+  LevelFilter,
   localDay,
   Practice,
   Progress,
@@ -47,7 +48,7 @@ export default function App() {
   const [mode, setMode] = useState("any");
   const [review, setReview] = useState(false);
   const [round, setRound] = useState(() => ({
-    deck: makeDeck(words),
+    deck: makeDeck(getPool([], "all", "any", null, saved.settings.level)),
     index: 0,
     id: 0,
   }));
@@ -72,13 +73,20 @@ export default function App() {
     [history],
   );
   const pool = useMemo(
-    () => getPool(selected, group, mode, review ? summary.mistakes : null),
-    [selected, group, mode, review, summary.mistakes],
+    () =>
+      getPool(
+        selected,
+        group,
+        mode,
+        review ? summary.mistakes : null,
+        settings.level,
+      ),
+    [selected, group, mode, review, summary.mistakes, settings.level],
   );
   const poolRef = useRef(pool);
   poolRef.current = pool;
   const autoRef = useRef(null);
-  autoRef.current = { auto: settings.auto, speak: speech.speak };
+  autoRef.current = { auto: settings.auto, speak: speech.speak, view };
   const todayCount = history.filter(
     (h) => localDay(h.date) === localDay(new Date()),
   ).length;
@@ -97,7 +105,12 @@ export default function App() {
     setRevealed(false);
     submitLock.current = false;
     const current = round.deck[round.index];
-    if (interacted.current && autoRef.current.auto && current)
+    if (
+      interacted.current &&
+      autoRef.current.auto &&
+      autoRef.current.view === "practice" &&
+      current
+    )
       autoRef.current.speak(current.word);
     if (interacted.current) inputRef.current?.focus({ preventScroll: true });
   }, [round]);
@@ -106,6 +119,7 @@ export default function App() {
     nextGroup = group,
     nextMode = mode,
     nextReview = review,
+    nextLevel = settings.level,
   ) {
     speech.cancel();
     interacted.current = true;
@@ -114,6 +128,7 @@ export default function App() {
       nextGroup,
       nextMode,
       nextReview ? summary.mistakes : null,
+      nextLevel,
     );
     setRound((r) => ({
       deck: makeDeck(nextPool, r.deck[r.index]?.word),
@@ -141,9 +156,10 @@ export default function App() {
     speech.cancel();
     interacted.current = true;
     setRound((r) => {
+      const allowed = new Set(poolRef.current.map((w) => w.word));
       const remaining = r.deck
         .slice(r.index + 1)
-        .filter((w) => poolRef.current.some((p) => p.word === w.word));
+        .filter((w) => allowed.has(w.word));
       return {
         deck: remaining.length
           ? remaining
@@ -204,7 +220,14 @@ export default function App() {
     setGroup("all");
     setSelected([]);
     setRound((r) => ({
-      deck: [word, ...makeDeck(words.filter((w) => w.word !== word.word))],
+      deck: [
+        word,
+        ...makeDeck(
+          getPool([], "all", "any", null, settings.level).filter(
+            (w) => w.word !== word.word,
+          ),
+        ),
+      ],
       index: 0,
       id: r.id + 1,
     }));
@@ -322,7 +345,7 @@ export default function App() {
               {view === "practice"
                 ? "Một chút mỗi ngày, tiếng Anh gần hơn một chút."
                 : view === "library"
-                  ? "507 từ thông dụng, sẵn sàng để bạn khám phá."
+                  ? `${words.length.toLocaleString("vi-VN")} từ thông dụng, sẵn sàng để bạn khám phá.`
                   : "Nhìn lại những gì bạn đã học và tiếp tục hành trình."}
             </p>
           </div>
@@ -355,6 +378,15 @@ export default function App() {
             </div>
           </div>
         </section>
+        {view !== "progress" && (
+          <LevelFilter
+            level={settings.level}
+            onChange={(level) => {
+              setSettings((s) => ({ ...s, level }));
+              resetPool(selected, group, mode, review, level);
+            }}
+          />
+        )}
         {view === "practice" ? (
           <>
             <div className="workspace">
@@ -430,6 +462,7 @@ export default function App() {
             selected={selected}
             group={group}
             mode={mode}
+            level={settings.level}
             learned={learned}
             onPractice={practiceWord}
           />
@@ -446,11 +479,62 @@ export default function App() {
               setReview(true);
               setGroup("all");
               setSelected([]);
-              resetPool([], "all", mode, true);
+              setSettings((s) => ({ ...s, level: "all" }));
+              resetPool([], "all", mode, true, "all");
             }}
           />
         )}
       </main>
+      <details className="data-credits">
+        <summary>
+          Nguồn từ vựng & cấp độ <BookOpen size={12} />
+        </summary>
+        <p>
+          Bộ học tập 3.000 mục từ A1–B2, giữ nguyên 507 từ ban đầu. Cấp độ là
+          tham khảo theo mục từ; các nghĩa khác nhau có thể thuộc cấp độ khác.
+          Đây là bộ tổng hợp cho Buffalo Ear, không phải bản Oxford 3000 chính
+          thức.
+        </p>
+        <p>
+          Nghĩa và phiên âm:{" "}
+          <a
+            href="https://github.com/skypediacode/english-vietnamese-dictionary"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Skypedia / MinhQND
+          </a>
+          , đã chọn lọc và chuẩn hóa, theo{" "}
+          <a
+            href="/licenses/dictionary-CC-BY-SA-4.0.txt"
+            target="_blank"
+            rel="noreferrer"
+          >
+            CC BY-SA 4.0
+          </a>
+          . Danh sách cấp độ:{" "}
+          <a
+            href="https://github.com/chihyungchang/3000MostCommonEnglishWords"
+            target="_blank"
+            rel="noreferrer"
+          >
+            3000MostCommonEnglishWords
+          </a>
+          , theo{" "}
+          <a
+            href="/licenses/cefr-Apache-2.0.txt"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Apache 2.0
+          </a>
+          . Một số mục bổ sung được biên soạn riêng.{" "}
+          <a href="/licenses/ATTRIBUTION.txt" target="_blank" rel="noreferrer">
+            Ghi nguồn đầy đủ
+          </a>
+          .
+        </p>
+      </details>
       <footer>
         <span className="footer-brand">
           buffalo ear <i /> <span>Made for curious ears.</span>

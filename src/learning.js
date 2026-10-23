@@ -1,18 +1,23 @@
 import { words, groups } from "../data.js";
+import { levels } from "./levels.js";
+const knownWords = new Set(words.map((w) => w.word));
 
 export function getPool(
   selected = [],
   group = "all",
   mode = "any",
   mistakes = null,
+  level = "all",
 ) {
   const sounds = groups
     .filter((g) => group === "all" || g.type === group)
     .flatMap((g) => g.sounds);
   const active = selected.filter((p) => sounds.includes(p));
+  const reviewWords = mistakes ? new Set(mistakes) : null;
   return words.filter(
     (w) =>
-      (!mistakes || mistakes.includes(w.word)) &&
+      (level === "all" || w.level === level) &&
+      (!reviewWords || reviewWords.has(w.word)) &&
       (active.length
         ? mode === "all"
           ? active.every((p) => w.phonemes.includes(p))
@@ -47,12 +52,15 @@ export function readSaved(storage) {
   try {
     const saved = JSON.parse(storage.getItem(storageKey));
     if (!saved || !Array.isArray(saved.history))
-      return { history: [], settings: { rate: 0.85, auto: true } };
+      return {
+        history: [],
+        settings: { rate: 0.85, auto: true, level: "all" },
+      };
     const history = saved.history
       .filter(
         (h) =>
           h &&
-          words.some((w) => w.word === h.word) &&
+          knownWords.has(h.word) &&
           typeof h.correct === "boolean" &&
           typeof h.matches === "boolean" &&
           typeof h.date === "string" &&
@@ -62,6 +70,9 @@ export function readSaved(storage) {
     return {
       history,
       settings: {
+        level: levels.some((l) => l.id === saved.settings?.level)
+          ? saved.settings.level
+          : "all",
         rate: [0.7, 0.85, 1].includes(saved.settings?.rate)
           ? saved.settings.rate
           : 0.85,
@@ -72,7 +83,7 @@ export function readSaved(storage) {
       },
     };
   } catch {
-    return { history: [], settings: { rate: 0.85, auto: true } };
+    return { history: [], settings: { rate: 0.85, auto: true, level: "all" } };
   }
 }
 
