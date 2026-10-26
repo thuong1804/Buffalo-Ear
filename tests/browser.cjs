@@ -22,6 +22,7 @@ const fs = require("node:fs");
     // without depending on voices or audio hardware in headless Chromium.
     await page.addInitScript(() => {
       window.spoken = [];
+      localStorage.setItem("buffalo-ear-voice", "device");
       window.SpeechSynthesisUtterance = class {
         constructor(text) {
           this.text = text;
@@ -53,18 +54,29 @@ const fs = require("node:fs");
       5,
     );
     await page.getByRole("button", { name: "Cấp độ A1", exact: true }).click();
+    await page.evaluate(
+      () =>
+        new Promise((resolve) =>
+          requestAnimationFrame(() => requestAnimationFrame(resolve)),
+        ),
+    );
+    assert.equal(
+      await page.evaluate(() => window.spoken.length),
+      0,
+      "Initial level filter must stay silent",
+    );
     assert.match(
-      await page.locator(".practice-controls").innerText(),
+      await page.locator("[data-testid=practice-controls]").innerText(),
       /904 từ/,
     );
     await page.getByRole("button", { name: "Cấp độ B2", exact: true }).click();
     assert.match(
-      await page.locator(".practice-controls").innerText(),
+      await page.locator("[data-testid=practice-controls]").innerText(),
       /594 từ/,
     );
     await page.getByRole("button", { name: "Thư viện", exact: true }).click();
     assert.ok(
-      (await page.locator(".word-level").allTextContents()).every(
+      (await page.locator("[data-testid=word-level]").allTextContents()).every(
         (text) => text === "B2",
       ),
     );
@@ -74,9 +86,9 @@ const fs = require("node:fs");
     await page
       .getByRole("textbox", { name: "Tìm từ hoặc nghĩa tiếng Việt" })
       .fill("cheese");
-    assert.equal(await page.locator(".word-card").count(), 1);
+    assert.equal(await page.locator("[data-testid=word-card]").count(), 1);
     await page.getByRole("button", { name: "Cấp độ B2", exact: true }).click();
-    assert.equal(await page.locator(".word-card").count(), 0);
+    assert.equal(await page.locator("[data-testid=word-card]").count(), 0);
     await page.reload();
     await page.waitForLoadState("networkidle");
     assert.equal(
@@ -88,8 +100,67 @@ const fs = require("node:fs");
     await page
       .getByRole("button", { name: "Cấp độ Tất cả", exact: true })
       .click();
-    assert.equal(await page.locator(".sound").count(), 44);
-    assert.equal(await page.locator(".secret-word").innerText(), "••••••");
+    await page.getByRole("button", { name: "Luyện nghe", exact: true }).click();
+    assert.equal(await page.locator("[data-testid=sound]").count(), 44);
+    assert.equal(
+      await page.locator("[data-testid=secret-word]").innerText(),
+      "••••••",
+    );
+    // Filters stay silent even after the user has already listened, with auto enabled.
+    await page
+      .getByRole("button", { name: "Nghe từ vựng", exact: true })
+      .click();
+    const beforeFiltering = await page.evaluate(() => window.spoken.length);
+    const expectSilentFilter = async (action) => {
+      await action();
+      await page.evaluate(
+        () =>
+          new Promise((resolve) =>
+            requestAnimationFrame(() => requestAnimationFrame(resolve)),
+          ),
+      );
+      assert.equal(
+        await page.evaluate(() => window.spoken.length),
+        beforeFiltering,
+        "Filtering must not speak",
+      );
+    };
+    for (const level of ["A1", "A2", "B1", "B2", "Tất cả"]) {
+      await expectSilentFilter(() =>
+        page
+          .getByRole("button", { name: `Cấp độ ${level}`, exact: true })
+          .click(),
+      );
+    }
+    await expectSilentFilter(() =>
+      page.getByRole("button", { name: "Nguyên âm", exact: true }).click(),
+    );
+    await expectSilentFilter(() =>
+      page.getByRole("button", { name: "Chọn âm /iː/", exact: true }).click(),
+    );
+    await expectSilentFilter(() =>
+      page.getByLabel("Từ chứa").selectOption("all"),
+    );
+    await expectSilentFilter(() =>
+      page.getByRole("button", { name: "Bỏ chọn", exact: true }).click(),
+    );
+    await expectSilentFilter(() =>
+      page.getByRole("button", { name: "Phụ âm", exact: true }).click(),
+    );
+    await expectSilentFilter(() =>
+      page.getByLabel("Nhóm âm").getByRole("button").first().click(),
+    );
+    await expectSilentFilter(() =>
+      page.getByLabel("Từ chứa").selectOption("any"),
+    );
+    await page.getByRole("checkbox", { name: "Tự động đọc" }).uncheck();
+    await expectSilentFilter(() => page.getByTestId("next-button").click());
+    await page.getByRole("checkbox", { name: "Tự động đọc" }).check();
+    await page.getByTestId("next-button").click();
+    await page.waitForFunction(
+      (count) => window.spoken.length === count + 1,
+      beforeFiltering,
+    );
     await page
       .getByRole("button", { name: "Nghe từ vựng", exact: true })
       .click();
@@ -105,12 +176,19 @@ const fs = require("node:fs");
     );
     await page.getByLabel("Bạn nghe được từ gì?").press("Enter");
     assert.equal(
-      await page.locator(".session-stats strong").first().innerText(),
+      await page
+        .locator("[data-testid=session-stats] strong")
+        .first()
+        .innerText(),
       "1",
     );
-    await page
-      .getByRole("button", { name: "Từ tiếp theo", exact: true })
-      .click();
+    await page.waitForFunction(
+      () => document.querySelector("#answer").value === "",
+    );
+    assert.equal(
+      await page.locator("[data-testid=secret-word]").innerText(),
+      "••••••",
+    );
     assert.notEqual(await page.evaluate(() => window.spoken.at(-1)), word);
     await page.getByLabel("Bạn nghe được từ gì?").fill("incorrect");
     await page.getByLabel("Bạn nghe được từ gì?").press("Enter");
@@ -132,7 +210,10 @@ const fs = require("node:fs");
       /đã xem đáp án/,
     );
     assert.equal(
-      await page.locator(".session-stats strong").nth(1).innerText(),
+      await page
+        .locator("[data-testid=session-stats] strong")
+        .nth(1)
+        .innerText(),
       "1",
     );
     await page
@@ -154,11 +235,14 @@ const fs = require("node:fs");
       .getByRole("button", { name: "Chọn âm /ɪə/", exact: true })
       .click();
     await page.getByLabel("Từ chứa").selectOption("all");
-    assert.match(await page.locator(".empty-state").innerText(), /Chưa có từ/);
+    assert.match(
+      await page.locator("[data-testid=empty-state]").innerText(),
+      /Chưa có từ/,
+    );
     await page.getByRole("button", { name: "Bỏ chọn", exact: true }).click();
     await page.getByLabel("Từ chứa").selectOption("any");
     await page.getByRole("button", { name: "Phụ âm", exact: true }).click();
-    assert.equal(await page.locator(".sound").count(), 24);
+    assert.equal(await page.locator("[data-testid=sound]").count(), 24);
     await page
       .getByRole("button", { name: "Tất cả", exact: false })
       .first()
@@ -167,22 +251,44 @@ const fs = require("node:fs");
     await page
       .getByRole("textbox", { name: "Tìm từ hoặc nghĩa tiếng Việt" })
       .fill("cheese");
-    assert.equal(await page.locator(".word-card").count(), 1);
+    assert.equal(await page.locator("[data-testid=word-card]").count(), 1);
     await page
-      .getByRole("button", { name: "Luyện từ cheese", exact: true })
+      .getByRole("button", { name: "Nghe từ cheese", exact: true })
       .click();
     assert.equal(await page.evaluate(() => window.spoken.at(-1)), "cheese");
-    assert.equal(await page.locator(".secret-word").innerText(), "••••••");
+    assert.equal(new URL(page.url()).pathname, "/library");
+    assert.equal(
+      await page
+        .getByRole("textbox", { name: "Tìm từ hoặc nghĩa tiếng Việt" })
+        .inputValue(),
+      "cheese",
+    );
+    assert.equal(await page.locator("[data-testid=word-card]").count(), 1);
+    await page
+      .getByRole("button", { name: "Nghe từ cheese", exact: true })
+      .click();
+    assert.equal(new URL(page.url()).pathname, "/library");
+    await page.getByRole("button", { name: "Luyện nghe", exact: true }).click();
+    assert.equal(
+      await page.locator("[data-testid=secret-word]").innerText(),
+      "••••••",
+    );
     await page.getByLabel("Tốc độ").selectOption("0.7");
     await page.reload();
     await page.waitForLoadState("networkidle");
     assert.equal(await page.getByLabel("Tốc độ").inputValue(), "0.7");
     await page.getByRole("button", { name: "Tiến độ", exact: true }).click();
-    assert.equal(await page.locator(".history-list li").count(), 3);
+    assert.equal(
+      await page.locator("[data-testid=history-list] li").count(),
+      3,
+    );
     await page
       .getByRole("button", { name: "Ôn 2 từ cần luyện lại", exact: true })
       .click();
-    assert.match(await page.locator(".live-badge").innerText(), /ÔN TẬP/);
+    assert.match(
+      await page.locator("[data-testid=live-badge]").innerText(),
+      /Ôn tập/,
+    );
     await page
       .getByRole("button", { name: "Quay lại toàn bộ từ", exact: true })
       .click();
@@ -191,7 +297,10 @@ const fs = require("node:fs");
       .getByRole("button", { name: "Xóa tiến độ", exact: true })
       .click();
     await page.getByRole("button", { name: "Hủy", exact: true }).click();
-    assert.equal(await page.locator(".history-list li").count(), 3);
+    assert.equal(
+      await page.locator("[data-testid=history-list] li").count(),
+      3,
+    );
     await page.getByRole("button", { name: "Luyện nghe", exact: true }).click();
     fs.mkdirSync("test-results", { recursive: true });
     await page.screenshot({ path: "test-results/desktop.png", fullPage: true });
@@ -212,7 +321,7 @@ const fs = require("node:fs");
     await page.screenshot({ path: "test-results/mobile.png", fullPage: true });
     assert.deepEqual(errors, []);
     console.log(
-      "PASS: grading with Enter, duplicate submit, reveal scoring, random next, speech adapter, IPA filters, empty state, library, review, persistence, navigation, 4 responsive widths.",
+      "PASS: grading with Enter, duplicate submit, reveal scoring, random next, speech adapter, silent level/IPA filters, auto on/off next, empty state, library, review, persistence, navigation, 4 responsive widths.",
     );
     console.log(
       "Screenshots: test-results/desktop.png, test-results/mobile.png",

@@ -1,0 +1,22 @@
+{
+  "learned": "Words most recently answered correctly",
+  "attempts": "Saved attempts",
+  "accuracy": "Accuracy without hints",
+  "daily": "A little every day",
+  "rhythm": "Your learning rhythm",
+  "chartDescription": "Practice attempts over the last 7 days.",
+  "goalHint": "A small goal: 20 practice attempts a day.",
+  "reflect": "Reflect and improve",
+  "history": "Recent history",
+  "hinted": "With a hint",
+  "needsReview": "Needs practice",
+  "emptyTitle": "Progress starts with one word.",
+  "emptyDescription": "Complete your first listening exercise to see your history here.",
+  "accountStorage": "Your progress is saved in your account.",
+  "browserStorage": "Your progress is saved in this browser.",
+  "reset": "Clear progress",
+  "resetConfirm": "Clear all history?",
+  "reviewCount_one": "Review {{count, number}} word needing practice",
+  "reviewCount_other": "Review {{count, number}} words needing practice",
+  "learnedCount": "{{learned, number}}/{{total, number}}"
+}

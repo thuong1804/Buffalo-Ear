@@ -1,0 +1,19 @@
+{
+  "eyebrow": "Explore & review",
+  "title": "Vocabulary library",
+  "description": "Look up a word and press the headphones button to listen here. Level and IPA filters apply here too.",
+  "searchLabel": "Search words or Vietnamese meanings",
+  "searchPlaceholder": "Search words or Vietnamese meanings…",
+  "clearSearch": "Clear search",
+  "transcriptionNote": "British IPA · 44 sounds · Vietnamese meanings",
+  "learned": "Answered correctly",
+  "listenTitle": "Listen to this word",
+  "emptyTitle": "No words found",
+  "emptyDescription": "Try a different search or adjust your IPA filters.",
+  "previousPage": "Previous page",
+  "nextPage": "Next page",
+  "listenLabel": "Listen to {{word}}",
+  "results_one": "{{count, number}} result",
+  "results_other": "{{count, number}} results",
+  "pagination": "Page {{page, number}} / {{pages, number}}"
+}
