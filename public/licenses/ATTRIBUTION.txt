@@ -1,0 +1,37 @@
+Buffalo Ear — 3,000-entry offline study dataset
+
+Data: Creative Commons Attribution-ShareAlike 4.0 International.
+https://creativecommons.org/licenses/by-sa/4.0/
+Share-alike applies to the adapted dataset, not application code that reads it.
+
+DICTIONARY DATA
+Skypedia (2026), English-Vietnamese Dictionary:
+https://github.com/skypediacode/english-vietnamese-dictionary
+Based on MinhQND Dictionary: https://github.com/minhqnd/dictionary
+Upstream resources include Wiktionary, vntk/dictionary, Ho Ngoc Duc's
+Vietnamese Dictionary Project, WikDict and open-dict-data, with OVDP
+used by the source project for validation.
+The unmodified upstream attribution is included at dictionary-ATTRIBUTION.md.
+The upstream license notice is included at dictionary-CC-BY-SA-4.0.txt.
+
+CEFR WORD LIST
+chihyungchang/3000MostCommonEnglishWords:
+https://github.com/chihyungchang/3000MostCommonEnglishWords
+Apache License 2.0, included at cefr-Apache-2.0.txt.
+
+CHANGES MADE FOR BUFFALO EAR
+- Selected a compact 3,000-entry learning subset with Vietnamese meanings.
+- Retained the app's original 507 entries and their meanings.
+- Selected dictionary senses using the study list's part of speech where available.
+- Added editorial corrections for ambiguous meanings and missing pronunciations.
+- Normalized IPA into the 44-sound teaching inventory, omitting stress marks,
+  normalizing syllabic consonants and /i, u/ into the available teaching symbols.
+- Added explicit editorial levels for legacy and supplemental everyday items.
+- Stored rows as [word, ipa, meaning, level] for efficient local use.
+
+Pinned source revisions and hashes are in data/sources.json in the source project.
+Build steps and corrections are in scripts/build-vocabulary.py.
+Adapted dataset: data/vocabulary.json, CC BY-SA 4.0.
+
+This is a reference study dataset, not an official Oxford 3000 release.
+Levels apply to headwords as study guidance; senses may differ in level.

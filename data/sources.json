@@ -1,0 +1,23 @@
+{
+  "cefr": {
+    "repository": "https://github.com/chihyungchang/3000MostCommonEnglishWords",
+    "commit": "eb4e312f566ef299473b5245c9a68c4d8bb3c306",
+    "files": {
+      "public/data/A1.json": "9c5da69326c2f76cf067b9df6dea469f5a883f82b6e9d60d01a1e4178dfd43a5",
+      "public/data/A2.json": "a3eb1f637820cd12cd8b8a62af81abf1709d5ddeaaec58818cc2f4093f2d8f30",
+      "public/data/B1.json": "44147d5e06cd66779e00c9f5bcb52cac179bbb80ac48777c5d84f4b2402a2056",
+      "public/data/B2.json": "b2a7be7d5e1777ef397b0fc7669710e1179c959b215d21d64d6c781273600f9d",
+      "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  },
+  "dictionary": {
+    "repository": "https://github.com/skypediacode/english-vietnamese-dictionary",
+    "commit": "388adc0826300912e5b0311c089e0e70494b065f",
+    "files": {
+      "dictionary_en_vi.db": "2b65bea9577c2a4149caa90940c806f321d1c6cfac503ed8bbd9f93e43a0033a",
+      "LICENSE": "9778073443aa790b47513f54aef4c49844a56ffe4e12bf937045e7d5d378612f",
+      "README.md": "0ebadfe4fe57b01ba30120b7e77d9aa7e0726121a983be7f2140630b4873cbec",
+      "ATTRIBUTION.md": "01bcd9da5d2f36bd773bf9cb1291cf941c3ce1c8b248baa6c57dcdc337c173bb"
+    }
+  }
+}

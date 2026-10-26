@@ -1,0 +1,15 @@
+import "dotenv/config";
+import { defineConfig } from "vite";
+import { tanstackStart } from "@tanstack/react-start/plugin/vite";
+import tailwindcss from "@tailwindcss/vite";
+import react from "@vitejs/plugin-react";
+import { nitro } from "nitro/vite";
+
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+    tanstackStart(),
+    nitro({ preset: process.env.VERCEL ? "vercel" : undefined }),
+    react(),
+  ],
+});
