@@ -255,3 +255,12 @@ Typography: Nunito Sans 400/500/600, Noto Sans IPA subset; font WOFF2 + giấy p
 | Công việc                                                 | Trạng thái | Kiểm chứng                                                                                                                                                            |
 | --------------------------------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Đặt nút cờ sau Hướng dẫn, cố định vị trí khi đổi ngôn ngữ | Hoàn tất   | Mobile dành hàng riêng cho nhóm thao tác. Build qua; kiểm tra trình duyệt xác nhận tọa độ nút không đổi giữa Việt/Anh ở 320/375/768/1024/1440px. Local 5175 cập nhật. |
+
+## Deploy Vercel + Neon (26/10/2026)
+
+| Công việc                                                                | Trạng thái    | Kiểm chứng                                                                                                                        |
+| ------------------------------------------------------------------------ | ------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Preset Vercel, region Singapore, connection pool và direct migration URL | Hoàn tất      | Build Vercel xuất .vercel/output (Node 24), Node local build, strict typecheck và 17 unit tests qua; giữ transaction.             |
+| Rate limit dùng database giữa các serverless instance                    | Hoàn tất      | Migration 0001 đã áp dụng local; integration signup/login/import/retry/account isolation và lưu tiến độ qua với storage database. |
+| Hướng dẫn môi trường production và Google OAuth                          | Hoàn tất      | docs/DEPLOYMENT.md và README.                                                                                                     |
+| Tạo Neon/Vercel, migrate Neon và kiểm tra URL public                     | Chờ đăng nhập | Hai tab tài khoản đã mở; chưa có phiên đăng nhập.                                                                                 |

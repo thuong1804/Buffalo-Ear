@@ -115,12 +115,15 @@ let browser;
   await expectHistory(3);
   async function register(email, name, waitForPractice = true) {
     await page.getByRole("link", { name: "Đăng nhập", exact: true }).click();
-    assert.equal(
-      await page
-        .getByRole("button", { name: "Tiếp tục với Google", exact: true })
-        .count(),
-      0,
-    );
+    await page.waitForURL("**/login");
+    await page.waitForLoadState("networkidle");
+    const google = page.getByRole("button", {
+      name: "Tiếp tục với Google",
+      exact: true,
+    });
+    if (process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_SECRET)
+      await google.waitFor();
+    else assert.equal(await google.count(), 0);
     await page.getByRole("button", { name: "Đăng ký", exact: true }).click();
     await page.getByLabel("Tên của bạn").fill(name);
     await page.getByLabel("Email", { exact: true }).fill(email);

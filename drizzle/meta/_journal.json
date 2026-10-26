@@ -8,6 +8,13 @@
       "when": 1792982878679,
       "tag": "0000_slim_sheva_callister",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1792998245373,
+      "tag": "0001_real_medusa",
+      "breakpoints": true
     }
   ]
 }
