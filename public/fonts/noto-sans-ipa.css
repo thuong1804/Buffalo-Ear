@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Noto Sans IPA";
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts/noto-sans-ipa.woff2) format("woff2");
+  unicode-range:
+    U+2f, U+61-62, U+64-66, U+68-6e, U+70, U+72-77, U+7a, U+e6, U+f0, U+14b,
+    U+251-252, U+254, U+259, U+25c, U+261, U+26a, U+283, U+28a, U+28c, U+292,
+    U+2d0, U+3b8;
+}

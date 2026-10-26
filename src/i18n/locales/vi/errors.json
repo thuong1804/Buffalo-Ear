@@ -1,0 +1,16 @@
+{
+  "storage": "Trình duyệt không cho phép lưu tiến độ. Bạn vẫn có thể luyện trong phiên này.",
+  "logout": "Chưa đăng xuất được. Hãy thử lại.",
+  "signup": "Không tạo được tài khoản. Kiểm tra thông tin hoặc thử đăng nhập nếu email đã được sử dụng.",
+  "login": "Không đăng nhập được. Kiểm tra email và mật khẩu.",
+  "connection": "Không kết nối được máy chủ. Vui lòng thử lại.",
+  "google": "Chưa đăng nhập được bằng Google. Vui lòng thử lại.",
+  "audioUnavailable": "Chưa phát được âm thanh. Hãy thử lại hoặc chọn giọng khác.",
+  "voicePlayback": "Chưa phát được giọng thiết bị. Nhấn nghe lại hoặc chọn giọng khác.",
+  "voiceUnavailable": "Chưa phát được giọng thiết bị. Hãy chọn giọng khác.",
+  "samplePlayback": "Chưa phát được âm mẫu. Nhấn nghe lại để thử lại.",
+  "saveAnswer": "Chưa lưu được đáp án. Kiểm tra kết nối rồi nhấn Kiểm tra để gửi lại.",
+  "saveSettings": "Chưa lưu được cài đặt. Nhấn Thử lại để đồng bộ.",
+  "clearProgress": "Chưa xóa được tiến độ. Hãy thử lại.",
+  "loadProgress": "Chưa tải được tiến độ tài khoản. Dữ liệu trên trình duyệt vẫn được giữ. Nhấn Thử lại."
+}

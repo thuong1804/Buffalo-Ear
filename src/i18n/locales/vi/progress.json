@@ -1,0 +1,22 @@
+{
+  "learned": "Từ trả lời đúng gần nhất",
+  "attempts": "Lượt luyện đã lưu",
+  "accuracy": "Tỉ lệ đúng không gợi ý",
+  "daily": "Đều đặn mỗi ngày",
+  "rhythm": "Nhịp học của bạn",
+  "chartDescription": "Số lượt luyện trong 7 ngày gần nhất.",
+  "goalHint": "Mục tiêu nhỏ: 20 lượt luyện mỗi ngày.",
+  "reflect": "Nhìn lại để tiến bộ",
+  "history": "Lịch sử gần đây",
+  "hinted": "Có gợi ý",
+  "needsReview": "Cần luyện lại",
+  "emptyTitle": "Tiến bộ bắt đầu từ một từ.",
+  "emptyDescription": "Hoàn thành bài nghe đầu tiên để xem lịch sử ở đây.",
+  "accountStorage": "Tiến độ được lưu trong tài khoản của bạn.",
+  "browserStorage": "Tiến độ được lưu trên trình duyệt này.",
+  "reset": "Xóa tiến độ",
+  "resetConfirm": "Xóa toàn bộ lịch sử?",
+  "reviewCount_one": "Ôn {{count, number}} từ cần luyện lại",
+  "reviewCount_other": "Ôn {{count, number}} từ cần luyện lại",
+  "learnedCount": "{{learned, number}}/{{total, number}}"
+}
