@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
     tanstackStart(),
-    nitro({ preset: "node-server" }),
+    nitro({ preset: process.env.VERCEL ? "vercel" : undefined }),
     react(),
   ],
 });

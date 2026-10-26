@@ -41,7 +41,10 @@ function createAuth() {
           },
         }
       : {},
-    rateLimit: { enabled: true },
+    rateLimit: { enabled: true, storage: "database" },
+    advanced: process.env.VERCEL
+      ? { ipAddress: { ipAddressHeaders: ["x-vercel-forwarded-for"] } }
+      : undefined,
     plugins: [tanstackStartCookies()],
   });
 }

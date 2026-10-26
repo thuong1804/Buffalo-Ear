@@ -8,9 +8,18 @@ import {
   index,
   uniqueIndex,
   check,
+  integer,
+  bigint,
 } from "drizzle-orm/pg-core";
 // Auth fields verified against auth@1.7.13 generate; timestamptz stores absolute instants.
 import { sql } from "drizzle-orm";
+
+export const rateLimit = pgTable("rate_limit", {
+  id: text("id").primaryKey(),
+  key: text("key").notNull().unique(),
+  count: integer("count").notNull(),
+  lastRequest: bigint("last_request", { mode: "number" }).notNull(),
+});
 
 export const user = pgTable("user", {
   id: text("id").primaryKey(),

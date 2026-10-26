@@ -1,23 +1,45 @@
 # Buffalo Ear
 
-Ứng dụng React + TanStack Start, giao diện Tailwind CSS v4, luyện nghe và viết tiếng Anh theo 44 âm IPA, có 3.000 mục từ A1–B2, phiên âm và nghĩa tiếng Việt. Giao diện responsive gồm Luyện nghe, Thư viện và Tiến độ.
+> 🤖 **Built with an AI Agent** — this project was designed, implemented, tested and documented with the help of an agentic AI coding assistant working in pair-programming mode with a human developer.
 
-## Chạy dự án
+Buffalo Ear is an English listening and spelling (dictation) trainer organized around the **44 IPA sounds**. It ships with **3,000 A1–B2 vocabulary entries**, each with IPA transcription and a Vietnamese meaning. The responsive UI has three main areas: **Practice**, **Library** and **Progress**.
 
-Yêu cầu **Node.js 22.12+ (khuyên dùng Node 24 LTS)**, npm và Docker nếu dùng PostgreSQL local. Repository là **một package**, không dùng workspaces hoặc monorepo.
+## Tech Stack
+
+| Area             | Technologies                                                                  |
+| ---------------- | ----------------------------------------------------------------------------- |
+| Language         | TypeScript 6                                                                  |
+| Framework        | React 19, TanStack Start (full-stack SSR), TanStack Router                    |
+| Data fetching    | TanStack Query                                                                |
+| Build / server   | Vite 8, Nitro, Node.js 22.12+ (Node 24 LTS recommended)                       |
+| Styling          | Tailwind CSS v4 (`@tailwindcss/vite`), prettier-plugin-tailwindcss            |
+| Icons            | lucide-react                                                                  |
+| Authentication   | Better Auth (email/password, optional Google OAuth) + Drizzle adapter         |
+| Database         | PostgreSQL (Docker Compose locally, Neon in production), `postgres` driver    |
+| ORM / migrations | Drizzle ORM, Drizzle Kit                                                      |
+| Validation       | Zod 4                                                                         |
+| i18n             | i18next, react-i18next (Vietnamese / English)                                 |
+| Speech           | Web Speech API (text-to-speech), bundled synthesized IPA WAV samples          |
+| Testing          | Node test runner via `tsx`, Playwright (Chromium) browser/integration tests   |
+| Tooling          | Prettier, `tsc` type checking, Python 3.10+ scripts for vocabulary generation |
+| Deployment       | Node server or Vercel Functions + Neon PostgreSQL                             |
+
+## Getting Started
+
+Requirements: **Node.js 22.12+ (Node 24 LTS recommended)**, npm, and Docker if you want a local PostgreSQL. The repository is a **single package** — no workspaces or monorepo.
 
 ```sh
 npm install
 npm run dev
 ```
 
-Mở http://127.0.0.1:5174. Khi chưa cấu hình database/auth, bạn vẫn luyện được với tư cách khách và lưu tiến độ trên trình duyệt.
+Open http://127.0.0.1:5174. Without database/auth configuration you can still practice as a guest; progress is stored in the browser.
 
-Để bật tài khoản và đồng bộ:
+To enable accounts and sync:
 
-1. Sao chép `.env.example` thành `.env` (`Copy-Item .env.example .env` trong PowerShell).
-2. Sinh secret bằng lệnh dưới đây rồi điền vào `BETTER_AUTH_SECRET`. Không commit `.env`.
-3. Chạy PostgreSQL và migration, rồi khởi động lại server.
+1. Copy `.env.example` to `.env` (`Copy-Item .env.example .env` in PowerShell).
+2. Generate a secret with the command below and put it in `BETTER_AUTH_SECRET`. Never commit `.env`.
+3. Start PostgreSQL, run the migrations, then restart the server.
 
 ```sh
 node -e "console.log(require('node:crypto').randomBytes(32).toString('hex'))"
@@ -26,57 +48,57 @@ npm run db:migrate
 npm run dev
 ```
 
-PostgreSQL local dùng cổng **5438**, database `buffalo_ear`; volume Docker giữ dữ liệu qua các lần khởi động. Thông tin đăng nhập trong Compose dành cho local. Nếu dùng database khác, sửa `DATABASE_URL`.
+The local PostgreSQL uses port **5438** and database `buffalo_ear`; a Docker volume keeps data across restarts. The credentials in Compose are for local use only. To use another database, change `DATABASE_URL`.
 
-| Biến môi trường                            | Công dụng                                                 |
-| ------------------------------------------ | --------------------------------------------------------- |
-| `DATABASE_URL`                             | Kết nối PostgreSQL, chỉ phía server                       |
-| `BETTER_AUTH_SECRET`                       | Secret ít nhất 32 ký tự                                   |
-| `BETTER_AUTH_URL`                          | Origin ứng dụng, mặc định ví dụ `http://127.0.0.1:5174`   |
-| `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET` | Tùy chọn; nút Google chỉ hiện khi có đủ cả hai            |
-| `HOST`, `PORT`                             | Địa chỉ/cổng server production; mặc định `127.0.0.1:5174` |
+| Environment variable                       | Purpose                                                    |
+| ------------------------------------------ | ---------------------------------------------------------- |
+| `DATABASE_URL`                             | PostgreSQL connection string, server-side only             |
+| `BETTER_AUTH_SECRET`                       | Secret of at least 32 characters                           |
+| `BETTER_AUTH_URL`                          | App origin, e.g. `http://127.0.0.1:5174`                   |
+| `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET` | Optional; the Google button appears only when both are set |
+| `HOST`, `PORT`                             | Production server address/port; default `127.0.0.1:5174`   |
 
-Google OAuth cần OAuth Client trên Google Cloud Console, redirect URI local là `http://127.0.0.1:5174/api/auth/callback/google`. Khi đổi origin/cổng, cập nhật cả `BETTER_AUTH_URL` và redirect URI tại Google. Email/mật khẩu hoạt động độc lập với Google.
+Google OAuth requires an OAuth Client in Google Cloud Console; the local redirect URI is `http://127.0.0.1:5174/api/auth/callback/google`. When you change the origin/port, update both `BETTER_AUTH_URL` and the redirect URI in Google. Email/password sign-in works independently of Google.
 
 ```sh
 npm run build
 npm start
 ```
 
-Production chạy **Node server** từ `.output/server/index.mjs`, phục vụ assets trong `.output/public`; không còn deploy như website tĩnh từ `dist/`. `npm start` tự đọc `.env` nếu có. Khi deploy, cấu hình HTTPS, database và secrets trên host; đặt `HOST=0.0.0.0` nếu host yêu cầu. Khi chạy sau reverse proxy, cấu hình trusted proxy/IP headers của Better Auth cho đúng hạ tầng để rate limit phân biệt người dùng.
+Production runs a **Node server** from `.output/server/index.mjs` and serves assets from `.output/public`; it is no longer deployed as a static site from `dist/`. `npm start` loads `.env` automatically if present. When deploying, configure HTTPS, the database and secrets on the host; set `HOST=0.0.0.0` if the host requires it. Behind a reverse proxy, configure Better Auth's trusted proxy/IP headers for your infrastructure so rate limiting can distinguish users.
 
-Schema nằm ở `src/db/schema.ts`. Khi thay đổi schema:
+The schema lives in `src/db/schema.ts`. After changing it:
 
 ```sh
 npm run db:generate
 npm run db:migrate
 ```
 
-Review và lưu migration SQL trong `drizzle/` cùng mã nguồn; không dùng `db:push` cho production.
+Review and commit the generated SQL migrations in `drizzle/` alongside the source code; do not use `db:push` in production.
 
-## Cách sử dụng
+## Usage
 
-- Chọn cấp độ **Tất cả / A1 / A2 / B1 / B2**. Cấp độ kết hợp với bộ lọc IPA, dùng chung cho bài luyện và thư viện, và được lưu khi tải lại trang.
-- Chọn nhiều âm IPA: mặc định lọc từ chứa **ít nhất một** âm đã chọn, có thể đổi thành **tất cả**. Đổi nhóm sẽ bỏ các âm được chọn thuộc nhóm khác.
-- Nhấn nghe, gõ từ và nhấn **Enter** để chấm. Câu trả lời bỏ qua hoa/thường và khoảng trắng ở hai đầu. Mỗi từ chỉ được chấm một lần.
-- “Hiện đáp án” cho biết từ, phiên âm và nghĩa. Xem trước sẽ không được tính điểm đúng.
-- “Từ tiếp theo” hoặc **Alt + →** chuyển từ. Bộ từ được xáo trộn và không lặp trong cùng một lượt đi hết bộ lọc. Chỉ có một từ phù hợp thì từ đó được lặp lại.
-- Bật/tắt tự động đọc và chọn tốc độ. Lần đầu mở trang cần thao tác người dùng để trình duyệt cho phép phát tiếng.
-- Thư viện hỗ trợ tìm từ/nghĩa và chuyển sang luyện một từ cụ thể. Bộ lọc IPA hiện tại cũng áp dụng trong thư viện.
-- Tiến độ hiển thị lịch sử, nhịp luyện 7 ngày, tỉ lệ đúng và chế độ ôn từ sai. Trạng thái học của mỗi từ dựa trên câu trả lời gần nhất.
-- Điểm trong thẻ luyện là điểm của phiên hiện tại. Khách lưu lịch sử và cài đặt trong localStorage, giới hạn 5.000 lượt gần nhất. Tài khoản lưu trên PostgreSQL và tải 5.000 lượt gần nhất. Mục tiêu mỗi ngày là 20 lượt trả lời.
+- Choose a level: **All / A1 / A2 / B1 / B2**. The level combines with the IPA filter, is shared by Practice and Library, and persists across reloads.
+- Select multiple IPA sounds: by default words containing **at least one** selected sound are shown; you can switch to **all**. Switching groups clears selected sounds from other groups.
+- Press play, type the word and press **Enter** to check. Answers ignore case and leading/trailing whitespace. Each word is graded only once.
+- "Show answer" reveals the word, IPA and meaning. Peeking means the answer is not counted as correct.
+- "Next word" or **Alt + →** moves on. Words are shuffled and do not repeat until the whole filtered set has been used. If only one word matches, it repeats.
+- Toggle auto-play and choose the speed. On first load, the browser requires a user interaction before audio can play.
+- The Library supports searching by word/meaning and jumping to practice a specific word. The current IPA filter also applies there.
+- Progress shows history, a 7-day streak chart, accuracy and a review mode for missed words. Each word's learning status is based on its most recent answer.
+- The score on the practice card is for the current session. Guests store history and settings in localStorage (latest 5,000 attempts). Accounts store data in PostgreSQL and load the latest 5,000 attempts. The daily goal is 20 answers.
 
-## Tài khoản và dữ liệu
+## Accounts & Data
 
-- Đăng ký bằng tên, email, mật khẩu ít nhất 8 ký tự; đăng nhập bằng email hoặc Google nếu được cấu hình.
-- Better Auth quản lý tài khoản và session cookie httpOnly. Mọi server function đọc/ghi dữ liệu cá nhân đều kiểm tra session.
-- Khi đăng nhập, gộp lịch sử khách vào tài khoản bằng transaction và khóa chống trùng. Chỉ xóa các lượt local được server xác nhận; lỗi mạng giữ lại lịch sử để thử lại.
-- Cài đặt khách được dùng khi tài khoản chưa có cài đặt. Cài đặt tài khoản hiện có được ưu tiên.
-- Đáp án mới được kiểm tra bằng Zod, chấm trên server và ghi bằng Drizzle. Gửi lại cùng mã lượt luyện không tạo thêm bản ghi.
-- Tiến độ của tài khoản không được sao chép vào localStorage của khách. Đăng xuất trở về dữ liệu khách; “Xóa tiến độ” khi đăng nhập sẽ xóa lịch sử của chính tài khoản trên server.
-- Lịch sử khách cũ không có đáp án gốc nên được nhập dưới dạng kết quả lịch sử, không thể chấm lại. Đây là ứng dụng tự học, không phải hệ thống thi chống gian lận.
+- Sign up with name, email and a password of at least 8 characters; sign in with email or Google (if configured).
+- Better Auth manages accounts and httpOnly session cookies. Every server function that reads/writes personal data checks the session.
+- On sign-in, guest history is merged into the account inside a transaction with a deduplication lock. Only local attempts confirmed by the server are removed; on network errors history is kept for retry.
+- Guest settings are used when the account has none; existing account settings take precedence.
+- New answers are validated with Zod, graded on the server and written with Drizzle. Resubmitting the same attempt ID does not create duplicates.
+- Account progress is never copied into guest localStorage. Signing out returns to guest data; "Reset progress" while signed in deletes that account's server-side history.
+- Legacy guest history lacks the original answers, so it is imported as historical results and cannot be re-graded. This is a self-study app, not an anti-cheating exam system.
 
-## Kiểm tra
+## Testing
 
 ```sh
 npm test
@@ -85,7 +107,7 @@ npm run build
 npm run format:check
 ```
 
-Khởi chạy app ở terminal khác trước khi kiểm thử trình duyệt:
+Start the app in another terminal before running browser tests:
 
 ```sh
 npx playwright install chromium
@@ -94,46 +116,47 @@ npm run test:styles
 npm run test:integration
 ```
 
-`test:integration` cần `.env`, PostgreSQL đã migrate và auth đã bật. Test tạo tài khoản riêng với email ngẫu nhiên; cuối lượt chỉ dọn các tài khoản của chính lượt test nếu `DATABASE_URL` trỏ đến localhost. Không chạy test này trên production.
+`test:integration` needs `.env`, a migrated PostgreSQL and auth enabled. It creates its own accounts with random emails and, at the end, cleans up only its own accounts when `DATABASE_URL` points to localhost. Never run it against production.
 
-Có thể đặt `APP_URL`, `CHROMIUM_PATH` hoặc `PLAYWRIGHT_PACKAGE` nếu dùng runtime riêng. Test trình duyệt dùng giọng đọc giả lập để xác nhận nội dung phát và luồng học, không kiểm tra phần cứng âm thanh. Ảnh desktop/mobile được lưu trong `test-results/`.
+You can set `APP_URL`, `CHROMIUM_PATH` or `PLAYWRIGHT_PACKAGE` for custom runtimes. Browser tests use a mocked speech engine to verify spoken content and learning flows; they do not test audio hardware. Desktop/mobile screenshots are saved in `test-results/`.
 
-## Cấu trúc
+## Project Structure
 
-- `src/routes/`: các trang `/`, `/library`, `/progress`, `/login` và handler `/api/auth/*`.
-- `src/App.tsx`: layout chung, điều hướng, hướng dẫn và thông báo đồng bộ.
-- `src/components/`: bộ lọc IPA/cấp độ, bài luyện, thư viện, tiến độ, tài khoản và form đăng nhập.
-- `src/hooks/usePractice.ts`: điều phối phiên luyện và bộ lọc.
-- `src/hooks/useLearning.tsx`: dữ liệu khách/tài khoản, TanStack Query và đồng bộ.
-- `src/hooks/useSpeech.ts`: Web Speech API, phát/hủy giọng đọc và xử lý lỗi.
-- `src/core/`: dữ liệu từ vựng, bộ lọc, xáo trộn, chấm điểm, đọc localStorage và tính tiến độ bằng TypeScript thuần.
-- `src/db/`: schema và kết nối Drizzle/PostgreSQL, chỉ phía server.
-- `src/server/`: server functions, middleware kiểm tra session và schema Zod.
-- `src/lib/auth.ts`, `src/lib/auth-client.ts`: cấu hình Better Auth phía server/client.
-- `drizzle/`, `drizzle.config.ts`: migration SQL và cấu hình Drizzle Kit.
-- `data/`: giữ bộ từ, bản legacy và metadata nguồn tại gốc.
-- `scripts/fetch-vocabulary.py`, `scripts/build-vocabulary.py`: tải nguồn và tạo dữ liệu offline.
-- `src/styles.css`: Tailwind v4 import, theme Ocean Teal/font/shadow tokens và animation token. Styling component, responsive và states dùng utility classes trong TSX; không dùng CSS component selectors hoặc `@apply`.
-- `.prettierrc.json`: tự sắp xếp utilities bằng prettier-plugin-tailwindcss.
-- `tests/styles.cjs`: kiểm tra selection, viền/feedback đúng-sai, checkbox, thanh mục tiêu và biểu đồ sau chuyển Tailwind.
-- `docs/DESIGN.md`: quyết định thiết kế và UX.
-- `implementation_plan.md`: kế hoạch và bảng tiến độ triển khai.
+- `src/routes/`: pages `/`, `/library`, `/progress`, `/login` and the `/api/auth/*` handler.
+- `src/App.tsx`: shared layout, navigation, onboarding and sync notifications.
+- `src/components/`: IPA/level filters, practice, library, progress, account and sign-in forms.
+- `src/hooks/usePractice.ts`: practice session and filter orchestration.
+- `src/hooks/useLearning.tsx`: guest/account data, TanStack Query and sync.
+- `src/hooks/useSpeech.ts`: Web Speech API playback/cancel and error handling.
+- `src/core/`: vocabulary data, filtering, shuffling, grading, localStorage parsing and progress stats in pure TypeScript.
+- `src/db/`: Drizzle/PostgreSQL schema and connection, server-side only.
+- `src/server/`: server functions, session middleware and Zod schemas.
+- `src/lib/auth.ts`, `src/lib/auth-client.ts`: Better Auth server/client configuration.
+- `src/i18n/`: i18next setup and `vi`/`en` translation catalogs.
+- `drizzle/`, `drizzle.config.ts`: SQL migrations and Drizzle Kit config.
+- `data/`: vocabulary set, legacy version and source metadata.
+- `scripts/fetch-vocabulary.py`, `scripts/build-vocabulary.py`: download sources and build offline data.
+- `src/styles.css`: Tailwind v4 import, Ocean Teal theme, font/shadow and animation tokens. Component styling, responsiveness and states use utility classes in TSX; no CSS component selectors or `@apply`.
+- `.prettierrc.json`: automatic utility sorting via prettier-plugin-tailwindcss.
+- `tests/styles.cjs`: checks selection, correct/incorrect borders and feedback, checkboxes, goal bar and charts after the Tailwind migration.
+- `docs/DESIGN.md`: design and UX decisions.
+- `implementation_plan.md`: implementation plan and progress tracker.
 
-## Dữ liệu & dung lượng
+## Data & Size
 
-| Cấp độ | Số mục từ |
-| ------ | --------: |
-| A1     |       904 |
-| A2     |       801 |
-| B1     |       701 |
-| B2     |       594 |
-| Tổng   |     3.000 |
+| Level | Entries |
+| ----- | ------: |
+| A1    |     904 |
+| A2    |     801 |
+| B1    |     701 |
+| B2    |     594 |
+| Total |   3,000 |
 
-Tệp `data/vocabulary.json` chiếm khoảng 180 kB (176 KiB); nén gzip còn khoảng 63 KiB. Đây là dữ liệu văn bản, không chứa file âm thanh. Dữ liệu được đóng gói với app, không chép vào localStorage; localStorage chỉ lưu tối đa 5.000 lượt luyện cùng cài đặt. Chế độ khách không cần database server hoặc gọi API để tra từ; tài khoản cần PostgreSQL. Giọng đọc có thể cần mạng tùy thiết bị.
+`data/vocabulary.json` is about 180 kB (176 KiB), roughly 63 KiB gzipped. It is text only — no audio files. The data is bundled with the app and not copied into localStorage; localStorage only holds up to 5,000 attempts plus settings. Guest mode needs no database server or API calls for lookups; accounts require PostgreSQL. Speech synthesis may require a network connection depending on the device.
 
-Bộ từ là dữ liệu tổng hợp cho Buffalo Ear, **không phải bản Oxford 3000 chính thức**. Nhãn A1–B2 là tham khảo theo mục từ, không phải đánh giá trình độ của người dùng hoặc của mọi nghĩa của từ đó. Dữ liệu giữ nguyên 507 mục cũ; phần lớn cấp độ đến từ [3000MostCommonEnglishWords](https://github.com/chihyungchang/3000MostCommonEnglishWords) (Apache 2.0). Nghĩa/phiên âm bổ sung lấy từ [Skypedia / MinhQND](https://github.com/skypediacode/english-vietnamese-dictionary) (CC BY-SA 4.0), đã chọn nghĩa theo từ loại, chuẩn hóa phiên âm và bổ sung các hiệu đính trong script. Một số mục bổ sung và cấp độ được biên soạn riêng. Dữ liệu phái sinh phát hành theo CC BY-SA 4.0; xem `public/licenses/ATTRIBUTION.txt`. Bộ nguồn có thể có sai sót; các từ nhiều nghĩa có thể có nhiều cách đọc và cấp độ khác nhau.
+The word list is compiled for Buffalo Ear and is **not the official Oxford 3000**. A1–B2 labels are per-entry references, not an assessment of the user's level or of every sense of a word. The data keeps the 507 original entries; most levels come from [3000MostCommonEnglishWords](https://github.com/chihyungchang/3000MostCommonEnglishWords) (Apache 2.0). Additional meanings/IPA come from [Skypedia / MinhQND](https://github.com/skypediacode/english-vietnamese-dictionary) (CC BY-SA 4.0), with meanings selected by part of speech, normalized IPA and corrections applied in the scripts. Some entries and levels were curated manually. Derived data is released under CC BY-SA 4.0; see `public/licenses/ATTRIBUTION.txt`. Sources may contain errors; polysemous words may have multiple pronunciations and levels.
 
-Tái tạo dữ liệu (Python 3.10+, chỉ dùng thư viện chuẩn):
+Regenerate the data (Python 3.10+, standard library only):
 
 ```sh
 python scripts/fetch-vocabulary.py
@@ -141,30 +164,34 @@ python scripts/build-vocabulary.py
 npm test
 ```
 
-Bước tải nguồn lưu một database khoảng 42 MiB trong `.cache/` đã được loại khỏi Git. Database nguồn này **không được đóng gói vào bản web**. Các lần tạo lại dùng bản nguồn đã khóa theo commit và kiểm tra SHA-256. Tệp JSON được giữ dạng compact, không cần format lại.
+The fetch step stores a ~42 MiB source database in `.cache/`, which is git-ignored. This source database is **not bundled into the web build**. Rebuilds use commit-pinned sources verified by SHA-256. The JSON file is kept compact and does not need reformatting.
 
-## Giới hạn hiện tại
+## Known Limitations
 
-Giọng đọc dùng Web Speech API, ưu tiên en-GB và dự phòng giọng tiếng Anh khác; khả năng phát phụ thuộc trình duyệt và thiết bị. Bộ phiên âm học tập ưu tiên Anh–Anh, chưa ghi dấu trọng âm và có thể khác giọng đọc dự phòng. Font Nunito Sans cho giao diện và Noto Sans cho IPA được phục vụ từ `public/fonts/`; giấy phép OFL đi kèm. Google OAuth cần thông tin cấu hình riêng và chưa được kiểm thử với tài khoản Google thực. Chưa có luồng xác minh email hoặc quên mật khẩu qua email.
+Speech uses the Web Speech API, preferring en-GB and falling back to other English voices; playback depends on the browser and device. The learner IPA favors British English, does not yet mark stress and may differ from fallback voices. Nunito Sans (UI) and Noto Sans (IPA) are served from `public/fonts/` with their OFL licenses. Google OAuth requires your own configuration and has not been tested with a real Google account. There is no email verification or password-reset-by-email flow yet.
 
-## Nghe âm mẫu và phím tắt
+## IPA Sound Samples & Shortcuts
 
-Trong “Làm quen âm IPA”, chọn một trong 44 âm rồi nhấn “Nghe âm mẫu”. Có thể nghe trước khi chọn bộ từ; thao tác này không thay đổi bộ lọc hoặc câu hiện tại. Mẫu WAV tổng hợp Anh–Anh được lưu local, tách khỏi giọng đọc từ vựng của thiết bị. Nguồn và cách tái tạo: `public/audio/ipa/README.md`, `scripts/generate-ipa-audio.mjs`.
+In "Get to know IPA sounds", pick one of the 44 sounds and press "Play sample". You can listen before choosing a word set; this does not change the filter or the current word. The synthesized British English WAV samples are stored locally, separate from the device's vocabulary voice. Sources and regeneration: `public/audio/ipa/README.md`, `scripts/generate-ipa-audio.mjs`.
 
-Nhấn Enter trong ô trả lời để kiểm tra. Khi đúng, nhấn Enter lần nữa để qua từ tiếp theo; giữ phím không chuyển câu. Khi sai hoặc đã xem đáp án, dùng nút “Từ tiếp theo” hoặc Alt + →.
+Press Enter in the answer field to check. When correct, press Enter again to go to the next word; holding the key does not skip. When wrong or after revealing the answer, use the "Next word" button or Alt + →.
 
-Chạy kiểm tra âm mẫu/phím tắt: `npm run test:ipa` (đặt `APP_URL` nếu app chạy khác cổng 5175). Test xác nhận 44 WAV giải mã được, phát âm độc lập, lỗi/thử lại và responsive.
+Run sample/shortcut tests with `npm run test:ipa` (set `APP_URL` if the app is not on port 5175). The test verifies that all 44 WAVs decode, play independently, handle errors/retries and render responsively.
 
-## Chọn giọng hệ thống
+## System Voice Selection
 
-Trong mục “Giọng đọc”, chọn giọng tiếng Anh có sẵn trên thiết bị hoặc “Thiết bị · Tự động” để ưu tiên Anh–Anh. Lựa chọn được nhớ trên trình duyệt; nếu giọng đã lưu không còn có sẵn, app dùng giọng tiếng Anh dự phòng. Có thể thay đổi tốc độ đọc. Danh sách giọng tùy hệ điều hành và trình duyệt; không cần model hoặc API key.
+Under "Voice", choose any English voice available on the device or "Device · Auto" to prefer British English. The choice is remembered in the browser; if the saved voice is no longer available, the app falls back to another English voice. Reading speed is adjustable. The voice list depends on the OS and browser; no model or API key is required.
 
-Phần mẫu IPA và thao tác Enter kiểm tra / Enter lần hai sang từ tiếp khi đúng vẫn hoạt động như trước. Chạy `npm run test:voice` để kiểm tra chọn giọng, tốc độ, lưu lựa chọn và các tình huống lỗi.
+IPA samples and the Enter-to-check / Enter-again-for-next behavior work as before. Run `npm run test:voice` to test voice selection, speed, persistence and error cases.
 
-## Ngôn ngữ giao diện
+## Interface Language
 
-Bấm nút cờ Việt Nam / Anh ở header để chuyển ngôn ngữ. Cookie `buffalo-ear-locale` lưu lựa chọn trong một năm, dùng chung cho SSR và trình duyệt; chỉ chấp nhận `vi`/`en`, mặc định tiếng Việt. Mỗi lần render dùng i18next instance riêng để tránh lẫn ngôn ngữ giữa người dùng. Đổi ngôn ngữ tại chỗ giữ route, bộ lọc và bài đang nhập; giọng đọc tiếng Anh được lưu độc lập.
+Click the Vietnam / UK flag button in the header to switch languages. The `buffalo-ear-locale` cookie stores the choice for one year and is shared by SSR and the browser; only `vi`/`en` are accepted, defaulting to Vietnamese. Each render uses its own i18next instance to avoid mixing languages between users. Switching in place keeps the route, filters and current input; the English speech voice is stored separately.
 
-Catalog đặt trong `src/i18n/locales/{vi,en}/`, chia theo tính năng. Dùng `useTranslation()` và key có namespace (ví dụ `practice:next`); câu có số lượng dùng plural `_one` / `_other` và `{{count, number}}`. Câu có định dạng dùng `Trans`; tránh ghép các mảnh câu. Locale áp dụng cho nhãn ngày, số, metadata, lỗi và trợ năng. Nội dung học hiện là từ tiếng Anh, IPA và nghĩa tiếng Việt (được đánh dấu `lang` riêng).
+Catalogs live in `src/i18n/locales/{vi,en}/`, split by feature. Use `useTranslation()` with namespaced keys (e.g. `practice:next`); pluralized strings use `_one` / `_other` and `{{count, number}}`. Formatted sentences use `Trans`; avoid concatenating sentence fragments. The locale applies to date labels, numbers, metadata, errors and accessibility text. Learning content is English words, IPA and Vietnamese meanings (marked with their own `lang`).
 
-`npm run test:i18n` kiểm tra SSR/cookie, chuyển ngôn ngữ, giữ trạng thái, ngày/số và responsive; unit tests kiểm tra key/placeholder giữa hai catalog. Khi thêm câu mới, cập nhật cả hai ngôn ngữ.
+`npm run test:i18n` covers SSR/cookies, language switching, state preservation, dates/numbers and responsiveness; unit tests check keys/placeholders across both catalogs. When adding new strings, update both languages.
+
+## Deploying to Vercel + Neon
+
+The configuration supports Vercel Functions and Neon PostgreSQL; locally it still runs as a Node server. See the [deployment guide](docs/DEPLOYMENT.md) for creating the database, running migrations, configuring secrets and Google OAuth. Do not set the output directory to `dist/` and do not run migrations during the build.
