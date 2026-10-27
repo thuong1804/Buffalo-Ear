@@ -1,0 +1,622 @@
+{
+    "cafe": [
+        [
+            "Could you make the espresso a little shorter than usual?",
+            "Certainly. You're after something more concentrated, rather than a smaller dose?",
+            "Exactly. People sometimes hear small and give me less coffee altogether.",
+            "Thanks for spelling that out. I'll stop the extraction earlier."
+        ],
+        [
+            "I was going to order the expensive tea until you described it as delicate.",
+            "Is that not what you usually enjoy?",
+            "Delicate sometimes turns out to mean I can barely taste it.",
+            "Then the breakfast blend is probably a better fit, regardless of the price."
+        ],
+        [
+            "You've remembered the oat milk. I'm impressed.",
+            "You mentioned it yesterday, and you ordered at roughly the same time.",
+            "I must be more predictable than I thought.",
+            "Only about breakfast. I wouldn't claim to know your entire personality from a coffee."
+        ],
+        [
+            "I thought bringing my own cup would make ordering simpler.",
+            "Has someone asked you to buy a disposable one first?",
+            "They said the discount only works if they scan the code on a paper cup.",
+            "That defeats the point. I'll apply it manually and flag the problem."
+        ],
+        [
+            "We want the cake divided equally, though my brother will inspect the portions.",
+            "Shall I weigh them and put an end to the negotiations?",
+            "You joke, but that might save Christmas.",
+            "I'll leave the scales where he can see them."
+        ],
+        [
+            "I asked for less ice, but this glass is almost entirely milk.",
+            "The proportions should have stayed the same. Less ice isn't a request for a different drink.",
+            "I was starting to wonder whether I'd explained myself badly.",
+            "You hadn't. Let me replace it with the balance you expected."
+        ],
+        [
+            "Are the books on this table there for customers to read?",
+            "Yes, though the annotations are left by people who've sat here before.",
+            "I thought someone had forgotten a very opinionated copy of the novel.",
+            "That's more or less how the shelf began. You're welcome to add a note."
+        ],
+        [
+            "I offered to pay before noticing everyone had ordered lunch as well.",
+            "You can still say you meant the coffees.",
+            "It would sound as though I'd suddenly become very precise about my generosity.",
+            "Then let me cover the food. We'll both escape gracefully."
+        ],
+        [
+            "Our poetry group needs a room where nobody feels obliged to perform.",
+            "Would a separate room make newcomers more comfortable or more conspicuous?",
+            "Good question. A corner of the cafe might feel less like a stage.",
+            "We can try that once before you commit to a regular booking."
+        ],
+        [
+            "I wanted to thank the member of staff who noticed I'd left my bag.",
+            "Do you remember when you were here?",
+            "Late yesterday. She didn't just keep it safe; she found the number on my luggage tag.",
+            "I'll make sure she hears that. The useful details often disappear from general praise."
+        ]
+    ],
+    "travel": [
+        [
+            "The rail pass looks good value, but only if I travel constantly.",
+            "Are you trying to save money or give yourself permission to make the trip?",
+            "A bit of both, though the spreadsheet is pretending it's purely financial.",
+            "Price the journey you'd actually enjoy, not the one that makes the pass look clever."
+        ],
+        [
+            "The replacement bus stop is easy to find once you've found it.",
+            "Which is another way of saying the signs aren't doing their job.",
+            "Exactly. The final sign is excellent; the missing first one is the problem.",
+            "I'll report the gap in the route, not ask for a larger sign at the destination."
+        ],
+        [
+            "We've made every connection so far, but I'm no longer enjoying the holiday.",
+            "The itinerary leaves no room for anything to go slightly wrong.",
+            "Or unexpectedly right. We walked past a festival to catch the next train.",
+            "Let's sacrifice one booking and recover the afternoon."
+        ],
+        [
+            "The airline found my suitcase, but it's following an itinerary of its own.",
+            "Where is it now?",
+            "Two cities behind me, apparently enjoying a slower holiday.",
+            "Give them the address you'll actually be at tomorrow, not tonight's hotel."
+        ],
+        [
+            "The delay announcement was technically informative and practically useless.",
+            "You mean the phrase operational circumstances?",
+            "Yes. It tells us there is a reason without helping us decide whether to wait.",
+            "Let's ask for the next decision time rather than a prediction they can't support."
+        ],
+        [
+            "The bike-hire app congratulated me on completing the journey, but wouldn't lock the bike.",
+            "Did the ride end before the lock registered?",
+            "Apparently. Now I'm being asked to rate a service I'm still trying to finish.",
+            "Photograph the bike's location and ask support to confirm the handover."
+        ],
+        [
+            "The assistance team was excellent once we reached the platform.",
+            "But getting to them was the difficult part?",
+            "The meeting point was beyond the barrier we needed help to cross.",
+            "That's a small planning error with rather large consequences."
+        ],
+        [
+            "I don't mind sharing a taxi, but I hadn't agreed to a sightseeing tour.",
+            "Was the detour for another passenger's address?",
+            "Three addresses, none mentioned when we booked.",
+            "Then the service sold as shared wasn't quite the service you knowingly accepted."
+        ],
+        [
+            "The refund arrived with no explanation of how the amount was calculated.",
+            "Is it less than you expected?",
+            "Enough to question, not enough to justify another week of chasing.",
+            "Ask for the breakdown first. You shouldn't have to reverse-engineer their answer."
+        ],
+        [
+            "The overnight train isn't the fastest option, but it gives us a day back.",
+            "Provided you can sleep on it.",
+            "That's the part the travel comparison doesn't measure.",
+            "Then let's read about the actual sleeping arrangement before congratulating ourselves."
+        ]
+    ],
+    "hotel": [
+        [
+            "The receptionist upgraded us, but the room she chose has no desk.",
+            "Most guests prefer the extra floor space.",
+            "I appreciate the gesture; I just need somewhere to finish a presentation.",
+            "Let me restore the room you booked, unless we can add a proper desk."
+        ],
+        [
+            "The breakfast buffet is magnificent if you've got nowhere to be.",
+            "You were hoping for something you could eat in ten minutes?",
+            "Exactly. Queuing for three separate stations rather defeated that ambition.",
+            "Tomorrow I'll point you towards the quieter service by the side entrance."
+        ],
+        [
+            "Everyone calls the room quiet, but the noise is intermittent rather than absent.",
+            "So it keeps waking you just as you settle?",
+            "That's it. I could probably sleep through a steady hum.",
+            "I'll note the timing of the disturbance when I ask about moving you."
+        ],
+        [
+            "We don't need late checkout if you can keep a small item secure.",
+            "Something more valuable than ordinary luggage?",
+            "A musical instrument. Leaving it in an open pile would make me nervous.",
+            "We have a locked room, and I'll give you a receipt identifying the case."
+        ],
+        [
+            "I borrowed a charger and somehow acquired responsibility for a whole box of cables.",
+            "Did reception ask you to identify which one worked?",
+            "Yes, but now nobody knows which ones belonged to me.",
+            "Let's separate what you recognise before we try to count anything."
+        ],
+        [
+            "The laundry returned my suit beautifully pressed and still slightly damp.",
+            "Did they rush it to meet your departure time?",
+            "They did, although I would have preferred being told it wouldn't be ready.",
+            "I'll ask them to explain the limitation directly rather than make the decision for you."
+        ],
+        [
+            "We can change the dates, but we'd lose the purpose of the trip.",
+            "The booking is tied to an exhibition that's moved venues, isn't it?",
+            "Yes. A free date change at the wrong location isn't much of an alternative.",
+            "Then we need to discuss suitability, not just availability."
+        ],
+        [
+            "I know the desk was busy, but announcing my room number across the lobby felt unnecessary.",
+            "You're right. We can confirm it discreetly on the card sleeve.",
+            "I didn't want to embarrass the receptionist in front of a queue.",
+            "Thank you for telling us privately. I'll address the process with the team."
+        ],
+        [
+            "Your invoice is correct, but the explanation of the deposit makes it look like a second charge.",
+            "Would a separate line showing the release help?",
+            "Yes. Our accounts team needs to see what happened, not guess from the total.",
+            "I'll include both the transaction date and the release note."
+        ],
+        [
+            "I was about to describe the hotel as disappointing, which isn't quite fair.",
+            "What disappointed you specifically?",
+            "The photographs promised seclusion; the place itself was friendly and lively.",
+            "Then that mismatch is probably more useful than a single broad judgement."
+        ]
+    ],
+    "shopping": [
+        [
+            "This shirt looks convincing until I try to move my arms.",
+            "A fitting-room mirror rarely asks you to reach for a shelf.",
+            "Exactly. Standing still, I could persuade myself it's perfect.",
+            "Try the larger size while carrying your bag. Clothes have to survive ordinary movement."
+        ],
+        [
+            "The exchange policy is generous on paper and surprisingly narrow in practice.",
+            "Which condition changed the answer?",
+            "The item was a gift, and the purchaser lives abroad.",
+            "Then the policy needs to account for the way gifts are actually given."
+        ],
+        [
+            "I'm suspicious of a sale that never seems to end.",
+            "Perhaps the reduced price has effectively become the normal price.",
+            "That's why the claimed saving doesn't help me judge the offer.",
+            "Ignore the crossed-out figure and compare what you'd pay elsewhere today."
+        ],
+        [
+            "The repair fixed the original fault and introduced a noise I hadn't heard before.",
+            "Has the technician listened to it operating normally?",
+            "Only for a few seconds at the counter.",
+            "Ask for the test to reproduce your use, not just demonstrate that it switches on."
+        ],
+        [
+            "The collection system sent me a reminder while I was standing in the queue to collect.",
+            "At least it knows you're committed.",
+            "It also warned that the order would expire in fifteen minutes.",
+            "Tell the desk you're present. An automatic deadline shouldn't turn a queue into a lottery."
+        ],
+        [
+            "I'd like the gift wrapped without making it impossible for the recipient to return.",
+            "The ribbon can stay separate from the seal.",
+            "That would be ideal. I want a pleasant surprise, not a test of loyalty.",
+            "I'll include the gift receipt in an envelope rather than attach it to the outside."
+        ],
+        [
+            "The voucher persuaded me to buy something I hadn't particularly wanted.",
+            "Was the discount large enough to justify that?",
+            "Only if wanting to use the voucher counts as needing the product.",
+            "Perhaps keep it until there's a purchase you'd make without encouragement."
+        ],
+        [
+            "The second-hand chair is beautifully restored, but the seller has removed every sign of age.",
+            "You liked it partly because it looked used?",
+            "Yes. Now it's an old chair trying very hard to look new.",
+            "Then you're looking for a different kind of restoration, not necessarily a better bargain."
+        ],
+        [
+            "They offered recyclable packaging, but only as a paid upgrade.",
+            "That makes the standard option sound rather difficult to defend.",
+            "Especially when the upgrade uses less material.",
+            "Ask what the charge actually covers before accepting the label as an explanation."
+        ],
+        [
+            "The pre-order gives access to an exclusive edition I don't like as much.",
+            "You're considering it because it's limited?",
+            "I know how that sounds.",
+            "Then compare the books with the promotional labels covered up. Choose the one you'd want to read."
+        ]
+    ],
+    "home": [
+        [
+            "We've become so polite about the cleaning that nothing gets said until someone's furious.",
+            "Does the rota help, or simply give everyone evidence for their case?",
+            "Mostly evidence, unfortunately.",
+            "Then the first task is agreeing how to raise a problem before it becomes a prosecution."
+        ],
+        [
+            "The leak disappears whenever the person sent to inspect it arrives.",
+            "Like a remarkably shy plumbing fault.",
+            "I've started taking timed photographs so the conversation isn't just my memory against a dry cupboard.",
+            "Good. Evidence of an intermittent problem needs to show the interval."
+        ],
+        [
+            "I'd happily lend him the ladder again if he'd acknowledge what happened last time.",
+            "So the repair cost isn't the whole issue.",
+            "No. Being told I imagined the damage made a small accident much harder to settle.",
+            "Then be honest about that rather than negotiating only over the broken step."
+        ],
+        [
+            "Our neighbour accepts every parcel, then seems offended when we ask to collect them.",
+            "Maybe being helpful has turned into a job they didn't expect.",
+            "That's plausible. We keep thanking them and making it worse.",
+            "Offer an alternative arrangement, not a larger box of chocolates."
+        ],
+        [
+            "I can hear my neighbour's conversations clearly, but I'd rather they didn't know how clearly.",
+            "You need to discuss the wall without demonstrating the problem word for word.",
+            "Precisely. I don't want a soundproofing request to sound like surveillance.",
+            "Stick to when the noise carries and how it affects the room."
+        ],
+        [
+            "The prospective flatmate asked more about our habits than about the furniture.",
+            "That sounds promising.",
+            "It was. We discovered we had completely different ideas about having friends round.",
+            "Finding that out politely is better than finding it out after they've moved in."
+        ],
+        [
+            "I've labelled every moving box except the one containing the labels.",
+            "A practical demonstration of why systems need a recovery plan.",
+            "The recovery plan is currently opening boxes until something looks familiar.",
+            "Start with what you'll need tonight. The filing system can recover tomorrow."
+        ],
+        [
+            "The heating controls offer an impressive number of settings, none of which I understand.",
+            "Have you found the simple schedule option?",
+            "Yes, hidden under advanced preferences.",
+            "Perhaps the most useful feature is the one the interface is least proud of."
+        ],
+        [
+            "The letting agent called the new terms standard, as if that settled whether they suited us.",
+            "Standard for whom?",
+            "Exactly. I don't object to reading a standard agreement; I object to being discouraged from reading it.",
+            "Ask them to identify the changes rather than summarise the document with a label."
+        ],
+        [
+            "Our dog likes the sitter so much that I felt slightly replaced.",
+            "That's a fairly successful outcome for the dog.",
+            "I know. I just wasn't prepared for him to be delighted when we left.",
+            "You hired someone to make him comfortable. Try to enjoy the evidence that it worked."
+        ]
+    ],
+    "health": [
+        [
+            "I was offered an earlier appointment at a location I couldn't reach.",
+            "Did declining it put you back at the end of the list?",
+            "That's what the message implied, although it never actually said so.",
+            "Ask for clarification. An unsuitable offer shouldn't look like a choice you freely rejected."
+        ],
+        [
+            "The instructor remembered everyone's limitations without making a performance of accommodating them.",
+            "That can be surprisingly difficult to do well.",
+            "Nobody had to explain themselves to the whole room before joining in.",
+            "It sounds as though inclusion was built into the session rather than announced as a special favour."
+        ],
+        [
+            "I've realised my idea of a restful evening involved completing six things efficiently.",
+            "Including resting, presumably.",
+            "Especially resting. I was becoming irritated when it took longer than scheduled.",
+            "You may have imported the wrong management system into your living room."
+        ],
+        [
+            "The restaurant manager checked the ingredient information personally and came back with an uncertainty.",
+            "Did that make you less confident in the service?",
+            "Quite the opposite. They told me exactly what they could and couldn't confirm.",
+            "A qualified answer can be more trustworthy than effortless certainty."
+        ],
+        [
+            "Our walking group advertised a leisurely route and somehow turned it into a race.",
+            "Who set the pace?",
+            "The people at the front, who never saw the people at the back.",
+            "Ask someone to lead from the slower end once. It might change what leisurely means to them."
+        ],
+        [
+            "I bought a rather elaborate bottle to remind myself to use the refill points.",
+            "And do you?",
+            "When I remember to carry the bottle, which is the weakness in this elegant arrangement.",
+            "Perhaps solve the leaving-it-at-home problem before upgrading the equipment again."
+        ],
+        [
+            "I block out lunch in my calendar, but still apologise when someone asks to book over it.",
+            "You make your own time sound like an administrative mistake.",
+            "That's exactly the tone I use.",
+            "Then try stating your availability without supplying a defence for having any."
+        ],
+        [
+            "The replacement class was excellent, though it wasn't what the advert had led me to expect.",
+            "Can both those things be true in your feedback?",
+            "They need to be. Praise for the teacher shouldn't imply the description was accurate.",
+            "Explain the difference. Future participants may want to know both."
+        ],
+        [
+            "I've met the target and feel oddly reluctant to set another one.",
+            "Perhaps you want to keep doing the activity without constantly escalating it.",
+            "That sounds almost irresponsible when you say it aloud.",
+            "Only if improvement is the sole reason you're allowed to enjoy something."
+        ],
+        [
+            "The consultation asked users whether the new facilities looked accessible.",
+            "That's a difficult question to answer from a drawing.",
+            "Exactly. We were being invited to approve something we couldn't actually try.",
+            "Ask for a practical test before the consultation is treated as confirmation."
+        ]
+    ],
+    "study": [
+        [
+            "The rare book is available, but only while a member of staff supervises the room.",
+            "That makes access depend on staffing rather than the catalogue entry.",
+            "And the hours keep changing, so planning a visit is becoming a research project of its own.",
+            "Ask whether they can confirm a slot rather than merely announce opening times."
+        ],
+        [
+            "I understood the assignment better after reading the tutor's explanation of a wrong answer.",
+            "Because it showed the boundary of the idea?",
+            "Yes. The polished model answer made the choice look obvious.",
+            "A useful mistake can reveal a decision that a perfect answer conceals."
+        ],
+        [
+            "Our study group became more useful when we stopped dividing the reading into equal page counts.",
+            "Were some sections much harder than others?",
+            "Exactly. Equal slices of paper weren't equal amounts of work.",
+            "Assign the concepts, then review the workload once people have seen what they're taking on."
+        ],
+        [
+            "I requested an extension and then spent the extra time expanding the task.",
+            "So the deadline moved, but the finish line moved with it.",
+            "I'm beginning to see why the extra week didn't help.",
+            "Agree what finished means before you negotiate another date."
+        ],
+        [
+            "The feedback was thoughtful, but I couldn't tell which suggestion mattered most.",
+            "Did it distinguish a central weakness from optional improvements?",
+            "No. Every comment had the same reassuring tone.",
+            "Ask what one change would most improve the work. Priorities are part of useful feedback."
+        ],
+        [
+            "The course prospectus is wonderfully specific about facilities and vague about teaching.",
+            "You're getting a detailed tour of everything except the education.",
+            "Even the sample timetable lists room names instead of activities.",
+            "Request a sample task and the kind of feedback students receive on it."
+        ],
+        [
+            "I rehearsed the presentation until every sentence sounded inevitable.",
+            "And then someone asked a sensible question?",
+            "I answered it, but couldn't find my way back to the memorised sentence.",
+            "Build your return around the idea, not the exact wording you left behind."
+        ],
+        [
+            "The online course advertises flexibility, though live attendance determines half the mark.",
+            "Did they distinguish flexible access from flexible assessment?",
+            "Only after I asked.",
+            "That distinction belongs in the description, before people arrange their lives around the promise."
+        ],
+        [
+            "I found a quotation attributed to three different writers.",
+            "Which version did you use?",
+            "None. The wording shifts each time, and nobody gives a publication.",
+            "Leaving it out is better than decorating the essay with borrowed authority you can't establish."
+        ],
+        [
+            "I'm revising more slowly now that I'm checking whether I can explain each idea.",
+            "Does that feel like going backwards?",
+            "A little. The number of pages covered looks unimpressive.",
+            "You've changed the measure from exposure to understanding. The old count won't capture the new work."
+        ]
+    ],
+    "work": [
+        [
+            "The meeting was perfectly organised and still had no obvious reason to happen.",
+            "Did the agenda identify a decision or just a sequence of updates?",
+            "A very tidy sequence of updates.",
+            "Then ask what would be lost if the same information were circulated in writing."
+        ],
+        [
+            "I offered to help and somehow became responsible for coordinating everyone else's help.",
+            "The invisible promotion nobody remembers agreeing to.",
+            "Exactly. I'm not unwilling; I just need it recognised in the workload.",
+            "Name the coordinating task explicitly before accepting another small favour."
+        ],
+        [
+            "The office return improved informal contact but made focused work harder.",
+            "So neither side of the debate gets a clean victory.",
+            "Right. We keep being asked to choose which location is better overall.",
+            "Describe which activities benefit from each setting. A single answer may be the wrong goal."
+        ],
+        [
+            "The procedure works if you already know which exceptions to ignore.",
+            "That isn't much of a procedure for a newcomer.",
+            "The experienced staff say it's common sense.",
+            "Ask them to explain one awkward case. That's often where the unwritten rules become visible."
+        ],
+        [
+            "The client accepted the delay because we explained what the original estimate had missed.",
+            "Did you have to defend the estimate as well?",
+            "We acknowledged the error instead. It made the rest of the discussion considerably easier.",
+            "An explanation doesn't have to become an excuse."
+        ],
+        [
+            "Our new colleague spotted a risk we'd all learned to work around.",
+            "Were people pleased to have it pointed out?",
+            "Eventually. First we explained at length why it wasn't really a problem.",
+            "Familiarity can make an inconvenience look more reasonable than it is."
+        ],
+        [
+            "I described the disagreement as a communication problem because I wanted to keep it polite.",
+            "But you actually understood each other and wanted different things?",
+            "Precisely. No amount of clearer wording was going to remove that.",
+            "Then negotiating the difference may be more honest than diagnosing the conversation."
+        ],
+        [
+            "The report is comprehensive, yet I can't find the recommendation.",
+            "Perhaps it's being cautious about appearing too opinionated.",
+            "It was commissioned to recommend something.",
+            "Then the caution is obstructing the purpose. The evidence can support a clear judgement without pretending certainty."
+        ],
+        [
+            "The pilot saved time in our team by passing several checks to another department.",
+            "Did the evaluation count their extra work?",
+            "Only ours. The improvement looked rather dramatic.",
+            "Widen the measurement before calling it a saving."
+        ],
+        [
+            "The handover document records every action but none of the rejected alternatives.",
+            "So the next person is likely to rediscover the same dead ends.",
+            "That's what happened when I took over.",
+            "Add the reasoning while it's still available. A decision's history can prevent its accidental reversal."
+        ]
+    ],
+    "technology": [
+        [
+            "The password policy produces complex passwords and a remarkable collection of sticky notes.",
+            "People are finding a way to comply without being locked out.",
+            "Exactly. The visible compliance is concealing the practical weakness.",
+            "We should examine the usable alternatives rather than simply demand more complicated behaviour."
+        ],
+        [
+            "The document has so many sharing exceptions that nobody can explain who can read it.",
+            "Were permissions added to solve individual requests?",
+            "One at a time, over several years.",
+            "Start by agreeing the intended audience. Otherwise you're preserving a history of accidents."
+        ],
+        [
+            "Our backup demonstration went smoothly because someone chose the easiest file to recover.",
+            "Was it meant to prove the system worked or find where it failed?",
+            "Officially the second; emotionally, I suspect, the first.",
+            "Choose the test cases before anyone knows which outcome will be reassuring."
+        ],
+        [
+            "The notification settings offer control in principle and exhaustion in practice.",
+            "Too many separate choices?",
+            "And no way to understand which ones overlap.",
+            "Good control should let people predict the result, not just provide an impressive number of switches."
+        ],
+        [
+            "The update notice said the interface had been simplified.",
+            "Which usually means I have to learn where the familiar things went.",
+            "In this case, two useful controls were combined under a label that describes neither.",
+            "Send that specific example. General dislike of change is easier to dismiss."
+        ],
+        [
+            "The connection problem was finally fixed when support stopped treating each failure as a new incident.",
+            "They recognised a pattern across the tickets?",
+            "Yes. The information was there, but scattered across separate cases.",
+            "Sometimes the missing tool is a joined-up account of what already happened."
+        ],
+        [
+            "The privacy summary says the service doesn't sell personal information.",
+            "Does it say whether it shares it for other purposes?",
+            "That requires several more pages and a different definition of sharing.",
+            "The reassuring sentence may be accurate without answering the question you actually care about."
+        ],
+        [
+            "The accessibility audit passed, but our colleague still can't complete a booking independently.",
+            "Did the audit test the actual booking process?",
+            "It tested the components separately.",
+            "A working collection of parts doesn't guarantee a usable route through them."
+        ],
+        [
+            "The writing tool makes uncertain drafts sound impressively settled.",
+            "Is the content becoming more reliable or merely more fluent?",
+            "Often just more fluent, which makes the gaps harder to notice.",
+            "Keep the uncertainty visible until the supporting work has actually been done."
+        ],
+        [
+            "The cancellation survey offered every reason except no longer needed.",
+            "So leaving had to be classified as something going wrong.",
+            "I selected other and was invited to explain my disappointment.",
+            "A service can be perfectly adequate and still no longer belong in someone's life."
+        ]
+    ],
+    "environment": [
+        [
+            "The recycling campaign congratulates residents, but the collection system rejects several items it promotes.",
+            "Have the campaign and the collection contractor compared their lists?",
+            "Apparently they approved different versions.",
+            "The public can't be expected to reconcile instructions the organisations haven't reconciled themselves."
+        ],
+        [
+            "The water-saving scheme reports the same percentage reduction every season.",
+            "Is that measured against comparable conditions?",
+            "The baseline was an unusually dry month.",
+            "Then the percentage needs its context before it becomes evidence of a consistent result."
+        ],
+        [
+            "The tree-planting proposal gained support after the organisers showed how the site would look in twenty years.",
+            "Did they also explain who would maintain it until then?",
+            "That question was noticeably less popular than the drawings.",
+            "A long-term vision still has to pass through a series of ordinary summers."
+        ],
+        [
+            "The cleanup photographs make the volunteers visible and the maintenance staff invisible.",
+            "Even though the staff collect everything afterwards?",
+            "And keep the park usable between events.",
+            "The publicity could acknowledge the ongoing work without diminishing the volunteers' contribution."
+        ],
+        [
+            "The market was designed to support local businesses, but its most expensive stalls now go to visiting chains.",
+            "Do those stalls subsidise the smaller sellers?",
+            "That's the explanation, though nobody has shown the figures.",
+            "Ask whether the arrangement is delivering the benefit used to justify it."
+        ],
+        [
+            "The sharing library is proud of how many items it lends, but not all returns are recorded.",
+            "Then the impressive activity may be masking a shrinking stock.",
+            "We won't know until someone does an inventory.",
+            "Count what remains usable as well as what has passed through the door."
+        ],
+        [
+            "Our plastic reduction target was met by switching to a heavier material.",
+            "Has the overall impact been assessed?",
+            "Only the weight of plastic was counted.",
+            "The target may have been achieved more successfully than the underlying purpose."
+        ],
+        [
+            "The proposed cycle route is direct on the map and interrupted at every difficult junction.",
+            "So the straight line is doing more work than the actual infrastructure.",
+            "Exactly. Less confident riders still have to get off and find another crossing.",
+            "Test the journey with them before describing the route as continuous."
+        ],
+        [
+            "The consultation attracted hundreds of responses, mostly after a widely shared post.",
+            "Does the summary acknowledge where those responses came from?",
+            "It presents the total as though it were a balanced sample.",
+            "Volume matters, but it doesn't by itself tell you whose views remain unheard."
+        ],
+        [
+            "The community budget meeting was open to everyone, provided they could attend at three on a weekday.",
+            "That's a fairly consequential qualification.",
+            "The organisers were surprised that parents and shift workers didn't contribute.",
+            "Offer another route to participation before interpreting absence as lack of interest."
+        ]
+    ]
+}

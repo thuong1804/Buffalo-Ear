@@ -3,6 +3,12 @@ dist/
 .output/
 .tanstack/
 .cache/
+.vercel/
 test-results/
 package-lock.json
 src/routeTree.gen.ts
+drizzle/meta/
+public/licenses/
+public/fonts/
+.env*
+data/

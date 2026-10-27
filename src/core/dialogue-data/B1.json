@@ -1,0 +1,3202 @@
+[
+    {
+        "id": "B1-cafe-1",
+        "level": "B1",
+        "topicId": "cafe",
+        "number": 1,
+        "title": {
+            "vi": "Gọi cà phê",
+            "en": "Ordering coffee"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I usually order a flat white, but yours tasted quite bitter yesterday.",
+                "ipa": "/aɪ jˈuːʒuːəli ˈɔːdəɹ ɐ flˈat wˈaɪt bˌʌt jˈɔːz tˈeɪstɪd kwˈaɪt bˈɪtə jˈɛstədˌeɪ/"
+            },
+            {
+                "speaker": "B",
+                "text": "We changed the beans this week. Would you prefer a lighter roast?",
+                "ipa": "/wiː tʃˈeɪndʒd ðə bˈiːnz ðɪs wˈiːk wʊd juː pɹɪfˈɜːɹ ɐ lˈaɪtə ɹˈəʊst/"
+            },
+            {
+                "speaker": "A",
+                "text": "Maybe. I liked the old one because it was less sharp.",
+                "ipa": "/mˈeɪbiː aɪ lˈaɪkt ðɪ ˈəʊld wˈɒn bɪkˈɒz ɪt wɒz lˈɛs ʃˈɑːp/"
+            },
+            {
+                "speaker": "B",
+                "text": "I'll make you a small sample before you choose.",
+                "ipa": "/aɪl mˌeɪk juː ɐ smˈɔːl sˈampəl bɪfˌɔː juː tʃˈuːz/"
+            }
+        ]
+    },
+    {
+        "id": "B1-cafe-2",
+        "level": "B1",
+        "topicId": "cafe",
+        "number": 2,
+        "title": {
+            "vi": "Chọn trà",
+            "en": "Choosing tea"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I'm meeting someone who doesn't drink caffeine.",
+                "ipa": "/aɪm mˈiːtɪŋ sˈʌmwɒn hˌuː dˈʌzənt dɹˈɪŋk kˈafiːn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Our fruit infusions are caffeine-free, although the green tea isn't.",
+                "ipa": "/ˌaʊə fɹˈuːt ɪnfjˈuːʒənz ɑː kˈafiːnfɹˈiː ɔːlðˈəʊ ðə ɡɹˈiːn tˈiː ˈɪzənt/"
+            },
+            {
+                "speaker": "A",
+                "text": "That's useful. I nearly ordered green tea for both of us.",
+                "ipa": "/ðats jˈuːsfəl aɪ nˌiəli ˈɔːdəd ɡɹˈiːn tˈiː fɔː bˈəʊθ ɒv ˌʌs/"
+            },
+            {
+                "speaker": "B",
+                "text": "I'll leave the boxes here so your friend can read the ingredients.",
+                "ipa": "/aɪl lˈiːv ðə bˈɒksɪz hˈiə sˌəʊ jɔː fɹˈɛnd kan ɹˈiːd ðɪ ɪŋɡɹˈiːdiənts/"
+            }
+        ]
+    },
+    {
+        "id": "B1-cafe-3",
+        "level": "B1",
+        "topicId": "cafe",
+        "number": 3,
+        "title": {
+            "vi": "Sữa thực vật",
+            "en": "Plant milk"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Why is my coffee more expensive than hers? We ordered the same size.",
+                "ipa": "/wˌaɪ ɪz maɪ kˈɒfi mˈɔːɹ ɛkspˈɛnsɪv ðɐn hˈɜːz wiː ˈɔːdəd ðə sˈeɪm sˈaɪz/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yours has almond milk. I should have mentioned the extra charge.",
+                "ipa": "/jˈɔːz hɐz ˈɒlmənd mˈɪlk aɪ ʃˌʊdəv mˈɛnʃənd ðɪ ˈɛkstɹə tʃˈɑːdʒ/"
+            },
+            {
+                "speaker": "A",
+                "text": "I don't mind paying, but I couldn't find it on the board.",
+                "ipa": "/aɪ dˈəʊnt mˈaɪnd pˈeɪɪŋ bˌʌt aɪ kˌʊdənt fˈaɪnd ɪt ɒnðə bˈɔːd/"
+            },
+            {
+                "speaker": "B",
+                "text": "You're right. The price needs to be beside the milk choices.",
+                "ipa": "/jɔː ɹˈaɪt ðə pɹˈaɪs nˈiːdz təbi bɪsˌaɪd ðə mˈɪlk tʃˈɔɪsɪz/"
+            }
+        ]
+    },
+    {
+        "id": "B1-cafe-4",
+        "level": "B1",
+        "topicId": "cafe",
+        "number": 4,
+        "title": {
+            "vi": "Mua mang đi",
+            "en": "Taking a drink away"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I brought a travel cup. Can you fill it to this line?",
+                "ipa": "/aɪ bɹˈɔːt ɐ tɹˈavəl kˈʌp kan juː fˈɪl ɪt tə ðɪs lˈaɪn/"
+            },
+            {
+                "speaker": "B",
+                "text": "That leaves enough room for the lid, doesn't it?",
+                "ipa": "/ðat lˈiːvz ɪnˈʌf ɹˈuːm fəðə lˈɪd dˈʌzənt ɪt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Exactly. Last time the drink leaked into my bag.",
+                "ipa": "/ɛɡzˈaktli lˈast tˈaɪm ðə dɹˈɪŋk lˈiːkt ˌɪntʊ maɪ bˈaɡ/"
+            },
+            {
+                "speaker": "B",
+                "text": "I'll wipe the outside as well before handing it back.",
+                "ipa": "/aɪl wˈaɪp ðɪ aʊtsˈaɪd az wˈɛl bɪfˌɔː hˈandɪŋ ɪt bˈak/"
+            }
+        ]
+    },
+    {
+        "id": "B1-cafe-5",
+        "level": "B1",
+        "topicId": "cafe",
+        "number": 5,
+        "title": {
+            "vi": "Đặt bánh",
+            "en": "Ordering cake"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Could you cut that slice into two smaller pieces?",
+                "ipa": "/kʊd juː kˈʌt ðat slˈaɪs ˌɪntʊ tˈuː smˈɔːlə pˈiːsɪz/"
+            },
+            {
+                "speaker": "B",
+                "text": "Of course. Are they going on separate plates?",
+                "ipa": "/ɒv kˈɔːs ɑː ðeɪ ɡˌəʊɪŋ ˌɒn sˈɛpɹət plˈeɪts/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes. My son wants cake but never finishes a whole slice.",
+                "ipa": "/jˈɛs maɪ sˈʌn wˈɒnts kˈeɪk bˌʌt nˈɛvə fˈɪnɪʃɪz ɐ hˈəʊl slˈaɪs/"
+            },
+            {
+                "speaker": "B",
+                "text": "Then I'll put the cream on the side so you can share it.",
+                "ipa": "/ðˈɛn aɪl pˌʊt ðə kɹˈiːm ɒnðə sˈaɪd sˌəʊ juː kan ʃˈeəɹ ɪt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-cafe-6",
+        "level": "B1",
+        "topicId": "cafe",
+        "number": 6,
+        "title": {
+            "vi": "Đổi đồ uống",
+            "en": "Changing an order"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "This tastes of hazelnut, though I ordered vanilla.",
+                "ipa": "/ðɪs tˈeɪsts ɒv hˈeɪzəlnˌʌt ðˌəʊ aɪ ˈɔːdəd vɐnˈɪlə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Please don't drink any more while I check the order.",
+                "ipa": "/plˈiːz dˈəʊnt dɹˈɪŋk ˌɛni mˈɔː wˌaɪl aɪ tʃˈɛk ðɪ ˈɔːdə/"
+            },
+            {
+                "speaker": "A",
+                "text": "I don't have an allergy; it's just not what I wanted.",
+                "ipa": "/aɪ dˈəʊnt hav ɐn ˈalədʒi ɪts dʒˈʌst nˌɒt wɒt aɪ wˈɒntɪd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Thanks for clarifying. I'll replace it rather than add more vanilla.",
+                "ipa": "/θˈaŋks fɔː klˈaɹɪfˌaɪɪŋ aɪl ɹɪplˈeɪs ɪt ɹˈɑːðə ðɐn ˈad mˈɔː vɐnˈɪlə/"
+            }
+        ]
+    },
+    {
+        "id": "B1-cafe-7",
+        "level": "B1",
+        "topicId": "cafe",
+        "number": 7,
+        "title": {
+            "vi": "Tìm chỗ ngồi",
+            "en": "Finding a seat"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Would you mind moving that bag from the empty chair?",
+                "ipa": "/wʊd juː mˈaɪnd mˈuːvɪŋ ðat bˈaɡ fɹʌmðɪ ˈɛmpti tʃˈeə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Sorry, I was keeping the seat for my colleague.",
+                "ipa": "/sˈɒɹi aɪ wɒz kˈiːpɪŋ ðə sˈiːt fɔː maɪ kˈɒliːɡ/"
+            },
+            {
+                "speaker": "A",
+                "text": "Is she arriving soon? I'm only waiting for a takeaway.",
+                "ipa": "/ɪz ʃiː ɐɹˈaɪvɪŋ sˈuːn aɪm ˈəʊnli wˈeɪtɪŋ fəɹə tˈeɪkəwˌeɪ/"
+            },
+            {
+                "speaker": "B",
+                "text": "She'll be another twenty minutes. You're welcome to sit there.",
+                "ipa": "/ʃiːl biː ɐnˈʌðə twˈɛnti mˈɪnɪts jɔː wˈɛlkʌm tə sˈɪt ðˈeə/"
+            }
+        ]
+    },
+    {
+        "id": "B1-cafe-8",
+        "level": "B1",
+        "topicId": "cafe",
+        "number": 8,
+        "title": {
+            "vi": "Thanh toán",
+            "en": "Paying the bill"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I think we've been charged for a sandwich we didn't receive.",
+                "ipa": "/aɪ θˈɪŋk wiːv bˌiːn tʃˈɑːdʒd fəɹə sˈandwɪtʃ wiː dˈɪdnt ɹɪsˈiːv/"
+            },
+            {
+                "speaker": "B",
+                "text": "Was it the toasted cheese one?",
+                "ipa": "/wɒz ɪt ðə tˈəʊstɪd tʃˈiːz wˌɒn/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes. We cancelled it when you said the kitchen had closed.",
+                "ipa": "/jˈɛs wiː kˈansəld ɪt wɛn juː sˈɛd ðə kˈɪtʃən had klˈəʊzd/"
+            },
+            {
+                "speaker": "B",
+                "text": "I can see the cancellation now. I'll take it off the bill.",
+                "ipa": "/aɪ kan sˈiː ðə kˌansɪlˈeɪʃən nˈaʊ aɪl tˈeɪk ɪt ˈɒf ðə bˈɪl/"
+            }
+        ]
+    },
+    {
+        "id": "B1-cafe-9",
+        "level": "B1",
+        "topicId": "cafe",
+        "number": 9,
+        "title": {
+            "vi": "Đặt bàn nhóm",
+            "en": "Booking a group table"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "We need somewhere for a book group on Thursday evenings.",
+                "ipa": "/wiː nˈiːd sˈʌmweə fəɹə bˈʊk ɡɹˈuːp ˌɒn θˈɜːzdeɪ ˈiːvnɪŋz/"
+            },
+            {
+                "speaker": "B",
+                "text": "How many people usually come, and will you be ordering food?",
+                "ipa": "/hˌaʊ mˈɛni pˈiːpəl jˈuːʒuːəli kˈʌm and wɪl juː biː ˈɔːdəɹɪŋ fˈuːd/"
+            },
+            {
+                "speaker": "A",
+                "text": "Around eight, mostly drinks. We need to hear each other speak.",
+                "ipa": "/ɐɹˈaʊnd ˈeɪt mˈəʊstli dɹˈɪŋks wiː nˈiːd tə hˈiəɹ ˈiːtʃ ˈʌðə spˈiːk/"
+            },
+            {
+                "speaker": "B",
+                "text": "The back room is quieter, but we'd need a regular booking.",
+                "ipa": "/ðə bˈak ɹˈuːm ɪz kwˈaɪətə bˌʌt wiːd nˈiːd ɐ ɹˈɛɡjʊlə bˈʊkɪŋ/"
+            }
+        ]
+    },
+    {
+        "id": "B1-cafe-10",
+        "level": "B1",
+        "topicId": "cafe",
+        "number": 10,
+        "title": {
+            "vi": "Phản hồi dịch vụ",
+            "en": "Giving feedback"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Your staff were lovely, but our order disappeared twice.",
+                "ipa": "/jɔː stˈaf wɜː lˈʌvli bˌʌt ˌaʊəɹ ˈɔːdə dˌɪsɐpˈiəd twˈaɪs/"
+            },
+            {
+                "speaker": "B",
+                "text": "Were both orders placed at the counter?",
+                "ipa": "/wɜː bˈəʊθ ˈɔːdəz plˈeɪst at ðə kˈaʊntə/"
+            },
+            {
+                "speaker": "A",
+                "text": "One there and one through the table code.",
+                "ipa": "/wˈɒn ðeə and wˈɒn θɹuː ðə tˈeɪbəl kˈəʊd/"
+            },
+            {
+                "speaker": "B",
+                "text": "That may explain the confusion. I'll check how those two systems connect.",
+                "ipa": "/ðat mˈeɪ ɛksplˈeɪn ðə kənfjˈuːʒən aɪl tʃˈɛk hˌaʊ ðəʊz tˈuː sˈɪstəmz kənˈɛkt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-travel-1",
+        "level": "B1",
+        "topicId": "travel",
+        "number": 1,
+        "title": {
+            "vi": "Mua vé tàu",
+            "en": "Buying a train ticket"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The cheaper ticket says I must travel after nine thirty.",
+                "ipa": "/ðə tʃˈiːpə tˈɪkɪt sˈɛz aɪ mˈʌst tɹˈavəl ˈaftə nˈaɪn θˈɜːti/"
+            },
+            {
+                "speaker": "B",
+                "text": "My train leaves at nine twenty-eight. Does that really make a difference?",
+                "ipa": "/maɪ tɹˈeɪn lˈiːvz at nˈaɪn twˈɛntiˈeɪt dˈʌz ðat ɹˈiəlɪ mˌeɪk ɐ dˈɪfɹəns/"
+            },
+            {
+                "speaker": "A",
+                "text": "Unfortunately it does. The restriction is based on departure time.",
+                "ipa": "/ʌnfˈɔːtʃənətli ɪt dˈʌz ðə ɹɪstɹˈɪkʃən ɪz bˈeɪst ˌɒn dɪpˈɑːtʃə tˈaɪm/"
+            },
+            {
+                "speaker": "B",
+                "text": "Then I'll take the next one rather than risk paying again.",
+                "ipa": "/ðˈɛn aɪl tˈeɪk ðə nˈɛkst wˈɒn ɹˈɑːðə ðɐn ɹˈɪsk pˈeɪɪŋ ɐɡˈɛn/"
+            }
+        ]
+    },
+    {
+        "id": "B1-travel-2",
+        "level": "B1",
+        "topicId": "travel",
+        "number": 2,
+        "title": {
+            "vi": "Tìm bến xe",
+            "en": "Finding a bus stop"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I've followed the signs, but they keep sending me round the same block.",
+                "ipa": "/aɪv fˈɒləʊd ðə sˈaɪnz bˌʌt ðeɪ kˈiːp sˈɛndɪŋ mˌiː ɹˈaʊnd ðə sˈeɪm blˈɒk/"
+            },
+            {
+                "speaker": "B",
+                "text": "The old bus stop signs haven't all been removed.",
+                "ipa": "/ðɪ ˈəʊld bˈʌs stˈɒp sˈaɪnz hˈavənt ˈɔːl bˌiːn ɹɪmˈuːvd/"
+            },
+            {
+                "speaker": "A",
+                "text": "So the temporary stop isn't outside the station?",
+                "ipa": "/sˌəʊ ðə tˈɛmpɹəɹi stˈɒp ˌɪzənt aʊtsˈaɪd ðə stˈeɪʃən/"
+            },
+            {
+                "speaker": "B",
+                "text": "No, it's beside the cinema. I'll point it out from here.",
+                "ipa": "/nˈəʊ ɪts bɪsˌaɪd ðə sˈɪnəmə aɪl pˈɔɪnt ɪt ˈaʊt fɹɒm hˈiə/"
+            }
+        ]
+    },
+    {
+        "id": "B1-travel-3",
+        "level": "B1",
+        "topicId": "travel",
+        "number": 3,
+        "title": {
+            "vi": "Đổi chuyến",
+            "en": "Changing a journey"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "My first train was cancelled, and the app wants me to buy a new ticket.",
+                "ipa": "/maɪ fˈɜːst tɹˈeɪn wɒz kˈansəld and ðɪ ˈap wˈɒnts mˌiː tə bˈaɪ ɐ njˈuː tˈɪkɪt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Don't buy it yet. Your existing ticket may cover the alternative route.",
+                "ipa": "/dˈəʊnt bˈaɪ ɪt jˈɛt jɔːɹ ɛɡzˈɪstɪŋ tˈɪkɪt mˈeɪ kˈʌvə ðɪ ɔːltˈɜːnətˌɪv ɹˈuːt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Even though that train belongs to a different company?",
+                "ipa": "/ˈiːvən ðˌəʊ ðat tɹˈeɪn bɪlˈɒŋz tʊ ɐ dˈɪfɹənt kˈʌmpəni/"
+            },
+            {
+                "speaker": "B",
+                "text": "Check the disruption notice. It lists which services are accepting tickets.",
+                "ipa": "/tʃˈɛk ðə dɪsɹˈʌpʃən nˈəʊtɪs ɪt lˈɪsts wˌɪtʃ sˈɜːvɪsɪz ɑːɹ ɐksˈɛptɪŋ tˈɪkɪts/"
+            }
+        ]
+    },
+    {
+        "id": "B1-travel-4",
+        "level": "B1",
+        "topicId": "travel",
+        "number": 4,
+        "title": {
+            "vi": "Hành lý thất lạc",
+            "en": "Lost luggage"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Someone has taken a suitcase that looks exactly like mine.",
+                "ipa": "/sˈʌmwɒn hɐz tˈeɪkən ɐ sˈuːtkeɪs ðat lˈʊks ɛɡzˈaktli lˈaɪk mˈaɪn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Is the one left on the belt the same model?",
+                "ipa": "/ɪz ðə wˈɒn lˈɛft ɒnðə bˈɛlt ðə sˈeɪm mˈɒdəl/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes, but the label has a different name.",
+                "ipa": "/jˈɛs bˌʌt ðə lˈeɪbəl hɐz ɐ dˈɪfɹənt nˈeɪm/"
+            },
+            {
+                "speaker": "B",
+                "text": "Give the desk that name. They can contact the other passenger privately.",
+                "ipa": "/ɡˈɪv ðə dˈɛsk ðat nˈeɪm ðeɪ kan kˈɒntakt ðɪ ˈʌðə pˈasɪndʒə pɹˈaɪvətli/"
+            }
+        ]
+    },
+    {
+        "id": "B1-travel-5",
+        "level": "B1",
+        "topicId": "travel",
+        "number": 5,
+        "title": {
+            "vi": "Chuyến bay trễ",
+            "en": "A delayed flight"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "We have forty minutes between flights, and we're still on the ground.",
+                "ipa": "/wiː hav fˈɔːti mˈɪnɪts bɪtwˌiːn flˈaɪts and wiə stˈɪl ɒnðə ɡɹˈaʊnd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Have you booked both flights on the same reservation?",
+                "ipa": "/hav juː bˈʊkt bˈəʊθ flˈaɪts ɒnðə sˈeɪm ɹˌɛzəvˈeɪʃən/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes, so I expected the connection to be possible.",
+                "ipa": "/jˈɛs sˌəʊ aɪ ɛkspˈɛktɪd ðə kənˈɛkʃən təbi pˈɒsɪbəl/"
+            },
+            {
+                "speaker": "B",
+                "text": "Tell the airline staff now. They can check what happens if we miss it.",
+                "ipa": "/tˈɛl ðɪ ˈeəlaɪn stˈaf nˈaʊ ðeɪ kan tʃˈɛk wɒt hˈapənz ɪf wiː mˈɪs ɪt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-travel-6",
+        "level": "B1",
+        "topicId": "travel",
+        "number": 6,
+        "title": {
+            "vi": "Đi xe đạp",
+            "en": "Hiring a bicycle"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The bike's front light works, but the rear one doesn't.",
+                "ipa": "/ðə bˈaɪkz fɹˈʌnt lˈaɪt wˈɜːks bˌʌt ðə ɹˈiə wˈɒn dˈʌzənt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Did you notice before leaving the hire station?",
+                "ipa": "/dˈɪd juː nˈəʊtɪs bɪfˌɔː lˈiːvɪŋ ðə hˈaɪə stˈeɪʃən/"
+            },
+            {
+                "speaker": "A",
+                "text": "About two streets away. I've brought it straight back.",
+                "ipa": "/ɐbˌaʊt tˈuː stɹˈiːts ɐwˈeɪ aɪv bɹˈɔːt ɪt stɹˈeɪt bˈak/"
+            },
+            {
+                "speaker": "B",
+                "text": "Thanks. We'll swap the bike and record the fault.",
+                "ipa": "/θˈaŋks wiːl swˈɒp ðə bˈaɪk and ɹˈɛkɔːd ðə fˈɒlt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-travel-7",
+        "level": "B1",
+        "topicId": "travel",
+        "number": 7,
+        "title": {
+            "vi": "Đường dễ tiếp cận",
+            "en": "An accessible route"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The app calls this route accessible, but it includes a long staircase.",
+                "ipa": "/ðɪ ˈap kˈɔːlz ðɪs ɹˈuːt aksˈɛsəbəl bˌʌt ɪt ɪŋklˈuːdz ɐ lˈɒŋ stˈeəkeɪs/"
+            },
+            {
+                "speaker": "B",
+                "text": "Could it be referring only to the station entrance?",
+                "ipa": "/kʊd ɪt biː ɹɪfˈɜːɹɪŋ ˈəʊnli tə ðə stˈeɪʃən ˈɛntɹəns/"
+            },
+            {
+                "speaker": "A",
+                "text": "Maybe, but that isn't clear when you plan the whole journey.",
+                "ipa": "/mˈeɪbiː bˌʌt ðat ˌɪzənt klˈiə wɛn juː plˈan ðə hˈəʊl dʒˈɜːni/"
+            },
+            {
+                "speaker": "B",
+                "text": "I'll report the route itself, not just the broken lift.",
+                "ipa": "/aɪl ɹɪpˈɔːt ðə ɹˈuːt ɪtsˈɛlf nˌɒt dʒˈʌst ðə bɹˈəʊkən lˈɪft/"
+            }
+        ]
+    },
+    {
+        "id": "B1-travel-8",
+        "level": "B1",
+        "topicId": "travel",
+        "number": 8,
+        "title": {
+            "vi": "Chia tiền taxi",
+            "en": "Sharing a taxi fare"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The driver wants a separate payment for each of us.",
+                "ipa": "/ðə dɹˈaɪvə wˈɒnts ɐ sˈɛpɹət pˈeɪmənt fɔː ˈiːtʃ əv ˌʌs/"
+            },
+            {
+                "speaker": "B",
+                "text": "Did we agree on two fares or one shared journey?",
+                "ipa": "/dˈɪd wiː ɐɡɹˈiː ˌɒn tˈuː fˈeəz ɔː wˈɒn ʃˈeəd dʒˈɜːni/"
+            },
+            {
+                "speaker": "A",
+                "text": "One journey. We gave both addresses before getting in.",
+                "ipa": "/wˈɒn dʒˈɜːni wiː ɡˈeɪv bˈəʊθ ɐdɹˈɛsɪz bɪfˌɔː ɡˌɛtɪŋ ˈɪn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Let's check the booking message before either of us pays.",
+                "ipa": "/lˈɛts tʃˈɛk ðə bˈʊkɪŋ mˈɛsɪdʒ bɪfˌɔːɹ ˈaɪðəɹ ɒv ˌʌs pˈeɪz/"
+            }
+        ]
+    },
+    {
+        "id": "B1-travel-9",
+        "level": "B1",
+        "topicId": "travel",
+        "number": 9,
+        "title": {
+            "vi": "Hoàn tiền vé",
+            "en": "Getting a ticket refund"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The refund form asks for a ticket number I can't find.",
+                "ipa": "/ðə ɹˈiːfʌnd fˈɔːm ˈasks fəɹə tˈɪkɪt nˈʌmbəɹ aɪ kˈɑːnt fˈaɪnd/"
+            },
+            {
+                "speaker": "B",
+                "text": "It may be on the original confirmation rather than the payment receipt.",
+                "ipa": "/ɪt mˈeɪ biː ɒnðɪ əɹˈɪdʒɪnəl kɒnfəmˈeɪʃən ɹˈɑːðə ðɐn ðə pˈeɪmənt ɹɪsˈiːt/"
+            },
+            {
+                "speaker": "A",
+                "text": "I only saved a screenshot of the code.",
+                "ipa": "/aɪ ˈəʊnli sˈeɪvd ɐ skɹˈiːnʃɒt ɒvðə kˈəʊd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Keep that screenshot. Customer support should tell you which number they need.",
+                "ipa": "/kˈiːp ðat skɹˈiːnʃɒt kˈʌstəmə səpˈɔːt ʃˌʊd tˈɛl juː wˌɪtʃ nˈʌmbə ðeɪ nˈiːd/"
+            }
+        ]
+    },
+    {
+        "id": "B1-travel-10",
+        "level": "B1",
+        "topicId": "travel",
+        "number": 10,
+        "title": {
+            "vi": "Chọn phương tiện",
+            "en": "Choosing transport"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Flying saves two hours, but getting to the airport adds nearly as much.",
+                "ipa": "/flˈaɪɪŋ sˈeɪvz tˈuː ˈaʊəz bˌʌt ɡˌɛtɪŋ tə ðɪ ˈeəpɔːt ˈadz nˌiəli az mˈʌtʃ/"
+            },
+            {
+                "speaker": "B",
+                "text": "The train arrives right in the city centre too.",
+                "ipa": "/ðə tɹˈeɪn ɐɹˈaɪvz ɹˈaɪt ɪnðə sˈɪti sˈɛntə tˈuː/"
+            },
+            {
+                "speaker": "A",
+                "text": "And we'd avoid paying for a taxi at the other end.",
+                "ipa": "/and wiːd ɐvˈɔɪd pˈeɪɪŋ fəɹə tˈaksi at ðɪ ˈʌðəɹ ˈɛnd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Once we include those costs, the train seems the better option.",
+                "ipa": "/wˈʌns wiː ɪŋklˈuːd ðəʊz kˈɒsts ðə tɹˈeɪn sˈiːmz ðə bˈɛtəɹ ˈɒpʃən/"
+            }
+        ]
+    },
+    {
+        "id": "B1-hotel-1",
+        "level": "B1",
+        "topicId": "hotel",
+        "number": 1,
+        "title": {
+            "vi": "Nhận phòng",
+            "en": "Checking in"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Our booking is confirmed, but you say there are no rooms.",
+                "ipa": "/ˌaʊə bˈʊkɪŋ ɪz kənfˈɜːmd bˌʌt juː sˈeɪ ðeəɹˌɑː nˈəʊ ɹˈuːmz/"
+            },
+            {
+                "speaker": "B",
+                "text": "The system has your arrival down as yesterday.",
+                "ipa": "/ðə sˈɪstəm hɐz jɔːɹ ɐɹˈaɪvəl dˌaʊn az jˈɛstədˌeɪ/"
+            },
+            {
+                "speaker": "A",
+                "text": "The confirmation on my phone clearly shows today's date.",
+                "ipa": "/ðə kɒnfəmˈeɪʃən ˌɒn maɪ fˈəʊn klˈiəli ʃˈəʊz tədˈeɪz dˈeɪt/"
+            },
+            {
+                "speaker": "B",
+                "text": "You're correct. Let me call the duty manager before we discuss alternatives.",
+                "ipa": "/jɔː kəɹˈɛkt lˈɛt mˌiː kˈɔːl ðə djˈuːti mˈanɪdʒə bɪfˌɔː wiː dɪskˈʌs ɔːltˈɜːnətˌɪvz/"
+            }
+        ]
+    },
+    {
+        "id": "B1-hotel-2",
+        "level": "B1",
+        "topicId": "hotel",
+        "number": 2,
+        "title": {
+            "vi": "Bữa sáng",
+            "en": "Asking about breakfast"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The breakfast charge appeared even though we booked room only.",
+                "ipa": "/ðə bɹˈɛkfəst tʃˈɑːdʒ ɐpˈiəd ˈiːvən ðˌəʊ wiː bˈʊkt ɹˈuːm ˈəʊnli/"
+            },
+            {
+                "speaker": "B",
+                "text": "Did you visit the restaurant this morning?",
+                "ipa": "/dˈɪd juː vˈɪzɪt ðə ɹˈɛstɹɒnt ðɪs mˈɔːnɪŋ/"
+            },
+            {
+                "speaker": "A",
+                "text": "Only to meet our friends. We didn't order anything.",
+                "ipa": "/ˈəʊnli tə mˈiːt ˌaʊə fɹˈɛndz wiː dˈɪdnt ˈɔːdəɹ ˈɛnɪθˌɪŋ/"
+            },
+            {
+                "speaker": "B",
+                "text": "I'll check with the restaurant and remove any charge made in error.",
+                "ipa": "/aɪl tʃˈɛk wɪððə ɹˈɛstɹɒnt and ɹɪmˈuːv ˌɛni tʃˈɑːdʒ mˌeɪd ɪn ˈɛɹə/"
+            }
+        ]
+    },
+    {
+        "id": "B1-hotel-3",
+        "level": "B1",
+        "topicId": "hotel",
+        "number": 3,
+        "title": {
+            "vi": "Phòng yên tĩnh",
+            "en": "Requesting a quiet room"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "We asked for a quiet room because my partner works nights.",
+                "ipa": "/wiː ˈaskt fəɹə kwˈaɪət ɹˈuːm bɪkˈɒz maɪ pˈɑːtnə wˈɜːks nˈaɪts/"
+            },
+            {
+                "speaker": "B",
+                "text": "The room you've been given is quiet after the restaurant closes.",
+                "ipa": "/ðə ɹˈuːm juːv bˌiːn ɡˈɪvən ɪz kwˈaɪət ˈaftə ðə ɹˈɛstɹɒnt klˈəʊzɪz/"
+            },
+            {
+                "speaker": "A",
+                "text": "She needs to sleep during the day, though.",
+                "ipa": "/ʃiː nˈiːdz tə slˈiːp djˈʊəɹɪŋ ðə dˈeɪ ðˈəʊ/"
+            },
+            {
+                "speaker": "B",
+                "text": "I see. A room above the garden would suit you better.",
+                "ipa": "/aɪ sˈiː ɐ ɹˈuːm əbˌʌv ðə ɡˈɑːdən wʊd sˈuːt juː bˈɛtə/"
+            }
+        ]
+    },
+    {
+        "id": "B1-hotel-4",
+        "level": "B1",
+        "topicId": "hotel",
+        "number": 4,
+        "title": {
+            "vi": "Trả phòng trễ",
+            "en": "Checking out late"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I'd like late checkout, but I don't need the room cleaned.",
+                "ipa": "/aɪd lˈaɪk lˈeɪt tʃˈɛkaʊt bˌʌt aɪ dˈəʊnt nˈiːd ðə ɹˈuːm klˈiːnd/"
+            },
+            {
+                "speaker": "B",
+                "text": "The main issue is preparing it for the next guest.",
+                "ipa": "/ðə mˈeɪn ˈɪʃuː ɪz pɹɪpˈeəɹɪŋ ɪt fəðə nˈɛkst ɡˈɛst/"
+            },
+            {
+                "speaker": "A",
+                "text": "Could we leave our bags somewhere and just use the lounge?",
+                "ipa": "/kʊd wiː lˈiːv ˌaʊə bˈaɡz sˈʌmweə and dʒˈʌst jˈuːz ðə lˈaʊndʒ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Absolutely. That option won't require extending your room booking.",
+                "ipa": "/ˌabsəlˈuːtli ðat ˈɒpʃən wəʊnt ɹɪkwˈaɪəɹ ɛkstˈɛndɪŋ jɔː ɹˈuːm bˈʊkɪŋ/"
+            }
+        ]
+    },
+    {
+        "id": "B1-hotel-5",
+        "level": "B1",
+        "topicId": "hotel",
+        "number": 5,
+        "title": {
+            "vi": "Mượn bộ sạc",
+            "en": "Borrowing a charger"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I returned the borrowed charger, but the deposit hasn't appeared.",
+                "ipa": "/aɪ ɹɪtˈɜːnd ðə bˈɒɹəʊd tʃˈɑːdʒə bˌʌt ðə dɪpˈɒzɪt hˈazənt ɐpˈiəd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Was the deposit taken in cash or held on your card?",
+                "ipa": "/wʌzðə dɪpˈɒzɪt tˈeɪkən ɪn kˈaʃ ɔː hˈɛld ˌɒn jɔː kˈɑːd/"
+            },
+            {
+                "speaker": "A",
+                "text": "It was a card hold when we checked in.",
+                "ipa": "/ɪt wʌzɐ kˈɑːd hˈəʊld wɛn wiː tʃˈɛkt ˈɪn/"
+            },
+            {
+                "speaker": "B",
+                "text": "I'll give you written confirmation that we've released it.",
+                "ipa": "/aɪl ɡˈɪv juː ɹˈɪtən kɒnfəmˈeɪʃən ðat wiːv ɹɪlˈiːst ɪt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-hotel-6",
+        "level": "B1",
+        "topicId": "hotel",
+        "number": 6,
+        "title": {
+            "vi": "Giặt quần áo",
+            "en": "Using the laundry"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "One of my shirts came back from the laundry with a mark.",
+                "ipa": "/wˈɒn ɒv maɪ ʃˈɜːts kˈeɪm bˈak fɹʌmðə lˈɔːndɹi wɪð ɐ mˈɑːk/"
+            },
+            {
+                "speaker": "B",
+                "text": "Do you still have the laundry receipt?",
+                "ipa": "/dˈuː juː stˈɪl hav ðə lˈɔːndɹi ɹɪsˈiːt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes, and I took a photo before sending it down.",
+                "ipa": "/jˈɛs and aɪ tˈʊk ɐ fˈəʊtəʊ bɪfˌɔː sˈɛndɪŋ ɪt dˈaʊn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Please leave the shirt with reception so the laundry team can investigate.",
+                "ipa": "/plˈiːz lˈiːv ðə ʃˈɜːt wɪð ɹɪsˈɛpʃən sˌəʊ ðə lˈɔːndɹi tˈiːm kan ɪnvˈɛstɪɡˌeɪt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-hotel-7",
+        "level": "B1",
+        "topicId": "hotel",
+        "number": 7,
+        "title": {
+            "vi": "Đổi ngày đặt",
+            "en": "Changing booking dates"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "We booked a family room, and one person can no longer come.",
+                "ipa": "/wiː bˈʊkt ɐ fˈamɪli ɹˈuːm and wˈɒn pˈɜːsən kan nˌəʊ lˈɒŋɡə kˈʌm/"
+            },
+            {
+                "speaker": "B",
+                "text": "Would you like to change rooms or keep the space?",
+                "ipa": "/wʊd juː lˈaɪk tə tʃˈeɪndʒ ɹˈuːmz ɔː kˈiːp ðə spˈeɪs/"
+            },
+            {
+                "speaker": "A",
+                "text": "Keep the room, but can the extra breakfast be removed?",
+                "ipa": "/kˈiːp ðə ɹˈuːm bˌʌt kan ðɪ ˈɛkstɹə bɹˈɛkfəst biː ɹɪmˈuːvd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes. The room rate stays the same, but breakfast is charged separately.",
+                "ipa": "/jˈɛs ðə ɹˈuːm ɹˈeɪt stˈeɪz ðə sˈeɪm bˌʌt bɹˈɛkfəst ɪz tʃˈɑːdʒd sˈɛpɹətli/"
+            }
+        ]
+    },
+    {
+        "id": "B1-hotel-8",
+        "level": "B1",
+        "topicId": "hotel",
+        "number": 8,
+        "title": {
+            "vi": "Báo mất chìa",
+            "en": "Reporting a lost key"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "My key stopped working after I kept it beside my phone.",
+                "ipa": "/maɪ kˈiː stˈɒpt wˈɜːkɪŋ ˈaftəɹ aɪ kˈɛpt ɪt bɪsˌaɪd maɪ fˈəʊn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Sometimes the card needs to be reset.",
+                "ipa": "/sˈʌmtaɪmz ðə kˈɑːd nˈiːdz təbi ɹɪsˈɛt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Could you check it before issuing another one?",
+                "ipa": "/kʊd juː tʃˈɛk ɪt bɪfˌɔːɹ ˈɪʃuːɪŋ ɐnˈʌðə wˌɒn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Of course. I'll also confirm that the checkout date is correct.",
+                "ipa": "/ɒv kˈɔːs aɪl ˈɔːlsəʊ kənfˈɜːm ðatðə tʃˈɛkaʊt dˈeɪt ɪz kəɹˈɛkt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-hotel-9",
+        "level": "B1",
+        "topicId": "hotel",
+        "number": 9,
+        "title": {
+            "vi": "Nhận hóa đơn",
+            "en": "Requesting an invoice"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The bill includes a minibar item we didn't use.",
+                "ipa": "/ðə bˈɪl ɪŋklˈuːdz ɐ mˈɪnɪbˌɑːɹ ˈaɪtəm wiː dˈɪdnt jˈuːz/"
+            },
+            {
+                "speaker": "B",
+                "text": "Which item is listed?",
+                "ipa": "/wˌɪtʃ ˈaɪtəm ɪz lˈɪstɪd/"
+            },
+            {
+                "speaker": "A",
+                "text": "A bottle of juice. We only drank the tap water.",
+                "ipa": "/ɐ bˈɒtəl ɒv dʒˈuːs wiː ˈəʊnli dɹˈaŋk ðə tˈap wˈɔːtə/"
+            },
+            {
+                "speaker": "B",
+                "text": "I'll ask housekeeping to check the stock record.",
+                "ipa": "/aɪl ˈask hˈaʊskiːpɪŋ tə tʃˈɛk ðə stˈɒk ɹˈɛkɔːd/"
+            }
+        ]
+    },
+    {
+        "id": "B1-hotel-10",
+        "level": "B1",
+        "topicId": "hotel",
+        "number": 10,
+        "title": {
+            "vi": "Đánh giá lưu trú",
+            "en": "Reviewing a stay"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I almost gave the hotel a poor review because of the building work.",
+                "ipa": "/aɪ ˈɔːlməʊst ɡˈeɪv ðə həʊtˈɛl ɐ pˈʊə ɹɪvjˈuː bɪkˈɒz ɒvðə bˈɪldɪŋ wˈɜːk/"
+            },
+            {
+                "speaker": "B",
+                "text": "Was the noise a problem throughout your stay?",
+                "ipa": "/wʌzðə nˈɔɪz ɐ pɹˈɒbləm θɹuːˈaʊt jɔː stˈeɪ/"
+            },
+            {
+                "speaker": "A",
+                "text": "Only on the first day, and the staff moved us promptly.",
+                "ipa": "/ˈəʊnli ɒnðə fˈɜːst dˈeɪ and ðə stˈaf mˈuːvd ˌʌs pɹˈɒmptli/"
+            },
+            {
+                "speaker": "B",
+                "text": "Then mentioning both the problem and the response would give a fairer picture.",
+                "ipa": "/ðˈɛn mˈɛnʃənɪŋ bˈəʊθ ðə pɹˈɒbləm and ðə ɹɪspˈɒns wʊd ɡˈɪv ɐ fˈeəɹə pˈɪktʃə/"
+            }
+        ]
+    },
+    {
+        "id": "B1-shopping-1",
+        "level": "B1",
+        "topicId": "shopping",
+        "number": 1,
+        "title": {
+            "vi": "Chọn áo",
+            "en": "Choosing a shirt"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I'm looking for a shirt I can wear to work without ironing it every morning.",
+                "ipa": "/aɪm lˈʊkɪŋ fəɹə ʃˈɜːt aɪ kan wˈeə tə wˈɜːk wɪðˌaʊt ˈaɪənɪŋ ɪt ˈɛvɹɪ mˈɔːnɪŋ/"
+            },
+            {
+                "speaker": "B",
+                "text": "This fabric creases less, but it feels slightly warmer.",
+                "ipa": "/ðɪs fˈabɹɪk kɹˈiːsɪz lˈɛs bˌʌt ɪt fˈiːlz slˈaɪtli wˈɔːmə/"
+            },
+            {
+                "speaker": "A",
+                "text": "Can I try it under the jacket I usually wear?",
+                "ipa": "/kan aɪ tɹˈaɪ ɪt ˌʌndə ðə dʒˈakɪt aɪ jˈuːʒuːəli wˈeə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Certainly. Comfort matters more than how it looks on the hanger.",
+                "ipa": "/sˈɜːtənli kˈʌmfət mˈatəz mˈɔː ðɐn hˌaʊ ɪt lˈʊks ɒnðə hˈaŋə/"
+            }
+        ]
+    },
+    {
+        "id": "B1-shopping-2",
+        "level": "B1",
+        "topicId": "shopping",
+        "number": 2,
+        "title": {
+            "vi": "Đổi kích cỡ",
+            "en": "Changing a size"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I'd like to exchange these shoes, although I've worn them indoors.",
+                "ipa": "/aɪd lˈaɪk tʊ ɛkstʃˈeɪndʒ ðiːz ʃˈuːz ɔːlðˈəʊ aɪv wˈɔːn ðˌɛm ɪndˈɔːz/"
+            },
+            {
+                "speaker": "B",
+                "text": "Was that just to check the fit?",
+                "ipa": "/wɒz ðat dʒˈʌst tə tʃˈɛk ðə fˈɪt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes. After ten minutes I realised they pressed against my heel.",
+                "ipa": "/jˈɛs ˈaftə tˈɛn mˈɪnɪts aɪ ɹˈiəlaɪzd ðeɪ pɹˈɛst ɐɡˈɛnst maɪ hˈiːl/"
+            },
+            {
+                "speaker": "B",
+                "text": "Let us inspect the soles and discuss a size that might work better.",
+                "ipa": "/lˈɛt ˌʌs ɪnspˈɛkt ðə sˈəʊlz and dɪskˈʌs ɐ sˈaɪz ðat mˌaɪt wˈɜːk bˈɛtə/"
+            }
+        ]
+    },
+    {
+        "id": "B1-shopping-3",
+        "level": "B1",
+        "topicId": "shopping",
+        "number": 3,
+        "title": {
+            "vi": "So sánh giá",
+            "en": "Comparing prices"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The advertised discount makes this seem cheaper than the smaller pack.",
+                "ipa": "/ðɪ ˈadvətˌaɪzd dˈɪskaʊnt mˌeɪks ðɪs sˈiːm tʃˈiːpə ðɐn ðə smˈɔːlə pˈak/"
+            },
+            {
+                "speaker": "B",
+                "text": "Have you compared the price per item?",
+                "ipa": "/hav juː kəmpˈeəd ðə pɹˈaɪs pɜːɹ ˈaɪtəm/"
+            },
+            {
+                "speaker": "A",
+                "text": "Not yet. The large label distracted me.",
+                "ipa": "/nˌɒt jˈɛt ðə lˈɑːdʒ lˈeɪbəl dɪstɹˈaktɪd mˌiː/"
+            },
+            {
+                "speaker": "B",
+                "text": "The shelf has both figures. The smaller pack is actually better value today.",
+                "ipa": "/ðə ʃˈɛlf hɐz bˈəʊθ fˈɪɡəz ðə smˈɔːlə pˈak ɪz ˈaktʃuːəli bˈɛtə vˈaljuː tədˈeɪ/"
+            }
+        ]
+    },
+    {
+        "id": "B1-shopping-4",
+        "level": "B1",
+        "topicId": "shopping",
+        "number": 4,
+        "title": {
+            "vi": "Trả hàng lỗi",
+            "en": "Returning a faulty item"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The replacement headphones have developed the same fault as the first pair.",
+                "ipa": "/ðə ɹɪplˈeɪsmənt hˈɛdfəʊnz hav dɪvˈɛləpt ðə sˈeɪm fˈɒlt az ðə fˈɜːst pˈeə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Do you have the record of the earlier exchange?",
+                "ipa": "/dˈuː juː hav ðə ɹˈɛkɔːd ɒvðɪ ˈɜːlɪəɹ ɛkstʃˈeɪndʒ/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes. I don't want to keep replacing the same model.",
+                "ipa": "/jˈɛs aɪ dˈəʊnt wˈɒnt tə kˈiːp ɹɪplˈeɪsɪŋ ðə sˈeɪm mˈɒdəl/"
+            },
+            {
+                "speaker": "B",
+                "text": "We'll look at the full history before offering the next step.",
+                "ipa": "/wiːl lˈʊk at ðə fˈʊl hˈɪstəɹi bɪfˌɔːɹ ˈɒfəɹɪŋ ðə nˈɛkst stˈɛp/"
+            }
+        ]
+    },
+    {
+        "id": "B1-shopping-5",
+        "level": "B1",
+        "topicId": "shopping",
+        "number": 5,
+        "title": {
+            "vi": "Nhận đơn hàng",
+            "en": "Collecting an order"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I received a collection message, but the shop says the parcel hasn't arrived.",
+                "ipa": "/aɪ ɹɪsˈiːvd ɐ kəlˈɛkʃən mˈɛsɪdʒ bˌʌt ðə ʃˈɒp sˈɛz ðə pˈɑːsəl hˈazənt ɐɹˈaɪvd/"
+            },
+            {
+                "speaker": "B",
+                "text": "The message might have been sent when it reached the local depot.",
+                "ipa": "/ðə mˈɛsɪdʒ mˌaɪthɐv bˌiːn sˈɛnt wɛn ɪt ɹˈiːtʃt ðə lˈəʊkəl dˈɛpəʊ/"
+            },
+            {
+                "speaker": "A",
+                "text": "It specifically says ready to collect, though.",
+                "ipa": "/ɪt spəsˈɪfɪkli sˈɛz ɹˈɛdi tə kəlˈɛkt ðˈəʊ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Then you shouldn't have made the journey. I'll check where the scan happened.",
+                "ipa": "/ðˈɛn juː ʃˌʊdənthəv mˌeɪd ðə dʒˈɜːni aɪl tʃˈɛk wˌeə ðə skˈan hˈapənd/"
+            }
+        ]
+    },
+    {
+        "id": "B1-shopping-6",
+        "level": "B1",
+        "topicId": "shopping",
+        "number": 6,
+        "title": {
+            "vi": "Gửi quà",
+            "en": "Sending a gift"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I sent a gift directly to my friend, and she received the price invoice.",
+                "ipa": "/aɪ sˈɛnt ɐ ɡˈɪft daɪɹˈɛktli tə maɪ fɹˈɛnd and ʃiː ɹɪsˈiːvd ðə pɹˈaɪs ˈɪnvɔɪs/"
+            },
+            {
+                "speaker": "B",
+                "text": "Did you select the gift option at checkout?",
+                "ipa": "/dˈɪd juː sɪlˈɛkt ðə ɡˈɪft ˈɒpʃən at tʃˈɛkaʊt/"
+            },
+            {
+                "speaker": "A",
+                "text": "I did. I kept a screenshot because it was her birthday.",
+                "ipa": "/aɪ dˈɪd aɪ kˈɛpt ɐ skɹˈiːnʃɒt bɪkˈɒz ɪt wɒz hɜː bˈɜːθdeɪ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Please send that to us so we can find out what went wrong.",
+                "ipa": "/plˈiːz sˈɛnd ðat tʊ ˌʌs sˌəʊ wiː kan fˈaɪnd ˈaʊt wɒt wɛnt ɹˈɒŋ/"
+            }
+        ]
+    },
+    {
+        "id": "B1-shopping-7",
+        "level": "B1",
+        "topicId": "shopping",
+        "number": 7,
+        "title": {
+            "vi": "Dùng phiếu giảm",
+            "en": "Using a voucher"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Your voucher says ten pounds off, but I only saved three.",
+                "ipa": "/jɔː vˈaʊtʃə sˈɛz tˈɛn pˈaʊndz ˈɒf bˌʌt aɪ ˈəʊnli sˈeɪvd θɹˈiː/"
+            },
+            {
+                "speaker": "B",
+                "text": "The discount stops when the order reaches the minimum spend.",
+                "ipa": "/ðə dˈɪskaʊnt stˈɒps wɛn ðɪ ˈɔːdə ɹˈiːtʃɪz ðə mˈɪnɪməm spˈɛnd/"
+            },
+            {
+                "speaker": "A",
+                "text": "That condition wasn't visible on the offer page.",
+                "ipa": "/ðat kəndˈɪʃən wˌɒzn̩t vˈɪzɪbəl ɒnðɪ ˈɒfə pˈeɪdʒ/"
+            },
+            {
+                "speaker": "B",
+                "text": "I'll compare the page with the full terms before answering you.",
+                "ipa": "/aɪl kəmpˈeə ðə pˈeɪdʒ wɪððə fˈʊl tˈɜːmz bɪfˌɔːɹ ˈansəɹɪŋ juː/"
+            }
+        ]
+    },
+    {
+        "id": "B1-shopping-8",
+        "level": "B1",
+        "topicId": "shopping",
+        "number": 8,
+        "title": {
+            "vi": "Mua đồ cũ",
+            "en": "Buying second-hand"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The used bicycle is cheaper, but it needs a new chain soon.",
+                "ipa": "/ðə jˈuːzd bˈaɪsɪkəl ɪz tʃˈiːpə bˌʌt ɪt nˈiːdz ɐ njˈuː tʃˈeɪn sˈuːn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Has the shop included that in the asking price?",
+                "ipa": "/hɐz ðə ʃˈɒp ɪŋklˈuːdɪd ðat ɪnðɪ ˈaskɪŋ pɹˈaɪs/"
+            },
+            {
+                "speaker": "A",
+                "text": "They reduced it a little after showing me the inspection sheet.",
+                "ipa": "/ðeɪ ɹɪdjˈuːst ɪt ɐ lˈɪtəl ˈaftə ʃˈəʊɪŋ mˌiː ðɪ ɪnspˈɛkʃən ʃˈiːt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Then compare the total repair cost with a bike that's ready to ride.",
+                "ipa": "/ðˈɛn kəmpˈeə ðə tˈəʊtəl ɹɪpˈeə kˈɒst wɪð ɐ bˈaɪk ðats ɹˈɛdi tə ɹˈaɪd/"
+            }
+        ]
+    },
+    {
+        "id": "B1-shopping-9",
+        "level": "B1",
+        "topicId": "shopping",
+        "number": 9,
+        "title": {
+            "vi": "Giảm bao bì",
+            "en": "Reducing packaging"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Why are you putting the item in another box? It already has one.",
+                "ipa": "/wˌaɪ ɑː juː pˈʊtɪŋ ðɪ ˈaɪtəm ɪn ɐnˈʌðə bˈɒks ɪt ɔːlɹˈɛdi hɐz wˌɒn/"
+            },
+            {
+                "speaker": "B",
+                "text": "The outer box protects it during delivery.",
+                "ipa": "/ðɪ ˈaʊtə bˈɒks pɹətˈɛkts ɪt djˈʊəɹɪŋ dɪlˈɪvəɹi/"
+            },
+            {
+                "speaker": "A",
+                "text": "I'm collecting it on foot, so I won't need that.",
+                "ipa": "/aɪm kəlˈɛktɪŋ ɪt ˌɒn fˈʊt sˌəʊ aɪ wəʊnt nˈiːd ðˈat/"
+            },
+            {
+                "speaker": "B",
+                "text": "In that case, we can leave the extra packaging here.",
+                "ipa": "/ɪn ðat kˈeɪs wiː kan lˈiːv ðɪ ˈɛkstɹə pˈakɪdʒɪŋ hˈiə/"
+            }
+        ]
+    },
+    {
+        "id": "B1-shopping-10",
+        "level": "B1",
+        "topicId": "shopping",
+        "number": 10,
+        "title": {
+            "vi": "Đặt trước hàng",
+            "en": "Pre-ordering an item"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I've pre-ordered the book twice because the first payment looked unsuccessful.",
+                "ipa": "/aɪv pɹˈiːˈɔːdəd ðə bˈʊk twˈaɪs bɪkˈɒz ðə fˈɜːst pˈeɪmənt lˈʊkt ʌnsəksˈɛsfəl/"
+            },
+            {
+                "speaker": "B",
+                "text": "Do you have two confirmation numbers?",
+                "ipa": "/dˈuː juː hav tˈuː kɒnfəmˈeɪʃən nˈʌmbəz/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes, and both payments now appear on my statement.",
+                "ipa": "/jˈɛs and bˈəʊθ pˈeɪmənts nˈaʊ ɐpˈiəɹ ˌɒn maɪ stˈeɪtmənt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Don't place another order. We'll identify and cancel the duplicate.",
+                "ipa": "/dˈəʊnt plˈeɪs ɐnˈʌðəɹ ˈɔːdə wiːl aɪdˈɛntɪfˌaɪ and kˈansəl ðə djˈuːplɪkˌeɪt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-home-1",
+        "level": "B1",
+        "topicId": "home",
+        "number": 1,
+        "title": {
+            "vi": "Chia việc nhà",
+            "en": "Sharing housework"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The cleaning rota looks equal, but the bathroom takes much longer than the hall.",
+                "ipa": "/ðə klˈiːnɪŋ ɹˈəʊtə lˈʊks ˈiːkwəl bˌʌt ðə bˈaθɹuːm tˈeɪks mˈʌtʃ lˈɒŋɡə ðɐn ðə hˈɔːl/"
+            },
+            {
+                "speaker": "B",
+                "text": "I hadn't thought about the time involved.",
+                "ipa": "/aɪ hˈadənt θˈɔːt ɐbˌaʊt ðə tˈaɪm ɪnvˈɒlvd/"
+            },
+            {
+                "speaker": "A",
+                "text": "Could we swap jobs each week instead of keeping the same ones?",
+                "ipa": "/kʊd wiː swˈɒp dʒˈɒbz ˈiːtʃ wˈiːk ɪnstˈɛd ɒv kˈiːpɪŋ ðə sˈeɪm wˌɒnz/"
+            },
+            {
+                "speaker": "B",
+                "text": "That would let everyone see how much work each job needs.",
+                "ipa": "/ðat wʊd lˈɛt ˈɛvɹɪwˌɒn sˈiː hˌaʊ mˈʌtʃ wˈɜːk ˈiːtʃ dʒˈɒb nˈiːdz/"
+            }
+        ]
+    },
+    {
+        "id": "B1-home-2",
+        "level": "B1",
+        "topicId": "home",
+        "number": 2,
+        "title": {
+            "vi": "Sửa vòi nước",
+            "en": "Fixing a tap"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The plumber repaired the tap, but the cupboard underneath is still damp.",
+                "ipa": "/ðə plˈʌmə ɹɪpˈeəd ðə tˈap bˌʌt ðə kˈʌbəd ˌʌndənˈiːθ ɪz stˈɪl dˈamp/"
+            },
+            {
+                "speaker": "B",
+                "text": "Did anyone check the pipe behind the washing machine?",
+                "ipa": "/dˈɪd ˈɛnɪwˌɒn tʃˈɛk ðə pˈaɪp bɪhˌaɪnd ðə wˈɒʃɪŋ məʃˈiːn/"
+            },
+            {
+                "speaker": "A",
+                "text": "No. We assumed the tap was the only source.",
+                "ipa": "/nˈəʊ wiː ɐsjˈuːmd ðə tˈap wʌzðɪ ˈəʊnli sˈɔːs/"
+            },
+            {
+                "speaker": "B",
+                "text": "Let's record where the water appears before arranging another visit.",
+                "ipa": "/lˈɛts ɹˈɛkɔːd wˌeə ðə wˈɔːtəɹ ɐpˈiəz bɪfˌɔːɹ ɐɹˈeɪndʒɪŋ ɐnˈʌðə vˈɪzɪt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-home-3",
+        "level": "B1",
+        "topicId": "home",
+        "number": 3,
+        "title": {
+            "vi": "Mượn đồ dùng",
+            "en": "Borrowing equipment"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I lent my ladder to someone and now a step is bent.",
+                "ipa": "/aɪ lˈɛnt maɪ lˈadə tə sˈʌmwɒn and nˈaʊ ɐ stˈɛp ɪz bˈɛnt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Have they told you what happened?",
+                "ipa": "/hav ðeɪ tˈəʊld juː wɒt hˈapənd/"
+            },
+            {
+                "speaker": "A",
+                "text": "They said it was already like that, but I used it yesterday.",
+                "ipa": "/ðeɪ sˈɛd ɪt wɒz ɔːlɹˌɛdi lˈaɪk ðˈat bˌʌt aɪ jˈuːzd ɪt jˈɛstədˌeɪ/"
+            },
+            {
+                "speaker": "B",
+                "text": "I'd stop using it and speak to them before lending anything else.",
+                "ipa": "/aɪd stˈɒp jˈuːzɪŋ ɪt and spˈiːk tə ðˌɛm bɪfˌɔː lˈɛndɪŋ ˈɛnɪθˌɪŋ ˈɛls/"
+            }
+        ]
+    },
+    {
+        "id": "B1-home-4",
+        "level": "B1",
+        "topicId": "home",
+        "number": 4,
+        "title": {
+            "vi": "Nhận bưu kiện",
+            "en": "Receiving a parcel"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The delivery driver left my parcel with a neighbour who is away.",
+                "ipa": "/ðə dɪlˈɪvəɹi dɹˈaɪvə lˈɛft maɪ pˈɑːsəl wɪð ɐ nˈeɪbə hˌuː ɪz ɐwˈeɪ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Do you know when they're coming back?",
+                "ipa": "/dˈuː juː nˈəʊ wɛn ðeɪə kˈʌmɪŋ bˈak/"
+            },
+            {
+                "speaker": "A",
+                "text": "Not for another week, and I need the contents for work.",
+                "ipa": "/nˌɒt fɔːɹ ɐnˈʌðə wˈiːk and aɪ nˈiːd ðə kˈɒntɛnts fɔː wˈɜːk/"
+            },
+            {
+                "speaker": "B",
+                "text": "Contact the delivery company with the photo rather than trying to enter the property.",
+                "ipa": "/kˈɒntakt ðə dɪlˈɪvəɹi kˈʌmpəni wɪððə fˈəʊtəʊ ɹˈɑːðə ðɐn tɹˈaɪɪŋ tʊ ˈɛntə ðə pɹˈɒpəti/"
+            }
+        ]
+    },
+    {
+        "id": "B1-home-5",
+        "level": "B1",
+        "topicId": "home",
+        "number": 5,
+        "title": {
+            "vi": "Giảm tiếng ồn",
+            "en": "Reducing noise"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "My neighbour's washing machine runs against our bedroom wall every night.",
+                "ipa": "/maɪ nˈeɪbəz wˈɒʃɪŋ məʃˈiːn ɹˈʌnz ɐɡˈɛnst ˌaʊə bˈɛdɹuːm wˈɔːl ˈɛvɹɪ nˈaɪt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Have you told them when you hear it?",
+                "ipa": "/hav juː tˈəʊld ðˌɛm wɛn juː hˈiəɹ ɪt/"
+            },
+            {
+                "speaker": "A",
+                "text": "I mentioned the noise, but not the time.",
+                "ipa": "/aɪ mˈɛnʃənd ðə nˈɔɪz bˌʌt nˌɒt ðə tˈaɪm/"
+            },
+            {
+                "speaker": "B",
+                "text": "A specific example may help them understand what needs to change.",
+                "ipa": "/ɐ spəsˈɪfɪk ɛɡzˈampəl mˈeɪ hˈɛlp ðˌɛm ˌʌndəstˈand wɒt nˈiːdz tə tʃˈeɪndʒ/"
+            }
+        ]
+    },
+    {
+        "id": "B1-home-6",
+        "level": "B1",
+        "topicId": "home",
+        "number": 6,
+        "title": {
+            "vi": "Tìm bạn cùng nhà",
+            "en": "Finding a flatmate"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The person applying for our spare room works from home all week.",
+                "ipa": "/ðə pˈɜːsən ɐplˈaɪɪŋ fɔːɹ ˌaʊə spˈeə ɹˈuːm wˈɜːks fɹɒm hˈəʊm ˈɔːl wˈiːk/"
+            },
+            {
+                "speaker": "B",
+                "text": "Would that be a problem for the shared space?",
+                "ipa": "/wʊd ðat biː ɐ pɹˈɒbləm fəðə ʃˈeəd spˈeɪs/"
+            },
+            {
+                "speaker": "A",
+                "text": "Only if they expect the kitchen table to be their desk.",
+                "ipa": "/ˈəʊnli ɪf ðeɪ ɛkspˈɛkt ðə kˈɪtʃən tˈeɪbəl təbi ðeə dˈɛsk/"
+            },
+            {
+                "speaker": "B",
+                "text": "Then discuss working arrangements before agreeing to the tenancy.",
+                "ipa": "/ðˈɛn dɪskˈʌs wˈɜːkɪŋ ɐɹˈeɪndʒmənts bɪfˌɔːɹ ɐɡɹˈiːɪŋ tə ðə tˈɛnənsi/"
+            }
+        ]
+    },
+    {
+        "id": "B1-home-7",
+        "level": "B1",
+        "topicId": "home",
+        "number": 7,
+        "title": {
+            "vi": "Chuyển nhà",
+            "en": "Moving home"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "We packed the things we'll need first at the bottom of the van.",
+                "ipa": "/wiː pˈakt ðə θˈɪŋz wiːl nˈiːd fˈɜːst at ðə bˈɒtəm ɒvðə vˈan/"
+            },
+            {
+                "speaker": "B",
+                "text": "Is there a way to unload them separately?",
+                "ipa": "/ɪz ðeəɹ ɐ wˈeɪ tʊ ʌnlˈəʊd ðˌɛm sˈɛpɹətli/"
+            },
+            {
+                "speaker": "A",
+                "text": "Not easily. The bedding is behind every piece of furniture.",
+                "ipa": "/nˌɒt ˈiːzili ðə bˈɛdɪŋ ɪz bɪhˌaɪnd ˈɛvɹɪ pˈiːs ɒv fˈɜːnɪtʃə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Next time we'll label an essentials box and keep it with us.",
+                "ipa": "/nˈɛkst tˈaɪm wiːl lˈeɪbəl ɐn ɪsˈɛnʃəlz bˈɒks and kˈiːp ɪt wɪð ˌʌs/"
+            }
+        ]
+    },
+    {
+        "id": "B1-home-8",
+        "level": "B1",
+        "topicId": "home",
+        "number": 8,
+        "title": {
+            "vi": "Dùng điện tiết kiệm",
+            "en": "Saving electricity"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The new washing machine uses less energy, yet our bills haven't fallen.",
+                "ipa": "/ðə njˈuː wˈɒʃɪŋ məʃˈiːn jˈuːsɪz lˈɛs ˈɛnədʒi jˈɛt ˌaʊə bˈɪlz hˈavənt fˈɔːlən/"
+            },
+            {
+                "speaker": "B",
+                "text": "Are we doing the same number of washes?",
+                "ipa": "/ɑː wiː dˌuːɪŋ ðə sˈeɪm nˈʌmbəɹ ɒv wˈɒʃɪz/"
+            },
+            {
+                "speaker": "A",
+                "text": "Probably more, because the new one is so convenient.",
+                "ipa": "/pɹˈɒbəbli mˈɔː bɪkˈɒz ðə njˈuː wˈɒn ɪz sˌəʊ kənvˈiːnɪənt/"
+            },
+            {
+                "speaker": "B",
+                "text": "The lower cost per wash doesn't mean the total use has dropped.",
+                "ipa": "/ðə lˈəʊə kˈɒst pɜː wˈɒʃ dˈʌzənt mˈiːn ðə tˈəʊtəl jˈuːs hɐz dɹˈɒpt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-home-9",
+        "level": "B1",
+        "topicId": "home",
+        "number": 9,
+        "title": {
+            "vi": "Gia hạn hợp đồng",
+            "en": "Renewing a rental agreement"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The rent increase is small, but the new agreement removes our parking space.",
+                "ipa": "/ðə ɹˈɛnt ˈɪŋkɹiːs ɪz smˈɔːl bˌʌt ðə njˈuː ɐɡɹˈiːmənt ɹɪmˈuːvz ˌaʊə pˈɑːkɪŋ spˈeɪs/"
+            },
+            {
+                "speaker": "B",
+                "text": "Was the parking included in the original contract?",
+                "ipa": "/wʌzðə pˈɑːkɪŋ ɪŋklˈuːdɪd ɪnðɪ əɹˈɪdʒɪnəl kˈɒntɹakt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes. I nearly signed because I only checked the monthly amount.",
+                "ipa": "/jˈɛs aɪ nˌiəli sˈaɪnd bɪkˈɒz aɪ ˈəʊnli tʃˈɛkt ðə mˈʌnθli ɐmˈaʊnt/"
+            },
+            {
+                "speaker": "B",
+                "text": "It's worth comparing the whole agreement, not just the price.",
+                "ipa": "/ɪts wˈɜːθ kəmpˈeəɹɪŋ ðə hˈəʊl ɐɡɹˈiːmənt nˌɒt dʒˈʌst ðə pɹˈaɪs/"
+            }
+        ]
+    },
+    {
+        "id": "B1-home-10",
+        "level": "B1",
+        "topicId": "home",
+        "number": 10,
+        "title": {
+            "vi": "Chăm sóc thú cưng",
+            "en": "Caring for a pet"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Our cat hid from the neighbour and missed two meals while we were away.",
+                "ipa": "/ˌaʊə kˈat hˈɪd fɹʌmðə nˈeɪbə and mˈɪst tˈuː mˈiːlz wˌaɪl wiː wɜːɹ ɐwˈeɪ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Did the neighbour stay long enough for her to come out?",
+                "ipa": "/dˈɪd ðə nˈeɪbə stˈeɪ lˈɒŋ ɪnˈʌf fɔː hɜː tə kˈʌm ˈaʊt/"
+            },
+            {
+                "speaker": "A",
+                "text": "She visited at the agreed times, but left quickly.",
+                "ipa": "/ʃiː vˈɪzɪtɪd at ðɪ ɐɡɹˈiːd tˈaɪmz bˌʌt lˈɛft kwˈɪkli/"
+            },
+            {
+                "speaker": "B",
+                "text": "We need a plan that suits the animal, not just a list of feeding times.",
+                "ipa": "/wiː nˈiːd ɐ plˈan ðat sˈuːts ðɪ ˈanɪməl nˌɒt dʒˈʌst ɐ lˈɪst ɒv fˈiːdɪŋ tˈaɪmz/"
+            }
+        ]
+    },
+    {
+        "id": "B1-health-1",
+        "level": "B1",
+        "topicId": "health",
+        "number": 1,
+        "title": {
+            "vi": "Đặt lịch hẹn",
+            "en": "Booking an appointment"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I booked the first available appointment, then realised I couldn't get there by bus.",
+                "ipa": "/aɪ bˈʊkt ðə fˈɜːst ɐvˈeɪləbəl ɐpˈɔɪntmənt ðˈɛn ɹˈiəlaɪzd aɪ kˌʊdənt ɡɛt ðeə baɪ bˈʌs/"
+            },
+            {
+                "speaker": "B",
+                "text": "Did the system show the location before you confirmed?",
+                "ipa": "/dˈɪd ðə sˈɪstəm ʃˈəʊ ðə ləʊkˈeɪʃən bɪfˌɔː juː kənfˈɜːmd/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes, but I didn't know it was the branch outside town.",
+                "ipa": "/jˈɛs bˌʌt aɪ dˈɪdnt nˈəʊ ɪt wʌzðə bɹˈantʃ aʊtsˈaɪd tˈaʊn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Ask about the nearer branch instead of simply missing the appointment.",
+                "ipa": "/ˈask ɐbˌaʊt ðə nˈiəɹə bɹˈantʃ ɪnstˈɛd ɒv sˈɪmpli mˈɪsɪŋ ðɪ ɐpˈɔɪntmənt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-health-2",
+        "level": "B1",
+        "topicId": "health",
+        "number": 2,
+        "title": {
+            "vi": "Tập thể dục",
+            "en": "Planning exercise"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The exercise class is described as suitable for everyone.",
+                "ipa": "/ðɪ ˈɛksəsˌaɪz klˈas ɪz dɪskɹˈaɪbd az sˈuːtəbəl fɔːɹ ˈɛvɹɪwˌɒn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Did you find that accurate?",
+                "ipa": "/dˈɪd juː fˈaɪnd ðat ˈakjʊɹət/"
+            },
+            {
+                "speaker": "A",
+                "text": "Most exercises were done on the floor, which didn't work for me.",
+                "ipa": "/mˈəʊst ˈɛksəsˌaɪzɪz wɜː dˈʌn ɒnðə flˈɔː wˌɪtʃ dˈɪdnt wˈɜːk fɔː mˌiː/"
+            },
+            {
+                "speaker": "B",
+                "text": "Tell the organiser which part was difficult so they can explain the available options.",
+                "ipa": "/tˈɛl ðɪ ˈɔːɡɐnˌaɪzə wˌɪtʃ pˈɑːt wɒz dˈɪfɪkəlt sˌəʊ ðeɪ kan ɛksplˈeɪn ðɪ ɐvˈeɪləbəl ˈɒpʃənz/"
+            }
+        ]
+    },
+    {
+        "id": "B1-health-3",
+        "level": "B1",
+        "topicId": "health",
+        "number": 3,
+        "title": {
+            "vi": "Ngủ nghỉ",
+            "en": "Improving a routine"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I keep saying yes to evening commitments because I don't want to disappoint people.",
+                "ipa": "/aɪ kˈiːp sˈeɪɪŋ jˈɛs tʊ ˈiːvnɪŋ kəmˈɪtmənts bɪkˈɒz aɪ dˈəʊnt wˈɒnt tə dˌɪsɐpˈɔɪnt pˈiːpəl/"
+            },
+            {
+                "speaker": "B",
+                "text": "Then you end up cancelling when you're exhausted?",
+                "ipa": "/ðˈɛn juː ˈɛnd ˌʌp kˈansəlɪŋ wɛn jɔːɹ ɛɡzˈɔːstɪd/"
+            },
+            {
+                "speaker": "A",
+                "text": "Exactly. It makes me feel less reliable, not more.",
+                "ipa": "/ɛɡzˈaktli ɪt mˌeɪks mˌiː fˈiːl lˈɛs ɹɪlˈaɪəbəl nˌɒt mˈɔː/"
+            },
+            {
+                "speaker": "B",
+                "text": "Perhaps deciding earlier would be kinder to everyone involved.",
+                "ipa": "/pəhˈaps dɪsˈaɪdɪŋ ˈɜːlɪə wʊd biː kˈaɪndə tʊ ˈɛvɹɪwˌɒn ɪnvˈɒlvd/"
+            }
+        ]
+    },
+    {
+        "id": "B1-health-4",
+        "level": "B1",
+        "topicId": "health",
+        "number": 4,
+        "title": {
+            "vi": "Tìm món phù hợp",
+            "en": "Discussing food preferences"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The restaurant gave us an allergy menu from last season.",
+                "ipa": "/ðə ɹˈɛstɹɒnt ɡˈeɪv ˌʌs ɐn ˈalədʒi mˈɛnjuː fɹɒm lˈast sˈiːzən/"
+            },
+            {
+                "speaker": "B",
+                "text": "Did they confirm whether the dishes have changed?",
+                "ipa": "/dˈɪd ðeɪ kənfˈɜːm wˈɛðə ðə dˈɪʃɪz hav tʃˈeɪndʒd/"
+            },
+            {
+                "speaker": "A",
+                "text": "They said probably not, which wasn't reassuring.",
+                "ipa": "/ðeɪ sˈɛd pɹˈɒbəbli nˈɒt wˌɪtʃ wˌɒzn̩t ɹˌiːəʃˈʊəɹɪŋ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Ask them to check the current information rather than rely on the old sheet.",
+                "ipa": "/ˈask ðˌɛm tə tʃˈɛk ðə kˈʌɹənt ˌɪnfəmˈeɪʃən ɹˈɑːðə ðɐn ɹɪlˈaɪ ɒnðɪ ˈəʊld ʃˈiːt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-health-5",
+        "level": "B1",
+        "topicId": "health",
+        "number": 5,
+        "title": {
+            "vi": "Đi bộ nhóm",
+            "en": "Joining a walking group"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Our walking group wants to move faster, but two members would be left behind.",
+                "ipa": "/ˌaʊə wˈɔːkɪŋ ɡɹˈuːp wˈɒnts tə mˈuːv fˈastə bˌʌt tˈuː mˈɛmbəz wʊd biː lˈɛft bɪhˈaɪnd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Could you have two groups following different routes?",
+                "ipa": "/kʊd juː hav tˈuː ɡɹˈuːps fˈɒləʊɪŋ dˈɪfɹənt ɹˈuːts/"
+            },
+            {
+                "speaker": "A",
+                "text": "We'd need another leader, but both routes could end together.",
+                "ipa": "/wiːd nˈiːd ɐnˈʌðə lˈiːdə bˌʌt bˈəʊθ ɹˈuːts kʊd ˈɛnd təɡˈɛðə/"
+            },
+            {
+                "speaker": "B",
+                "text": "That sounds more welcoming than asking people to keep up at any cost.",
+                "ipa": "/ðat sˈaʊndz mˈɔː wˈɛlkʌmɪŋ ðɐn ˈaskɪŋ pˈiːpəl tə kˈiːp ˌʌp at ˌɛni kˈɒst/"
+            }
+        ]
+    },
+    {
+        "id": "B1-health-6",
+        "level": "B1",
+        "topicId": "health",
+        "number": 6,
+        "title": {
+            "vi": "Uống nước",
+            "en": "Keeping water available"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The refill point is free, yet almost nobody uses it.",
+                "ipa": "/ðə ɹɪfˈɪl pˈɔɪnt ɪz fɹˈiː jˈɛt ˈɔːlməʊst nˈəʊbɒdi jˈuːsɪz ɪt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Is it easy to find from the main entrance?",
+                "ipa": "/ɪz ɪt ˈiːzi tə fˈaɪnd fɹʌmðə mˈeɪn ˈɛntɹəns/"
+            },
+            {
+                "speaker": "A",
+                "text": "Not really. The sign is behind a tall display.",
+                "ipa": "/nˌɒt ɹˈiəlɪ ðə sˈaɪn ɪz bɪhˌaɪnd ɐ tˈɔːl dɪsplˈeɪ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Move the sign before assuming people prefer bottled water.",
+                "ipa": "/mˈuːv ðə sˈaɪn bɪfˌɔːɹ ɐsjˈuːmɪŋ pˈiːpəl pɹɪfˈɜː bˈɒtəld wˈɔːtə/"
+            }
+        ]
+    },
+    {
+        "id": "B1-health-7",
+        "level": "B1",
+        "topicId": "health",
+        "number": 7,
+        "title": {
+            "vi": "Nghỉ giữa giờ",
+            "en": "Taking a break"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "My calendar has a break at lunchtime, but colleagues keep booking over it.",
+                "ipa": "/maɪ kˈaləndə hɐz ɐ bɹˈeɪk at lˈʌntʃtaɪm bˌʌt kˈɒliːɡz kˈiːp bˈʊkɪŋ ˈəʊvəɹ ɪt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Do they see that time as available?",
+                "ipa": "/dˈuː ðeɪ sˈiː ðat tˈaɪm az ɐvˈeɪləbəl/"
+            },
+            {
+                "speaker": "A",
+                "text": "The calendar says tentative, so perhaps they do.",
+                "ipa": "/ðə kˈaləndə sˈɛz tˈɛntətˌɪv sˌəʊ pəhˈaps ðeɪ dˈuː/"
+            },
+            {
+                "speaker": "B",
+                "text": "Make the status clear and explain when you can take their calls.",
+                "ipa": "/mˌeɪk ðə stˈeɪtəs klˈiə and ɛksplˈeɪn wɛn juː kan tˈeɪk ðeə kˈɔːlz/"
+            }
+        ]
+    },
+    {
+        "id": "B1-health-8",
+        "level": "B1",
+        "topicId": "health",
+        "number": 8,
+        "title": {
+            "vi": "Đổi lịch lớp",
+            "en": "Rescheduling a class"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The replacement class costs more because it's run by a different instructor.",
+                "ipa": "/ðə ɹɪplˈeɪsmənt klˈas kˈɒsts mˈɔː bɪkˈɒz ɪts ɹˈʌn baɪ ɐ dˈɪfɹənt ɪnstɹˈʌktə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Was an extra charge mentioned when the first class was cancelled?",
+                "ipa": "/wɒz ɐn ˈɛkstɹə tʃˈɑːdʒ mˈɛnʃənd wɛn ðə fˈɜːst klˈas wɒz kˈansəld/"
+            },
+            {
+                "speaker": "A",
+                "text": "No. We were told our bookings would transfer.",
+                "ipa": "/nˈəʊ wiː wɜː tˈəʊld ˌaʊə bˈʊkɪŋz wʊd tɹansfˈɜː/"
+            },
+            {
+                "speaker": "B",
+                "text": "Then the organiser needs to explain the change before taking any payment.",
+                "ipa": "/ðˈɛn ðɪ ˈɔːɡɐnˌaɪzə nˈiːdz tʊ ɛksplˈeɪn ðə tʃˈeɪndʒ bɪfˌɔː tˈeɪkɪŋ ˌɛni pˈeɪmənt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-health-9",
+        "level": "B1",
+        "topicId": "health",
+        "number": 9,
+        "title": {
+            "vi": "Ghi mục tiêu",
+            "en": "Setting a personal goal"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I've stopped recording my progress because I keep missing the target.",
+                "ipa": "/aɪv stˈɒpt ɹɪkˈɔːdɪŋ maɪ pɹˈəʊɡɹɛs bɪkˈɒz aɪ kˈiːp mˈɪsɪŋ ðə tˈɑːɡɪt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Does the target still reflect the time you actually have?",
+                "ipa": "/dˈʌz ðə tˈɑːɡɪt stˈɪl ɹɪflˈɛkt ðə tˈaɪm juː ˈaktʃuːəli hˈav/"
+            },
+            {
+                "speaker": "A",
+                "text": "No, it was based on a quiet week last month.",
+                "ipa": "/nˈəʊ ɪt wɒz bˈeɪst ˌɒn ɐ kwˈaɪət wˈiːk lˈast mˈʌnθ/"
+            },
+            {
+                "speaker": "B",
+                "text": "You could review the target without treating that as a failure.",
+                "ipa": "/juː kʊd ɹɪvjˈuː ðə tˈɑːɡɪt wɪðˌaʊt tɹˈiːtɪŋ ðat az ɐ fˈeɪliə/"
+            }
+        ]
+    },
+    {
+        "id": "B1-health-10",
+        "level": "B1",
+        "topicId": "health",
+        "number": 10,
+        "title": {
+            "vi": "Phản hồi cơ sở",
+            "en": "Giving facility feedback"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The sports centre improved the main entrance but left the changing area unchanged.",
+                "ipa": "/ðə spˈɔːts sˈɛntəɹ ɪmpɹˈuːvd ðə mˈeɪn ˈɛntɹəns bˌʌt lˈɛft ðə tʃˈeɪndʒɪŋ ˈeəɹiəɹ ʌntʃˈeɪndʒd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Did they ask users to test the whole route?",
+                "ipa": "/dˈɪd ðeɪ ˈask jˈuːzəz tə tˈɛst ðə hˈəʊl ɹˈuːt/"
+            },
+            {
+                "speaker": "A",
+                "text": "They only checked whether people could enter the building.",
+                "ipa": "/ðeɪ ˈəʊnli tʃˈɛkt wˈɛðə pˈiːpəl kʊd ˈɛntə ðə bˈɪldɪŋ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Access needs to work for the visit, not just the front door.",
+                "ipa": "/ˈaksɛs nˈiːdz tə wˈɜːk fəðə vˈɪzɪt nˌɒt dʒˈʌst ðə fɹˈʌnt dˈɔː/"
+            }
+        ]
+    },
+    {
+        "id": "B1-study-1",
+        "level": "B1",
+        "topicId": "study",
+        "number": 1,
+        "title": {
+            "vi": "Mượn sách",
+            "en": "Borrowing a book"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The library has the book, but only as a reference copy.",
+                "ipa": "/ðə lˈaɪbɹəɹi hɐz ðə bˈʊk bˌʌt ˈəʊnli az ɐ ɹˈɛfɹəns kˈɒpɪ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Can you use it in the reading room?",
+                "ipa": "/kan juː jˈuːz ɪt ɪnðə ɹˈiːdɪŋ ɹˈuːm/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes, though I can't stay during the library's usual hours.",
+                "ipa": "/jˈɛs ðˌəʊ aɪ kˈɑːnt stˈeɪ djˈʊəɹɪŋ ðə lˈaɪbɹəɹiz jˈuːʒuːəl ˈaʊəz/"
+            },
+            {
+                "speaker": "B",
+                "text": "Ask whether another edition is available to borrow before buying one.",
+                "ipa": "/ˈask wˈɛðəɹ ɐnˈʌðəɹ ɪdˈɪʃən ɪz ɐvˈeɪləbəl tə bˈɒɹəʊ bɪfˌɔː bˈaɪɪŋ wˌɒn/"
+            }
+        ]
+    },
+    {
+        "id": "B1-study-2",
+        "level": "B1",
+        "topicId": "study",
+        "number": 2,
+        "title": {
+            "vi": "Hỏi bài tập",
+            "en": "Clarifying homework"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I answered the homework question, but I lost marks for the method.",
+                "ipa": "/aɪ ˈansəd ðə hˈəʊmwɜːk kwˈɛstʃən bˌʌt aɪ lˈɒst mˈɑːks fəðə mˈɛθəd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Were you asked to show each stage?",
+                "ipa": "/wɜː juː ˈaskt tə ʃˈəʊ ˈiːtʃ stˈeɪdʒ/"
+            },
+            {
+                "speaker": "A",
+                "text": "Apparently, but I only wrote the final answer.",
+                "ipa": "/ɐpˈaɹəntli bˌʌt aɪ ˈəʊnli ɹˈəʊt ðə fˈaɪnəl ˈansə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Ask which steps demonstrate understanding rather than just adding more writing.",
+                "ipa": "/ˈask wˌɪtʃ stˈɛps dˈɛmənstɹˌeɪt ˌʌndəstˈandɪŋ ɹˈɑːðə ðɐn dʒˈʌst ˈadɪŋ mˈɔː ɹˈaɪtɪŋ/"
+            }
+        ]
+    },
+    {
+        "id": "B1-study-3",
+        "level": "B1",
+        "topicId": "study",
+        "number": 3,
+        "title": {
+            "vi": "Lập nhóm học",
+            "en": "Starting a study group"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "We spend so much time organising our study group that we rarely study.",
+                "ipa": "/wiː spˈɛnd sˈəʊ mˌʌtʃ tˈaɪm ˈɔːɡɐnˌaɪzɪŋ ˌaʊə stˈʌdi ɡɹˈuːp ðat wiː ɹˈeəli stˈʌdi/"
+            },
+            {
+                "speaker": "B",
+                "text": "How many people have to agree on each session?",
+                "ipa": "/hˌaʊ mˈɛni pˈiːpəl hav tʊ ɐɡɹˈiː ˌɒn ˈiːtʃ sˈɛʃən/"
+            },
+            {
+                "speaker": "A",
+                "text": "All twelve. Even choosing a chapter becomes a discussion.",
+                "ipa": "/ˈɔːl twˈɛlv ˈiːvən tʃˈuːzɪŋ ɐ tʃˈaptə bɪkˌʌmz ɐ dɪskˈʌʃən/"
+            },
+            {
+                "speaker": "B",
+                "text": "Try setting a regular time and letting people join when they can.",
+                "ipa": "/tɹˈaɪ sˈɛtɪŋ ɐ ɹˈɛɡjʊlə tˈaɪm and lˈɛtɪŋ pˈiːpəl dʒˈɔɪn wɛn ðeɪ kˈan/"
+            }
+        ]
+    },
+    {
+        "id": "B1-study-4",
+        "level": "B1",
+        "topicId": "study",
+        "number": 4,
+        "title": {
+            "vi": "Nộp bài muộn",
+            "en": "Requesting an extension"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "My extension was approved, but the submission system still shows the old deadline.",
+                "ipa": "/maɪ ɛkstˈɛnʃən wɒz ɐpɹˈuːvd bˌʌt ðə səbmˈɪʃən sˈɪstəm stˈɪl ʃˈəʊz ðɪ ˈəʊld dˈɛdlaɪn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Have you saved the approval message?",
+                "ipa": "/hav juː sˈeɪvd ðɪ ɐpɹˈuːvəl mˈɛsɪdʒ/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes. I'm worried an automatic late penalty will appear.",
+                "ipa": "/jˈɛs aɪm wˈʌɹid ɐn ˌɔːtəmˈatɪk lˈeɪt pˈɛnəlti wɪl ɐpˈiə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Send the message to the course office while there's still time to correct it.",
+                "ipa": "/sˈɛnd ðə mˈɛsɪdʒ tə ðə kˈɔːs ˈɒfɪs wˌaɪl ðeəz stˈɪl tˈaɪm tə kəɹˈɛkt ɪt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-study-5",
+        "level": "B1",
+        "topicId": "study",
+        "number": 5,
+        "title": {
+            "vi": "Nhận phản hồi",
+            "en": "Using feedback"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The teacher's feedback says my argument is clear but not supported.",
+                "ipa": "/ðə tˈiːtʃəz fˈiːdbak sˈɛz maɪ ˈɑːɡjuːmənt ɪz klˈiə bˌʌt nˌɒt səpˈɔːtɪd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Does each paragraph include evidence?",
+                "ipa": "/dˈʌz ˈiːtʃ pˈaɹəɡɹˌaf ɪŋklˈuːd ˈɛvɪdəns/"
+            },
+            {
+                "speaker": "A",
+                "text": "I mostly explain what I think, then repeat it in the conclusion.",
+                "ipa": "/aɪ mˈəʊstli ɛksplˈeɪn wɒt aɪ θˈɪŋk ðˈɛn ɹɪpˈiːt ɪt ɪnðə kəŋklˈuːʒən/"
+            },
+            {
+                "speaker": "B",
+                "text": "Choose one claim and show how a source or example supports it.",
+                "ipa": "/tʃˈuːz wˈɒn klˈeɪm and ʃˈəʊ hˌaʊ ɐ sˈɔːs ɔːɹ ɛɡzˈampəl səpˈɔːts ɪt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-study-6",
+        "level": "B1",
+        "topicId": "study",
+        "number": 6,
+        "title": {
+            "vi": "Chọn khóa học",
+            "en": "Choosing a course"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "This course promises advanced conversation, but the sample lesson looks quite basic.",
+                "ipa": "/ðɪs kˈɔːs pɹˈɒmɪsɪz ɐdvˈanst kɒnvəsˈeɪʃən bˌʌt ðə sˈampəl lˈɛsən lˈʊks kwˈaɪt bˈeɪsɪk/"
+            },
+            {
+                "speaker": "B",
+                "text": "Have you asked who the course is intended for?",
+                "ipa": "/hav juː ˈaskt hˌuː ðə kˈɔːs ɪz ɪntˈɛndɪd fɔː/"
+            },
+            {
+                "speaker": "A",
+                "text": "They said anyone who wants to improve.",
+                "ipa": "/ðeɪ sˈɛd ˈɛnɪwˌɒn hˌuː wˈɒnts tʊ ɪmpɹˈuːv/"
+            },
+            {
+                "speaker": "B",
+                "text": "Request the actual level requirements before paying for a place.",
+                "ipa": "/ɹɪkwˈɛst ðɪ ˈaktʃuːəl lˈɛvəl ɹɪkwˈaɪəmənts bɪfˌɔː pˈeɪɪŋ fəɹə plˈeɪs/"
+            }
+        ]
+    },
+    {
+        "id": "B1-study-7",
+        "level": "B1",
+        "topicId": "study",
+        "number": 7,
+        "title": {
+            "vi": "Luyện thuyết trình",
+            "en": "Practising a presentation"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I can give my presentation from memory until someone interrupts.",
+                "ipa": "/aɪ kan ɡˈɪv maɪ pɹˌɛzəntˈeɪʃən fɹɒm mˈɛməɹi ʌntˈɪl sˈʌmwɒn ˈɪntəɹˌʌpts/"
+            },
+            {
+                "speaker": "B",
+                "text": "Have you practised answering questions during it?",
+                "ipa": "/hav juː pɹˈaktɪst ˈansəɹɪŋ kwˈɛstʃənz djˈʊəɹɪŋ ɪt/"
+            },
+            {
+                "speaker": "A",
+                "text": "No. I always rehearse from the first sentence to the last.",
+                "ipa": "/nˈəʊ aɪ ˈɔːlweɪz ɹɪhˈɜːs fɹʌmðə fˈɜːst sˈɛntəns tə ðə lˈast/"
+            },
+            {
+                "speaker": "B",
+                "text": "Try starting from different points so one interruption doesn't break the whole sequence.",
+                "ipa": "/tɹˈaɪ stˈɑːtɪŋ fɹɒm dˈɪfɹənt pˈɔɪnts sˌəʊ wˈɒn ˌɪntəɹˈʌpʃən dˈʌzənt bɹˈeɪk ðə hˈəʊl sˈiːkwəns/"
+            }
+        ]
+    },
+    {
+        "id": "B1-study-8",
+        "level": "B1",
+        "topicId": "study",
+        "number": 8,
+        "title": {
+            "vi": "Học trực tuyến",
+            "en": "Learning online"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The recording of our online lesson has no captions.",
+                "ipa": "/ðə ɹɪkˈɔːdɪŋ ɒv ˌaʊəɹ ˈɒnlaɪn lˈɛsən hɐz nˈəʊ kˈapʃənz/"
+            },
+            {
+                "speaker": "B",
+                "text": "Did anyone request them before the course began?",
+                "ipa": "/dˈɪd ˈɛnɪwˌɒn ɹɪkwˈɛst ðˌɛm bɪfˌɔː ðə kˈɔːs bɪɡˈan/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes, and the course page said recordings would be accessible.",
+                "ipa": "/jˈɛs and ðə kˈɔːs pˈeɪdʒ sˈɛd ɹɪkˈɔːdɪŋz wʊd biː aksˈɛsəbəl/"
+            },
+            {
+                "speaker": "B",
+                "text": "Keep that information when you ask the provider to resolve it.",
+                "ipa": "/kˈiːp ðat ˌɪnfəmˈeɪʃən wɛn juː ˈask ðə pɹəvˈaɪdə tə ɹɪzˈɒlv ɪt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-study-9",
+        "level": "B1",
+        "topicId": "study",
+        "number": 9,
+        "title": {
+            "vi": "Trích nguồn",
+            "en": "Checking references"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Two websites quote the same statistic, but neither links to the research.",
+                "ipa": "/tˈuː wˈɛbsaɪts kwˈəʊt ðə sˈeɪm stɐtˈɪstɪk bˌʌt nˈaɪðə lˈɪŋks tə ðə ɹɪsˈɜːtʃ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Maybe they copied it from each other.",
+                "ipa": "/mˈeɪbiː ðeɪ kˈɒpɪd ɪt fɹɒm ˈiːtʃ ˈʌðə/"
+            },
+            {
+                "speaker": "A",
+                "text": "That's what I suspect. The number looks unusually exact.",
+                "ipa": "/ðats wɒt aɪ səspˈɛkt ðə nˈʌmbə lˈʊks ʌnjˈuːʒuːəli ɛɡzˈakt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Trace the earliest source rather than treating repeated claims as separate evidence.",
+                "ipa": "/tɹˈeɪs ðɪ ˈɜːlɪɪst sˈɔːs ɹˈɑːðə ðɐn tɹˈiːtɪŋ ɹɪpˈiːtɪd klˈeɪmz az sˈɛpɹət ˈɛvɪdəns/"
+            }
+        ]
+    },
+    {
+        "id": "B1-study-10",
+        "level": "B1",
+        "topicId": "study",
+        "number": 10,
+        "title": {
+            "vi": "Ôn thi",
+            "en": "Planning revision"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I can recognise every term in my notes, but I struggle to explain them.",
+                "ipa": "/aɪ kan ɹˈɛkəɡnˌaɪz ˈɛvɹɪ tˈɜːm ɪn maɪ nˈəʊts bˌʌt aɪ stɹˈʌɡəl tʊ ɛksplˈeɪn ðˌɛm/"
+            },
+            {
+                "speaker": "B",
+                "text": "Have you tried closing the notes and teaching one idea to someone?",
+                "ipa": "/hav juː tɹˈaɪd klˈəʊzɪŋ ðə nˈəʊts and tˈiːtʃɪŋ wˈɒn aɪdˈiə tə sˈʌmwɒn/"
+            },
+            {
+                "speaker": "A",
+                "text": "Not yet. Reading everything again feels safer.",
+                "ipa": "/nˌɒt jˈɛt ɹˈiːdɪŋ ˈɛvɹɪθˌɪŋ ɐɡˈɛn fˈiːlz sˈeɪfə/"
+            },
+            {
+                "speaker": "B",
+                "text": "That might show you which parts you understand and which only look familiar.",
+                "ipa": "/ðat mˌaɪt ʃˈəʊ juː wˌɪtʃ pˈɑːts juː ˌʌndəstˈand and wˌɪtʃ ˈəʊnli lˈʊk fəmˈɪliə/"
+            }
+        ]
+    },
+    {
+        "id": "B1-work-1",
+        "level": "B1",
+        "topicId": "work",
+        "number": 1,
+        "title": {
+            "vi": "Lên lịch họp",
+            "en": "Scheduling a meeting"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Our meeting has sixteen people, although only three need to make the decision.",
+                "ipa": "/ˌaʊə mˈiːtɪŋ hɐz sˈɪkstiːn pˈiːpəl ɔːlðˈəʊ ˈəʊnli θɹˈiː nˈiːd tə mˌeɪk ðə dɪsˈɪʒən/"
+            },
+            {
+                "speaker": "B",
+                "text": "Could the others send updates beforehand?",
+                "ipa": "/kʊd ðɪ ˈʌðəz sˈɛnd ˈʌpdeɪts bɪfˈɔːhand/"
+            },
+            {
+                "speaker": "A",
+                "text": "Probably. Most just read out information from the shared document.",
+                "ipa": "/pɹˈɒbəbli mˈəʊst dʒˈʌst ɹˈiːd ˈaʊt ˌɪnfəmˈeɪʃən fɹʌmðə ʃˈeəd dˈɒkjuːmənt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Then separate the updates from the discussion that actually needs everyone.",
+                "ipa": "/ðˈɛn sˈɛpəɹˌeɪt ðɪ ˈʌpdeɪts fɹʌmðə dɪskˈʌʃən ðat ˈaktʃuːəli nˈiːdz ˈɛvɹɪwˌɒn/"
+            }
+        ]
+    },
+    {
+        "id": "B1-work-2",
+        "level": "B1",
+        "topicId": "work",
+        "number": 2,
+        "title": {
+            "vi": "Chia công việc",
+            "en": "Dividing tasks"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I keep receiving new tasks because I finish the earlier ones quickly.",
+                "ipa": "/aɪ kˈiːp ɹɪsˈiːvɪŋ njˈuː tˈasks bɪkˈɒz aɪ fˈɪnɪʃ ðɪ ˈɜːlɪə wˈɒnz kwˈɪkli/"
+            },
+            {
+                "speaker": "B",
+                "text": "Have you explained what you're already responsible for?",
+                "ipa": "/hav juː ɛksplˈeɪnd wɒt jɔːɹ ɔːlɹˌɛdi ɹɪspˈɒnsɪbəl fɔː/"
+            },
+            {
+                "speaker": "A",
+                "text": "I usually say yes and catch up after hours.",
+                "ipa": "/aɪ jˈuːʒuːəli sˈeɪ jˈɛs and kˈatʃ ˌʌp ˈaftəɹ ˈaʊəz/"
+            },
+            {
+                "speaker": "B",
+                "text": "Make the workload visible before people assume you have spare capacity.",
+                "ipa": "/mˌeɪk ðə wˈɜːkləʊd vˈɪzɪbəl bɪfˌɔː pˈiːpəl ɐsjˈuːm juː hav spˈeə kəpˈasɪti/"
+            }
+        ]
+    },
+    {
+        "id": "B1-work-3",
+        "level": "B1",
+        "topicId": "work",
+        "number": 3,
+        "title": {
+            "vi": "Làm việc từ xa",
+            "en": "Working remotely"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The remote-working trial went well, but management wants everyone back full-time.",
+                "ipa": "/ðə ɹɪmˈəʊtwˈɜːkɪŋ tɹˈaɪəl wɛnt wˈɛl bˌʌt mˈanɪdʒmənt wˈɒnts ˈɛvɹɪwˌɒn bˈak fˈʊltˈaɪm/"
+            },
+            {
+                "speaker": "B",
+                "text": "Have they explained which problems returning would solve?",
+                "ipa": "/hav ðeɪ ɛksplˈeɪnd wˌɪtʃ pɹˈɒbləmz ɹɪtˈɜːnɪŋ wʊd sˈɒlv/"
+            },
+            {
+                "speaker": "A",
+                "text": "They mainly say that collaboration happens naturally in person.",
+                "ipa": "/ðeɪ mˈeɪnli sˈeɪ ðat kəlˌabəɹˈeɪʃən hˈapənz nˈatʃəɹəli ɪn pˈɜːsən/"
+            },
+            {
+                "speaker": "B",
+                "text": "It may help to compare specific examples from the trial rather than argue in general terms.",
+                "ipa": "/ɪt mˈeɪ hˈɛlp tə kəmpˈeə spəsˈɪfɪk ɛɡzˈampəlz fɹʌmðə tɹˈaɪəl ɹˈɑːðə ðɐn ˈɑːɡjuː ɪn dʒˈɛnəɹəl tˈɜːmz/"
+            }
+        ]
+    },
+    {
+        "id": "B1-work-4",
+        "level": "B1",
+        "topicId": "work",
+        "number": 4,
+        "title": {
+            "vi": "Hỏi hướng dẫn",
+            "en": "Asking for guidance"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The guide tells new staff to ask a colleague whenever they're unsure.",
+                "ipa": "/ðə ɡˈaɪd tˈɛlz njˈuː stˈaf tʊ ˈask ɐ kˈɒliːɡ wɛnˌɛvə ðeɪəɹ ʌnʃˈʊə/"
+            },
+            {
+                "speaker": "B",
+                "text": "That sounds reasonable, but what happens when the colleague is wrong?",
+                "ipa": "/ðat sˈaʊndz ɹˈiːzənəbəl bˌʌt wɒt hˈapənz wɛn ðə kˈɒliːɡ ɪz ɹˈɒŋ/"
+            },
+            {
+                "speaker": "A",
+                "text": "Different people teach the same task in different ways.",
+                "ipa": "/dˈɪfɹənt pˈiːpəl tˈiːtʃ ðə sˈeɪm tˈask ɪn dˈɪfɹənt wˈeɪz/"
+            },
+            {
+                "speaker": "B",
+                "text": "We need one agreed process that people can check, not just informal advice.",
+                "ipa": "/wiː nˈiːd wˈɒn ɐɡɹˈiːd pɹˈəʊsɛs ðat pˈiːpəl kan tʃˈɛk nˌɒt dʒˈʌst ɪnfˈɔːməl ɐdvˈaɪs/"
+            }
+        ]
+    },
+    {
+        "id": "B1-work-5",
+        "level": "B1",
+        "topicId": "work",
+        "number": 5,
+        "title": {
+            "vi": "Đổi hạn chót",
+            "en": "Negotiating a deadline"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "We can meet the deadline if we leave out the testing.",
+                "ipa": "/wiː kan mˈiːt ðə dˈɛdlaɪn ɪf wiː lˈiːv ˈaʊt ðə tˈɛstɪŋ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Would the customer know the difference before using it?",
+                "ipa": "/wʊd ðə kˈʌstəmə nˈəʊ ðə dˈɪfɹəns bɪfˌɔː jˈuːzɪŋ ɪt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Probably not, which makes the shortcut tempting.",
+                "ipa": "/pɹˈɒbəbli nˈɒt wˌɪtʃ mˌeɪks ðə ʃˈɔːtkʌt tˈɛmptɪŋ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Then we need to explain the risk instead of calling an untested delivery finished.",
+                "ipa": "/ðˈɛn wiː nˈiːd tʊ ɛksplˈeɪn ðə ɹˈɪsk ɪnstˈɛd ɒv kˈɔːlɪŋ ɐn ʌntˈɛstɪd dɪlˈɪvəɹi fˈɪnɪʃt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-work-6",
+        "level": "B1",
+        "topicId": "work",
+        "number": 6,
+        "title": {
+            "vi": "Đón nhân viên mới",
+            "en": "Welcoming a colleague"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The new starter is friendly, but nobody has explained who decides what.",
+                "ipa": "/ðə njˈuː stˈɑːtəɹ ɪz fɹˈɛndli bˌʌt nˈəʊbɒdi hɐz ɛksplˈeɪnd hˌuː dɪsˈaɪdz wˈɒt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Has the induction covered roles as well as systems?",
+                "ipa": "/hɐz ðɪ ɪndˈʌkʃən kˈʌvəd ɹˈəʊlz az wˈɛl az sˈɪstəmz/"
+            },
+            {
+                "speaker": "A",
+                "text": "Mostly passwords, forms and where to find the printer.",
+                "ipa": "/mˈəʊstli pˈaswɜːdz fˈɔːmz and wˌeə tə fˈaɪnd ðə pɹˈɪntə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Arrange a few short introductions around the work they'll actually be doing.",
+                "ipa": "/ɐɹˈeɪndʒ ɐ fjˈuː ʃˈɔːt ˌɪntɹədˈʌkʃənz ɐɹˈaʊnd ðə wˈɜːk ðeɪl ˈaktʃuːəli biː dˈuːɪŋ/"
+            }
+        ]
+    },
+    {
+        "id": "B1-work-7",
+        "level": "B1",
+        "topicId": "work",
+        "number": 7,
+        "title": {
+            "vi": "Xử lý bất đồng",
+            "en": "Handling disagreement"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I thought my colleague rejected my idea, but she was questioning the budget.",
+                "ipa": "/aɪ θˈɔːt maɪ kˈɒliːɡ ɹɪdʒˈɛktɪd maɪ aɪdˈiə bˌʌt ʃiː wɒz kwˈɛstʃənɪŋ ðə bˈʌdʒɪt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Did you ask which part she disagreed with?",
+                "ipa": "/dˈɪd juː ˈask wˌɪtʃ pˈɑːt ʃiː dˌɪsɐɡɹˈiːd wɪð/"
+            },
+            {
+                "speaker": "A",
+                "text": "No. I started defending the whole proposal.",
+                "ipa": "/nˈəʊ aɪ stˈɑːtɪd dɪfˈɛndɪŋ ðə hˈəʊl pɹəpˈəʊzəl/"
+            },
+            {
+                "speaker": "B",
+                "text": "Clarifying the objection first could save both of you a difficult conversation.",
+                "ipa": "/klˈaɹɪfˌaɪɪŋ ðɪ ɒbdʒˈɛkʃən fˈɜːst kʊd sˈeɪv bˈəʊθ ɒv juː ɐ dˈɪfɪkəlt kɒnvəsˈeɪʃən/"
+            }
+        ]
+    },
+    {
+        "id": "B1-work-8",
+        "level": "B1",
+        "topicId": "work",
+        "number": 8,
+        "title": {
+            "vi": "Báo cáo tiến độ",
+            "en": "Reporting progress"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The report is accurate, but readers can't tell which figures have changed.",
+                "ipa": "/ðə ɹɪpˈɔːt ɪz ˈakjʊɹət bˌʌt ɹˈiːdəz kˈɑːnt tˈɛl wˌɪtʃ fˈɪɡəz hav tʃˈeɪndʒd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Could we highlight the changes instead of making them compare two long files?",
+                "ipa": "/kʊd wiː hˈaɪlaɪt ðə tʃˈeɪndʒɪz ɪnstˈɛd ɒv mˌeɪkɪŋ ðˌɛm kəmpˈeə tˈuː lˈɒŋ fˈaɪlz/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes. We already have the earlier version.",
+                "ipa": "/jˈɛs wiː ɔːlɹˌɛdi hav ðɪ ˈɜːlɪə vˈɜːʃən/"
+            },
+            {
+                "speaker": "B",
+                "text": "Add a short explanation as well, so the reason for each change is clear.",
+                "ipa": "/ˈad ɐ ʃˈɔːt ɛksplɐnˈeɪʃən az wˈɛl sˌəʊ ðə ɹˈiːzən fɔːɹ ˈiːtʃ tʃˈeɪndʒ ɪz klˈiə/"
+            }
+        ]
+    },
+    {
+        "id": "B1-work-9",
+        "level": "B1",
+        "topicId": "work",
+        "number": 9,
+        "title": {
+            "vi": "Đề xuất cải tiến",
+            "en": "Suggesting an improvement"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Our suggestion scheme gets plenty of ideas, but nobody hears what happens next.",
+                "ipa": "/ˌaʊə sədʒˈɛstʃən skˈiːm ɡˈɛts plˈɛnti ɒv aɪdˈiəz bˌʌt nˈəʊbɒdi hˈiəz wɒt hˈapənz nˈɛkst/"
+            },
+            {
+                "speaker": "B",
+                "text": "Do the people submitting them get a reply?",
+                "ipa": "/dˈuː ðə pˈiːpəl səbmˈɪtɪŋ ðˌɛm ɡɛt ɐ ɹɪplˈaɪ/"
+            },
+            {
+                "speaker": "A",
+                "text": "Only an automatic thank-you message.",
+                "ipa": "/ˈəʊnli ɐn ˌɔːtəmˈatɪk θˈaŋkjuː mˈɛsɪdʒ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Even a reason for not proceeding would show that someone has considered the proposal.",
+                "ipa": "/ˈiːvən ɐ ɹˈiːzən fɔː nˌɒt pɹəsˈiːdɪŋ wʊd ʃˈəʊ ðat sˈʌmwɒn hɐz kənsˈɪdəd ðə pɹəpˈəʊzəl/"
+            }
+        ]
+    },
+    {
+        "id": "B1-work-10",
+        "level": "B1",
+        "topicId": "work",
+        "number": 10,
+        "title": {
+            "vi": "Bàn giao dự án",
+            "en": "Handing over a project"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I'm taking over a project with dozens of messages but no decision record.",
+                "ipa": "/aɪm tˈeɪkɪŋ ˌəʊvəɹ ɐ pɹˈɒdʒɛkt wɪð dˈʌzənz ɒv mˈɛsɪdʒɪz bˌʌt nˈəʊ dɪsˈɪʒən ɹˈɛkɔːd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Can the previous lead give you a short handover call?",
+                "ipa": "/kan ðə pɹˈiːviəs lˈiːd ɡˈɪv juː ɐ ʃˈɔːt hˈandəʊvə kˈɔːl/"
+            },
+            {
+                "speaker": "A",
+                "text": "She's available tomorrow, though only for half an hour.",
+                "ipa": "/ʃiːz ɐvˈeɪləbəl təmˈɒɹəʊ ðˌəʊ ˈəʊnli fɔː hˈɑːf ɐn ˈaʊə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Use that time to identify the decisions and open questions rather than read every message.",
+                "ipa": "/jˈuːs ðat tˈaɪm tʊ aɪdˈɛntɪfˌaɪ ðə dɪsˈɪʒənz and ˈəʊpən kwˈɛstʃənz ɹˈɑːðə ðɐn ɹˈiːd ˈɛvɹɪ mˈɛsɪdʒ/"
+            }
+        ]
+    },
+    {
+        "id": "B1-technology-1",
+        "level": "B1",
+        "topicId": "technology",
+        "number": 1,
+        "title": {
+            "vi": "Đặt mật khẩu",
+            "en": "Managing passwords"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Our team shares one login because it's easier than creating separate accounts.",
+                "ipa": "/ˌaʊə tˈiːm ʃˈeəz wˈɒn lˈɒɡɪn bɪkˈɒz ɪts ˈiːziə ðɐn kɹiːˈeɪtɪŋ sˈɛpɹət ɐkˈaʊnts/"
+            },
+            {
+                "speaker": "B",
+                "text": "Does that make it difficult to see who changed a document?",
+                "ipa": "/dˈʌz ðat mˌeɪk ɪt dˈɪfɪkəlt tə sˈiː hˌuː tʃˈeɪndʒd ɐ dˈɒkjuːmənt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes. Last week we couldn't trace an accidental deletion.",
+                "ipa": "/jˈɛs lˈast wˈiːk wiː kˌʊdənt tɹˈeɪs ɐn ˌaksɪdˈɛntəl dɪlˈiːʃən/"
+            },
+            {
+                "speaker": "B",
+                "text": "Convenience is costing us accountability. Let's ask about individual access.",
+                "ipa": "/kənvˈiːnɪəns ɪz kˈɒstɪŋ ˌʌs ɐkˌaʊntəbˈɪlɪti lˈɛts ˈask ɐbˌaʊt ˌɪndɪvˈɪdʒuːəl ˈaksɛs/"
+            }
+        ]
+    },
+    {
+        "id": "B1-technology-2",
+        "level": "B1",
+        "topicId": "technology",
+        "number": 2,
+        "title": {
+            "vi": "Chia sẻ tài liệu",
+            "en": "Sharing a document"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The client could view the draft yesterday, but today the link is blocked.",
+                "ipa": "/ðə klˈaɪənt kʊd vjˈuː ðə dɹˈaft jˈɛstədˌeɪ bˌʌt tədˈeɪ ðə lˈɪŋk ɪz blˈɒkt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Was the file moved into a different folder?",
+                "ipa": "/wʌzðə fˈaɪl mˈuːvd ˌɪntʊ ɐ dˈɪfɹənt fˈəʊldə/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes. I didn't realise that would affect the permissions.",
+                "ipa": "/jˈɛs aɪ dˈɪdnt ɹˈiəlaɪz ðat wʊd ɐfˈɛkt ðə pəmˈɪʃənz/"
+            },
+            {
+                "speaker": "B",
+                "text": "Check the new folder's rules before sending another link.",
+                "ipa": "/tʃˈɛk ðə njˈuː fˈəʊldəz ɹˈuːlz bɪfˌɔː sˈɛndɪŋ ɐnˈʌðə lˈɪŋk/"
+            }
+        ]
+    },
+    {
+        "id": "B1-technology-3",
+        "level": "B1",
+        "topicId": "technology",
+        "number": 3,
+        "title": {
+            "vi": "Sao lưu dữ liệu",
+            "en": "Backing up files"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "We have a backup drive, but nobody has tried restoring a file from it.",
+                "ipa": "/wiː hav ɐ bˈakʌp dɹˈaɪv bˌʌt nˈəʊbɒdi hɐz tɹˈaɪd ɹɪstˈɔːɹɪŋ ɐ fˈaɪl fɹɒm ɪt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Is it even clear which folders are included?",
+                "ipa": "/ɪz ɪt ˈiːvən klˈiə wˌɪtʃ fˈəʊldəz ɑːɹ ɪŋklˈuːdɪd/"
+            },
+            {
+                "speaker": "A",
+                "text": "Not since we reorganised the shared space.",
+                "ipa": "/nˌɒt sˈɪns wiː ɹɪˈɔːɡɐnˌaɪzd ðə ʃˈeəd spˈeɪs/"
+            },
+            {
+                "speaker": "B",
+                "text": "A successful backup message isn't enough. We should test a small restore.",
+                "ipa": "/ɐ səksˈɛsfəl bˈakʌp mˈɛsɪdʒ ˌɪzənt ɪnˈʌf wiː ʃˌʊd tˈɛst ɐ smˈɔːl ɹɪstˈɔː/"
+            }
+        ]
+    },
+    {
+        "id": "B1-technology-4",
+        "level": "B1",
+        "topicId": "technology",
+        "number": 4,
+        "title": {
+            "vi": "Tắt thông báo",
+            "en": "Managing notifications"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I muted the work chat, then missed a genuinely urgent message.",
+                "ipa": "/aɪ mjˈuːtɪd ðə wˈɜːk tʃˈat ðˈɛn mˈɪst ɐ dʒˈɛnjuːɪnli ˈɜːdʒənt mˈɛsɪdʒ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Could urgent issues use a different channel?",
+                "ipa": "/kʊd ˈɜːdʒənt ˈɪʃuːz jˈuːs ɐ dˈɪfɹənt tʃˈanəl/"
+            },
+            {
+                "speaker": "A",
+                "text": "We never agreed what counts as urgent.",
+                "ipa": "/wiː nˈɛvəɹ ɐɡɹˈiːd wɒt kˈaʊnts az ˈɜːdʒənt/"
+            },
+            {
+                "speaker": "B",
+                "text": "That's the conversation to have before turning every notification back on.",
+                "ipa": "/ðats ðə kɒnvəsˈeɪʃən tə hav bɪfˌɔː tˈɜːnɪŋ ˈɛvɹɪ nˌəʊtɪfɪkˈeɪʃən bˈak ˈɒn/"
+            }
+        ]
+    },
+    {
+        "id": "B1-technology-5",
+        "level": "B1",
+        "topicId": "technology",
+        "number": 5,
+        "title": {
+            "vi": "Cập nhật ứng dụng",
+            "en": "Updating an application"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The update solved a bug, but removed a feature our team relied on.",
+                "ipa": "/ðɪ ˈʌpdeɪt sˈɒlvd ɐ bˈʌɡ bˌʌt ɹɪmˈuːvd ɐ fˈiːtʃəɹ ˌaʊə tˈiːm ɹɪlˈaɪd ˈɒn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Was the removal mentioned in the release notes?",
+                "ipa": "/wʌzðə ɹɪmˈuːvəl mˈɛnʃənd ɪnðə ɹɪlˈiːs nˈəʊts/"
+            },
+            {
+                "speaker": "A",
+                "text": "It was, buried near the bottom.",
+                "ipa": "/ɪt wˈɒz bˈɛɹid nˌiə ðə bˈɒtəm/"
+            },
+            {
+                "speaker": "B",
+                "text": "We should check important changes before rolling future updates out to everyone.",
+                "ipa": "/wiː ʃˌʊd tʃˈɛk ɪmpˈɔːtənt tʃˈeɪndʒɪz bɪfˌɔː ɹˈəʊlɪŋ fjˈuːtʃəɹ ˈʌpdeɪts ˈaʊt tʊ ˈɛvɹɪwˌɒn/"
+            }
+        ]
+    },
+    {
+        "id": "B1-technology-6",
+        "level": "B1",
+        "topicId": "technology",
+        "number": 6,
+        "title": {
+            "vi": "Sửa kết nối",
+            "en": "Troubleshooting a connection"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Support asked me to restart the router for the third time.",
+                "ipa": "/səpˈɔːt ˈaskt mˌiː tə ɹɪstˈɑːt ðə ɹˈuːtə fəðə θˈɜːd tˈaɪm/"
+            },
+            {
+                "speaker": "B",
+                "text": "Have you given them a record of when the connection drops?",
+                "ipa": "/hav juː ɡˈɪvən ðˌɛm ɐ ɹˈɛkɔːd ɒv wɛn ðə kənˈɛkʃən dɹˈɒps/"
+            },
+            {
+                "speaker": "A",
+                "text": "I've described it, but I haven't kept times.",
+                "ipa": "/aɪv dɪskɹˈaɪbd ɪt bˌʌt aɪ hˈavənt kˈɛpt tˈaɪmz/"
+            },
+            {
+                "speaker": "B",
+                "text": "A short log might help move the investigation beyond the standard checklist.",
+                "ipa": "/ɐ ʃˈɔːt lˈɒɡ mˌaɪt hˈɛlp mˈuːv ðɪ ɪnvˌɛstɪɡˈeɪʃən bɪjˌɒnd ðə stˈandəd tʃˈɛklɪst/"
+            }
+        ]
+    },
+    {
+        "id": "B1-technology-7",
+        "level": "B1",
+        "topicId": "technology",
+        "number": 7,
+        "title": {
+            "vi": "Quyền riêng tư",
+            "en": "Reviewing privacy choices"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The app says my data is anonymous, yet it still asks for my exact location.",
+                "ipa": "/ðɪ ˈap sˈɛz maɪ dˈeɪtəɹ ɪz ɐnˈɒnəməs jˈɛt ɪt stˈɪl ˈasks fɔː maɪ ɛɡzˈakt ləʊkˈeɪʃən/"
+            },
+            {
+                "speaker": "B",
+                "text": "Does it explain why that level of detail is needed?",
+                "ipa": "/dˈʌz ɪt ɛksplˈeɪn wˌaɪ ðat lˈɛvəl ɒv dˈiːteɪl ɪz nˈiːdɪd/"
+            },
+            {
+                "speaker": "A",
+                "text": "Only that it improves the service.",
+                "ipa": "/ˈəʊnli ðˌatɪt ɪmpɹˈuːvz ðə sˈɜːvɪs/"
+            },
+            {
+                "speaker": "B",
+                "text": "That's too general. I'd look for a clearer explanation before enabling it.",
+                "ipa": "/ðats tˈuː dʒˈɛnəɹəl aɪd lˈʊk fəɹə klˈiəɹəɹ ɛksplɐnˈeɪʃən bɪfˌɔːɹ ɛnˈeɪblɪŋ ɪt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-technology-8",
+        "level": "B1",
+        "topicId": "technology",
+        "number": 8,
+        "title": {
+            "vi": "Khả năng tiếp cận",
+            "en": "Using accessibility options"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The new website works with bigger text until the payment screen.",
+                "ipa": "/ðə njˈuː wˈɛbsaɪt wˈɜːks wɪð bˈɪɡə tˈɛkst ʌntˈɪl ðə pˈeɪmənt skɹˈiːn/"
+            },
+            {
+                "speaker": "B",
+                "text": "What happens there?",
+                "ipa": "/wˌɒt hˈapənz ðˈeə/"
+            },
+            {
+                "speaker": "A",
+                "text": "Two buttons overlap, and I can't tell which one is selected.",
+                "ipa": "/tˈuː bˈʌtənz ˌəʊvəlˈap and aɪ kˈɑːnt tˈɛl wˌɪtʃ wˈɒn ɪz sɪlˈɛktɪd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Include that step in the report. The earlier pages alone don't show the problem.",
+                "ipa": "/ɪŋklˈuːd ðat stˈɛp ɪnðə ɹɪpˈɔːt ðɪ ˈɜːlɪə pˈeɪdʒɪz ɐlˈəʊn dˈəʊnt ʃˈəʊ ðə pɹˈɒbləm/"
+            }
+        ]
+    },
+    {
+        "id": "B1-technology-9",
+        "level": "B1",
+        "topicId": "technology",
+        "number": 9,
+        "title": {
+            "vi": "Đánh giá công cụ AI",
+            "en": "Evaluating an AI tool"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The assistant produced a convincing answer with a reference that doesn't exist.",
+                "ipa": "/ðɪ ɐsˈɪstənt pɹədjˈuːst ɐ kənvˈɪnsɪŋ ˈansə wɪð ɐ ɹˈɛfɹəns ðat dˈʌzənt ɛɡzˈɪst/"
+            },
+            {
+                "speaker": "B",
+                "text": "Did anyone check it before putting it in the report?",
+                "ipa": "/dˈɪd ˈɛnɪwˌɒn tʃˈɛk ɪt bɪfˌɔː pˈʊtɪŋ ɪt ɪnðə ɹɪpˈɔːt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Luckily, one person searched for the source.",
+                "ipa": "/lˈʌkili wˈɒn pˈɜːsən sˈɜːtʃt fəðə sˈɔːs/"
+            },
+            {
+                "speaker": "B",
+                "text": "We need that check built into the process, not left to whoever happens to notice.",
+                "ipa": "/wiː nˈiːd ðat tʃˈɛk bˈɪlt ˌɪntʊ ðə pɹˈəʊsɛs nˌɒt lˈɛft tə huːˈɛvə hˈapənz tə nˈəʊtɪs/"
+            }
+        ]
+    },
+    {
+        "id": "B1-technology-10",
+        "level": "B1",
+        "topicId": "technology",
+        "number": 10,
+        "title": {
+            "vi": "Hủy dịch vụ",
+            "en": "Cancelling a service"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I thought I'd cancelled, but I had only turned off the reminder emails.",
+                "ipa": "/aɪ θˈɔːt aɪd kˈansəld bˌʌt aɪ had ˈəʊnli tˈɜːnd ˈɒf ðə ɹɪmˈaɪndəɹ ˈiːmeɪlz/"
+            },
+            {
+                "speaker": "B",
+                "text": "Was the cancellation option labelled clearly?",
+                "ipa": "/wʌzðə kˌansɪlˈeɪʃən ˈɒpʃən lˈeɪbəld klˈiəli/"
+            },
+            {
+                "speaker": "A",
+                "text": "Not at all. It was several screens away.",
+                "ipa": "/nˌɒt at ˈɔːl ɪt wɒz sˈɛvɹəl skɹˈiːnz ɐwˈeɪ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Save the confirmation once you finish, so there's no doubt about what changed.",
+                "ipa": "/sˈeɪv ðə kɒnfəmˈeɪʃən wˈʌns juː fˈɪnɪʃ sˌəʊ ðeəz nˈəʊ dˈaʊt ɐbˌaʊt wɒt tʃˈeɪndʒd/"
+            }
+        ]
+    },
+    {
+        "id": "B1-environment-1",
+        "level": "B1",
+        "topicId": "environment",
+        "number": 1,
+        "title": {
+            "vi": "Phân loại rác",
+            "en": "Sorting waste"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The recycling rate has fallen since the new bins arrived.",
+                "ipa": "/ðə ɹɪsˈaɪklɪŋ ɹˈeɪt hɐz fˈɔːlən sˈɪns ðə njˈuː bˈɪnz ɐɹˈaɪvd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Are residents confused by the colours?",
+                "ipa": "/ɑː ɹˈɛzɪdənts kənfjˈuːzd baɪ ðə kˈʌləz/"
+            },
+            {
+                "speaker": "A",
+                "text": "Possibly. The colours mean something different in the neighbouring town.",
+                "ipa": "/pˈɒsɪbli ðə kˈʌləz mˈiːn sˈʌmθɪŋ dˈɪfɹənt ɪnðə nˈeɪbəɹɪŋ tˈaʊn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Use labels with examples instead of expecting everyone to know the local system.",
+                "ipa": "/jˈuːs lˈeɪbəlz wɪð ɛɡzˈampəlz ɪnstˈɛd ɒv ɛkspˈɛktɪŋ ˈɛvɹɪwˌɒn tə nˈəʊ ðə lˈəʊkəl sˈɪstəm/"
+            }
+        ]
+    },
+    {
+        "id": "B1-environment-2",
+        "level": "B1",
+        "topicId": "environment",
+        "number": 2,
+        "title": {
+            "vi": "Tiết kiệm nước",
+            "en": "Saving water"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The council installed a water-saving tap, but it now runs for too long.",
+                "ipa": "/ðə kˈaʊnsəl ɪnstˈɔːld ɐ wˈɔːtəsˈeɪvɪŋ tˈap bˌʌt ɪt nˈaʊ ɹˈʌnz fɔː tˈuː lˈɒŋ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Has anyone reported the actual fault?",
+                "ipa": "/hɐz ˈɛnɪwˌɒn ɹɪpˈɔːtɪd ðɪ ˈaktʃuːəl fˈɒlt/"
+            },
+            {
+                "speaker": "A",
+                "text": "The maintenance request just says the new tap is unpopular.",
+                "ipa": "/ðə mˈeɪntənəns ɹɪkwˈɛst dʒˈʌst sˈɛz ðə njˈuː tˈap ɪz ʌnpˈɒpjʊlə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Describe the problem precisely so it reaches the right team.",
+                "ipa": "/dɪskɹˈaɪb ðə pɹˈɒbləm pɹɪsˈaɪsli sˌəʊ ɪt ɹˈiːtʃɪz ðə ɹˈaɪt tˈiːm/"
+            }
+        ]
+    },
+    {
+        "id": "B1-environment-3",
+        "level": "B1",
+        "topicId": "environment",
+        "number": 3,
+        "title": {
+            "vi": "Trồng cây",
+            "en": "Planting trees"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The school planted trees for an event, but several died over the summer.",
+                "ipa": "/ðə skˈuːl plˈantɪd tɹˈiːz fəɹən ɪvˈɛnt bˌʌt sˈɛvɹəl dˈaɪd ˌəʊvə ðə sˈʌmə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Was anyone responsible for watering them during the holidays?",
+                "ipa": "/wɒz ˈɛnɪwˌɒn ɹɪspˈɒnsɪbəl fɔː wˈɔːtəɹɪŋ ðˌɛm djˈʊəɹɪŋ ðə hˈɒlɪdˌeɪz/"
+            },
+            {
+                "speaker": "A",
+                "text": "Each group assumed another group was doing it.",
+                "ipa": "/ˈiːtʃ ɡɹˈuːp ɐsjˈuːmd ɐnˈʌðə ɡɹˈuːp wɒz dˈuːɪŋ ɪt/"
+            },
+            {
+                "speaker": "B",
+                "text": "The next planting plan needs a maintenance plan too.",
+                "ipa": "/ðə nˈɛkst plˈantɪŋ plˈan nˈiːdz ɐ mˈeɪntənəns plˈan tˈuː/"
+            }
+        ]
+    },
+    {
+        "id": "B1-environment-4",
+        "level": "B1",
+        "topicId": "environment",
+        "number": 4,
+        "title": {
+            "vi": "Dọn công viên",
+            "en": "Cleaning a park"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Volunteers spent the morning collecting litter, then left full bags beside the river.",
+                "ipa": "/vˌɒləntˈiəz spˈɛnt ðə mˈɔːnɪŋ kəlˈɛktɪŋ lˈɪtə ðˈɛn lˈɛft fˈʊl bˈaɡz bɪsˌaɪd ðə ɹˈɪvə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Was a collection arranged?",
+                "ipa": "/wʌzɐ kəlˈɛkʃən ɐɹˈeɪndʒd/"
+            },
+            {
+                "speaker": "A",
+                "text": "They expected the usual waste service to take them.",
+                "ipa": "/ðeɪ ɛkspˈɛktɪd ðə jˈuːʒuːəl wˈeɪst sˈɜːvɪs tə tˈeɪk ðˌɛm/"
+            },
+            {
+                "speaker": "B",
+                "text": "We should confirm the final step before inviting people to do the first one.",
+                "ipa": "/wiː ʃˌʊd kənfˈɜːm ðə fˈaɪnəl stˈɛp bɪfˌɔːɹ ɪnvˈaɪtɪŋ pˈiːpəl tə dˈuː ðə fˈɜːst wˌɒn/"
+            }
+        ]
+    },
+    {
+        "id": "B1-environment-5",
+        "level": "B1",
+        "topicId": "environment",
+        "number": 5,
+        "title": {
+            "vi": "Chợ cộng đồng",
+            "en": "Organising a local market"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The community market wants more local sellers but has raised the stall fee.",
+                "ipa": "/ðə kəmjˈuːnɪti mˈɑːkɪt wˈɒnts mˈɔː lˈəʊkəl sˈɛləz bˌʌt hɐz ɹˈeɪzd ðə stˈɔːl fˈiː/"
+            },
+            {
+                "speaker": "B",
+                "text": "Is the increase covering a specific new cost?",
+                "ipa": "/ɪz ðɪ ˈɪŋkɹiːs kˈʌvəɹɪŋ ɐ spəsˈɪfɪk njˈuː kˈɒst/"
+            },
+            {
+                "speaker": "A",
+                "text": "Mostly advertising outside the area.",
+                "ipa": "/mˈəʊstli ˈadvətˌaɪzɪŋ aʊtsˈaɪd ðɪ ˈeəɹiə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Then ask whether that spending helps the small sellers the market wants to attract.",
+                "ipa": "/ðˈɛn ˈask wˈɛðə ðat spˈɛndɪŋ hˈɛlps ðə smˈɔːl sˈɛləz ðə mˈɑːkɪt wˈɒnts tʊ ɐtɹˈakt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-environment-6",
+        "level": "B1",
+        "topicId": "environment",
+        "number": 6,
+        "title": {
+            "vi": "Chia sẻ đồ dùng",
+            "en": "Sharing household items"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The tool-sharing project is busy, but the same two people repair everything.",
+                "ipa": "/ðə tˈuːlʃˈeəɹɪŋ pɹˈɒdʒɛkt ɪz bˈɪzi bˌʌt ðə sˈeɪm tˈuː pˈiːpəl ɹɪpˈeəɹ ˈɛvɹɪθˌɪŋ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Do users know how much time maintenance takes?",
+                "ipa": "/dˈuː jˈuːzəz nˈəʊ hˌaʊ mˈʌtʃ tˈaɪm mˈeɪntənəns tˈeɪks/"
+            },
+            {
+                "speaker": "A",
+                "text": "They only see the borrowing calendar.",
+                "ipa": "/ðeɪ ˈəʊnli sˈiː ðə bˈɒɹəʊɪŋ kˈaləndə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Show the work behind the service and invite people to share it.",
+                "ipa": "/ʃˈəʊ ðə wˈɜːk bɪhˌaɪnd ðə sˈɜːvɪs and ɪnvˈaɪt pˈiːpəl tə ʃˈeəɹ ɪt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-environment-7",
+        "level": "B1",
+        "topicId": "environment",
+        "number": 7,
+        "title": {
+            "vi": "Giảm nhựa",
+            "en": "Reducing single-use plastic"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "People keep saying reusable cups are always the greener choice.",
+                "ipa": "/pˈiːpəl kˈiːp sˈeɪɪŋ ɹiːjˈuːzəbəl kˈʌps ɑːɹ ˈɔːlweɪz ðə ɡɹˈiːnə tʃˈɔɪs/"
+            },
+            {
+                "speaker": "B",
+                "text": "Does that include how often they're used and washed?",
+                "ipa": "/dˈʌz ðat ɪŋklˈuːd hˌaʊ ˈɒfən ðeɪə jˈuːzd and wˈɒʃt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Nobody has measured that here.",
+                "ipa": "/nˈəʊbɒdi hɐz mˈɛʒəd ðat hˈiə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Let's find out about our actual use before printing a confident claim.",
+                "ipa": "/lˈɛts fˈaɪnd ˈaʊt ɐbˌaʊt ˌaʊəɹ ˈaktʃuːəl jˈuːs bɪfˌɔː pɹˈɪntɪŋ ɐ kˈɒnfɪdənt klˈeɪm/"
+            }
+        ]
+    },
+    {
+        "id": "B1-environment-8",
+        "level": "B1",
+        "topicId": "environment",
+        "number": 8,
+        "title": {
+            "vi": "Đi lại xanh",
+            "en": "Supporting greener travel"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The cycle lane is protected except for the busiest part of the road.",
+                "ipa": "/ðə sˈaɪkəl lˈeɪn ɪz pɹətˈɛktɪd ɛksˈɛpt fəðə bˈɪziɪst pˈɑːt ɒvðə ɹˈəʊd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Why was that section left out?",
+                "ipa": "/wˌaɪ wɒz ðat sˈɛkʃən lˈɛft ˈaʊt/"
+            },
+            {
+                "speaker": "A",
+                "text": "It would remove a few parking spaces.",
+                "ipa": "/ɪt wʊd ɹɪmˈuːv ɐ fjˈuː pˈɑːkɪŋ spˈeɪsɪz/"
+            },
+            {
+                "speaker": "B",
+                "text": "Then the safety claim needs to be weighed against the route people really have to take.",
+                "ipa": "/ðˈɛn ðə sˈeɪfti klˈeɪm nˈiːdz təbi wˈeɪd ɐɡˈɛnst ðə ɹˈuːt pˈiːpəl ɹˈiəlɪ hav tə tˈeɪk/"
+            }
+        ]
+    },
+    {
+        "id": "B1-environment-9",
+        "level": "B1",
+        "topicId": "environment",
+        "number": 9,
+        "title": {
+            "vi": "Tiếng nói cư dân",
+            "en": "Gathering residents' views"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Our public meeting was well attended, but only five people spoke.",
+                "ipa": "/ˌaʊə pˈʌblɪk mˈiːtɪŋ wɒz wˈɛl ɐtˈɛndɪd bˌʌt ˈəʊnli fˈaɪv pˈiːpəl spˈəʊk/"
+            },
+            {
+                "speaker": "B",
+                "text": "Were there other ways to give feedback?",
+                "ipa": "/wɜː ðeəɹ ˈʌðə wˈeɪz tə ɡˈɪv fˈiːdbak/"
+            },
+            {
+                "speaker": "A",
+                "text": "No, and several people left before questions began.",
+                "ipa": "/nˈəʊ and sˈɛvɹəl pˈiːpəl lˈɛft bɪfˌɔː kwˈɛstʃənz bɪɡˈan/"
+            },
+            {
+                "speaker": "B",
+                "text": "Offer a quieter way to contribute rather than assuming silence means agreement.",
+                "ipa": "/ˈɒfəɹ ɐ kwˈaɪətə wˈeɪ tə kəntɹˈɪbjuːt ɹˈɑːðə ðɐn ɐsjˈuːmɪŋ sˈaɪləns mˈiːnz ɐɡɹˈiːmənt/"
+            }
+        ]
+    },
+    {
+        "id": "B1-environment-10",
+        "level": "B1",
+        "topicId": "environment",
+        "number": 10,
+        "title": {
+            "vi": "Ngân sách cộng đồng",
+            "en": "Discussing a local budget"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The winning project has the most supporters online, but serves only one street.",
+                "ipa": "/ðə wˈɪnɪŋ pɹˈɒdʒɛkt hɐz ðə mˈəʊst səpˈɔːtəz ˈɒnlaɪn bˌʌt sˈɜːvz ˈəʊnli wˈɒn stɹˈiːt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Was the grant meant to reward popularity or wider benefit?",
+                "ipa": "/wʌzðə ɡɹˈant mˈɛnt tə ɹɪwˈɔːd pˌɒpjʊlˈaɹɪti ɔː wˈaɪdə bˈɛnɪfˌɪt/"
+            },
+            {
+                "speaker": "A",
+                "text": "The rules never made that clear.",
+                "ipa": "/ðə ɹˈuːlz nˈɛvə mˌeɪd ðat klˈiə/"
+            },
+            {
+                "speaker": "B",
+                "text": "We should settle the criteria before asking residents to vote again.",
+                "ipa": "/wiː ʃˌʊd sˈɛtəl ðə kɹaɪtˈiəɹɪə bɪfˌɔːɹ ˈaskɪŋ ɹˈɛzɪdənts tə vˈəʊt ɐɡˈɛn/"
+            }
+        ]
+    }
+]

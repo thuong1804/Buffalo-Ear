@@ -1,4 +1,5 @@
 """Build a compact, fully offline study dataset from pinned, attributed sources."""
+
 import json
 import re
 import sqlite3
@@ -8,23 +9,25 @@ import shutil
 import gzip
 
 ROOT = Path(__file__).resolve().parents[1]
-CACHE = ROOT / '.cache' / 'vocabulary'
-DATA = ROOT / 'data'
-legacy_file = DATA / 'legacy.json'
+CACHE = ROOT / ".cache" / "vocabulary"
+DATA = ROOT / "data"
+legacy_file = DATA / "legacy.json"
 if not legacy_file.exists():
-    shutil.copyfile(CACHE / 'legacy.json', legacy_file)
-legacy = {w['word']: w for w in json.loads(legacy_file.read_text('utf-8'))}
+    shutil.copyfile(CACHE / "legacy.json", legacy_file)
+legacy = {w["word"]: w for w in json.loads(legacy_file.read_text("utf-8"))}
 level_map = {}
 pos_map = {}
-for level in ['A1', 'A2', 'B1', 'B2']:
-    for entry in json.loads((CACHE / f'cefr/public/data/{level}.json').read_text('utf-8')):
-        word = entry['word'].lower()
+for level in ["A1", "A2", "B1", "B2"]:
+    for entry in json.loads((CACHE / f"cefr/public/data/{level}.json").read_text("utf-8")):
+        word = entry["word"].lower()
         if word not in level_map:
             level_map[word] = level
-            pos_map[word] = entry.get('pos', [])
+            pos_map[word] = entry.get("pos", [])
 
 # Explicit editorial levels for legacy items absent from the source list.
-editorial = dict(line.split('|') for line in '''light|A1
+editorial = dict(
+    line.split("|")
+    for line in """light|A1
 zoo|A1
 vision|B2
 teeth|A1
@@ -56,11 +59,12 @@ bought|A1
 chalk|A2
 like|A1
 kind|A1
-rose|B1'''.splitlines())
+rose|B1""".splitlines()
+)
 
 # Manual corrections for missing/ambiguous source entries; reviewed for this app.
 manual = {}
-for line in '''cd|ˌsiːˈdiː|đĩa CD
+for line in """cd|ˌsiːˈdiː|đĩa CD
 girlfriend|ˈɡɜːlfrend|bạn gái
 grandparent|ˈɡrænpeərənt|ông hoặc bà
 his|hɪz|của anh ấy
@@ -131,12 +135,12 @@ process|ˈprəʊses|quá trình
 polish|ˈpɒlɪʃ|đánh bóng
 novel|ˈnɒvəl|tiểu thuyết
 the definite|ðə|mạo từ xác định
-'''.strip().splitlines():
-    w, ipa, meaning = line.split('|')
+""".strip().splitlines():
+    w, ipa, meaning = line.split("|")
     manual[w] = (ipa, meaning)
 
 # Extra everyday items bring the merged dataset to exactly 3,000 unique entries.
-supplements = '''backpack|A2|ˈbækpæk|ba lô
+supplements = """backpack|A2|ˈbækpæk|ba lô
 toothbrush|A1|ˈtuːθbrʌʃ|bàn chải đánh răng
 toothpaste|A1|ˈtuːθpeɪst|kem đánh răng
 shampoo|A2|ʃæmˈpuː|dầu gội
@@ -186,17 +190,22 @@ watermelon|A2|ˈwɔːtəmelən|dưa hấu
 strawberry|A2|ˈstrɔːbəri|dâu tây
 blueberry|A2|ˈbluːbəri|việt quất
 raspberry|B1|ˈrɑːzbəri|quả mâm xôi
-'''.strip().splitlines()
+""".strip().splitlines()
 
-phonemes = sorted('iː ɪ ʊ uː e ə ɜː ɔː æ ʌ ɑː ɒ ɪə eɪ ʊə ɔɪ əʊ eə aɪ aʊ p b t d k ɡ f v θ ð s z ʃ ʒ h tʃ dʒ m n ŋ l r j w'.split(), key=len, reverse=True)
+phonemes = sorted(
+    "iː ɪ ʊ uː e ə ɜː ɔː æ ʌ ɑː ɒ ɪə eɪ ʊə ɔɪ əʊ eə aɪ aʊ p b t d k ɡ f v θ ð s z ʃ ʒ h tʃ dʒ m n ŋ l r j w".split(),
+    key=len,
+    reverse=True,
+)
+
 
 def normalize_ipa(ipa):
-    ipa = ipa.strip('/[] ').replace('(r)', '').replace('ɡ', 'g').replace('g', 'ɡ')
-    ipa = ipa.replace('ɹ', 'r').replace('ɝ', 'ɜː').replace('ɚ', 'ə').replace('ɐ', 'ə')
-    ipa = ipa.replace('ʤ', 'dʒ').replace('ʧ', 'tʃ').replace('ɛ', 'e').replace('ɫ', 'l')
-    ipa = ipa.replace('n̩', 'ən').replace('l̩', 'əl').replace('m̩', 'əm')
-    ipa = ipa.replace('t̬', 't').replace('ɾ', 't').replace('oʊ', 'əʊ')
-    ipa = re.sub(r'[\s.ˈˌːˑ]', lambda m: 'ː' if m[0]=='ː' else '', ipa)
+    ipa = ipa.strip("/[] ").replace("(r)", "").replace("ɡ", "g").replace("g", "ɡ")
+    ipa = ipa.replace("ɹ", "r").replace("ɝ", "ɜː").replace("ɚ", "ə").replace("ɐ", "ə")
+    ipa = ipa.replace("ʤ", "dʒ").replace("ʧ", "tʃ").replace("ɛ", "e").replace("ɫ", "l")
+    ipa = ipa.replace("n̩", "ən").replace("l̩", "əl").replace("m̩", "əm")
+    ipa = ipa.replace("t̬", "t").replace("ɾ", "t").replace("oʊ", "əʊ")
+    ipa = re.sub(r"[\s.ˈˌːˑ]", lambda m: "ː" if m[0] == "ː" else "", ipa)
     tokens = []
     pos = 0
     while pos < len(ipa):
@@ -206,16 +215,19 @@ def normalize_ipa(ipa):
                 pos += len(p)
                 break
         else:
-            if ipa[pos] in 'iu':
-                tokens.append(ipa[pos]+'ː')
+            if ipa[pos] in "iu":
+                tokens.append(ipa[pos] + "ː")
                 pos += 1
             else:
-                raise ValueError(f'Unsupported IPA {ipa[pos:]} in {ipa}')
-    return ''.join(tokens)
+                raise ValueError(f"Unsupported IPA {ipa[pos:]} in {ipa}")
+    return "".join(tokens)
 
-connection = sqlite3.connect(CACHE / 'dictionary/dictionary_en_vi.db')
+
+connection = sqlite3.connect(CACHE / "dictionary/dictionary_en_vi.db")
 # BrE corrections where the source offers only a broad/rhotic transcription.
-ipa_overrides = dict(line.split('|') for line in '''bye|baɪ
+ipa_overrides = dict(
+    line.split("|")
+    for line in """bye|baɪ
 different|ˈdɪfərənt
 forty|ˈfɔːti
 i|aɪ
@@ -254,9 +266,12 @@ inquiry|ɪnˈkwaɪəri
 lively|ˈlaɪvli
 long-term|ˌlɒŋˈtɜːm
 multiply|ˈmʌltɪplaɪ
-origin|ˈɒrɪdʒɪn'''.splitlines())
+origin|ˈɒrɪdʒɪn""".splitlines()
+)
 result = []
-meaning_overrides = dict(line.split('|') for line in '''essay|bài tiểu luận
+meaning_overrides = dict(
+    line.split("|")
+    for line in """essay|bài tiểu luận
 want|muốn; cần
 welcome|chào mừng; hoan nghênh
 hello|xin chào
@@ -309,34 +324,50 @@ bear|con gấu; chịu đựng
 kind|tử tế; loại
 left|bên trái; đã rời đi
 right|đúng; bên phải; quyền
-'''.strip().splitlines())
+""".strip().splitlines()
+)
 issues = []
 ordered = list(legacy) + [w for w in level_map if w not in legacy]
 for word in ordered:
     level = level_map.get(word, editorial.get(word))
     if not level:
-        raise ValueError(f'Level missing: {word}')
-    if word == 'the definite':
-        word = 'the'
+        raise ValueError(f"Level missing: {word}")
+    if word == "the definite":
+        word = "the"
     try:
         if word in legacy:
             entry = legacy[word]
-            ipa, meaning = entry['ipa'], entry['meaning']
+            ipa, meaning = entry["ipa"], entry["meaning"]
         elif word in manual:
             ipa, meaning = manual[word]
         else:
-            rows = connection.execute('''SELECT p.ipa,p.region FROM words w JOIN pronunciations p ON w.id=p.word_id
-              WHERE w.word=? ORDER BY CASE WHEN lower(p.region) IN ('bre','uk','received-pronunciation') THEN 0 WHEN p.region IS NULL THEN 1 ELSE 2 END,p.id''',(word,)).fetchall()
-            definitions = connection.execute('''SELECT d.definition,d.pos FROM words w JOIN word_definitions wd ON w.id=wd.word_id
-              JOIN definitions d ON d.id=wd.definition_id WHERE w.word=? ORDER BY wd.id''',(word,)).fetchall()
+            rows = connection.execute(
+                """SELECT p.ipa,p.region FROM words w JOIN pronunciations p ON w.id=p.word_id
+              WHERE w.word=? ORDER BY CASE WHEN lower(p.region) IN ('bre','uk','received-pronunciation') THEN 0 WHEN p.region IS NULL THEN 1 ELSE 2 END,p.id""",
+                (word,),
+            ).fetchall()
+            definitions = connection.execute(
+                """SELECT d.definition,d.pos FROM words w JOIN word_definitions wd ON w.id=wd.word_id
+              JOIN definitions d ON d.id=wd.definition_id WHERE w.word=? ORDER BY wd.id""",
+                (word,),
+            ).fetchall()
             if not rows or not definitions:
-                raise ValueError('missing pronunciation or meaning')
+                raise ValueError("missing pronunciation or meaning")
             ipa = rows[0][0]
-            mapped_pos = {'n':'N','v':'V','adj':'A','adv':'D','prep':'E'}
-            expected_pos = next((mapped_pos[p] for p in pos_map.get(word,[]) if p in mapped_pos), None)
+            mapped_pos = {"n": "N", "v": "V", "adj": "A", "adv": "D", "prep": "E"}
+            expected_pos = next(
+                (mapped_pos[p] for p in pos_map.get(word, []) if p in mapped_pos), None
+            )
             candidates = [r for r in definitions if r[1] == expected_pos] or definitions
-            meaning = next((r[0] for r in candidates if r[0].strip() and not r[0].startswith(('xem ', 'Xem '))), candidates[0][0])
-            meaning = re.sub(r'\s+', ' ', meaning).strip().rstrip('.')
+            meaning = next(
+                (
+                    r[0]
+                    for r in candidates
+                    if r[0].strip() and not r[0].startswith(("xem ", "Xem "))
+                ),
+                candidates[0][0],
+            )
+            meaning = re.sub(r"\s+", " ", meaning).strip().rstrip(".")
         if word in manual and word not in legacy:
             ipa, meaning = manual[word]
         if word in meaning_overrides and word not in legacy:
@@ -347,21 +378,49 @@ for word in ordered:
         issues.append([word, str(error)])
 
 for line in supplements:
-    word, level, ipa, meaning = line.split('|')
+    word, level, ipa, meaning = line.split("|")
     if len(result) >= 3000:
         break
     if word not in {row[0] for row in result}:
         result.append([word, normalize_ipa(ipa), meaning, level])
 if len(result) < 3000:
-    print('ISSUES', json.dumps(issues, ensure_ascii=False), flush=True)
-    raise ValueError(f'Only {len(result)} valid entries; add explicit corrections')
+    print("ISSUES", json.dumps(issues, ensure_ascii=False), flush=True)
+    raise ValueError(f"Only {len(result)} valid entries; add explicit corrections")
 assert len(result) == len({row[0] for row in result}) == 3000
-payload = (json.dumps(result,ensure_ascii=False,separators=(',',':'))+'\n').encode('utf-8')
-(DATA / 'vocabulary.json').write_bytes(payload)
-(DATA / 'import-report.json').write_text(json.dumps({'count':len(result),'levels':dict(Counter(r[3] for r in result)),'bytes':len(payload),'gzipBytes':len(gzip.compress(payload,mtime=0)),'excluded':issues,'editorialLevels':editorial,'manualCorrections':list(manual)},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-license_dir = ROOT / 'public' / 'licenses'
+payload = (json.dumps(result, ensure_ascii=False, separators=(",", ":")) + "\n").encode("utf-8")
+(DATA / "vocabulary.json").write_bytes(payload)
+(DATA / "import-report.json").write_text(
+    json.dumps(
+        {
+            "count": len(result),
+            "levels": dict(Counter(r[3] for r in result)),
+            "bytes": len(payload),
+            "gzipBytes": len(gzip.compress(payload, mtime=0)),
+            "excluded": issues,
+            "editorialLevels": editorial,
+            "manualCorrections": list(manual),
+        },
+        ensure_ascii=False,
+        indent=2,
+    )
+    + "\n",
+    encoding="utf-8",
+)
+license_dir = ROOT / "public" / "licenses"
 license_dir.mkdir(exist_ok=True)
-shutil.copyfile(CACHE / 'cefr/LICENSE',license_dir / 'cefr-Apache-2.0.txt')
-shutil.copyfile(CACHE / 'dictionary/LICENSE',license_dir / 'dictionary-CC-BY-SA-4.0.txt')
-shutil.copyfile(CACHE / 'dictionary/ATTRIBUTION.md',license_dir / 'dictionary-ATTRIBUTION.md')
-print(json.dumps({'count':len(result),'levels':dict(Counter(r[3] for r in result)),'bytes':len(payload),'gzipBytes':len(gzip.compress(payload,mtime=0)),'excluded':issues},ensure_ascii=False,indent=2))
+shutil.copyfile(CACHE / "cefr/LICENSE", license_dir / "cefr-Apache-2.0.txt")
+shutil.copyfile(CACHE / "dictionary/LICENSE", license_dir / "dictionary-CC-BY-SA-4.0.txt")
+shutil.copyfile(CACHE / "dictionary/ATTRIBUTION.md", license_dir / "dictionary-ATTRIBUTION.md")
+print(
+    json.dumps(
+        {
+            "count": len(result),
+            "levels": dict(Counter(r[3] for r in result)),
+            "bytes": len(payload),
+            "gzipBytes": len(gzip.compress(payload, mtime=0)),
+            "excluded": issues,
+        },
+        ensure_ascii=False,
+        indent=2,
+    )
+)

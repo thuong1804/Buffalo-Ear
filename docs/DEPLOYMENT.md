@@ -7,8 +7,8 @@ Một package, TanStack Start SSR/API trên Vercel Node.js; PostgreSQL trên Neo
 1. Đăng nhập https://console.neon.tech và tạo project `buffalo-ear` trên gói Free.
 2. Chọn Singapore nếu có, để gần người dùng Việt Nam và Vercel region `sin1` trong `vercel.json`. Nếu chọn region khác, đặt Vercel Functions gần database.
 3. Trong Connect, sao chép hai connection string có TLS:
-   - Pooled (hostname chứa `-pooler`) → `DATABASE_URL` cho ứng dụng.
-   - Direct, tắt connection pooling → `DATABASE_URL_UNPOOLED` cho migration.
+    - Pooled (hostname chứa `-pooler`) → `DATABASE_URL` cho ứng dụng.
+    - Direct, tắt connection pooling → `DATABASE_URL_UNPOOLED` cho migration.
 4. Giữ nguyên các tham số TLS do Neon cấp, ví dụ `sslmode=require`. Không đưa URL hoặc secret vào source, chat, ảnh chụp hay biến `VITE_*`.
 
 Ứng dụng dùng `postgres.js` để giữ interactive transaction của import tiến độ; giới hạn một kết nối mỗi Vercel instance, tắt prepared statements và dùng pooler Neon.
@@ -39,13 +39,14 @@ Database mới bắt đầu trống; lệnh migrate không chuyển tài khoản
 4. Tạo project, lấy domain production ổn định, ví dụ `https://buffalo-ear.vercel.app` (tên thực tế phụ thuộc tài khoản/tên còn trống).
 5. Thêm các biến dưới đây vào **Production**, rồi redeploy.
 
-| Biến                   | Giá trị                                             |
-| ---------------------- | --------------------------------------------------- |
-| `DATABASE_URL`         | Neon pooled connection string, có TLS               |
-| `BETTER_AUTH_URL`      | Origin production HTTPS chính xác, không thêm path  |
-| `BETTER_AUTH_SECRET`   | Secret mới riêng cho production, tối thiểu 32 ký tự |
-| `GOOGLE_CLIENT_ID`     | OAuth client ID production                          |
-| `GOOGLE_CLIENT_SECRET` | OAuth client secret production                      |
+| Biến                   | Giá trị                                                                                           |
+| ---------------------- | ------------------------------------------------------------------------------------------------- |
+| `DATABASE_URL`         | Neon pooled connection string, có TLS                                                             |
+| `BETTER_AUTH_URL`      | Origin production HTTPS chính xác, không thêm path                                                |
+| `BETTER_AUTH_SECRET`   | Secret mới riêng cho production, tối thiểu 32 ký tự                                               |
+| `SITE_URL`             | `https://buffalo-ear.vercel.app` hoặc origin domain riêng; dùng cho canonical/sitemap/ảnh chia sẻ |
+| `GOOGLE_CLIENT_ID`     | OAuth client ID production                                                                        |
+| `GOOGLE_CLIENT_SECRET` | OAuth client secret production                                                                    |
 
 Sinh secret trên máy và dán trực tiếp vào Vercel Environment Variables:
 
@@ -77,6 +78,14 @@ Giữ redirect URI local nếu vẫn phát triển trên máy. Nếu thêm domai
 - Kiểm tra điện thoại, tab Library phát tại chỗ, Enter kiểm tra/chuyển từ.
 
 Không chạy `test:integration` trực tiếp với production: test tạo tài khoản và dữ liệu. Dùng database/branch test riêng. Bản Free có quota; theo dõi usage của cả Vercel và Neon.
+
+## SEO và header sau audit
+
+Xem kết quả tại [SECURITY_SEO_AUDIT.md](SECURITY_SEO_AUDIT.md). Sau deploy, kiểm tra `/robots.txt`, `/sitemap.xml`, `/social-card.png`, title/canonical từng trang và CSP/cache headers. Vercel Production tự bật index cho trang công khai; Preview và local mặc định noindex. `/login` và `/progress` luôn noindex.
+
+Không đặt `SITE_INDEXABLE=true` trên Preview. Biến này chỉ dành cho host production khác Vercel; test local giả lập production có thể bật tạm. Để chạy `test:security-seo` trên local, start server với biến này rồi chạy test, không trỏ test tới production. Test integration chỉ cho phép app/database loopback và tự dọn tài khoản test.
+
+Thêm domain vào Google Search Console và submit sitemap sau khi deploy. Chuyển Việt/Anh hiện dùng cookie cùng URL; chưa có URL riêng để index hai phiên bản ngôn ngữ độc lập.
 
 ## Tài liệu chính thức
 

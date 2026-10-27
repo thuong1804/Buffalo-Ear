@@ -1,0 +1,622 @@
+{
+    "cafe": [
+        [
+            "A small coffee, please.",
+            "Black or with milk?",
+            "Just a little milk.",
+            "Here you are. Mind the hot cup."
+        ],
+        [
+            "What tea do you have?",
+            "Green tea and lemon tea.",
+            "Lemon sounds nice. No sugar, please.",
+            "Take a seat. I will bring it over."
+        ],
+        [
+            "Is this my drink?",
+            "Yes, the one with oat milk.",
+            "Great. My name is on the cup.",
+            "Sorry, I wrote Ben, not Beth."
+        ],
+        [
+            "Can I take this outside?",
+            "Sure. Would you like a lid?",
+            "Yes, it is windy today.",
+            "Here is one that fits."
+        ],
+        [
+            "That cake looks good.",
+            "It is chocolate. Want a slice?",
+            "Two, please. One is for my sister.",
+            "I will put them in separate boxes."
+        ],
+        [
+            "I asked for a cold drink.",
+            "Oh, this one is hot.",
+            "Could you change it, please?",
+            "Sorry about that. Keep the water."
+        ],
+        [
+            "Is anyone sitting here?",
+            "No, but the chair is wet.",
+            "I can use this other chair.",
+            "Good idea. It is dry."
+        ],
+        [
+            "How much is everything?",
+            "Five pounds and fifty pence.",
+            "Here is six pounds.",
+            "And here is your change."
+        ],
+        [
+            "There are six of us.",
+            "You can put these tables together.",
+            "Shall I move this chair?",
+            "Yes, next to the blue one."
+        ],
+        [
+            "My tea is cold now.",
+            "I am sorry. Was it a long wait?",
+            "Yes, about twenty minutes.",
+            "Let me make a fresh pot."
+        ]
+    ],
+    "travel": [
+        [
+            "One ticket to York, please.",
+            "Single or return?",
+            "Return. I am coming back tonight.",
+            "The next train leaves at ten."
+        ],
+        [
+            "Does this bus go to the park?",
+            "No, you need the number eight.",
+            "Where does that one stop?",
+            "Across the road, by the bank."
+        ],
+        [
+            "I am early for my train.",
+            "There is one leaving now.",
+            "Can I use this ticket?",
+            "Not on that train. Yours leaves later."
+        ],
+        [
+            "I cannot find my bag.",
+            "What colour is it?",
+            "Red, with a small yellow star.",
+            "There is a red bag at the desk."
+        ],
+        [
+            "What time is our flight now?",
+            "It says half past four.",
+            "We have time for lunch, then.",
+            "Yes, but stay near the gate."
+        ],
+        [
+            "Is this bike free?",
+            "Yes. The key is in the basket.",
+            "Can I bring it back here?",
+            "Before six, please. We close then."
+        ],
+        [
+            "Are there steps at the station?",
+            "Only at the front door.",
+            "My dad uses a wheelchair.",
+            "Use the side door. It is flat."
+        ],
+        [
+            "Are we sharing this taxi?",
+            "Yes. I live near your street.",
+            "Let us ask the price first.",
+            "The driver says ten pounds each."
+        ],
+        [
+            "Our train is not coming.",
+            "There is another one at two.",
+            "I cannot wait that long.",
+            "The desk can help with a refund."
+        ],
+        [
+            "Shall we walk or take the bus?",
+            "How far is the museum?",
+            "About fifteen minutes on foot.",
+            "Let us walk. It is sunny."
+        ]
+    ],
+    "hotel": [
+        [
+            "Hello. The booking is under Green.",
+            "Two nights in a single room?",
+            "Yes. Is it on this floor?",
+            "The next floor up. Here is your key."
+        ],
+        [
+            "Where do we have breakfast?",
+            "In the room behind the stairs.",
+            "Can we go there at seven?",
+            "Yes. The doors open at half past six."
+        ],
+        [
+            "My room is near the road.",
+            "Is the noise keeping you awake?",
+            "Yes. Is there a room at the back?",
+            "Room twelve is free. I can show you."
+        ],
+        [
+            "Do we have to leave at ten?",
+            "Eleven is fine today.",
+            "Good. Our bus leaves at twelve.",
+            "You can wait in the lounge."
+        ],
+        [
+            "Have you got a phone charger?",
+            "What kind of phone is it?",
+            "The same as that one on your desk.",
+            "This charger should fit. Try it."
+        ],
+        [
+            "Where can I wash my shirt?",
+            "There is a laundry downstairs.",
+            "Do I need any coins?",
+            "No. You pay at the front desk."
+        ],
+        [
+            "Can we arrive on Friday instead?",
+            "Let me look at the booking.",
+            "We can still stay for two nights.",
+            "Friday is full, but Saturday is free."
+        ],
+        [
+            "My key is not in my bag.",
+            "Did you leave it in the room?",
+            "I think it is on the bed.",
+            "Show me your name and I can help."
+        ],
+        [
+            "There is a wrong name on my bill.",
+            "Which name should be there?",
+            "Anna Wood, with two letters O.",
+            "Thank you. I will print it again."
+        ],
+        [
+            "Did you enjoy your room?",
+            "The bed was good, but the shower was cold.",
+            "Oh dear. We will check it today.",
+            "Thank you. The room number is nine."
+        ]
+    ],
+    "shopping": [
+        [
+            "Do you have this shirt in blue?",
+            "There is a blue one on that shelf.",
+            "Can I try it on?",
+            "The changing room is on your left."
+        ],
+        [
+            "This jacket is too small.",
+            "Did you keep the receipt?",
+            "Yes, it is in the pocket.",
+            "We have a bigger size over here."
+        ],
+        [
+            "This says twelve pounds online.",
+            "The label here says fifteen.",
+            "Which price do I pay?",
+            "Twelve. That offer started this morning."
+        ],
+        [
+            "The lamp does not turn on.",
+            "Have you tried another plug?",
+            "Yes. My other lamp works there.",
+            "Bring this one to the help desk."
+        ],
+        [
+            "I am here for a book.",
+            "What is the order number?",
+            "I cannot find the email.",
+            "Your name will help us find it."
+        ],
+        [
+            "Is this box for a present?",
+            "Yes, for my brother.",
+            "Would you like some red paper?",
+            "Blue, please. That is his favourite."
+        ],
+        [
+            "Can I pay with this gift card?",
+            "There are five pounds on it.",
+            "The socks cost six pounds.",
+            "You can pay the other pound in cash."
+        ],
+        [
+            "How old is this bike?",
+            "About three years old.",
+            "Can I try the brakes?",
+            "Certainly. There is space behind the shop."
+        ],
+        [
+            "I have my own bag.",
+            "Then you do not need a plastic one.",
+            "Could you leave the box here too?",
+            "Of course. We can use it again."
+        ],
+        [
+            "Is the new story book here yet?",
+            "It arrives on Monday.",
+            "Can you keep one for me?",
+            "Write your name on this list."
+        ]
+    ],
+    "home": [
+        [
+            "The kitchen needs cleaning.",
+            "I can wash the plates.",
+            "Thanks. I will clean the floor.",
+            "Where do you keep the small brush?"
+        ],
+        [
+            "There is water under the sink.",
+            "Is the tap still running?",
+            "No, I turned it off.",
+            "I will get a towel and call Sam."
+        ],
+        [
+            "Could I borrow your ladder?",
+            "It is in the garden.",
+            "I need to change a light.",
+            "Please bring it back before Sunday."
+        ],
+        [
+            "A box came for you.",
+            "Did you put it by the door?",
+            "No, it is in the hall.",
+            "Ah, yes. That is my new coat."
+        ],
+        [
+            "Is that your music upstairs?",
+            "Yes. Is it too loud?",
+            "A little. My baby is asleep.",
+            "Sorry. I can use my headphones."
+        ],
+        [
+            "Is the spare room still free?",
+            "Yes. Would you like to see it?",
+            "Does it have a desk?",
+            "A small one, next to the window."
+        ],
+        [
+            "Are these boxes ready to go?",
+            "Only the ones with red tape.",
+            "What is in this big one?",
+            "Books. Be careful, it is heavy."
+        ],
+        [
+            "Why are all the lights on?",
+            "I forgot the one in the kitchen.",
+            "I will turn it off.",
+            "Thanks. The bill was high last month."
+        ],
+        [
+            "Can we stay here next year?",
+            "I would like that too.",
+            "Shall we ask about the rent?",
+            "Yes, before we sign anything."
+        ],
+        [
+            "Who is feeding your cat tomorrow?",
+            "My neighbour, but she needs a key.",
+            "I can give her our spare one.",
+            "Please tell her the food is in the kitchen."
+        ]
+    ],
+    "health": [
+        [
+            "I would like to see someone.",
+            "Is Tuesday morning all right?",
+            "I work on Tuesday. How about Friday?",
+            "There is a free time at nine."
+        ],
+        [
+            "Is this the easy exercise class?",
+            "Yes. Is it your first time?",
+            "It is. Where do I stand?",
+            "Near me, so you can see my feet."
+        ],
+        [
+            "You look tired this morning.",
+            "I went to bed very late.",
+            "Was there something on television?",
+            "No, I was finishing some work."
+        ],
+        [
+            "Is there any milk in this soup?",
+            "I am not sure. Let me ask.",
+            "Please do. I need to know.",
+            "The cook has a list of everything in it."
+        ],
+        [
+            "Are you coming on the walk?",
+            "How long does it take?",
+            "About an hour, with a short break.",
+            "Then I will bring some water."
+        ],
+        [
+            "Where can I fill my bottle?",
+            "There is a tap by the gate.",
+            "That one is not working.",
+            "Try the one inside the sports hall."
+        ],
+        [
+            "Can we stop for five minutes?",
+            "Yes. We have been sitting here for hours.",
+            "I am going outside for some air.",
+            "I will open the window while you are gone."
+        ],
+        [
+            "The dance teacher is away today.",
+            "Is the class off, then?",
+            "There is another teacher at six.",
+            "That is too late for me this week."
+        ],
+        [
+            "What is in your little notebook?",
+            "My walking times for each day.",
+            "Did you walk today?",
+            "Yes, but only as far as the shops."
+        ],
+        [
+            "The changing room door is stuck.",
+            "Is anyone inside?",
+            "No. I left my coat in there.",
+            "I will ask the person at the desk."
+        ]
+    ],
+    "study": [
+        [
+            "Can I borrow this book?",
+            "Do you have a library card?",
+            "It is at home.",
+            "You can read the book here today."
+        ],
+        [
+            "Which page is our homework on?",
+            "Page twenty, the second question.",
+            "Do we write in the book?",
+            "No, use your blue notebook."
+        ],
+        [
+            "Shall we study after lunch?",
+            "I have football at two.",
+            "What about tomorrow morning?",
+            "That works. Meet me at the library."
+        ],
+        [
+            "My work is not finished.",
+            "When do you have to give it in?",
+            "This afternoon, but my computer is broken.",
+            "Tell the teacher before the lesson."
+        ],
+        [
+            "What does this red mark mean?",
+            "You need a full stop here.",
+            "And this word has two letters wrong?",
+            "Yes. Look at the example on the board."
+        ],
+        [
+            "I want to learn to draw.",
+            "There is a class on Saturday.",
+            "Is it for new students?",
+            "Yes. You do not need to bring anything."
+        ],
+        [
+            "Can you listen to my short talk?",
+            "Sure. I will sit at the back.",
+            "Tell me if I speak too quietly.",
+            "I cannot hear you yet. Try again."
+        ],
+        [
+            "I cannot see the lesson link.",
+            "It is in the first email.",
+            "Oh, I opened the second one.",
+            "There it is. Click the blue words."
+        ],
+        [
+            "Who wrote this book?",
+            "The name is on the front.",
+            "I can only see the title.",
+            "Turn it over. The writer is on the back."
+        ],
+        [
+            "There is a test on Thursday.",
+            "I thought it was next week.",
+            "No, look at the class calendar.",
+            "Then I had better start reading today."
+        ]
+    ],
+    "work": [
+        [
+            "What time is the meeting?",
+            "At half past ten.",
+            "Will it be in the big room?",
+            "No, we are using the room upstairs."
+        ],
+        [
+            "Who is doing the front window?",
+            "I can do it after lunch.",
+            "Then I will clean the tables.",
+            "The cloths are under the counter."
+        ],
+        [
+            "Are you in the office tomorrow?",
+            "No, I am working at home.",
+            "Can I call you at eleven?",
+            "Use my work number, please."
+        ],
+        [
+            "I do not know how to do this.",
+            "Come here and I will show you.",
+            "Which button do I press first?",
+            "The green one, not the red one."
+        ],
+        [
+            "Will this be ready on Friday?",
+            "I still need one more day.",
+            "Would Saturday morning be enough?",
+            "Yes. I can bring it before ten."
+        ],
+        [
+            "Is that the new person by the door?",
+            "Yes, her name is Maya.",
+            "I will show her where we sit.",
+            "Thanks. Her desk is beside yours."
+        ],
+        [
+            "Did you take my notebook?",
+            "I thought it was the office one.",
+            "My name is inside the cover.",
+            "I am sorry. Here it is."
+        ],
+        [
+            "How many boxes did we send?",
+            "Twenty in the morning.",
+            "And ten more after lunch?",
+            "Yes. Put thirty on the form."
+        ],
+        [
+            "This shelf is hard to reach.",
+            "Could we move the heavy bags lower down?",
+            "That would make my job easier.",
+            "Let us ask before we change it."
+        ],
+        [
+            "I am away next week.",
+            "Who will answer your phone?",
+            "Liam will, but he needs my notes.",
+            "Leave them on his desk this afternoon."
+        ]
+    ],
+    "technology": [
+        [
+            "I cannot remember my password.",
+            "Did you write it in that book?",
+            "No, that is my old one.",
+            "Use the account help page to change it."
+        ],
+        [
+            "Can you open the photo I sent?",
+            "It asks me to sign in.",
+            "I used the wrong link.",
+            "Send the new link to my work email."
+        ],
+        [
+            "Where are your holiday photos?",
+            "On this drive, and on my computer.",
+            "So you have two copies?",
+            "Yes. I do not want to lose them."
+        ],
+        [
+            "Your phone keeps making a noise.",
+            "It is the group chat.",
+            "Can you turn the sound off?",
+            "I will. We are trying to watch the film."
+        ],
+        [
+            "My app looks different today.",
+            "There was an update last night.",
+            "Where is the search button now?",
+            "At the top, next to your name."
+        ],
+        [
+            "The internet is slow in here.",
+            "It works well in the kitchen.",
+            "Can we do the call there?",
+            "Yes, the table is clear."
+        ],
+        [
+            "Why does this app want my photos?",
+            "I do not know. Does it need them?",
+            "I only use it to check the weather.",
+            "Then leave that setting off."
+        ],
+        [
+            "These words are too small.",
+            "You can make them bigger.",
+            "Will that change the photos too?",
+            "No. Look at the text setting here."
+        ],
+        [
+            "The new tool gave me a wrong date.",
+            "Where did you check it?",
+            "On the school website.",
+            "Use the date from the school, then."
+        ],
+        [
+            "I do not use this service now.",
+            "Are you still paying for it?",
+            "Yes, every month.",
+            "Look for the stop option in your account."
+        ]
+    ],
+    "environment": [
+        [
+            "Which bin does this bottle go in?",
+            "The green one is for glass.",
+            "It is a plastic bottle.",
+            "Then use the blue bin beside it."
+        ],
+        [
+            "That tap is still running.",
+            "Can you turn it off?",
+            "I tried, but it will not stop.",
+            "Let us tell someone in the office."
+        ],
+        [
+            "Where shall we put this tree?",
+            "Not too close to the wall.",
+            "Will it get enough sun here?",
+            "Yes, and there is room for it to grow."
+        ],
+        [
+            "Do we need gloves for the park clean?",
+            "There are some in this box.",
+            "These are much too big for me.",
+            "Try the pair with yellow fingers."
+        ],
+        [
+            "Are you selling things at the market?",
+            "Some old books and a few plants.",
+            "Can I help at your table?",
+            "Yes. Come before nine to set up."
+        ],
+        [
+            "Whose tools are on this shelf?",
+            "They are for everyone in our street.",
+            "May I borrow the small spade?",
+            "Write your name in the book first."
+        ],
+        [
+            "Do we need all these paper cups?",
+            "We have some proper cups in the kitchen.",
+            "I can bring them out.",
+            "Count them first. There are twelve guests."
+        ],
+        [
+            "Why do you not ride to school?",
+            "The road by the bridge is busy.",
+            "Is there another way?",
+            "There is a path through the park."
+        ],
+        [
+            "What is this form for?",
+            "People can say what the park needs.",
+            "Can I ask for more seats?",
+            "Yes. Write it in the empty box."
+        ],
+        [
+            "We have money for one new thing.",
+            "I would like a bench.",
+            "The children want a football goal.",
+            "Let us ask the rest of the street."
+        ]
+    ]
+}

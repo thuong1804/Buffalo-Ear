@@ -1,19 +1,21 @@
 import { createRouter } from "@tanstack/react-router";
 import { QueryClient } from "@tanstack/react-query";
 import { routeTree } from "./routeTree.gen";
+import { getCspNonce } from "./lib/csp-nonce";
 export function getRouter() {
-  const queryClient = new QueryClient({
-    defaultOptions: { queries: { retry: false, refetchOnWindowFocus: false } },
-  });
-  return createRouter({
-    routeTree,
-    context: { queryClient },
-    scrollRestoration: true,
-    defaultPreload: "intent",
-  });
+    const queryClient = new QueryClient({
+        defaultOptions: { queries: { retry: false, refetchOnWindowFocus: false } },
+    });
+    return createRouter({
+        routeTree,
+        context: { queryClient },
+        ssr: { nonce: getCspNonce() },
+        scrollRestoration: true,
+        defaultPreload: "intent",
+    });
 }
 declare module "@tanstack/react-router" {
-  interface Register {
-    router: ReturnType<typeof getRouter>;
-  }
+    interface Register {
+        router: ReturnType<typeof getRouter>;
+    }
 }
