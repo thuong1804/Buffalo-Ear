@@ -1,4 +1,8 @@
 {
-  "plugins": ["prettier-plugin-tailwindcss"],
-  "tailwindStylesheet": "./src/styles.css"
+    "tabWidth": 4,
+    "useTabs": false,
+    "printWidth": 100,
+    "endOfLine": "lf",
+    "plugins": ["prettier-plugin-tailwindcss"],
+    "tailwindStylesheet": "./src/styles.css"
 }

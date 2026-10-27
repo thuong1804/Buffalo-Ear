@@ -195,3 +195,29 @@ Catalogs live in `src/i18n/locales/{vi,en}/`, split by feature. Use `useTranslat
 ## Deploying to Vercel + Neon
 
 The configuration supports Vercel Functions and Neon PostgreSQL; locally it still runs as a Node server. See the [deployment guide](docs/DEPLOYMENT.md) for creating the database, running migrations, configuring secrets and Google OAuth. Do not set the output directory to `dist/` and do not run migrations during the build.
+
+## Hội thoại theo chủ đề
+
+Nav **Hội thoại** mở trang `/dialogues` riêng: **A1–C2 × 10 chủ đề/cấp × 10 hội thoại/chủ đề = 600 bài**, mỗi bài bốn lượt nói và IPA. Mỗi bài có nội dung viết riêng, không ghép từ vào mẫu câu chung; CEFR là định hướng biên soạn, chưa phải bộ đề được đánh giá/chứng nhận độc lập.
+
+- Chọn cấp độ → chủ đề → bài. Mỗi cấp tải riêng khi được chọn, không tải toàn bộ 600 bài ở lần mở trang đầu tiên. Hover/focus tải trước cấp tương ứng; trong lúc chờ giữ workspace, vị trí cuộn và draft, khóa tạm phần bài cũ. Đổi cấp giữ chủ đề/số bài đang chọn.
+- Chọn câu, bấm nghe bằng giọng hệ thống, nhập tiếng Anh rồi Kiểm tra.
+- Enter chấm câu; nếu đúng, Enter lần nữa sang câu kế. Shift + Enter xuống dòng; đổi cấp/chủ đề/bài/câu không tự phát âm.
+- Chấm theo từ bằng căn chỉnh edit distance, bỏ qua hoa/thường/dấu câu/khoảng trắng; hiển thị từ thiếu, thừa và sai. Từ viết tắt vẫn cần khớp.
+- Đáp án và IPA xuất hiện sau kiểm tra hoặc khi bấm Hiện đáp án. Tab toàn bộ hội thoại có nghe cả đoạn và IPA từng câu; bài xem đáp án được đánh dấu có hỗ trợ.
+- Draft giữ theo ID bài khi đổi cấp/chủ đề/bài trong trang hiện tại; Làm lại chỉ xóa bài đang chọn. Chưa lưu kết quả hội thoại vào database hoặc Tiến độ từ vựng.
+- Dữ liệu tĩnh và metadata: `src/core/dialogue-data/`. Kiểu dữ liệu/loader/chấm: `src/core/dialogues.ts`. Bản dịch: namespace `dialogues`.
+- Nguồn viết sẵn ở `scripts/dialogue-content/`; `npm run test:dialogue-content` kiểm tra nguồn/runtime, câu/cụm dài lặp và bài gần trùng.
+- Nguồn biên soạn và cách tạo lại IPA: [docs/DIALOGUE_CURRICULUM.md](docs/DIALOGUE_CURRICULUM.md). Không có engine hoặc model phát âm mới trong bundle trình duyệt.
+
+`npm run test:dialogues` kiểm tra sáu cấp, đủ 10 chủ đề và 10 lựa chọn bài, tải theo cấp, draft riêng, bộ lọc im lặng, nghe/nhập/chấm, IPA, Enter, toàn bộ hội thoại, i18n và responsive.
+
+## Code formatting
+
+- Use **4 spaces**, never hard tabs, with a 100-character line width and LF line endings. Prettier and EditorConfig share this convention.
+- Run `npm run format` to format supported project files and `npm run format:check` to check them. Build output, generated router/migration metadata, upstream licenses/fonts and vocabulary import artifacts are excluded in `.prettierignore`.
+- Python maintenance scripts use Black 24.10.0: `python -m pip install -r requirements-dev.txt`, then `python -m black scripts` or `python -m black --check scripts`. Options live in `pyproject.toml`; these are development tools only.
+- Dialogue display components live in `src/components/dialogues/`: topic selection, audio settings, transcript and grading feedback. `Dialogues.tsx` coordinates page state and interactions.
+- After refactoring, run `npm run typecheck`, `npm test`, `npm run build` and the browser tests relevant to the change.
+
+`npm run test:dialogue-filters` mô phỏng mạng chậm 900ms, kiểm tra không tháo workspace/nhảy cuộn, giữ danh sách chủ đề và draft, chuyển cấp liên tiếp chỉ hiện lựa chọn cuối; đo vị trí ô nhập qua sáu cấp và các chủ đề trên mobile/desktop Việt–Anh.

@@ -1,0 +1,3202 @@
+[
+    {
+        "id": "A1-cafe-1",
+        "level": "A1",
+        "topicId": "cafe",
+        "number": 1,
+        "title": {
+            "vi": "Gọi cà phê",
+            "en": "Ordering coffee"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "A small coffee, please.",
+                "ipa": "/ɐ smˈɔːl kˈɒfi plˈiːz/"
+            },
+            {
+                "speaker": "B",
+                "text": "Black or with milk?",
+                "ipa": "/blˈak ɔː wɪð mˈɪlk/"
+            },
+            {
+                "speaker": "A",
+                "text": "Just a little milk.",
+                "ipa": "/dʒˈʌst ɐ lˈɪtəl mˈɪlk/"
+            },
+            {
+                "speaker": "B",
+                "text": "Here you are. Mind the hot cup.",
+                "ipa": "/hˈiə juː ɑː mˈaɪnd ðə hˈɒt kˈʌp/"
+            }
+        ]
+    },
+    {
+        "id": "A1-cafe-2",
+        "level": "A1",
+        "topicId": "cafe",
+        "number": 2,
+        "title": {
+            "vi": "Chọn trà",
+            "en": "Choosing tea"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "What tea do you have?",
+                "ipa": "/wˌɒt tˈiː dˈuː juː hˈav/"
+            },
+            {
+                "speaker": "B",
+                "text": "Green tea and lemon tea.",
+                "ipa": "/ɡɹˈiːn tˈiː and lˈɛmən tˈiː/"
+            },
+            {
+                "speaker": "A",
+                "text": "Lemon sounds nice. No sugar, please.",
+                "ipa": "/lˈɛmən sˈaʊndz nˈaɪs nˈəʊ ʃˈʊɡə plˈiːz/"
+            },
+            {
+                "speaker": "B",
+                "text": "Take a seat. I will bring it over.",
+                "ipa": "/tˈeɪk ɐ sˈiːt aɪ wɪl bɹˈɪŋ ɪt ˈəʊvə/"
+            }
+        ]
+    },
+    {
+        "id": "A1-cafe-3",
+        "level": "A1",
+        "topicId": "cafe",
+        "number": 3,
+        "title": {
+            "vi": "Sữa thực vật",
+            "en": "Plant milk"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Is this my drink?",
+                "ipa": "/ɪz ðɪs maɪ dɹˈɪŋk/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes, the one with oat milk.",
+                "ipa": "/jˈɛs ðə wˈɒn wɪð ˈəʊt mˈɪlk/"
+            },
+            {
+                "speaker": "A",
+                "text": "Great. My name is on the cup.",
+                "ipa": "/ɡɹˈeɪt maɪ nˈeɪm ɪz ɒnðə kˈʌp/"
+            },
+            {
+                "speaker": "B",
+                "text": "Sorry, I wrote Ben, not Beth.",
+                "ipa": "/sˈɒɹi aɪ ɹˈəʊt bˈɛn nˌɒt bˈɛθ/"
+            }
+        ]
+    },
+    {
+        "id": "A1-cafe-4",
+        "level": "A1",
+        "topicId": "cafe",
+        "number": 4,
+        "title": {
+            "vi": "Mua mang đi",
+            "en": "Taking a drink away"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Can I take this outside?",
+                "ipa": "/kan aɪ tˈeɪk ðɪs aʊtsˈaɪd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Sure. Would you like a lid?",
+                "ipa": "/ʃˈʊə wʊd juː lˈaɪk ɐ lˈɪd/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes, it is windy today.",
+                "ipa": "/jˈɛs ɪt ɪz wˈɪndi tədˈeɪ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Here is one that fits.",
+                "ipa": "/hˈiəɹ ɪz wˈɒn ðat fˈɪts/"
+            }
+        ]
+    },
+    {
+        "id": "A1-cafe-5",
+        "level": "A1",
+        "topicId": "cafe",
+        "number": 5,
+        "title": {
+            "vi": "Đặt bánh",
+            "en": "Ordering cake"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "That cake looks good.",
+                "ipa": "/ðat kˈeɪk lˈʊks ɡˈʊd/"
+            },
+            {
+                "speaker": "B",
+                "text": "It is chocolate. Want a slice?",
+                "ipa": "/ɪt ɪz tʃˈɒklət wˈɒnt ɐ slˈaɪs/"
+            },
+            {
+                "speaker": "A",
+                "text": "Two, please. One is for my sister.",
+                "ipa": "/tˈuː plˈiːz wˈɒn ɪz fɔː maɪ sˈɪstə/"
+            },
+            {
+                "speaker": "B",
+                "text": "I will put them in separate boxes.",
+                "ipa": "/aɪ wɪl pˌʊt ðˌɛm ɪn sˈɛpɹət bˈɒksɪz/"
+            }
+        ]
+    },
+    {
+        "id": "A1-cafe-6",
+        "level": "A1",
+        "topicId": "cafe",
+        "number": 6,
+        "title": {
+            "vi": "Đổi đồ uống",
+            "en": "Changing an order"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I asked for a cold drink.",
+                "ipa": "/aɪ ˈaskt fəɹə kˈəʊld dɹˈɪŋk/"
+            },
+            {
+                "speaker": "B",
+                "text": "Oh, this one is hot.",
+                "ipa": "/ˈəʊ ðˈɪswˌɒn ɪz hˈɒt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Could you change it, please?",
+                "ipa": "/kʊd juː tʃˈeɪndʒ ɪt plˈiːz/"
+            },
+            {
+                "speaker": "B",
+                "text": "Sorry about that. Keep the water.",
+                "ipa": "/sˈɒɹi ɐbˌaʊt ðˈat kˈiːp ðə wˈɔːtə/"
+            }
+        ]
+    },
+    {
+        "id": "A1-cafe-7",
+        "level": "A1",
+        "topicId": "cafe",
+        "number": 7,
+        "title": {
+            "vi": "Tìm chỗ ngồi",
+            "en": "Finding a seat"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Is anyone sitting here?",
+                "ipa": "/ɪz ˈɛnɪwˌɒn sˈɪtɪŋ hˈiə/"
+            },
+            {
+                "speaker": "B",
+                "text": "No, but the chair is wet.",
+                "ipa": "/nˈəʊ bˌʌt ðə tʃˈeəɹ ɪz wˈɛt/"
+            },
+            {
+                "speaker": "A",
+                "text": "I can use this other chair.",
+                "ipa": "/aɪ kan jˈuːz ðɪs ˈʌðə tʃˈeə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Good idea. It is dry.",
+                "ipa": "/ɡˈʊd aɪdˈiə ɪt ɪz dɹˈaɪ/"
+            }
+        ]
+    },
+    {
+        "id": "A1-cafe-8",
+        "level": "A1",
+        "topicId": "cafe",
+        "number": 8,
+        "title": {
+            "vi": "Thanh toán",
+            "en": "Paying the bill"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "How much is everything?",
+                "ipa": "/hˌaʊ mˈʌtʃ ɪz ˈɛvɹɪθˌɪŋ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Five pounds and fifty pence.",
+                "ipa": "/fˈaɪv pˈaʊndz and fˈɪfti pˈɛns/"
+            },
+            {
+                "speaker": "A",
+                "text": "Here is six pounds.",
+                "ipa": "/hˈiəɹ ɪz sˈɪks pˈaʊndz/"
+            },
+            {
+                "speaker": "B",
+                "text": "And here is your change.",
+                "ipa": "/and hˈiəɹ ɪz jɔː tʃˈeɪndʒ/"
+            }
+        ]
+    },
+    {
+        "id": "A1-cafe-9",
+        "level": "A1",
+        "topicId": "cafe",
+        "number": 9,
+        "title": {
+            "vi": "Đặt bàn nhóm",
+            "en": "Booking a group table"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "There are six of us.",
+                "ipa": "/ðeəɹˌɑː sˈɪks ɒv ˌʌs/"
+            },
+            {
+                "speaker": "B",
+                "text": "You can put these tables together.",
+                "ipa": "/juː kan pˌʊt ðiːz tˈeɪbəlz təɡˈɛðə/"
+            },
+            {
+                "speaker": "A",
+                "text": "Shall I move this chair?",
+                "ipa": "/ʃˌal aɪ mˈuːv ðɪs tʃˈeə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes, next to the blue one.",
+                "ipa": "/jˈɛs nˈɛkst tə ðə blˈuː wˌɒn/"
+            }
+        ]
+    },
+    {
+        "id": "A1-cafe-10",
+        "level": "A1",
+        "topicId": "cafe",
+        "number": 10,
+        "title": {
+            "vi": "Phản hồi dịch vụ",
+            "en": "Giving feedback"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "My tea is cold now.",
+                "ipa": "/maɪ tˈiː ɪz kˈəʊld nˈaʊ/"
+            },
+            {
+                "speaker": "B",
+                "text": "I am sorry. Was it a long wait?",
+                "ipa": "/aɪɐm sˈɒɹi wɒz ɪt ɐ lˈɒŋ wˈeɪt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes, about twenty minutes.",
+                "ipa": "/jˈɛs ɐbˌaʊt twˈɛnti mˈɪnɪts/"
+            },
+            {
+                "speaker": "B",
+                "text": "Let me make a fresh pot.",
+                "ipa": "/lˈɛt mˌiː mˌeɪk ɐ fɹˈɛʃ pˈɒt/"
+            }
+        ]
+    },
+    {
+        "id": "A1-travel-1",
+        "level": "A1",
+        "topicId": "travel",
+        "number": 1,
+        "title": {
+            "vi": "Mua vé tàu",
+            "en": "Buying a train ticket"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "One ticket to York, please.",
+                "ipa": "/wˈɒn tˈɪkɪt tə jˈɔːk plˈiːz/"
+            },
+            {
+                "speaker": "B",
+                "text": "Single or return?",
+                "ipa": "/sˈɪŋɡəl ɔː ɹɪtˈɜːn/"
+            },
+            {
+                "speaker": "A",
+                "text": "Return. I am coming back tonight.",
+                "ipa": "/ɹɪtˈɜːn aɪɐm kˈʌmɪŋ bˈak tənˈaɪt/"
+            },
+            {
+                "speaker": "B",
+                "text": "The next train leaves at ten.",
+                "ipa": "/ðə nˈɛkst tɹˈeɪn lˈiːvz at tˈɛn/"
+            }
+        ]
+    },
+    {
+        "id": "A1-travel-2",
+        "level": "A1",
+        "topicId": "travel",
+        "number": 2,
+        "title": {
+            "vi": "Tìm bến xe",
+            "en": "Finding a bus stop"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Does this bus go to the park?",
+                "ipa": "/dˈʌz ðɪs bˈʌs ɡˌəʊ tə ðə pˈɑːk/"
+            },
+            {
+                "speaker": "B",
+                "text": "No, you need the number eight.",
+                "ipa": "/nˈəʊ juː nˈiːd ðə nˈʌmbəɹ ˈeɪt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Where does that one stop?",
+                "ipa": "/wˌeə dˈʌz ðˈatwˌɒn stˈɒp/"
+            },
+            {
+                "speaker": "B",
+                "text": "Across the road, by the bank.",
+                "ipa": "/əkɹˌɒs ðə ɹˈəʊd baɪ ðə bˈaŋk/"
+            }
+        ]
+    },
+    {
+        "id": "A1-travel-3",
+        "level": "A1",
+        "topicId": "travel",
+        "number": 3,
+        "title": {
+            "vi": "Đổi chuyến",
+            "en": "Changing a journey"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I am early for my train.",
+                "ipa": "/aɪɐm ˈɜːlɪ fɔː maɪ tɹˈeɪn/"
+            },
+            {
+                "speaker": "B",
+                "text": "There is one leaving now.",
+                "ipa": "/ðeəɹ ɪz wˈɒn lˈiːvɪŋ nˈaʊ/"
+            },
+            {
+                "speaker": "A",
+                "text": "Can I use this ticket?",
+                "ipa": "/kan aɪ jˈuːz ðɪs tˈɪkɪt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Not on that train. Yours leaves later.",
+                "ipa": "/nˌɒt ˌɒn ðat tɹˈeɪn jˈɔːz lˈiːvz lˈeɪtə/"
+            }
+        ]
+    },
+    {
+        "id": "A1-travel-4",
+        "level": "A1",
+        "topicId": "travel",
+        "number": 4,
+        "title": {
+            "vi": "Hành lý thất lạc",
+            "en": "Lost luggage"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I cannot find my bag.",
+                "ipa": "/aɪ kˈanɒt fˈaɪnd maɪ bˈaɡ/"
+            },
+            {
+                "speaker": "B",
+                "text": "What colour is it?",
+                "ipa": "/wˌɒt kˈʌləɹ ɪz ɪt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Red, with a small yellow star.",
+                "ipa": "/ɹˈɛd wɪð ɐ smˈɔːl jˈɛləʊ stˈɑː/"
+            },
+            {
+                "speaker": "B",
+                "text": "There is a red bag at the desk.",
+                "ipa": "/ðeəɹ ɪz ɐ ɹˈɛd bˈaɡ at ðə dˈɛsk/"
+            }
+        ]
+    },
+    {
+        "id": "A1-travel-5",
+        "level": "A1",
+        "topicId": "travel",
+        "number": 5,
+        "title": {
+            "vi": "Chuyến bay trễ",
+            "en": "A delayed flight"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "What time is our flight now?",
+                "ipa": "/wˌɒt tˈaɪm ɪz ˌaʊə flˈaɪt nˈaʊ/"
+            },
+            {
+                "speaker": "B",
+                "text": "It says half past four.",
+                "ipa": "/ɪt sˈɛz hˈɑːf pˈast fˈɔː/"
+            },
+            {
+                "speaker": "A",
+                "text": "We have time for lunch, then.",
+                "ipa": "/wiː hav tˈaɪm fɔː lˈʌntʃ ðˈɛn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes, but stay near the gate.",
+                "ipa": "/jˈɛs bˌʌt stˈeɪ nˌiə ðə ɡˈeɪt/"
+            }
+        ]
+    },
+    {
+        "id": "A1-travel-6",
+        "level": "A1",
+        "topicId": "travel",
+        "number": 6,
+        "title": {
+            "vi": "Đi xe đạp",
+            "en": "Hiring a bicycle"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Is this bike free?",
+                "ipa": "/ɪz ðɪs bˈaɪk fɹˈiː/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes. The key is in the basket.",
+                "ipa": "/jˈɛs ðə kˈiː ɪz ɪnðə bˈaskɪt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Can I bring it back here?",
+                "ipa": "/kan aɪ bɹˈɪŋ ɪt bˈak hˈiə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Before six, please. We close then.",
+                "ipa": "/bɪfˌɔː sˈɪks plˈiːz wiː klˈəʊz ðˈɛn/"
+            }
+        ]
+    },
+    {
+        "id": "A1-travel-7",
+        "level": "A1",
+        "topicId": "travel",
+        "number": 7,
+        "title": {
+            "vi": "Đường dễ tiếp cận",
+            "en": "An accessible route"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Are there steps at the station?",
+                "ipa": "/ɑː ðeə stˈɛps at ðə stˈeɪʃən/"
+            },
+            {
+                "speaker": "B",
+                "text": "Only at the front door.",
+                "ipa": "/ˈəʊnli at ðə fɹˈʌnt dˈɔː/"
+            },
+            {
+                "speaker": "A",
+                "text": "My dad uses a wheelchair.",
+                "ipa": "/maɪ dˈad jˈuːsɪz ɐ wˈiːltʃeə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Use the side door. It is flat.",
+                "ipa": "/jˈuːs ðə sˈaɪd dˈɔː ɪt ɪz flˈat/"
+            }
+        ]
+    },
+    {
+        "id": "A1-travel-8",
+        "level": "A1",
+        "topicId": "travel",
+        "number": 8,
+        "title": {
+            "vi": "Chia tiền taxi",
+            "en": "Sharing a taxi fare"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Are we sharing this taxi?",
+                "ipa": "/ɑː wiː ʃˈeəɹɪŋ ðɪs tˈaksi/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes. I live near your street.",
+                "ipa": "/jˈɛs aɪ lˈɪv nˌiə jɔː stɹˈiːt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Let us ask the price first.",
+                "ipa": "/lˈɛt ˌʌs ˈask ðə pɹˈaɪs fˈɜːst/"
+            },
+            {
+                "speaker": "B",
+                "text": "The driver says ten pounds each.",
+                "ipa": "/ðə dɹˈaɪvə sˈɛz tˈɛn pˈaʊndz ˈiːtʃ/"
+            }
+        ]
+    },
+    {
+        "id": "A1-travel-9",
+        "level": "A1",
+        "topicId": "travel",
+        "number": 9,
+        "title": {
+            "vi": "Hoàn tiền vé",
+            "en": "Getting a ticket refund"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Our train is not coming.",
+                "ipa": "/ˌaʊə tɹˈeɪn ɪz nˌɒt kˈʌmɪŋ/"
+            },
+            {
+                "speaker": "B",
+                "text": "There is another one at two.",
+                "ipa": "/ðeəɹ ɪz ɐnˈʌðə wˈɒn at tˈuː/"
+            },
+            {
+                "speaker": "A",
+                "text": "I cannot wait that long.",
+                "ipa": "/aɪ kˈanɒt wˈeɪt ðat lˈɒŋ/"
+            },
+            {
+                "speaker": "B",
+                "text": "The desk can help with a refund.",
+                "ipa": "/ðə dˈɛsk kan hˈɛlp wɪð ɐ ɹˈiːfʌnd/"
+            }
+        ]
+    },
+    {
+        "id": "A1-travel-10",
+        "level": "A1",
+        "topicId": "travel",
+        "number": 10,
+        "title": {
+            "vi": "Chọn phương tiện",
+            "en": "Choosing transport"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Shall we walk or take the bus?",
+                "ipa": "/ʃˌal wiː wˈɔːk ɔː tˈeɪk ðə bˈʌs/"
+            },
+            {
+                "speaker": "B",
+                "text": "How far is the museum?",
+                "ipa": "/hˌaʊ fˈɑːɹ ɪz ðə mjuːzˈiəm/"
+            },
+            {
+                "speaker": "A",
+                "text": "About fifteen minutes on foot.",
+                "ipa": "/ɐbˌaʊt fˈɪftiːn mˈɪnɪts ˌɒn fˈʊt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Let us walk. It is sunny.",
+                "ipa": "/lˈɛt ˌʌs wˈɔːk ɪt ɪz sˈʌni/"
+            }
+        ]
+    },
+    {
+        "id": "A1-hotel-1",
+        "level": "A1",
+        "topicId": "hotel",
+        "number": 1,
+        "title": {
+            "vi": "Nhận phòng",
+            "en": "Checking in"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Hello. The booking is under Green.",
+                "ipa": "/həlˈəʊ ðə bˈʊkɪŋ ɪz ˌʌndə ɡɹˈiːn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Two nights in a single room?",
+                "ipa": "/tˈuː nˈaɪts ɪn ɐ sˈɪŋɡəl ɹˈuːm/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes. Is it on this floor?",
+                "ipa": "/jˈɛs ɪz ɪt ˌɒn ðɪs flˈɔː/"
+            },
+            {
+                "speaker": "B",
+                "text": "The next floor up. Here is your key.",
+                "ipa": "/ðə nˈɛkst flˈɔːɹ ˈʌp hˈiəɹ ɪz jɔː kˈiː/"
+            }
+        ]
+    },
+    {
+        "id": "A1-hotel-2",
+        "level": "A1",
+        "topicId": "hotel",
+        "number": 2,
+        "title": {
+            "vi": "Bữa sáng",
+            "en": "Asking about breakfast"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Where do we have breakfast?",
+                "ipa": "/wˌeə dˈuː wiː hav bɹˈɛkfəst/"
+            },
+            {
+                "speaker": "B",
+                "text": "In the room behind the stairs.",
+                "ipa": "/ɪnðə ɹˈuːm bɪhˌaɪnd ðə stˈeəz/"
+            },
+            {
+                "speaker": "A",
+                "text": "Can we go there at seven?",
+                "ipa": "/kan wiː ɡˌəʊ ðeəɹ at sˈɛvən/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes. The doors open at half past six.",
+                "ipa": "/jˈɛs ðə dˈɔːz ˈəʊpən at hˈɑːf pˈast sˈɪks/"
+            }
+        ]
+    },
+    {
+        "id": "A1-hotel-3",
+        "level": "A1",
+        "topicId": "hotel",
+        "number": 3,
+        "title": {
+            "vi": "Phòng yên tĩnh",
+            "en": "Requesting a quiet room"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "My room is near the road.",
+                "ipa": "/maɪ ɹˈuːm ɪz nˌiə ðə ɹˈəʊd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Is the noise keeping you awake?",
+                "ipa": "/ɪz ðə nˈɔɪz kˈiːpɪŋ juː ɐwˈeɪk/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes. Is there a room at the back?",
+                "ipa": "/jˈɛs ɪz ðeəɹ ɐ ɹˈuːm at ðə bˈak/"
+            },
+            {
+                "speaker": "B",
+                "text": "Room twelve is free. I can show you.",
+                "ipa": "/ɹˈuːm twˈɛlv ɪz fɹˈiː aɪ kan ʃˈəʊ juː/"
+            }
+        ]
+    },
+    {
+        "id": "A1-hotel-4",
+        "level": "A1",
+        "topicId": "hotel",
+        "number": 4,
+        "title": {
+            "vi": "Trả phòng trễ",
+            "en": "Checking out late"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Do we have to leave at ten?",
+                "ipa": "/dˈuː wiː hav tə lˈiːv at tˈɛn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Eleven is fine today.",
+                "ipa": "/ɪlˈɛvən ɪz fˈaɪn tədˈeɪ/"
+            },
+            {
+                "speaker": "A",
+                "text": "Good. Our bus leaves at twelve.",
+                "ipa": "/ɡˈʊd ˌaʊə bˈʌs lˈiːvz at twˈɛlv/"
+            },
+            {
+                "speaker": "B",
+                "text": "You can wait in the lounge.",
+                "ipa": "/juː kan wˈeɪt ɪnðə lˈaʊndʒ/"
+            }
+        ]
+    },
+    {
+        "id": "A1-hotel-5",
+        "level": "A1",
+        "topicId": "hotel",
+        "number": 5,
+        "title": {
+            "vi": "Mượn bộ sạc",
+            "en": "Borrowing a charger"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Have you got a phone charger?",
+                "ipa": "/hav juː ɡɒt ɐ fˈəʊn tʃˈɑːdʒə/"
+            },
+            {
+                "speaker": "B",
+                "text": "What kind of phone is it?",
+                "ipa": "/wˌɒt kˈaɪnd ɒv fˈəʊn ɪz ɪt/"
+            },
+            {
+                "speaker": "A",
+                "text": "The same as that one on your desk.",
+                "ipa": "/ðə sˈeɪm az ðˈatwˌɒn ˌɒn jɔː dˈɛsk/"
+            },
+            {
+                "speaker": "B",
+                "text": "This charger should fit. Try it.",
+                "ipa": "/ðɪs tʃˈɑːdʒə ʃˌʊd fˈɪt tɹˈaɪ ɪt/"
+            }
+        ]
+    },
+    {
+        "id": "A1-hotel-6",
+        "level": "A1",
+        "topicId": "hotel",
+        "number": 6,
+        "title": {
+            "vi": "Giặt quần áo",
+            "en": "Using the laundry"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Where can I wash my shirt?",
+                "ipa": "/wˌeə kan aɪ wˈɒʃ maɪ ʃˈɜːt/"
+            },
+            {
+                "speaker": "B",
+                "text": "There is a laundry downstairs.",
+                "ipa": "/ðeəɹ ɪz ɐ lˈɔːndɹi dˈaʊnsteəz/"
+            },
+            {
+                "speaker": "A",
+                "text": "Do I need any coins?",
+                "ipa": "/dˈuː aɪ nˈiːd ˌɛni kˈɔɪnz/"
+            },
+            {
+                "speaker": "B",
+                "text": "No. You pay at the front desk.",
+                "ipa": "/nˈəʊ juː pˈeɪ at ðə fɹˈʌnt dˈɛsk/"
+            }
+        ]
+    },
+    {
+        "id": "A1-hotel-7",
+        "level": "A1",
+        "topicId": "hotel",
+        "number": 7,
+        "title": {
+            "vi": "Đổi ngày đặt",
+            "en": "Changing booking dates"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Can we arrive on Friday instead?",
+                "ipa": "/kan wiː ɐɹˈaɪv ˌɒn fɹˈaɪdeɪ ɪnstˈɛd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Let me look at the booking.",
+                "ipa": "/lˈɛt mˌiː lˈʊk at ðə bˈʊkɪŋ/"
+            },
+            {
+                "speaker": "A",
+                "text": "We can still stay for two nights.",
+                "ipa": "/wiː kan stˈɪl stˈeɪ fɔː tˈuː nˈaɪts/"
+            },
+            {
+                "speaker": "B",
+                "text": "Friday is full, but Saturday is free.",
+                "ipa": "/fɹˈaɪdeɪ ɪz fˈʊl bˌʌt sˈatədˌeɪ ɪz fɹˈiː/"
+            }
+        ]
+    },
+    {
+        "id": "A1-hotel-8",
+        "level": "A1",
+        "topicId": "hotel",
+        "number": 8,
+        "title": {
+            "vi": "Báo mất chìa",
+            "en": "Reporting a lost key"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "My key is not in my bag.",
+                "ipa": "/maɪ kˈiː ɪz nˌɒt ɪn maɪ bˈaɡ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Did you leave it in the room?",
+                "ipa": "/dˈɪd juː lˈiːv ɪt ɪnðə ɹˈuːm/"
+            },
+            {
+                "speaker": "A",
+                "text": "I think it is on the bed.",
+                "ipa": "/aɪ θˈɪŋk ɪt ɪz ɒnðə bˈɛd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Show me your name and I can help.",
+                "ipa": "/ʃˈəʊ mˌiː jɔː nˈeɪm and aɪ kan hˈɛlp/"
+            }
+        ]
+    },
+    {
+        "id": "A1-hotel-9",
+        "level": "A1",
+        "topicId": "hotel",
+        "number": 9,
+        "title": {
+            "vi": "Nhận hóa đơn",
+            "en": "Requesting an invoice"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "There is a wrong name on my bill.",
+                "ipa": "/ðeəɹ ɪz ɐ ɹˈɒŋ nˈeɪm ˌɒn maɪ bˈɪl/"
+            },
+            {
+                "speaker": "B",
+                "text": "Which name should be there?",
+                "ipa": "/wˌɪtʃ nˈeɪm ʃˌʊd biː ðˈeə/"
+            },
+            {
+                "speaker": "A",
+                "text": "Anna Wood, with two letters O.",
+                "ipa": "/ˈanə wˈʊd wɪð tˈuː lˈɛtəz ˈəʊ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Thank you. I will print it again.",
+                "ipa": "/θˈaŋk juː aɪ wɪl pɹˈɪnt ɪt ɐɡˈɛn/"
+            }
+        ]
+    },
+    {
+        "id": "A1-hotel-10",
+        "level": "A1",
+        "topicId": "hotel",
+        "number": 10,
+        "title": {
+            "vi": "Đánh giá lưu trú",
+            "en": "Reviewing a stay"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Did you enjoy your room?",
+                "ipa": "/dˈɪd juː ɛndʒˈɔɪ jɔː ɹˈuːm/"
+            },
+            {
+                "speaker": "B",
+                "text": "The bed was good, but the shower was cold.",
+                "ipa": "/ðə bˈɛd wɒz ɡˈʊd bˌʌt ðə ʃˈaʊə wɒz kˈəʊld/"
+            },
+            {
+                "speaker": "A",
+                "text": "Oh dear. We will check it today.",
+                "ipa": "/ˈəʊ dˈiə wiː wɪl tʃˈɛk ɪt tədˈeɪ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Thank you. The room number is nine.",
+                "ipa": "/θˈaŋk juː ðə ɹˈuːm nˈʌmbəɹ ɪz nˈaɪn/"
+            }
+        ]
+    },
+    {
+        "id": "A1-shopping-1",
+        "level": "A1",
+        "topicId": "shopping",
+        "number": 1,
+        "title": {
+            "vi": "Chọn áo",
+            "en": "Choosing a shirt"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Do you have this shirt in blue?",
+                "ipa": "/dˈuː juː hav ðɪs ʃˈɜːt ɪn blˈuː/"
+            },
+            {
+                "speaker": "B",
+                "text": "There is a blue one on that shelf.",
+                "ipa": "/ðeəɹ ɪz ɐ blˈuː wˈɒn ˌɒn ðat ʃˈɛlf/"
+            },
+            {
+                "speaker": "A",
+                "text": "Can I try it on?",
+                "ipa": "/kan aɪ tɹˈaɪ ɪt ˈɒn/"
+            },
+            {
+                "speaker": "B",
+                "text": "The changing room is on your left.",
+                "ipa": "/ðə tʃˈeɪndʒɪŋ ɹˈuːm ɪz ˌɒn jɔː lˈɛft/"
+            }
+        ]
+    },
+    {
+        "id": "A1-shopping-2",
+        "level": "A1",
+        "topicId": "shopping",
+        "number": 2,
+        "title": {
+            "vi": "Đổi kích cỡ",
+            "en": "Changing a size"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "This jacket is too small.",
+                "ipa": "/ðɪs dʒˈakɪt ɪz tˈuː smˈɔːl/"
+            },
+            {
+                "speaker": "B",
+                "text": "Did you keep the receipt?",
+                "ipa": "/dˈɪd juː kˈiːp ðə ɹɪsˈiːt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes, it is in the pocket.",
+                "ipa": "/jˈɛs ɪt ɪz ɪnðə pˈɒkɪt/"
+            },
+            {
+                "speaker": "B",
+                "text": "We have a bigger size over here.",
+                "ipa": "/wiː hav ɐ bˈɪɡə sˈaɪz ˌəʊvə hˈiə/"
+            }
+        ]
+    },
+    {
+        "id": "A1-shopping-3",
+        "level": "A1",
+        "topicId": "shopping",
+        "number": 3,
+        "title": {
+            "vi": "So sánh giá",
+            "en": "Comparing prices"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "This says twelve pounds online.",
+                "ipa": "/ðɪs sˈɛz twˈɛlv pˈaʊndz ˈɒnlaɪn/"
+            },
+            {
+                "speaker": "B",
+                "text": "The label here says fifteen.",
+                "ipa": "/ðə lˈeɪbəl hˈiə sˈɛz fˈɪftiːn/"
+            },
+            {
+                "speaker": "A",
+                "text": "Which price do I pay?",
+                "ipa": "/wˌɪtʃ pɹˈaɪs dˈuː aɪ pˈeɪ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Twelve. That offer started this morning.",
+                "ipa": "/twˈɛlv ðat ˈɒfə stˈɑːtɪd ðɪs mˈɔːnɪŋ/"
+            }
+        ]
+    },
+    {
+        "id": "A1-shopping-4",
+        "level": "A1",
+        "topicId": "shopping",
+        "number": 4,
+        "title": {
+            "vi": "Trả hàng lỗi",
+            "en": "Returning a faulty item"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The lamp does not turn on.",
+                "ipa": "/ðə lˈamp dʌznˌɒt tˈɜːn ˈɒn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Have you tried another plug?",
+                "ipa": "/hav juː tɹˈaɪd ɐnˈʌðə plˈʌɡ/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes. My other lamp works there.",
+                "ipa": "/jˈɛs maɪ ˈʌðə lˈamp wˈɜːks ðˈeə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Bring this one to the help desk.",
+                "ipa": "/bɹˈɪŋ ðˈɪswˌɒn tə ðə hˈɛlp dˈɛsk/"
+            }
+        ]
+    },
+    {
+        "id": "A1-shopping-5",
+        "level": "A1",
+        "topicId": "shopping",
+        "number": 5,
+        "title": {
+            "vi": "Nhận đơn hàng",
+            "en": "Collecting an order"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I am here for a book.",
+                "ipa": "/aɪɐm hˈiə fəɹə bˈʊk/"
+            },
+            {
+                "speaker": "B",
+                "text": "What is the order number?",
+                "ipa": "/wˌɒt ɪz ðɪ ˈɔːdə nˈʌmbə/"
+            },
+            {
+                "speaker": "A",
+                "text": "I cannot find the email.",
+                "ipa": "/aɪ kˈanɒt fˈaɪnd ðɪ ˈiːmeɪl/"
+            },
+            {
+                "speaker": "B",
+                "text": "Your name will help us find it.",
+                "ipa": "/jɔː nˈeɪm wɪl hˈɛlp ˌʌs fˈaɪnd ɪt/"
+            }
+        ]
+    },
+    {
+        "id": "A1-shopping-6",
+        "level": "A1",
+        "topicId": "shopping",
+        "number": 6,
+        "title": {
+            "vi": "Gửi quà",
+            "en": "Sending a gift"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Is this box for a present?",
+                "ipa": "/ɪz ðɪs bˈɒks fəɹə pɹˈɛzənt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes, for my brother.",
+                "ipa": "/jˈɛs fɔː maɪ bɹˈʌðə/"
+            },
+            {
+                "speaker": "A",
+                "text": "Would you like some red paper?",
+                "ipa": "/wʊd juː lˈaɪk sˌʌm ɹˈɛd pˈeɪpə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Blue, please. That is his favourite.",
+                "ipa": "/blˈuː plˈiːz ðat ɪz hɪz fˈeɪvɹɪt/"
+            }
+        ]
+    },
+    {
+        "id": "A1-shopping-7",
+        "level": "A1",
+        "topicId": "shopping",
+        "number": 7,
+        "title": {
+            "vi": "Dùng phiếu giảm",
+            "en": "Using a voucher"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Can I pay with this gift card?",
+                "ipa": "/kan aɪ pˈeɪ wɪð ðɪs ɡˈɪft kˈɑːd/"
+            },
+            {
+                "speaker": "B",
+                "text": "There are five pounds on it.",
+                "ipa": "/ðeəɹˌɑː fˈaɪv pˈaʊndz ˈɒn ɪt/"
+            },
+            {
+                "speaker": "A",
+                "text": "The socks cost six pounds.",
+                "ipa": "/ðə sˈɒks kˈɒst sˈɪks pˈaʊndz/"
+            },
+            {
+                "speaker": "B",
+                "text": "You can pay the other pound in cash.",
+                "ipa": "/juː kan pˈeɪ ðɪ ˈʌðə pˈaʊnd ɪn kˈaʃ/"
+            }
+        ]
+    },
+    {
+        "id": "A1-shopping-8",
+        "level": "A1",
+        "topicId": "shopping",
+        "number": 8,
+        "title": {
+            "vi": "Mua đồ cũ",
+            "en": "Buying second-hand"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "How old is this bike?",
+                "ipa": "/hˌaʊ ˈəʊld ɪz ðɪs bˈaɪk/"
+            },
+            {
+                "speaker": "B",
+                "text": "About three years old.",
+                "ipa": "/ɐbˌaʊt θɹˈiː jˈiəz ˈəʊld/"
+            },
+            {
+                "speaker": "A",
+                "text": "Can I try the brakes?",
+                "ipa": "/kan aɪ tɹˈaɪ ðə bɹˈeɪks/"
+            },
+            {
+                "speaker": "B",
+                "text": "Certainly. There is space behind the shop.",
+                "ipa": "/sˈɜːtənli ðeəɹ ɪz spˈeɪs bɪhˌaɪnd ðə ʃˈɒp/"
+            }
+        ]
+    },
+    {
+        "id": "A1-shopping-9",
+        "level": "A1",
+        "topicId": "shopping",
+        "number": 9,
+        "title": {
+            "vi": "Giảm bao bì",
+            "en": "Reducing packaging"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I have my own bag.",
+                "ipa": "/aɪ hav maɪ ˈəʊn bˈaɡ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Then you do not need a plastic one.",
+                "ipa": "/ðˈɛn juː duːnˌɒt nˈiːd ɐ plˈastɪk wˌɒn/"
+            },
+            {
+                "speaker": "A",
+                "text": "Could you leave the box here too?",
+                "ipa": "/kʊd juː lˈiːv ðə bˈɒks hˈiə tˈuː/"
+            },
+            {
+                "speaker": "B",
+                "text": "Of course. We can use it again.",
+                "ipa": "/ɒv kˈɔːs wiː kan jˈuːz ɪt ɐɡˈɛn/"
+            }
+        ]
+    },
+    {
+        "id": "A1-shopping-10",
+        "level": "A1",
+        "topicId": "shopping",
+        "number": 10,
+        "title": {
+            "vi": "Đặt trước hàng",
+            "en": "Pre-ordering an item"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Is the new story book here yet?",
+                "ipa": "/ɪz ðə njˈuː stˈɔːɹi bˈʊk hˈiə jˈɛt/"
+            },
+            {
+                "speaker": "B",
+                "text": "It arrives on Monday.",
+                "ipa": "/ɪt ɐɹˈaɪvz ˌɒn mˈʌndeɪ/"
+            },
+            {
+                "speaker": "A",
+                "text": "Can you keep one for me?",
+                "ipa": "/kan juː kˈiːp wˈɒn fɔː mˌiː/"
+            },
+            {
+                "speaker": "B",
+                "text": "Write your name on this list.",
+                "ipa": "/ɹˈaɪt jɔː nˈeɪm ˌɒn ðɪs lˈɪst/"
+            }
+        ]
+    },
+    {
+        "id": "A1-home-1",
+        "level": "A1",
+        "topicId": "home",
+        "number": 1,
+        "title": {
+            "vi": "Chia việc nhà",
+            "en": "Sharing housework"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The kitchen needs cleaning.",
+                "ipa": "/ðə kˈɪtʃən nˈiːdz klˈiːnɪŋ/"
+            },
+            {
+                "speaker": "B",
+                "text": "I can wash the plates.",
+                "ipa": "/aɪ kan wˈɒʃ ðə plˈeɪts/"
+            },
+            {
+                "speaker": "A",
+                "text": "Thanks. I will clean the floor.",
+                "ipa": "/θˈaŋks aɪ wɪl klˈiːn ðə flˈɔː/"
+            },
+            {
+                "speaker": "B",
+                "text": "Where do you keep the small brush?",
+                "ipa": "/wˌeə dˈuː juː kˈiːp ðə smˈɔːl bɹˈʌʃ/"
+            }
+        ]
+    },
+    {
+        "id": "A1-home-2",
+        "level": "A1",
+        "topicId": "home",
+        "number": 2,
+        "title": {
+            "vi": "Sửa vòi nước",
+            "en": "Fixing a tap"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "There is water under the sink.",
+                "ipa": "/ðeəɹ ɪz wˈɔːtəɹ ˌʌndə ðə sˈɪŋk/"
+            },
+            {
+                "speaker": "B",
+                "text": "Is the tap still running?",
+                "ipa": "/ɪz ðə tˈap stˈɪl ɹˈʌnɪŋ/"
+            },
+            {
+                "speaker": "A",
+                "text": "No, I turned it off.",
+                "ipa": "/nˈəʊ aɪ tˈɜːnd ɪt ˈɒf/"
+            },
+            {
+                "speaker": "B",
+                "text": "I will get a towel and call Sam.",
+                "ipa": "/aɪ wɪl ɡɛt ɐ tˈaʊəl and kˈɔːl sˈam/"
+            }
+        ]
+    },
+    {
+        "id": "A1-home-3",
+        "level": "A1",
+        "topicId": "home",
+        "number": 3,
+        "title": {
+            "vi": "Mượn đồ dùng",
+            "en": "Borrowing equipment"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Could I borrow your ladder?",
+                "ipa": "/kʊd aɪ bˈɒɹəʊ jɔː lˈadə/"
+            },
+            {
+                "speaker": "B",
+                "text": "It is in the garden.",
+                "ipa": "/ɪt ɪz ɪnðə ɡˈɑːdən/"
+            },
+            {
+                "speaker": "A",
+                "text": "I need to change a light.",
+                "ipa": "/aɪ nˈiːd tə tʃˈeɪndʒ ɐ lˈaɪt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Please bring it back before Sunday.",
+                "ipa": "/plˈiːz bɹˈɪŋ ɪt bˈak bɪfˌɔː sˈʌndeɪ/"
+            }
+        ]
+    },
+    {
+        "id": "A1-home-4",
+        "level": "A1",
+        "topicId": "home",
+        "number": 4,
+        "title": {
+            "vi": "Nhận bưu kiện",
+            "en": "Receiving a parcel"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "A box came for you.",
+                "ipa": "/ɐ bˈɒks kˈeɪm fɔː juː/"
+            },
+            {
+                "speaker": "B",
+                "text": "Did you put it by the door?",
+                "ipa": "/dˈɪd juː pˌʊt ɪt baɪ ðə dˈɔː/"
+            },
+            {
+                "speaker": "A",
+                "text": "No, it is in the hall.",
+                "ipa": "/nˈəʊ ɪt ɪz ɪnðə hˈɔːl/"
+            },
+            {
+                "speaker": "B",
+                "text": "Ah, yes. That is my new coat.",
+                "ipa": "/ˈɑː jˈɛs ðat ɪz maɪ njˈuː kˈəʊt/"
+            }
+        ]
+    },
+    {
+        "id": "A1-home-5",
+        "level": "A1",
+        "topicId": "home",
+        "number": 5,
+        "title": {
+            "vi": "Giảm tiếng ồn",
+            "en": "Reducing noise"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Is that your music upstairs?",
+                "ipa": "/ɪz ðat jɔː mjˈuːzɪk ʌpstˈeəz/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes. Is it too loud?",
+                "ipa": "/jˈɛs ɪz ɪt tˈuː lˈaʊd/"
+            },
+            {
+                "speaker": "A",
+                "text": "A little. My baby is asleep.",
+                "ipa": "/ɐ lˈɪtəl maɪ bˈeɪbi ɪz ɐslˈiːp/"
+            },
+            {
+                "speaker": "B",
+                "text": "Sorry. I can use my headphones.",
+                "ipa": "/sˈɒɹi aɪ kan jˈuːz maɪ hˈɛdfəʊnz/"
+            }
+        ]
+    },
+    {
+        "id": "A1-home-6",
+        "level": "A1",
+        "topicId": "home",
+        "number": 6,
+        "title": {
+            "vi": "Tìm bạn cùng nhà",
+            "en": "Finding a flatmate"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Is the spare room still free?",
+                "ipa": "/ɪz ðə spˈeə ɹˈuːm stˈɪl fɹˈiː/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes. Would you like to see it?",
+                "ipa": "/jˈɛs wʊd juː lˈaɪk tə sˈiː ɪt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Does it have a desk?",
+                "ipa": "/dˈʌz ɪt hav ɐ dˈɛsk/"
+            },
+            {
+                "speaker": "B",
+                "text": "A small one, next to the window.",
+                "ipa": "/ɐ smˈɔːl wˌɒn nˈɛkst tə ðə wˈɪndəʊ/"
+            }
+        ]
+    },
+    {
+        "id": "A1-home-7",
+        "level": "A1",
+        "topicId": "home",
+        "number": 7,
+        "title": {
+            "vi": "Chuyển nhà",
+            "en": "Moving home"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Are these boxes ready to go?",
+                "ipa": "/ɑː ðiːz bˈɒksɪz ɹˈɛdi tə ɡˈəʊ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Only the ones with red tape.",
+                "ipa": "/ˈəʊnli ðə wˈɒnz wɪð ɹˈɛd tˈeɪp/"
+            },
+            {
+                "speaker": "A",
+                "text": "What is in this big one?",
+                "ipa": "/wˌɒt ɪz ɪn ðɪs bˈɪɡ wˌɒn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Books. Be careful, it is heavy.",
+                "ipa": "/bˈʊks biː kˈeəfəl ɪt ɪz hˈɛvi/"
+            }
+        ]
+    },
+    {
+        "id": "A1-home-8",
+        "level": "A1",
+        "topicId": "home",
+        "number": 8,
+        "title": {
+            "vi": "Dùng điện tiết kiệm",
+            "en": "Saving electricity"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Why are all the lights on?",
+                "ipa": "/wˌaɪ ɑːɹ ˈɔːl ðə lˈaɪts ˈɒn/"
+            },
+            {
+                "speaker": "B",
+                "text": "I forgot the one in the kitchen.",
+                "ipa": "/aɪ fəɡˈɒt ðə wˈɒn ɪnðə kˈɪtʃən/"
+            },
+            {
+                "speaker": "A",
+                "text": "I will turn it off.",
+                "ipa": "/aɪ wɪl tˈɜːn ɪt ˈɒf/"
+            },
+            {
+                "speaker": "B",
+                "text": "Thanks. The bill was high last month.",
+                "ipa": "/θˈaŋks ðə bˈɪl wɒz hˈaɪ lˈast mˈʌnθ/"
+            }
+        ]
+    },
+    {
+        "id": "A1-home-9",
+        "level": "A1",
+        "topicId": "home",
+        "number": 9,
+        "title": {
+            "vi": "Gia hạn hợp đồng",
+            "en": "Renewing a rental agreement"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Can we stay here next year?",
+                "ipa": "/kan wiː stˈeɪ hˈiə nˈɛkst jˈiə/"
+            },
+            {
+                "speaker": "B",
+                "text": "I would like that too.",
+                "ipa": "/aɪ wʊd lˈaɪk ðat tˈuː/"
+            },
+            {
+                "speaker": "A",
+                "text": "Shall we ask about the rent?",
+                "ipa": "/ʃˌal wiː ˈask ɐbˌaʊt ðə ɹˈɛnt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes, before we sign anything.",
+                "ipa": "/jˈɛs bɪfˌɔː wiː sˈaɪn ˈɛnɪθˌɪŋ/"
+            }
+        ]
+    },
+    {
+        "id": "A1-home-10",
+        "level": "A1",
+        "topicId": "home",
+        "number": 10,
+        "title": {
+            "vi": "Chăm sóc thú cưng",
+            "en": "Caring for a pet"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Who is feeding your cat tomorrow?",
+                "ipa": "/hˌuː ɪz fˈiːdɪŋ jɔː kˈat təmˈɒɹəʊ/"
+            },
+            {
+                "speaker": "B",
+                "text": "My neighbour, but she needs a key.",
+                "ipa": "/maɪ nˈeɪbə bˌʌt ʃiː nˈiːdz ɐ kˈiː/"
+            },
+            {
+                "speaker": "A",
+                "text": "I can give her our spare one.",
+                "ipa": "/aɪ kan ɡˈɪv hɜːɹ ˌaʊə spˈeə wˌɒn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Please tell her the food is in the kitchen.",
+                "ipa": "/plˈiːz tˈɛl hɜː ðə fˈuːd ɪz ɪnðə kˈɪtʃən/"
+            }
+        ]
+    },
+    {
+        "id": "A1-health-1",
+        "level": "A1",
+        "topicId": "health",
+        "number": 1,
+        "title": {
+            "vi": "Đặt lịch hẹn",
+            "en": "Booking an appointment"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I would like to see someone.",
+                "ipa": "/aɪ wʊd lˈaɪk tə sˈiː sˈʌmwɒn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Is Tuesday morning all right?",
+                "ipa": "/ɪz tjˈuːzdeɪ mˈɔːnɪŋ ˈɔːl ɹˈaɪt/"
+            },
+            {
+                "speaker": "A",
+                "text": "I work on Tuesday. How about Friday?",
+                "ipa": "/aɪ wˈɜːk ˌɒn tjˈuːzdeɪ hˌaʊ ɐbˌaʊt fɹˈaɪdeɪ/"
+            },
+            {
+                "speaker": "B",
+                "text": "There is a free time at nine.",
+                "ipa": "/ðeəɹ ɪz ɐ fɹˈiː tˈaɪm at nˈaɪn/"
+            }
+        ]
+    },
+    {
+        "id": "A1-health-2",
+        "level": "A1",
+        "topicId": "health",
+        "number": 2,
+        "title": {
+            "vi": "Tập thể dục",
+            "en": "Planning exercise"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Is this the easy exercise class?",
+                "ipa": "/ɪz ðɪs ðɪ ˈiːzi ˈɛksəsˌaɪz klˈas/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes. Is it your first time?",
+                "ipa": "/jˈɛs ɪz ɪt jɔː fˈɜːst tˈaɪm/"
+            },
+            {
+                "speaker": "A",
+                "text": "It is. Where do I stand?",
+                "ipa": "/ɪt ˈɪz wˌeə dˈuː aɪ stˈand/"
+            },
+            {
+                "speaker": "B",
+                "text": "Near me, so you can see my feet.",
+                "ipa": "/nˈiə mˌiː sˌəʊ juː kan sˈiː maɪ fˈiːt/"
+            }
+        ]
+    },
+    {
+        "id": "A1-health-3",
+        "level": "A1",
+        "topicId": "health",
+        "number": 3,
+        "title": {
+            "vi": "Ngủ nghỉ",
+            "en": "Improving a routine"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "You look tired this morning.",
+                "ipa": "/juː lˈʊk tˈaɪəd ðɪs mˈɔːnɪŋ/"
+            },
+            {
+                "speaker": "B",
+                "text": "I went to bed very late.",
+                "ipa": "/aɪ wɛnt tə bˈɛd vˈɛɹi lˈeɪt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Was there something on television?",
+                "ipa": "/wɒz ðeə sˈʌmθɪŋ ˌɒn tˈɛlɪvˌɪʒən/"
+            },
+            {
+                "speaker": "B",
+                "text": "No, I was finishing some work.",
+                "ipa": "/nˈəʊ aɪ wɒz fˈɪnɪʃɪŋ sˌʌm wˈɜːk/"
+            }
+        ]
+    },
+    {
+        "id": "A1-health-4",
+        "level": "A1",
+        "topicId": "health",
+        "number": 4,
+        "title": {
+            "vi": "Tìm món phù hợp",
+            "en": "Discussing food preferences"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Is there any milk in this soup?",
+                "ipa": "/ɪz ðeəɹ ˌɛni mˈɪlk ɪn ðɪs sˈuːp/"
+            },
+            {
+                "speaker": "B",
+                "text": "I am not sure. Let me ask.",
+                "ipa": "/aɪɐm nˌɒt ʃˈʊə lˈɛt mˌiː ˈask/"
+            },
+            {
+                "speaker": "A",
+                "text": "Please do. I need to know.",
+                "ipa": "/plˈiːz dˈuː aɪ nˈiːd tə nˈəʊ/"
+            },
+            {
+                "speaker": "B",
+                "text": "The cook has a list of everything in it.",
+                "ipa": "/ðə kˈʊk hɐz ɐ lˈɪst ɒv ˈɛvɹɪθˌɪŋ ɪn ɪt/"
+            }
+        ]
+    },
+    {
+        "id": "A1-health-5",
+        "level": "A1",
+        "topicId": "health",
+        "number": 5,
+        "title": {
+            "vi": "Đi bộ nhóm",
+            "en": "Joining a walking group"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Are you coming on the walk?",
+                "ipa": "/ɑː juː kˈʌmɪŋ ɒnðə wˈɔːk/"
+            },
+            {
+                "speaker": "B",
+                "text": "How long does it take?",
+                "ipa": "/hˌaʊ lˈɒŋ dˈʌz ɪt tˈeɪk/"
+            },
+            {
+                "speaker": "A",
+                "text": "About an hour, with a short break.",
+                "ipa": "/ɐbˌaʊt ɐn ˈaʊə wɪð ɐ ʃˈɔːt bɹˈeɪk/"
+            },
+            {
+                "speaker": "B",
+                "text": "Then I will bring some water.",
+                "ipa": "/ðˈɛn aɪ wɪl bɹˈɪŋ sˌʌm wˈɔːtə/"
+            }
+        ]
+    },
+    {
+        "id": "A1-health-6",
+        "level": "A1",
+        "topicId": "health",
+        "number": 6,
+        "title": {
+            "vi": "Uống nước",
+            "en": "Keeping water available"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Where can I fill my bottle?",
+                "ipa": "/wˌeə kan aɪ fˈɪl maɪ bˈɒtəl/"
+            },
+            {
+                "speaker": "B",
+                "text": "There is a tap by the gate.",
+                "ipa": "/ðeəɹ ɪz ɐ tˈap baɪ ðə ɡˈeɪt/"
+            },
+            {
+                "speaker": "A",
+                "text": "That one is not working.",
+                "ipa": "/ðˈatwˌɒn ɪz nˌɒt wˈɜːkɪŋ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Try the one inside the sports hall.",
+                "ipa": "/tɹˈaɪ ðə wˈɒn ɪnsˈaɪd ðə spˈɔːts hˈɔːl/"
+            }
+        ]
+    },
+    {
+        "id": "A1-health-7",
+        "level": "A1",
+        "topicId": "health",
+        "number": 7,
+        "title": {
+            "vi": "Nghỉ giữa giờ",
+            "en": "Taking a break"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Can we stop for five minutes?",
+                "ipa": "/kan wiː stˈɒp fɔː fˈaɪv mˈɪnɪts/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes. We have been sitting here for hours.",
+                "ipa": "/jˈɛs wiː hɐvbɪn sˈɪtɪŋ hˈiə fɔːɹ ˈaʊəz/"
+            },
+            {
+                "speaker": "A",
+                "text": "I am going outside for some air.",
+                "ipa": "/aɪɐm ɡˌəʊɪŋ aʊtsˈaɪd fɔː sˌʌm ˈeə/"
+            },
+            {
+                "speaker": "B",
+                "text": "I will open the window while you are gone.",
+                "ipa": "/aɪ wɪl ˈəʊpən ðə wˈɪndəʊ wˌaɪl juː ɑː ɡˈɒn/"
+            }
+        ]
+    },
+    {
+        "id": "A1-health-8",
+        "level": "A1",
+        "topicId": "health",
+        "number": 8,
+        "title": {
+            "vi": "Đổi lịch lớp",
+            "en": "Rescheduling a class"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The dance teacher is away today.",
+                "ipa": "/ðə dˈans tˈiːtʃəɹ ɪz ɐwˈeɪ tədˈeɪ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Is the class off, then?",
+                "ipa": "/ɪz ðə klˈas ˈɒf ðˈɛn/"
+            },
+            {
+                "speaker": "A",
+                "text": "There is another teacher at six.",
+                "ipa": "/ðeəɹ ɪz ɐnˈʌðə tˈiːtʃəɹ at sˈɪks/"
+            },
+            {
+                "speaker": "B",
+                "text": "That is too late for me this week.",
+                "ipa": "/ðat ɪz tˈuː lˈeɪt fɔː mˌiː ðɪs wˈiːk/"
+            }
+        ]
+    },
+    {
+        "id": "A1-health-9",
+        "level": "A1",
+        "topicId": "health",
+        "number": 9,
+        "title": {
+            "vi": "Ghi mục tiêu",
+            "en": "Setting a personal goal"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "What is in your little notebook?",
+                "ipa": "/wˌɒt ɪz ɪn jɔː lˈɪtəl nˈəʊtbʊk/"
+            },
+            {
+                "speaker": "B",
+                "text": "My walking times for each day.",
+                "ipa": "/maɪ wˈɔːkɪŋ tˈaɪmz fɔːɹ ˈiːtʃ dˈeɪ/"
+            },
+            {
+                "speaker": "A",
+                "text": "Did you walk today?",
+                "ipa": "/dˈɪd juː wˈɔːk tədˈeɪ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes, but only as far as the shops.",
+                "ipa": "/jˈɛs bˌʌt ˈəʊnli az fˈɑːɹ az ðə ʃˈɒps/"
+            }
+        ]
+    },
+    {
+        "id": "A1-health-10",
+        "level": "A1",
+        "topicId": "health",
+        "number": 10,
+        "title": {
+            "vi": "Phản hồi cơ sở",
+            "en": "Giving facility feedback"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The changing room door is stuck.",
+                "ipa": "/ðə tʃˈeɪndʒɪŋ ɹˈuːm dˈɔːɹ ɪz stˈʌk/"
+            },
+            {
+                "speaker": "B",
+                "text": "Is anyone inside?",
+                "ipa": "/ɪz ˈɛnɪwˌɒn ɪnsˈaɪd/"
+            },
+            {
+                "speaker": "A",
+                "text": "No. I left my coat in there.",
+                "ipa": "/nˈəʊ aɪ lˈɛft maɪ kˈəʊt ɪn ðˈeə/"
+            },
+            {
+                "speaker": "B",
+                "text": "I will ask the person at the desk.",
+                "ipa": "/aɪ wɪl ˈask ðə pˈɜːsən at ðə dˈɛsk/"
+            }
+        ]
+    },
+    {
+        "id": "A1-study-1",
+        "level": "A1",
+        "topicId": "study",
+        "number": 1,
+        "title": {
+            "vi": "Mượn sách",
+            "en": "Borrowing a book"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Can I borrow this book?",
+                "ipa": "/kan aɪ bˈɒɹəʊ ðɪs bˈʊk/"
+            },
+            {
+                "speaker": "B",
+                "text": "Do you have a library card?",
+                "ipa": "/dˈuː juː hav ɐ lˈaɪbɹəɹi kˈɑːd/"
+            },
+            {
+                "speaker": "A",
+                "text": "It is at home.",
+                "ipa": "/ɪt ɪz at hˈəʊm/"
+            },
+            {
+                "speaker": "B",
+                "text": "You can read the book here today.",
+                "ipa": "/juː kan ɹˈiːd ðə bˈʊk hˈiə tədˈeɪ/"
+            }
+        ]
+    },
+    {
+        "id": "A1-study-2",
+        "level": "A1",
+        "topicId": "study",
+        "number": 2,
+        "title": {
+            "vi": "Hỏi bài tập",
+            "en": "Clarifying homework"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Which page is our homework on?",
+                "ipa": "/wˌɪtʃ pˈeɪdʒ ɪz ˌaʊə hˈəʊmwɜːk ˈɒn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Page twenty, the second question.",
+                "ipa": "/pˈeɪdʒ twˈɛnti ðə sˈɛkənd kwˈɛstʃən/"
+            },
+            {
+                "speaker": "A",
+                "text": "Do we write in the book?",
+                "ipa": "/dˈuː wiː ɹˈaɪt ɪnðə bˈʊk/"
+            },
+            {
+                "speaker": "B",
+                "text": "No, use your blue notebook.",
+                "ipa": "/nˈəʊ jˈuːs jɔː blˈuː nˈəʊtbʊk/"
+            }
+        ]
+    },
+    {
+        "id": "A1-study-3",
+        "level": "A1",
+        "topicId": "study",
+        "number": 3,
+        "title": {
+            "vi": "Lập nhóm học",
+            "en": "Starting a study group"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Shall we study after lunch?",
+                "ipa": "/ʃˌal wiː stˈʌdi ˈaftə lˈʌntʃ/"
+            },
+            {
+                "speaker": "B",
+                "text": "I have football at two.",
+                "ipa": "/aɪ hav fˈʊtbɔːl at tˈuː/"
+            },
+            {
+                "speaker": "A",
+                "text": "What about tomorrow morning?",
+                "ipa": "/wˌɒt ɐbˌaʊt təmˈɒɹəʊ mˈɔːnɪŋ/"
+            },
+            {
+                "speaker": "B",
+                "text": "That works. Meet me at the library.",
+                "ipa": "/ðat wˈɜːks mˈiːt mˌiː at ðə lˈaɪbɹəɹi/"
+            }
+        ]
+    },
+    {
+        "id": "A1-study-4",
+        "level": "A1",
+        "topicId": "study",
+        "number": 4,
+        "title": {
+            "vi": "Nộp bài muộn",
+            "en": "Requesting an extension"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "My work is not finished.",
+                "ipa": "/maɪ wˈɜːk ɪz nˌɒt fˈɪnɪʃt/"
+            },
+            {
+                "speaker": "B",
+                "text": "When do you have to give it in?",
+                "ipa": "/wˌɛn dˈuː juː hav tə ɡˈɪv ɪt ˈɪn/"
+            },
+            {
+                "speaker": "A",
+                "text": "This afternoon, but my computer is broken.",
+                "ipa": "/ðɪs ˌaftənˈuːn bˌʌt maɪ kəmpjˈuːtəɹ ɪz bɹˈəʊkən/"
+            },
+            {
+                "speaker": "B",
+                "text": "Tell the teacher before the lesson.",
+                "ipa": "/tˈɛl ðə tˈiːtʃə bɪfˌɔː ðə lˈɛsən/"
+            }
+        ]
+    },
+    {
+        "id": "A1-study-5",
+        "level": "A1",
+        "topicId": "study",
+        "number": 5,
+        "title": {
+            "vi": "Nhận phản hồi",
+            "en": "Using feedback"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "What does this red mark mean?",
+                "ipa": "/wˌɒt dˈʌz ðɪs ɹˈɛd mˈɑːk mˈiːn/"
+            },
+            {
+                "speaker": "B",
+                "text": "You need a full stop here.",
+                "ipa": "/juː nˈiːd ɐ fˈʊl stˈɒp hˈiə/"
+            },
+            {
+                "speaker": "A",
+                "text": "And this word has two letters wrong?",
+                "ipa": "/and ðɪs wˈɜːd hɐz tˈuː lˈɛtəz ɹˈɒŋ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes. Look at the example on the board.",
+                "ipa": "/jˈɛs lˈʊk at ðɪ ɛɡzˈampəl ɒnðə bˈɔːd/"
+            }
+        ]
+    },
+    {
+        "id": "A1-study-6",
+        "level": "A1",
+        "topicId": "study",
+        "number": 6,
+        "title": {
+            "vi": "Chọn khóa học",
+            "en": "Choosing a course"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I want to learn to draw.",
+                "ipa": "/aɪ wˈɒnt tə lˈɜːn tə dɹˈɔː/"
+            },
+            {
+                "speaker": "B",
+                "text": "There is a class on Saturday.",
+                "ipa": "/ðeəɹ ɪz ɐ klˈas ˌɒn sˈatədˌeɪ/"
+            },
+            {
+                "speaker": "A",
+                "text": "Is it for new students?",
+                "ipa": "/ɪz ɪt fɔː njˈuː stjˈuːdənts/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes. You do not need to bring anything.",
+                "ipa": "/jˈɛs juː duːnˌɒt nˈiːd tə bɹˈɪŋ ˈɛnɪθˌɪŋ/"
+            }
+        ]
+    },
+    {
+        "id": "A1-study-7",
+        "level": "A1",
+        "topicId": "study",
+        "number": 7,
+        "title": {
+            "vi": "Luyện thuyết trình",
+            "en": "Practising a presentation"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Can you listen to my short talk?",
+                "ipa": "/kan juː lˈɪsən tə maɪ ʃˈɔːt tˈɔːk/"
+            },
+            {
+                "speaker": "B",
+                "text": "Sure. I will sit at the back.",
+                "ipa": "/ʃˈʊə aɪ wɪl sˈɪt at ðə bˈak/"
+            },
+            {
+                "speaker": "A",
+                "text": "Tell me if I speak too quietly.",
+                "ipa": "/tˈɛl mˌiː ɪf aɪ spˈiːk tˈuː kwˈaɪətli/"
+            },
+            {
+                "speaker": "B",
+                "text": "I cannot hear you yet. Try again.",
+                "ipa": "/aɪ kˈanɒt hˈiə juː jˈɛt tɹˈaɪ ɐɡˈɛn/"
+            }
+        ]
+    },
+    {
+        "id": "A1-study-8",
+        "level": "A1",
+        "topicId": "study",
+        "number": 8,
+        "title": {
+            "vi": "Học trực tuyến",
+            "en": "Learning online"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I cannot see the lesson link.",
+                "ipa": "/aɪ kˈanɒt sˈiː ðə lˈɛsən lˈɪŋk/"
+            },
+            {
+                "speaker": "B",
+                "text": "It is in the first email.",
+                "ipa": "/ɪt ɪz ɪnðə fˈɜːst ˈiːmeɪl/"
+            },
+            {
+                "speaker": "A",
+                "text": "Oh, I opened the second one.",
+                "ipa": "/ˈəʊ aɪ ˈəʊpənd ðə sˈɛkənd wˌɒn/"
+            },
+            {
+                "speaker": "B",
+                "text": "There it is. Click the blue words.",
+                "ipa": "/ðeəɹ ɪt ˈɪz klˈɪk ðə blˈuː wˈɜːdz/"
+            }
+        ]
+    },
+    {
+        "id": "A1-study-9",
+        "level": "A1",
+        "topicId": "study",
+        "number": 9,
+        "title": {
+            "vi": "Trích nguồn",
+            "en": "Checking references"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Who wrote this book?",
+                "ipa": "/hˌuː ɹˈəʊt ðɪs bˈʊk/"
+            },
+            {
+                "speaker": "B",
+                "text": "The name is on the front.",
+                "ipa": "/ðə nˈeɪm ɪz ɒnðə fɹˈʌnt/"
+            },
+            {
+                "speaker": "A",
+                "text": "I can only see the title.",
+                "ipa": "/aɪ kan ˈəʊnli sˈiː ðə tˈaɪtəl/"
+            },
+            {
+                "speaker": "B",
+                "text": "Turn it over. The writer is on the back.",
+                "ipa": "/tˈɜːn ɪt ˈəʊvə ðə ɹˈaɪtəɹ ɪz ɒnðə bˈak/"
+            }
+        ]
+    },
+    {
+        "id": "A1-study-10",
+        "level": "A1",
+        "topicId": "study",
+        "number": 10,
+        "title": {
+            "vi": "Ôn thi",
+            "en": "Planning revision"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "There is a test on Thursday.",
+                "ipa": "/ðeəɹ ɪz ɐ tˈɛst ˌɒn θˈɜːzdeɪ/"
+            },
+            {
+                "speaker": "B",
+                "text": "I thought it was next week.",
+                "ipa": "/aɪ θˈɔːt ɪt wɒz nˈɛkst wˈiːk/"
+            },
+            {
+                "speaker": "A",
+                "text": "No, look at the class calendar.",
+                "ipa": "/nˈəʊ lˈʊk at ðə klˈas kˈaləndə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Then I had better start reading today.",
+                "ipa": "/ðˈɛn aɪ had bˈɛtə stˈɑːt ɹˈiːdɪŋ tədˈeɪ/"
+            }
+        ]
+    },
+    {
+        "id": "A1-work-1",
+        "level": "A1",
+        "topicId": "work",
+        "number": 1,
+        "title": {
+            "vi": "Lên lịch họp",
+            "en": "Scheduling a meeting"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "What time is the meeting?",
+                "ipa": "/wˌɒt tˈaɪm ɪz ðə mˈiːtɪŋ/"
+            },
+            {
+                "speaker": "B",
+                "text": "At half past ten.",
+                "ipa": "/at hˈɑːf pˈast tˈɛn/"
+            },
+            {
+                "speaker": "A",
+                "text": "Will it be in the big room?",
+                "ipa": "/wɪl ɪt biː ɪnðə bˈɪɡ ɹˈuːm/"
+            },
+            {
+                "speaker": "B",
+                "text": "No, we are using the room upstairs.",
+                "ipa": "/nˈəʊ wiː ɑː jˈuːzɪŋ ðə ɹˈuːm ʌpstˈeəz/"
+            }
+        ]
+    },
+    {
+        "id": "A1-work-2",
+        "level": "A1",
+        "topicId": "work",
+        "number": 2,
+        "title": {
+            "vi": "Chia công việc",
+            "en": "Dividing tasks"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Who is doing the front window?",
+                "ipa": "/hˌuː ɪz dˌuːɪŋ ðə fɹˈʌnt wˈɪndəʊ/"
+            },
+            {
+                "speaker": "B",
+                "text": "I can do it after lunch.",
+                "ipa": "/aɪ kan dˈuː ɪt ˈaftə lˈʌntʃ/"
+            },
+            {
+                "speaker": "A",
+                "text": "Then I will clean the tables.",
+                "ipa": "/ðˈɛn aɪ wɪl klˈiːn ðə tˈeɪbəlz/"
+            },
+            {
+                "speaker": "B",
+                "text": "The cloths are under the counter.",
+                "ipa": "/ðə klˈɒθs ɑːɹ ˌʌndə ðə kˈaʊntə/"
+            }
+        ]
+    },
+    {
+        "id": "A1-work-3",
+        "level": "A1",
+        "topicId": "work",
+        "number": 3,
+        "title": {
+            "vi": "Làm việc từ xa",
+            "en": "Working remotely"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Are you in the office tomorrow?",
+                "ipa": "/ɑː juː ɪnðɪ ˈɒfɪs təmˈɒɹəʊ/"
+            },
+            {
+                "speaker": "B",
+                "text": "No, I am working at home.",
+                "ipa": "/nˈəʊ aɪɐm wˈɜːkɪŋ at hˈəʊm/"
+            },
+            {
+                "speaker": "A",
+                "text": "Can I call you at eleven?",
+                "ipa": "/kan aɪ kˈɔːl juː at ɪlˈɛvən/"
+            },
+            {
+                "speaker": "B",
+                "text": "Use my work number, please.",
+                "ipa": "/jˈuːs maɪ wˈɜːk nˈʌmbə plˈiːz/"
+            }
+        ]
+    },
+    {
+        "id": "A1-work-4",
+        "level": "A1",
+        "topicId": "work",
+        "number": 4,
+        "title": {
+            "vi": "Hỏi hướng dẫn",
+            "en": "Asking for guidance"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I do not know how to do this.",
+                "ipa": "/aɪ duːnˌɒt nˈəʊ hˌaʊ tə dˈuː ðˈɪs/"
+            },
+            {
+                "speaker": "B",
+                "text": "Come here and I will show you.",
+                "ipa": "/kˈʌm hˈiə and aɪ wɪl ʃˈəʊ juː/"
+            },
+            {
+                "speaker": "A",
+                "text": "Which button do I press first?",
+                "ipa": "/wˌɪtʃ bˈʌtən dˈuː aɪ pɹˈɛs fˈɜːst/"
+            },
+            {
+                "speaker": "B",
+                "text": "The green one, not the red one.",
+                "ipa": "/ðə ɡɹˈiːn wˌɒn nˌɒt ðə ɹˈɛd wˌɒn/"
+            }
+        ]
+    },
+    {
+        "id": "A1-work-5",
+        "level": "A1",
+        "topicId": "work",
+        "number": 5,
+        "title": {
+            "vi": "Đổi hạn chót",
+            "en": "Negotiating a deadline"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Will this be ready on Friday?",
+                "ipa": "/wɪl ðɪs biː ɹˈɛdi ˌɒn fɹˈaɪdeɪ/"
+            },
+            {
+                "speaker": "B",
+                "text": "I still need one more day.",
+                "ipa": "/aɪ stˈɪl nˈiːd wˈɒn mˈɔː dˈeɪ/"
+            },
+            {
+                "speaker": "A",
+                "text": "Would Saturday morning be enough?",
+                "ipa": "/wʊd sˈatədˌeɪ mˈɔːnɪŋ biː ɪnˈʌf/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes. I can bring it before ten.",
+                "ipa": "/jˈɛs aɪ kan bɹˈɪŋ ɪt bɪfˌɔː tˈɛn/"
+            }
+        ]
+    },
+    {
+        "id": "A1-work-6",
+        "level": "A1",
+        "topicId": "work",
+        "number": 6,
+        "title": {
+            "vi": "Đón nhân viên mới",
+            "en": "Welcoming a colleague"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Is that the new person by the door?",
+                "ipa": "/ɪz ðatðə njˈuː pˈɜːsən baɪ ðə dˈɔː/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes, her name is Maya.",
+                "ipa": "/jˈɛs hɜː nˈeɪm ɪz mˈaɪə/"
+            },
+            {
+                "speaker": "A",
+                "text": "I will show her where we sit.",
+                "ipa": "/aɪ wɪl ʃˈəʊ hɜː wˌeə wiː sˈɪt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Thanks. Her desk is beside yours.",
+                "ipa": "/θˈaŋks hɜː dˈɛsk ɪz bɪsˌaɪd jˈɔːz/"
+            }
+        ]
+    },
+    {
+        "id": "A1-work-7",
+        "level": "A1",
+        "topicId": "work",
+        "number": 7,
+        "title": {
+            "vi": "Xử lý bất đồng",
+            "en": "Handling disagreement"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Did you take my notebook?",
+                "ipa": "/dˈɪd juː tˈeɪk maɪ nˈəʊtbʊk/"
+            },
+            {
+                "speaker": "B",
+                "text": "I thought it was the office one.",
+                "ipa": "/aɪ θˈɔːt ɪt wʌzðɪ ˈɒfɪs wˌɒn/"
+            },
+            {
+                "speaker": "A",
+                "text": "My name is inside the cover.",
+                "ipa": "/maɪ nˈeɪm ɪz ɪnsˈaɪd ðə kˈʌvə/"
+            },
+            {
+                "speaker": "B",
+                "text": "I am sorry. Here it is.",
+                "ipa": "/aɪɐm sˈɒɹi hˈiəɹ ɪt ˈɪz/"
+            }
+        ]
+    },
+    {
+        "id": "A1-work-8",
+        "level": "A1",
+        "topicId": "work",
+        "number": 8,
+        "title": {
+            "vi": "Báo cáo tiến độ",
+            "en": "Reporting progress"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "How many boxes did we send?",
+                "ipa": "/hˌaʊ mˈɛni bˈɒksɪz dˈɪd wiː sˈɛnd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Twenty in the morning.",
+                "ipa": "/twˈɛnti ɪnðə mˈɔːnɪŋ/"
+            },
+            {
+                "speaker": "A",
+                "text": "And ten more after lunch?",
+                "ipa": "/and tˈɛn mˈɔːɹ ˈaftə lˈʌntʃ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes. Put thirty on the form.",
+                "ipa": "/jˈɛs pˌʊt θˈɜːti ɒnðə fˈɔːm/"
+            }
+        ]
+    },
+    {
+        "id": "A1-work-9",
+        "level": "A1",
+        "topicId": "work",
+        "number": 9,
+        "title": {
+            "vi": "Đề xuất cải tiến",
+            "en": "Suggesting an improvement"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "This shelf is hard to reach.",
+                "ipa": "/ðɪs ʃˈɛlf ɪz hˈɑːd tə ɹˈiːtʃ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Could we move the heavy bags lower down?",
+                "ipa": "/kʊd wiː mˈuːv ðə hˈɛvi bˈaɡz lˈəʊə dˈaʊn/"
+            },
+            {
+                "speaker": "A",
+                "text": "That would make my job easier.",
+                "ipa": "/ðat wʊd mˌeɪk maɪ dʒˈɒb ˈiːziə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Let us ask before we change it.",
+                "ipa": "/lˈɛt ˌʌs ˈask bɪfˌɔː wiː tʃˈeɪndʒ ɪt/"
+            }
+        ]
+    },
+    {
+        "id": "A1-work-10",
+        "level": "A1",
+        "topicId": "work",
+        "number": 10,
+        "title": {
+            "vi": "Bàn giao dự án",
+            "en": "Handing over a project"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I am away next week.",
+                "ipa": "/aɪɐm ɐwˈeɪ nˈɛkst wˈiːk/"
+            },
+            {
+                "speaker": "B",
+                "text": "Who will answer your phone?",
+                "ipa": "/hˌuː wɪl ˈansə jɔː fˈəʊn/"
+            },
+            {
+                "speaker": "A",
+                "text": "Liam will, but he needs my notes.",
+                "ipa": "/lˈiːəm wˈɪl bˌʌt hiː nˈiːdz maɪ nˈəʊts/"
+            },
+            {
+                "speaker": "B",
+                "text": "Leave them on his desk this afternoon.",
+                "ipa": "/lˈiːv ðˌɛm ˌɒn hɪz dˈɛsk ðɪs ˌaftənˈuːn/"
+            }
+        ]
+    },
+    {
+        "id": "A1-technology-1",
+        "level": "A1",
+        "topicId": "technology",
+        "number": 1,
+        "title": {
+            "vi": "Đặt mật khẩu",
+            "en": "Managing passwords"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I cannot remember my password.",
+                "ipa": "/aɪ kˈanɒt ɹɪmˈɛmbə maɪ pˈaswɜːd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Did you write it in that book?",
+                "ipa": "/dˈɪd juː ɹˈaɪt ɪt ɪn ðat bˈʊk/"
+            },
+            {
+                "speaker": "A",
+                "text": "No, that is my old one.",
+                "ipa": "/nˈəʊ ðat ɪz maɪ ˈəʊld wˌɒn/"
+            },
+            {
+                "speaker": "B",
+                "text": "Use the account help page to change it.",
+                "ipa": "/jˈuːs ðɪ ɐkˈaʊnt hˈɛlp pˈeɪdʒ tə tʃˈeɪndʒ ɪt/"
+            }
+        ]
+    },
+    {
+        "id": "A1-technology-2",
+        "level": "A1",
+        "topicId": "technology",
+        "number": 2,
+        "title": {
+            "vi": "Chia sẻ tài liệu",
+            "en": "Sharing a document"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Can you open the photo I sent?",
+                "ipa": "/kan juː ˈəʊpən ðə fˈəʊtəʊ aɪ sˈɛnt/"
+            },
+            {
+                "speaker": "B",
+                "text": "It asks me to sign in.",
+                "ipa": "/ɪt ˈasks mˌiː tə sˈaɪn ˈɪn/"
+            },
+            {
+                "speaker": "A",
+                "text": "I used the wrong link.",
+                "ipa": "/aɪ jˈuːzd ðə ɹˈɒŋ lˈɪŋk/"
+            },
+            {
+                "speaker": "B",
+                "text": "Send the new link to my work email.",
+                "ipa": "/sˈɛnd ðə njˈuː lˈɪŋk tə maɪ wˈɜːk ˈiːmeɪl/"
+            }
+        ]
+    },
+    {
+        "id": "A1-technology-3",
+        "level": "A1",
+        "topicId": "technology",
+        "number": 3,
+        "title": {
+            "vi": "Sao lưu dữ liệu",
+            "en": "Backing up files"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Where are your holiday photos?",
+                "ipa": "/wˌeəɹ ɑː jɔː hˈɒlɪdˌeɪ fˈəʊtəʊz/"
+            },
+            {
+                "speaker": "B",
+                "text": "On this drive, and on my computer.",
+                "ipa": "/ˌɒn ðɪs dɹˈaɪv and ˌɒn maɪ kəmpjˈuːtə/"
+            },
+            {
+                "speaker": "A",
+                "text": "So you have two copies?",
+                "ipa": "/sˌəʊ juː hav tˈuː kˈɒpɪz/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes. I do not want to lose them.",
+                "ipa": "/jˈɛs aɪ duːnˌɒt wˈɒnt tə lˈuːz ðˌɛm/"
+            }
+        ]
+    },
+    {
+        "id": "A1-technology-4",
+        "level": "A1",
+        "topicId": "technology",
+        "number": 4,
+        "title": {
+            "vi": "Tắt thông báo",
+            "en": "Managing notifications"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Your phone keeps making a noise.",
+                "ipa": "/jɔː fˈəʊn kˈiːps mˌeɪkɪŋ ɐ nˈɔɪz/"
+            },
+            {
+                "speaker": "B",
+                "text": "It is the group chat.",
+                "ipa": "/ɪt ɪz ðə ɡɹˈuːp tʃˈat/"
+            },
+            {
+                "speaker": "A",
+                "text": "Can you turn the sound off?",
+                "ipa": "/kan juː tˈɜːn ðə sˈaʊnd ˈɒf/"
+            },
+            {
+                "speaker": "B",
+                "text": "I will. We are trying to watch the film.",
+                "ipa": "/aɪ wˈɪl wiː ɑː tɹˈaɪɪŋ tə wˈɒtʃ ðə fˈɪlm/"
+            }
+        ]
+    },
+    {
+        "id": "A1-technology-5",
+        "level": "A1",
+        "topicId": "technology",
+        "number": 5,
+        "title": {
+            "vi": "Cập nhật ứng dụng",
+            "en": "Updating an application"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "My app looks different today.",
+                "ipa": "/maɪ ˈap lˈʊks dˈɪfɹənt tədˈeɪ/"
+            },
+            {
+                "speaker": "B",
+                "text": "There was an update last night.",
+                "ipa": "/ðeəwˌɒz ɐn ˈʌpdeɪt lˈast nˈaɪt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Where is the search button now?",
+                "ipa": "/wˌeəɹ ɪz ðə sˈɜːtʃ bˈʌtən nˈaʊ/"
+            },
+            {
+                "speaker": "B",
+                "text": "At the top, next to your name.",
+                "ipa": "/at ðə tˈɒp nˈɛkst tə jɔː nˈeɪm/"
+            }
+        ]
+    },
+    {
+        "id": "A1-technology-6",
+        "level": "A1",
+        "topicId": "technology",
+        "number": 6,
+        "title": {
+            "vi": "Sửa kết nối",
+            "en": "Troubleshooting a connection"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The internet is slow in here.",
+                "ipa": "/ðɪ ˈɪntənˌɛt ɪz slˈəʊ ɪn hˈiə/"
+            },
+            {
+                "speaker": "B",
+                "text": "It works well in the kitchen.",
+                "ipa": "/ɪt wˈɜːks wˈɛl ɪnðə kˈɪtʃən/"
+            },
+            {
+                "speaker": "A",
+                "text": "Can we do the call there?",
+                "ipa": "/kan wiː dˈuː ðə kˈɔːl ðˈeə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes, the table is clear.",
+                "ipa": "/jˈɛs ðə tˈeɪbəl ɪz klˈiə/"
+            }
+        ]
+    },
+    {
+        "id": "A1-technology-7",
+        "level": "A1",
+        "topicId": "technology",
+        "number": 7,
+        "title": {
+            "vi": "Quyền riêng tư",
+            "en": "Reviewing privacy choices"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Why does this app want my photos?",
+                "ipa": "/wˌaɪ dˈʌz ðɪs ˈap wˈɒnt maɪ fˈəʊtəʊz/"
+            },
+            {
+                "speaker": "B",
+                "text": "I do not know. Does it need them?",
+                "ipa": "/aɪ duːnˌɒt nˈəʊ dˈʌz ɪt nˈiːd ðˌɛm/"
+            },
+            {
+                "speaker": "A",
+                "text": "I only use it to check the weather.",
+                "ipa": "/aɪ ˈəʊnli jˈuːz ɪt tə tʃˈɛk ðə wˈɛðə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Then leave that setting off.",
+                "ipa": "/ðˈɛn lˈiːv ðat sˈɛtɪŋ ˈɒf/"
+            }
+        ]
+    },
+    {
+        "id": "A1-technology-8",
+        "level": "A1",
+        "topicId": "technology",
+        "number": 8,
+        "title": {
+            "vi": "Khả năng tiếp cận",
+            "en": "Using accessibility options"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "These words are too small.",
+                "ipa": "/ðiːz wˈɜːdz ɑː tˈuː smˈɔːl/"
+            },
+            {
+                "speaker": "B",
+                "text": "You can make them bigger.",
+                "ipa": "/juː kan mˌeɪk ðˌɛm bˈɪɡə/"
+            },
+            {
+                "speaker": "A",
+                "text": "Will that change the photos too?",
+                "ipa": "/wɪl ðat tʃˈeɪndʒ ðə fˈəʊtəʊz tˈuː/"
+            },
+            {
+                "speaker": "B",
+                "text": "No. Look at the text setting here.",
+                "ipa": "/nˈəʊ lˈʊk at ðə tˈɛkst sˈɛtɪŋ hˈiə/"
+            }
+        ]
+    },
+    {
+        "id": "A1-technology-9",
+        "level": "A1",
+        "topicId": "technology",
+        "number": 9,
+        "title": {
+            "vi": "Đánh giá công cụ AI",
+            "en": "Evaluating an AI tool"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "The new tool gave me a wrong date.",
+                "ipa": "/ðə njˈuː tˈuːl ɡˈeɪv mˌiː ɐ ɹˈɒŋ dˈeɪt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Where did you check it?",
+                "ipa": "/wˌeə dˈɪd juː tʃˈɛk ɪt/"
+            },
+            {
+                "speaker": "A",
+                "text": "On the school website.",
+                "ipa": "/ɒnðə skˈuːl wˈɛbsaɪt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Use the date from the school, then.",
+                "ipa": "/jˈuːs ðə dˈeɪt fɹʌmðə skˈuːl ðˈɛn/"
+            }
+        ]
+    },
+    {
+        "id": "A1-technology-10",
+        "level": "A1",
+        "topicId": "technology",
+        "number": 10,
+        "title": {
+            "vi": "Hủy dịch vụ",
+            "en": "Cancelling a service"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "I do not use this service now.",
+                "ipa": "/aɪ duːnˌɒt jˈuːz ðɪs sˈɜːvɪs nˈaʊ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Are you still paying for it?",
+                "ipa": "/ɑː juː stˈɪl pˈeɪɪŋ fɔːɹ ɪt/"
+            },
+            {
+                "speaker": "A",
+                "text": "Yes, every month.",
+                "ipa": "/jˈɛs ˈɛvɹɪ mˈʌnθ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Look for the stop option in your account.",
+                "ipa": "/lˈʊk fəðə stˈɒp ˈɒpʃən ɪn jɔːɹ ɐkˈaʊnt/"
+            }
+        ]
+    },
+    {
+        "id": "A1-environment-1",
+        "level": "A1",
+        "topicId": "environment",
+        "number": 1,
+        "title": {
+            "vi": "Phân loại rác",
+            "en": "Sorting waste"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Which bin does this bottle go in?",
+                "ipa": "/wˌɪtʃ bˈɪn dˈʌz ðɪs bˈɒtəl ɡˌəʊ ˈɪn/"
+            },
+            {
+                "speaker": "B",
+                "text": "The green one is for glass.",
+                "ipa": "/ðə ɡɹˈiːn wˈɒn ɪz fɔː ɡlˈas/"
+            },
+            {
+                "speaker": "A",
+                "text": "It is a plastic bottle.",
+                "ipa": "/ɪt ɪz ɐ plˈastɪk bˈɒtəl/"
+            },
+            {
+                "speaker": "B",
+                "text": "Then use the blue bin beside it.",
+                "ipa": "/ðˈɛn jˈuːz ðə blˈuː bˈɪn bɪsˈaɪd ɪt/"
+            }
+        ]
+    },
+    {
+        "id": "A1-environment-2",
+        "level": "A1",
+        "topicId": "environment",
+        "number": 2,
+        "title": {
+            "vi": "Tiết kiệm nước",
+            "en": "Saving water"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "That tap is still running.",
+                "ipa": "/ðat tˈap ɪz stˈɪl ɹˈʌnɪŋ/"
+            },
+            {
+                "speaker": "B",
+                "text": "Can you turn it off?",
+                "ipa": "/kan juː tˈɜːn ɪt ˈɒf/"
+            },
+            {
+                "speaker": "A",
+                "text": "I tried, but it will not stop.",
+                "ipa": "/aɪ tɹˈaɪd bˌʌt ɪt wɪl nˌɒt stˈɒp/"
+            },
+            {
+                "speaker": "B",
+                "text": "Let us tell someone in the office.",
+                "ipa": "/lˈɛt ˌʌs tˈɛl sˈʌmwɒn ɪnðɪ ˈɒfɪs/"
+            }
+        ]
+    },
+    {
+        "id": "A1-environment-3",
+        "level": "A1",
+        "topicId": "environment",
+        "number": 3,
+        "title": {
+            "vi": "Trồng cây",
+            "en": "Planting trees"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Where shall we put this tree?",
+                "ipa": "/wˌeə ʃˌal wiː pˌʊt ðɪs tɹˈiː/"
+            },
+            {
+                "speaker": "B",
+                "text": "Not too close to the wall.",
+                "ipa": "/nˌɒt tˈuː klˈəʊs tə ðə wˈɔːl/"
+            },
+            {
+                "speaker": "A",
+                "text": "Will it get enough sun here?",
+                "ipa": "/wɪl ɪt ɡɛt ɪnˈʌf sˈʌn hˈiə/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes, and there is room for it to grow.",
+                "ipa": "/jˈɛs and ðeəɹ ɪz ɹˈuːm fɔːɹ ɪt tə ɡɹˈəʊ/"
+            }
+        ]
+    },
+    {
+        "id": "A1-environment-4",
+        "level": "A1",
+        "topicId": "environment",
+        "number": 4,
+        "title": {
+            "vi": "Dọn công viên",
+            "en": "Cleaning a park"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Do we need gloves for the park clean?",
+                "ipa": "/dˈuː wiː nˈiːd ɡlˈʌvz fəðə pˈɑːk klˈiːn/"
+            },
+            {
+                "speaker": "B",
+                "text": "There are some in this box.",
+                "ipa": "/ðeəɹˌɑː sˌʌm ɪn ðɪs bˈɒks/"
+            },
+            {
+                "speaker": "A",
+                "text": "These are much too big for me.",
+                "ipa": "/ðiːz ɑː mˈʌtʃ tˈuː bˈɪɡ fɔː mˌiː/"
+            },
+            {
+                "speaker": "B",
+                "text": "Try the pair with yellow fingers.",
+                "ipa": "/tɹˈaɪ ðə pˈeə wɪð jˈɛləʊ fˈɪŋɡəz/"
+            }
+        ]
+    },
+    {
+        "id": "A1-environment-5",
+        "level": "A1",
+        "topicId": "environment",
+        "number": 5,
+        "title": {
+            "vi": "Chợ cộng đồng",
+            "en": "Organising a local market"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Are you selling things at the market?",
+                "ipa": "/ɑː juː sˈɛlɪŋ θˈɪŋz at ðə mˈɑːkɪt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Some old books and a few plants.",
+                "ipa": "/sˌʌm ˈəʊld bˈʊks and ɐ fjˈuː plˈants/"
+            },
+            {
+                "speaker": "A",
+                "text": "Can I help at your table?",
+                "ipa": "/kan aɪ hˈɛlp at jɔː tˈeɪbəl/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes. Come before nine to set up.",
+                "ipa": "/jˈɛs kˈʌm bɪfˌɔː nˈaɪn tə sˈɛt ˈʌp/"
+            }
+        ]
+    },
+    {
+        "id": "A1-environment-6",
+        "level": "A1",
+        "topicId": "environment",
+        "number": 6,
+        "title": {
+            "vi": "Chia sẻ đồ dùng",
+            "en": "Sharing household items"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Whose tools are on this shelf?",
+                "ipa": "/hˌuːz tˈuːlz ɑːɹ ˌɒn ðɪs ʃˈɛlf/"
+            },
+            {
+                "speaker": "B",
+                "text": "They are for everyone in our street.",
+                "ipa": "/ðeɪ ɑː fɔːɹ ˈɛvɹɪwˌɒn ɪn ˌaʊə stɹˈiːt/"
+            },
+            {
+                "speaker": "A",
+                "text": "May I borrow the small spade?",
+                "ipa": "/mˈeɪ aɪ bˈɒɹəʊ ðə smˈɔːl spˈeɪd/"
+            },
+            {
+                "speaker": "B",
+                "text": "Write your name in the book first.",
+                "ipa": "/ɹˈaɪt jɔː nˈeɪm ɪnðə bˈʊk fˈɜːst/"
+            }
+        ]
+    },
+    {
+        "id": "A1-environment-7",
+        "level": "A1",
+        "topicId": "environment",
+        "number": 7,
+        "title": {
+            "vi": "Giảm nhựa",
+            "en": "Reducing single-use plastic"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Do we need all these paper cups?",
+                "ipa": "/dˈuː wiː nˈiːd ˈɔːl ðiːz pˈeɪpə kˈʌps/"
+            },
+            {
+                "speaker": "B",
+                "text": "We have some proper cups in the kitchen.",
+                "ipa": "/wiː hav sˌʌm pɹˈɒpə kˈʌps ɪnðə kˈɪtʃən/"
+            },
+            {
+                "speaker": "A",
+                "text": "I can bring them out.",
+                "ipa": "/aɪ kan bɹˈɪŋ ðˌɛm ˈaʊt/"
+            },
+            {
+                "speaker": "B",
+                "text": "Count them first. There are twelve guests.",
+                "ipa": "/kˈaʊnt ðˌɛm fˈɜːst ðeəɹˌɑː twˈɛlv ɡˈɛsts/"
+            }
+        ]
+    },
+    {
+        "id": "A1-environment-8",
+        "level": "A1",
+        "topicId": "environment",
+        "number": 8,
+        "title": {
+            "vi": "Đi lại xanh",
+            "en": "Supporting greener travel"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "Why do you not ride to school?",
+                "ipa": "/wˌaɪ dˈuː juː nˌɒt ɹˈaɪd tə skˈuːl/"
+            },
+            {
+                "speaker": "B",
+                "text": "The road by the bridge is busy.",
+                "ipa": "/ðə ɹˈəʊd baɪ ðə bɹˈɪdʒ ɪz bˈɪzi/"
+            },
+            {
+                "speaker": "A",
+                "text": "Is there another way?",
+                "ipa": "/ɪz ðeəɹ ɐnˈʌðə wˈeɪ/"
+            },
+            {
+                "speaker": "B",
+                "text": "There is a path through the park.",
+                "ipa": "/ðeəɹ ɪz ɐ pˈaθ θɹuː ðə pˈɑːk/"
+            }
+        ]
+    },
+    {
+        "id": "A1-environment-9",
+        "level": "A1",
+        "topicId": "environment",
+        "number": 9,
+        "title": {
+            "vi": "Tiếng nói cư dân",
+            "en": "Gathering residents' views"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "What is this form for?",
+                "ipa": "/wˌɒt ɪz ðɪs fˈɔːm fɔː/"
+            },
+            {
+                "speaker": "B",
+                "text": "People can say what the park needs.",
+                "ipa": "/pˈiːpəl kan sˈeɪ wɒt ðə pˈɑːk nˈiːdz/"
+            },
+            {
+                "speaker": "A",
+                "text": "Can I ask for more seats?",
+                "ipa": "/kan aɪ ˈask fɔː mˈɔː sˈiːts/"
+            },
+            {
+                "speaker": "B",
+                "text": "Yes. Write it in the empty box.",
+                "ipa": "/jˈɛs ɹˈaɪt ɪt ɪnðɪ ˈɛmpti bˈɒks/"
+            }
+        ]
+    },
+    {
+        "id": "A1-environment-10",
+        "level": "A1",
+        "topicId": "environment",
+        "number": 10,
+        "title": {
+            "vi": "Ngân sách cộng đồng",
+            "en": "Discussing a local budget"
+        },
+        "lines": [
+            {
+                "speaker": "A",
+                "text": "We have money for one new thing.",
+                "ipa": "/wiː hav mˈʌni fɔː wˈɒn njˈuː θˈɪŋ/"
+            },
+            {
+                "speaker": "B",
+                "text": "I would like a bench.",
+                "ipa": "/aɪ wʊd lˈaɪk ɐ bˈɛntʃ/"
+            },
+            {
+                "speaker": "A",
+                "text": "The children want a football goal.",
+                "ipa": "/ðə tʃˈɪldɹən wˈɒnt ɐ fˈʊtbɔːl ɡˈəʊl/"
+            },
+            {
+                "speaker": "B",
+                "text": "Let us ask the rest of the street.",
+                "ipa": "/lˈɛt ˌʌs ˈask ðə ɹˈɛst ɒvðə stɹˈiːt/"
+            }
+        ]
+    }
+]

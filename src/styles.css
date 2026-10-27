@@ -1,29 +1,54 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #f2f8f7;
-  --color-surface: #d9ece8;
-  --color-primary: #247568;
-  --color-primary-ink: #20695e;
-  --color-ink: #193c3a;
-  --color-accent: #80bfb0;
-  --color-line: #c3dcd6;
-  --color-muted: #476a64;
-  --color-success: #286e53;
-  --color-error: #a13d3d;
-  --color-error-soft: color-mix(in srgb, #a13d3d 8%, #f2f8f7);
-  --color-soft: color-mix(in srgb, #d9ece8 55%, #f2f8f7);
-  --color-practice: color-mix(in srgb, #d9ece8 65%, #f2f8f7);
-  --font-sans: "Nunito Sans", "Segoe UI", sans-serif;
-  --font-ipa: "Noto Sans IPA", "Nunito Sans", sans-serif;
-  --font-pronunciation: "Nunito Sans", "Noto Sans IPA", "Segoe UI", sans-serif;
-  --shadow-panel: 0 5px 25px #193c3a06;
-  --shadow-listen: 0 0 0 6px color-mix(in srgb, #80bfb0 18%, transparent);
-  --animate-speaking: speaking 0.8s ease-in-out infinite alternate;
+    --color-background: #f2f8f7;
+    --color-paper: #fdfefd;
+    --color-surface: #e1ede8;
+    --color-primary: #1d6858;
+    --color-primary-ink: #175343;
+    --color-ink: #172f2b;
+    --color-accent: #80bfb0;
+    --color-line: #b7cdc4;
+    --color-muted: #3f5851;
+    --color-success: #286e53;
+    --color-error: #a13d3d;
+    --color-error-soft: color-mix(in srgb, #a13d3d 8%, #f2f8f7);
+    --color-soft: color-mix(in srgb, #e1ede8 60%, #f2f8f7);
+    --color-practice: #fdfefd;
+    --font-sans: "Nunito Sans", "Segoe UI", sans-serif;
+    --font-ipa: "Noto Sans IPA", "Nunito Sans", sans-serif;
+    --font-pronunciation: "Nunito Sans", "Noto Sans IPA", "Segoe UI", sans-serif;
+    --shadow-panel: 0 5px 25px #193c3a06;
+    --shadow-listen: 0 0 0 6px color-mix(in srgb, #80bfb0 18%, transparent);
+    --animate-speaking: speaking 0.8s ease-in-out infinite alternate;
+    --animate-choice-check: choice-check 160ms ease-out;
+    --animate-feedback-in: feedback-in 180ms ease-out;
 
-  @keyframes speaking {
-    to {
-      opacity: 0.7;
+    @keyframes choice-check {
+        from {
+            opacity: 0;
+            transform: scale(0.65);
+        }
+        to {
+            opacity: 1;
+            transform: scale(1);
+        }
     }
-  }
+
+    @keyframes feedback-in {
+        from {
+            opacity: 0;
+            transform: translateY(3px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes speaking {
+        to {
+            opacity: 0.7;
+        }
+    }
 }

@@ -7,8 +7,8 @@ Một package, TanStack Start SSR/API trên Vercel Node.js; PostgreSQL trên Neo
 1. Đăng nhập https://console.neon.tech và tạo project `buffalo-ear` trên gói Free.
 2. Chọn Singapore nếu có, để gần người dùng Việt Nam và Vercel region `sin1` trong `vercel.json`. Nếu chọn region khác, đặt Vercel Functions gần database.
 3. Trong Connect, sao chép hai connection string có TLS:
-   - Pooled (hostname chứa `-pooler`) → `DATABASE_URL` cho ứng dụng.
-   - Direct, tắt connection pooling → `DATABASE_URL_UNPOOLED` cho migration.
+    - Pooled (hostname chứa `-pooler`) → `DATABASE_URL` cho ứng dụng.
+    - Direct, tắt connection pooling → `DATABASE_URL_UNPOOLED` cho migration.
 4. Giữ nguyên các tham số TLS do Neon cấp, ví dụ `sslmode=require`. Không đưa URL hoặc secret vào source, chat, ảnh chụp hay biến `VITE_*`.
 
 Ứng dụng dùng `postgres.js` để giữ interactive transaction của import tiến độ; giới hạn một kết nối mỗi Vercel instance, tắt prepared statements và dùng pooler Neon.

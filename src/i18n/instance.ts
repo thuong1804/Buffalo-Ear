@@ -19,43 +19,51 @@ import enIntro from "./locales/en/intro.json";
 import enLibrary from "./locales/en/library.json";
 import enPractice from "./locales/en/practice.json";
 import enProgress from "./locales/en/progress.json";
+import viDialogues from "./locales/vi/dialogues.json";
+import enDialogues from "./locales/en/dialogues.json";
+import viTenses from "./locales/vi/tenses.json";
+import enTenses from "./locales/en/tenses.json";
 
 export const resources = {
-  vi: {
-    app: viApp,
-    auth: viAuth,
-    common: viCommon,
-    errors: viErrors,
-    filters: viFilters,
-    intro: viIntro,
-    library: viLibrary,
-    practice: viPractice,
-    progress: viProgress,
-  },
-  en: {
-    app: enApp,
-    auth: enAuth,
-    common: enCommon,
-    errors: enErrors,
-    filters: enFilters,
-    intro: enIntro,
-    library: enLibrary,
-    practice: enPractice,
-    progress: enProgress,
-  },
+    vi: {
+        app: viApp,
+        auth: viAuth,
+        common: viCommon,
+        errors: viErrors,
+        filters: viFilters,
+        intro: viIntro,
+        library: viLibrary,
+        practice: viPractice,
+        progress: viProgress,
+        dialogues: viDialogues,
+        tenses: viTenses,
+    },
+    en: {
+        app: enApp,
+        auth: enAuth,
+        common: enCommon,
+        errors: enErrors,
+        filters: enFilters,
+        intro: enIntro,
+        library: enLibrary,
+        practice: enPractice,
+        progress: enProgress,
+        dialogues: enDialogues,
+        tenses: enTenses,
+    },
 };
 
 export function createLocaleI18n(locale: Locale) {
-  const instance = createInstance();
-  void instance.use(initReactI18next).init({
-    resources,
-    lng: locale,
-    fallbackLng: "vi",
-    supportedLngs: ["vi", "en"],
-    defaultNS: "common",
-    initAsync: false,
-    interpolation: { escapeValue: false },
-    react: { useSuspense: false },
-  });
-  return instance;
+    const instance = createInstance();
+    void instance.use(initReactI18next).init({
+        resources,
+        lng: locale,
+        fallbackLng: "vi",
+        supportedLngs: ["vi", "en"],
+        defaultNS: "common",
+        initAsync: false,
+        interpolation: { escapeValue: false },
+        react: { useSuspense: false },
+    });
+    return instance;
 }
