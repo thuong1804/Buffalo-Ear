@@ -1,0 +1,622 @@
+{
+    "cafe": [
+        [
+            "Could you make that coffee decaf?",
+            "Certainly. Shall I change the one you have already ordered?",
+            "Please. I forgot I have had two cups today.",
+            "No problem. I have not started making yours yet."
+        ],
+        [
+            "Is the fruit tea sweet?",
+            "It has dried apple in it, but no added sugar.",
+            "Could I smell it before I choose?",
+            "Of course. This tin has the blend we use."
+        ],
+        [
+            "I ordered the oat milk because it costs the same on the menu.",
+            "The printed menu is old. There is an extra charge now.",
+            "You should tell people before they order.",
+            "You are right. I will charge the price you saw."
+        ],
+        [
+            "I am taking these drinks on the bus.",
+            "You might need a carrier. There are three cups.",
+            "Will it fit in my shopping bag?",
+            "Better to carry it flat. I can hold the door for you."
+        ],
+        [
+            "I wanted the last slice for my daughter.",
+            "I have just put it aside for another customer.",
+            "Is there anything else without nuts?",
+            "The lemon cake should be suitable, but I will check the label."
+        ],
+        [
+            "This is sweeter than I expected.",
+            "Did you want it without the syrup?",
+            "Yes, I only asked for milk.",
+            "I must have misheard. The replacement will take a minute."
+        ],
+        [
+            "We booked the table by the window.",
+            "I can see your booking, but the group there is still eating.",
+            "We have a train to catch in an hour.",
+            "Then let me get another table ready right away."
+        ],
+        [
+            "Can we split the bill between three cards?",
+            "Yes. Are you dividing it equally?",
+            "Not quite. I only had the sandwich.",
+            "Tell me which items are yours and I will separate them."
+        ],
+        [
+            "Could we stay at the table until two?",
+            "It is reserved from one thirty.",
+            "We will finish before then if the food comes soon.",
+            "I will check with the kitchen and let you know."
+        ],
+        [
+            "We waited half an hour without being served.",
+            "I am sorry. Your order did not reach the kitchen.",
+            "We cannot stay any longer.",
+            "I understand. I will cancel it and return your payment."
+        ]
+    ],
+    "travel": [
+        [
+            "The machine gave me two single tickets.",
+            "Did you choose a return journey?",
+            "I thought I did. Can you change them?",
+            "Let us check the times before you pay for another ticket."
+        ],
+        [
+            "The number twelve is not stopping here today.",
+            "Oh, has the route changed?",
+            "There are roadworks. Use the stop outside the library.",
+            "Thanks. I would have waited here all morning."
+        ],
+        [
+            "I missed the connection because the first train was late.",
+            "Let me see both of your tickets.",
+            "Do I have to pay again?",
+            "You can take the next service with these tickets."
+        ],
+        [
+            "My suitcase came off the belt with a broken wheel.",
+            "Was it like that when you checked it in?",
+            "No. I took a photo before the flight.",
+            "Keep the photo and fill in this damage report."
+        ],
+        [
+            "The screen says delayed, but there is no new time.",
+            "The plane has not arrived from Paris yet.",
+            "Should we still go through security?",
+            "Yes. The gate will be announced after the aircraft lands."
+        ],
+        [
+            "Do you hire helmets with the bikes?",
+            "They are included. Try this one for size.",
+            "It feels rather loose.",
+            "I will get a smaller one and show you the route map."
+        ],
+        [
+            "We need a station entrance without stairs.",
+            "The east entrance has a ramp.",
+            "Is it open this evening?",
+            "Until the last train. I will mark it on your map."
+        ],
+        [
+            "The taxi price was higher than the estimate.",
+            "We spent a long time waiting in traffic.",
+            "I did not realise waiting time cost extra.",
+            "The rates are printed here. Let us look at them together."
+        ],
+        [
+            "I bought this ticket yesterday, but the event has been cancelled.",
+            "Did you buy it through our website?",
+            "Yes. Here is the confirmation.",
+            "The refund will go back to the card you used."
+        ],
+        [
+            "The coach is cheaper, but it arrives after midnight.",
+            "Could we stay with your cousin that night?",
+            "I have asked. Her spare room is free.",
+            "Then the late arrival should not be a problem."
+        ]
+    ],
+    "hotel": [
+        [
+            "I booked a twin room, not a double.",
+            "Let me check the message from your travel company.",
+            "We need two separate beds.",
+            "I can arrange that, but the room will take longer to prepare."
+        ],
+        [
+            "We are leaving before breakfast starts.",
+            "Would you like a small breakfast to take with you?",
+            "That would help. Can we collect it at five thirty?",
+            "I will leave it at reception with your room number."
+        ],
+        [
+            "The lift makes a loud noise next to our room.",
+            "I can offer you one on the floor above.",
+            "Will it be farther from the lift?",
+            "Yes, at the end of the corridor, facing the courtyard."
+        ],
+        [
+            "Our flight is at night. Can we keep the room all afternoon?",
+            "Late checkout is charged by the hour.",
+            "How much would four extra hours cost?",
+            "Let me work that out before you decide."
+        ],
+        [
+            "The charger you lent me does not fit.",
+            "Can you show me the connection on your phone?",
+            "It is this small oval one.",
+            "We have another cable for that. Keep the plug."
+        ],
+        [
+            "I put my laundry bag outside the door yesterday.",
+            "There was no room number on it.",
+            "Oh, I forgot to complete the label.",
+            "Describe the clothes and I will check the laundry room."
+        ],
+        [
+            "I need to move the booking to next month.",
+            "Your booking allows one free date change.",
+            "Do the new dates cost the same?",
+            "The weekend rate is higher, but the weekday rate is unchanged."
+        ],
+        [
+            "I think I left my key in a taxi.",
+            "We will stop that card from opening your room.",
+            "Can I get another straight away?",
+            "Yes, after I check your identification."
+        ],
+        [
+            "Could you send the bill to my company?",
+            "We normally send it to the guest first.",
+            "I need the company address printed on it.",
+            "Write the details here and we will update it."
+        ],
+        [
+            "The website said there was a swimming pool.",
+            "There is, but it is closed for repairs this week.",
+            "Nobody told us when we booked.",
+            "I am sorry. I will ask the manager what we can offer."
+        ]
+    ],
+    "shopping": [
+        [
+            "The sleeves are fine, but the shirt is tight across my shoulders.",
+            "You might prefer the next size up.",
+            "Will it be much longer?",
+            "Only a little. Take both sizes into the changing room."
+        ],
+        [
+            "I bought this jacket as a present, but it does not fit him.",
+            "Was it bought more than a month ago?",
+            "No, last Saturday. I have the receipt.",
+            "Then he can exchange it or choose something else."
+        ],
+        [
+            "The shelf label says these are on offer.",
+            "Only the green packets are reduced.",
+            "The labels are very close together.",
+            "I see what you mean. I will move them apart."
+        ],
+        [
+            "This kettle switches off before the water boils.",
+            "How long have you had it?",
+            "Just a week. I have only used it twice.",
+            "We can test it here and arrange a replacement."
+        ],
+        [
+            "My order says collected, but I have not been in.",
+            "Is anyone else allowed to collect it for you?",
+            "My sister has the same surname.",
+            "Let me check the signature before we do anything."
+        ],
+        [
+            "Can you send this gift without showing the price?",
+            "We can include a gift receipt instead.",
+            "Will my aunt still be able to exchange it?",
+            "Yes. The receipt has the details we need."
+        ],
+        [
+            "The voucher would not work on your website.",
+            "Were you buying something in the sale?",
+            "Yes. A pair of boots.",
+            "This offer cannot be used with sale prices. It says so on the back."
+        ],
+        [
+            "This second-hand bike looks almost new.",
+            "The owner used it for one summer.",
+            "Do you know when the brakes were checked?",
+            "We checked them when it arrived and kept the report."
+        ],
+        [
+            "Could you remove some of the packaging?",
+            "I can take off the outer plastic, but the glass needs its box.",
+            "That makes sense. I was worried about carrying so much rubbish.",
+            "We collect the plastic here for recycling."
+        ],
+        [
+            "I paid for the book in advance. Why is there an extra charge?",
+            "You selected delivery rather than collection.",
+            "I must have clicked the wrong option.",
+            "We can change it to collection before it is sent."
+        ]
+    ],
+    "home": [
+        [
+            "I seem to be doing the kitchen every week.",
+            "I thought you preferred that job.",
+            "Not really. I just finish before everyone else.",
+            "Let us write down the jobs and take turns."
+        ],
+        [
+            "The tap only leaks when the hot water is on.",
+            "That is useful to know. Did you take a video?",
+            "Yes. The floor was dry when the plumber came.",
+            "Send the video with the repair request."
+        ],
+        [
+            "May I keep your ladder until the weekend?",
+            "I need it on Friday morning.",
+            "I can return it on Thursday evening.",
+            "Leave it under the covered part of the garden."
+        ],
+        [
+            "A parcel with your address came to my flat.",
+            "Was my name on the label?",
+            "Yes, but the flat number was partly hidden.",
+            "Thanks for bringing it. I have been looking for it all day."
+        ],
+        [
+            "Could you let me know before you have a party?",
+            "Did we make too much noise last night?",
+            "I had an early shift and could not sleep.",
+            "I am sorry. Next time I will tell you and finish earlier."
+        ],
+        [
+            "Does the rent include all the bills?",
+            "Internet is included, but we share gas and electricity.",
+            "How much do those usually come to?",
+            "I can show you the bills from the last three months."
+        ],
+        [
+            "The moving van cannot park outside on Saturday.",
+            "Have you asked the neighbours to leave a space?",
+            "Yes, but the road will be closed for an event.",
+            "We may need to move the boxes on Friday instead."
+        ],
+        [
+            "Our electricity bill has doubled since December.",
+            "We have been using the small heater in the hall.",
+            "I did not think it used so much power.",
+            "Let us check it before we use it every evening."
+        ],
+        [
+            "The landlord wants us to sign a new agreement this week.",
+            "Have you read the new terms?",
+            "Some of them are different from last year.",
+            "Then we should ask for time to go through them."
+        ],
+        [
+            "Can you feed Milo while I am away?",
+            "I can do mornings, but not evenings.",
+            "My cousin can come after work.",
+            "Write down the times so nobody gives him dinner twice."
+        ]
+    ],
+    "health": [
+        [
+            "I booked online, but I have not had a confirmation.",
+            "What date did you choose?",
+            "Friday the eighteenth, in the afternoon.",
+            "I can see it here. The email address has a spelling mistake."
+        ],
+        [
+            "The evening exercise class is always full.",
+            "Have you tried booking earlier in the week?",
+            "I cannot book until I know my shifts.",
+            "Ask the organiser whether there is a waiting list."
+        ],
+        [
+            "I keep making evening plans and then feeling too tired to go.",
+            "Are you giving yourself any free evenings?",
+            "Only Sunday at the moment.",
+            "Perhaps your diary needs a few empty spaces."
+        ],
+        [
+            "The lunch menu says vegetarian, but I need the full ingredients.",
+            "Are you checking for something in particular?",
+            "Yes. Could you ask the kitchen rather than guess?",
+            "Certainly. I will bring you the written list."
+        ],
+        [
+            "I would like to join the walking group, but I walk quite slowly.",
+            "There are two routes on Sunday.",
+            "Does the shorter route have a leader too?",
+            "Yes, and both groups finish at the same cafe."
+        ],
+        [
+            "I brought my refill bottle, but the fountain is closed.",
+            "There is drinking water at the information desk.",
+            "Do I have to buy anything there?",
+            "No. They will fill your bottle for free."
+        ],
+        [
+            "We have three meetings straight after lunch.",
+            "Could we move one to tomorrow?",
+            "That would leave everyone time for a proper break.",
+            "I will ask the person who arranged the last meeting."
+        ],
+        [
+            "I paid for a class that was cancelled.",
+            "Did you get the message about a replacement date?",
+            "Yes, but I cannot attend that day.",
+            "Then contact the organiser and ask about your payment."
+        ],
+        [
+            "I planned to walk every day, but I only managed twice.",
+            "Were those two walks enjoyable?",
+            "Actually, yes. I went with a friend.",
+            "That sounds like a better start than a plan you dislike."
+        ],
+        [
+            "The new changing room sign points towards the stairs.",
+            "There is an accessible room beside reception.",
+            "I would not have found it from that sign.",
+            "I will report that. The directions need to include both rooms."
+        ]
+    ],
+    "study": [
+        [
+            "The book I need is due back today.",
+            "Someone has already renewed it.",
+            "Is there another copy in a different library?",
+            "I will check the other branches for you."
+        ],
+        [
+            "Do we answer every question or choose three?",
+            "The sheet says choose three from the first section.",
+            "I was looking at the second page.",
+            "Turn it over. The instructions continue at the top."
+        ],
+        [
+            "Our study group never starts on time.",
+            "People arrive whenever they finish work.",
+            "Could we spend the first ten minutes reading quietly?",
+            "Then late arrivals would not interrupt the discussion."
+        ],
+        [
+            "Could I hand the essay in on Monday?",
+            "You would need to explain why you need extra time.",
+            "My laptop is being repaired, but I have my notes.",
+            "Speak to the course office before the Friday deadline."
+        ],
+        [
+            "My feedback says I need clearer examples.",
+            "Have you compared your paragraph with the sample answer?",
+            "Not yet. I thought the comment was about spelling.",
+            "The sample may show what the teacher means."
+        ],
+        [
+            "I signed up for the wrong course level.",
+            "Have the classes started already?",
+            "Only one lesson has taken place.",
+            "Ask the office whether you can move to the other group."
+        ],
+        [
+            "Will you time my presentation?",
+            "How long should it be?",
+            "Five minutes, including the final example.",
+            "I will raise my hand when you have one minute left."
+        ],
+        [
+            "The sound keeps disappearing in the online lesson.",
+            "Can you hear me when I turn my camera off?",
+            "Yes, much better now.",
+            "I will send the slides afterwards so you can follow them."
+        ],
+        [
+            "The article quotes a study, but there is no link to it.",
+            "Is the study named at the end?",
+            "There is a short title and a date.",
+            "Try searching for both rather than quoting the article itself."
+        ],
+        [
+            "I have made a revision timetable for every hour.",
+            "Have you left time to eat and take breaks?",
+            "Not on the first version.",
+            "Change that before you decide the timetable is impossible."
+        ]
+    ],
+    "work": [
+        [
+            "Could we bring the team meeting forward an hour?",
+            "One person is travelling that morning.",
+            "Would an online call be easier?",
+            "Yes, if we send the documents in advance."
+        ],
+        [
+            "I am finishing three urgent jobs at once.",
+            "Which one has the earliest deadline?",
+            "The report, but customers keep calling.",
+            "I can cover the phone while you finish it."
+        ],
+        [
+            "I would like to work from home on Wednesdays.",
+            "Who would cover the front desk?",
+            "I have spoken to Dan. We could swap days.",
+            "Put the arrangement in writing so the team can see it."
+        ],
+        [
+            "These instructions mention a button that is not on my screen.",
+            "Which version of the software are you using?",
+            "The one installed this morning.",
+            "Then the guide needs updating. I will show you the new steps."
+        ],
+        [
+            "We promised delivery by Friday, but one part has not arrived.",
+            "Have you told the customer?",
+            "Not yet. I was hoping it would arrive today.",
+            "Give them an update now rather than leave them waiting."
+        ],
+        [
+            "The new colleague has not received a door pass.",
+            "She cannot get in before reception opens.",
+            "Could someone meet her outside tomorrow?",
+            "I start early. I can help until the pass arrives."
+        ],
+        [
+            "I think we misunderstood each other yesterday.",
+            "I thought you were asking me to redo everything.",
+            "I only meant the last two pages.",
+            "That is a relief. I will change those this afternoon."
+        ],
+        [
+            "Some figures in the report are still estimates.",
+            "Then we should mark them clearly.",
+            "Will that make the report look unfinished?",
+            "It will make it easier to read the figures correctly."
+        ],
+        [
+            "We enter the same address into three different forms.",
+            "Could we copy it from the first one?",
+            "I tried, but the boxes are different.",
+            "Show me an example. There may be a simpler way."
+        ],
+        [
+            "I cannot find the notes for the project you are handing over.",
+            "They are in the shared folder under the client name.",
+            "Which file has the latest changes?",
+            "The one dated Tuesday. I will rename it more clearly."
+        ]
+    ],
+    "technology": [
+        [
+            "I changed my password and now the phone will not sign in.",
+            "Is the phone still using the saved password?",
+            "It fills the box automatically.",
+            "Remove that saved entry and enter the new password yourself."
+        ],
+        [
+            "The document link works for me, but not for the client.",
+            "Did you share it with their exact email address?",
+            "I used the address from an old message.",
+            "Ask which account they are using before changing the access."
+        ],
+        [
+            "My backup finished, but several folders are empty.",
+            "Did the files finish copying before you unplugged the drive?",
+            "I closed the lid when the screen went dark.",
+            "Let us compare the folders before deleting anything."
+        ],
+        [
+            "I turned off notifications, but the app still shows a red number.",
+            "That is a separate setting for the app icon.",
+            "I thought one switch covered everything.",
+            "The options are confusing. I will show you where it is."
+        ],
+        [
+            "The update moved my favourite tools.",
+            "They are under the small menu on the right.",
+            "Can I put them back on the main screen?",
+            "Some of them. There is an option to choose your shortcuts."
+        ],
+        [
+            "The connection drops whenever I move into the back room.",
+            "Does it happen on your phone as well?",
+            "Yes, but both devices work near the front door.",
+            "Tell support those details. It may help them find the problem."
+        ],
+        [
+            "The website will not let me reject just the extra cookies.",
+            "There should be a way to change the choices.",
+            "I can only see an accept button.",
+            "Try the settings link before agreeing to anything."
+        ],
+        [
+            "Making the text bigger has hidden the save button.",
+            "Can you scroll further down the page?",
+            "There is no more space below it.",
+            "That needs reporting. Larger text should not block the controls."
+        ],
+        [
+            "The tool wrote a summary of a book it seems not to know.",
+            "What makes you think that?",
+            "It gave two characters different names.",
+            "Use the book itself to check the summary before sharing it."
+        ],
+        [
+            "I cancelled the subscription, but another payment is due.",
+            "When does the current period end?",
+            "Tomorrow. The message only says cancellation requested.",
+            "Ask for written confirmation of the final date."
+        ]
+    ],
+    "environment": [
+        [
+            "Our neighbour puts plastic bags in the glass bin.",
+            "Perhaps they have not seen the new collection leaflet.",
+            "Could we put a copy by the bins?",
+            "A picture of what goes where might be more useful."
+        ],
+        [
+            "Water is running from the tap near the playground.",
+            "I reported it yesterday, but nobody has come.",
+            "Did you include the exact location?",
+            "Only the park name. I will add the gate number."
+        ],
+        [
+            "The tree planting day is next Saturday.",
+            "Who looks after the trees after that?",
+            "I have not heard anything about watering.",
+            "We should ask before we put them in the ground."
+        ],
+        [
+            "We filled all the bags before reaching the far end of the park.",
+            "Do we have more bags in the van?",
+            "Yes, but there is no space to leave the full ones.",
+            "Call the collection team and agree where to put them."
+        ],
+        [
+            "I would like a stall at the local market.",
+            "Do you need electricity for what you sell?",
+            "Only a small light.",
+            "Ask about the connection fee as well as the table price."
+        ],
+        [
+            "The shared tool shelf is full of things nobody uses.",
+            "Have the owners labelled them?",
+            "Some tools do not have names on them.",
+            "Let us make a list before moving anything."
+        ],
+        [
+            "We bought reusable cups, but people keep taking them home.",
+            "Perhaps they think the cups are included in the drink price.",
+            "There is no sign saying they should return them.",
+            "A clear return point would help too."
+        ],
+        [
+            "The proposed bike route ends at a busy junction.",
+            "Is there a crossing nearby?",
+            "Yes, but it is around the corner.",
+            "The route map should show the safe way across."
+        ],
+        [
+            "We only received survey replies from people using the website.",
+            "Some older residents asked for paper copies.",
+            "Could the library give them out?",
+            "And collect them, so nobody has to go online."
+        ],
+        [
+            "Two groups want the same small grant.",
+            "Do they know how the money will be awarded?",
+            "One group thinks it is first come, first served.",
+            "We need to publish the rules before making a choice."
+        ]
+    ]
+}

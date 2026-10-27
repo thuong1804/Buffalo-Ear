@@ -1,0 +1,572 @@
+[
+    {
+        "id": "cafe",
+        "vi": "Quán cà phê",
+        "en": "At a café",
+        "scenarios": [
+            {
+                "number": 1,
+                "vi": "Gọi cà phê",
+                "en": "Ordering coffee"
+            },
+            {
+                "number": 2,
+                "vi": "Chọn trà",
+                "en": "Choosing tea"
+            },
+            {
+                "number": 3,
+                "vi": "Sữa thực vật",
+                "en": "Plant milk"
+            },
+            {
+                "number": 4,
+                "vi": "Mua mang đi",
+                "en": "Taking a drink away"
+            },
+            {
+                "number": 5,
+                "vi": "Đặt bánh",
+                "en": "Ordering cake"
+            },
+            {
+                "number": 6,
+                "vi": "Đổi đồ uống",
+                "en": "Changing an order"
+            },
+            {
+                "number": 7,
+                "vi": "Tìm chỗ ngồi",
+                "en": "Finding a seat"
+            },
+            {
+                "number": 8,
+                "vi": "Thanh toán",
+                "en": "Paying the bill"
+            },
+            {
+                "number": 9,
+                "vi": "Đặt bàn nhóm",
+                "en": "Booking a group table"
+            },
+            {
+                "number": 10,
+                "vi": "Phản hồi dịch vụ",
+                "en": "Giving feedback"
+            }
+        ]
+    },
+    {
+        "id": "travel",
+        "vi": "Đi lại và du lịch",
+        "en": "Travel and transport",
+        "scenarios": [
+            {
+                "number": 1,
+                "vi": "Mua vé tàu",
+                "en": "Buying a train ticket"
+            },
+            {
+                "number": 2,
+                "vi": "Tìm bến xe",
+                "en": "Finding a bus stop"
+            },
+            {
+                "number": 3,
+                "vi": "Đổi chuyến",
+                "en": "Changing a journey"
+            },
+            {
+                "number": 4,
+                "vi": "Hành lý thất lạc",
+                "en": "Lost luggage"
+            },
+            {
+                "number": 5,
+                "vi": "Chuyến bay trễ",
+                "en": "A delayed flight"
+            },
+            {
+                "number": 6,
+                "vi": "Đi xe đạp",
+                "en": "Hiring a bicycle"
+            },
+            {
+                "number": 7,
+                "vi": "Đường dễ tiếp cận",
+                "en": "An accessible route"
+            },
+            {
+                "number": 8,
+                "vi": "Chia tiền taxi",
+                "en": "Sharing a taxi fare"
+            },
+            {
+                "number": 9,
+                "vi": "Hoàn tiền vé",
+                "en": "Getting a ticket refund"
+            },
+            {
+                "number": 10,
+                "vi": "Chọn phương tiện",
+                "en": "Choosing transport"
+            }
+        ]
+    },
+    {
+        "id": "hotel",
+        "vi": "Khách sạn",
+        "en": "At a hotel",
+        "scenarios": [
+            {
+                "number": 1,
+                "vi": "Nhận phòng",
+                "en": "Checking in"
+            },
+            {
+                "number": 2,
+                "vi": "Bữa sáng",
+                "en": "Asking about breakfast"
+            },
+            {
+                "number": 3,
+                "vi": "Phòng yên tĩnh",
+                "en": "Requesting a quiet room"
+            },
+            {
+                "number": 4,
+                "vi": "Trả phòng trễ",
+                "en": "Checking out late"
+            },
+            {
+                "number": 5,
+                "vi": "Mượn bộ sạc",
+                "en": "Borrowing a charger"
+            },
+            {
+                "number": 6,
+                "vi": "Giặt quần áo",
+                "en": "Using the laundry"
+            },
+            {
+                "number": 7,
+                "vi": "Đổi ngày đặt",
+                "en": "Changing booking dates"
+            },
+            {
+                "number": 8,
+                "vi": "Báo mất chìa",
+                "en": "Reporting a lost key"
+            },
+            {
+                "number": 9,
+                "vi": "Nhận hóa đơn",
+                "en": "Requesting an invoice"
+            },
+            {
+                "number": 10,
+                "vi": "Đánh giá lưu trú",
+                "en": "Reviewing a stay"
+            }
+        ]
+    },
+    {
+        "id": "shopping",
+        "vi": "Mua sắm",
+        "en": "Shopping",
+        "scenarios": [
+            {
+                "number": 1,
+                "vi": "Chọn áo",
+                "en": "Choosing a shirt"
+            },
+            {
+                "number": 2,
+                "vi": "Đổi kích cỡ",
+                "en": "Changing a size"
+            },
+            {
+                "number": 3,
+                "vi": "So sánh giá",
+                "en": "Comparing prices"
+            },
+            {
+                "number": 4,
+                "vi": "Trả hàng lỗi",
+                "en": "Returning a faulty item"
+            },
+            {
+                "number": 5,
+                "vi": "Nhận đơn hàng",
+                "en": "Collecting an order"
+            },
+            {
+                "number": 6,
+                "vi": "Gửi quà",
+                "en": "Sending a gift"
+            },
+            {
+                "number": 7,
+                "vi": "Dùng phiếu giảm",
+                "en": "Using a voucher"
+            },
+            {
+                "number": 8,
+                "vi": "Mua đồ cũ",
+                "en": "Buying second-hand"
+            },
+            {
+                "number": 9,
+                "vi": "Giảm bao bì",
+                "en": "Reducing packaging"
+            },
+            {
+                "number": 10,
+                "vi": "Đặt trước hàng",
+                "en": "Pre-ordering an item"
+            }
+        ]
+    },
+    {
+        "id": "home",
+        "vi": "Nhà ở và sinh hoạt",
+        "en": "Home and daily life",
+        "scenarios": [
+            {
+                "number": 1,
+                "vi": "Chia việc nhà",
+                "en": "Sharing housework"
+            },
+            {
+                "number": 2,
+                "vi": "Sửa vòi nước",
+                "en": "Fixing a tap"
+            },
+            {
+                "number": 3,
+                "vi": "Mượn đồ dùng",
+                "en": "Borrowing equipment"
+            },
+            {
+                "number": 4,
+                "vi": "Nhận bưu kiện",
+                "en": "Receiving a parcel"
+            },
+            {
+                "number": 5,
+                "vi": "Giảm tiếng ồn",
+                "en": "Reducing noise"
+            },
+            {
+                "number": 6,
+                "vi": "Tìm bạn cùng nhà",
+                "en": "Finding a flatmate"
+            },
+            {
+                "number": 7,
+                "vi": "Chuyển nhà",
+                "en": "Moving home"
+            },
+            {
+                "number": 8,
+                "vi": "Dùng điện tiết kiệm",
+                "en": "Saving electricity"
+            },
+            {
+                "number": 9,
+                "vi": "Gia hạn hợp đồng",
+                "en": "Renewing a rental agreement"
+            },
+            {
+                "number": 10,
+                "vi": "Chăm sóc thú cưng",
+                "en": "Caring for a pet"
+            }
+        ]
+    },
+    {
+        "id": "health",
+        "vi": "Sức khỏe và vận động",
+        "en": "Health and wellbeing",
+        "scenarios": [
+            {
+                "number": 1,
+                "vi": "Đặt lịch hẹn",
+                "en": "Booking an appointment"
+            },
+            {
+                "number": 2,
+                "vi": "Tập thể dục",
+                "en": "Planning exercise"
+            },
+            {
+                "number": 3,
+                "vi": "Ngủ nghỉ",
+                "en": "Improving a routine"
+            },
+            {
+                "number": 4,
+                "vi": "Tìm món phù hợp",
+                "en": "Discussing food preferences"
+            },
+            {
+                "number": 5,
+                "vi": "Đi bộ nhóm",
+                "en": "Joining a walking group"
+            },
+            {
+                "number": 6,
+                "vi": "Uống nước",
+                "en": "Keeping water available"
+            },
+            {
+                "number": 7,
+                "vi": "Nghỉ giữa giờ",
+                "en": "Taking a break"
+            },
+            {
+                "number": 8,
+                "vi": "Đổi lịch lớp",
+                "en": "Rescheduling a class"
+            },
+            {
+                "number": 9,
+                "vi": "Ghi mục tiêu",
+                "en": "Setting a personal goal"
+            },
+            {
+                "number": 10,
+                "vi": "Phản hồi cơ sở",
+                "en": "Giving facility feedback"
+            }
+        ]
+    },
+    {
+        "id": "study",
+        "vi": "Học tập",
+        "en": "Study and learning",
+        "scenarios": [
+            {
+                "number": 1,
+                "vi": "Mượn sách",
+                "en": "Borrowing a book"
+            },
+            {
+                "number": 2,
+                "vi": "Hỏi bài tập",
+                "en": "Clarifying homework"
+            },
+            {
+                "number": 3,
+                "vi": "Lập nhóm học",
+                "en": "Starting a study group"
+            },
+            {
+                "number": 4,
+                "vi": "Nộp bài muộn",
+                "en": "Requesting an extension"
+            },
+            {
+                "number": 5,
+                "vi": "Nhận phản hồi",
+                "en": "Using feedback"
+            },
+            {
+                "number": 6,
+                "vi": "Chọn khóa học",
+                "en": "Choosing a course"
+            },
+            {
+                "number": 7,
+                "vi": "Luyện thuyết trình",
+                "en": "Practising a presentation"
+            },
+            {
+                "number": 8,
+                "vi": "Học trực tuyến",
+                "en": "Learning online"
+            },
+            {
+                "number": 9,
+                "vi": "Trích nguồn",
+                "en": "Checking references"
+            },
+            {
+                "number": 10,
+                "vi": "Ôn thi",
+                "en": "Planning revision"
+            }
+        ]
+    },
+    {
+        "id": "work",
+        "vi": "Công việc",
+        "en": "Work and collaboration",
+        "scenarios": [
+            {
+                "number": 1,
+                "vi": "Lên lịch họp",
+                "en": "Scheduling a meeting"
+            },
+            {
+                "number": 2,
+                "vi": "Chia công việc",
+                "en": "Dividing tasks"
+            },
+            {
+                "number": 3,
+                "vi": "Làm việc từ xa",
+                "en": "Working remotely"
+            },
+            {
+                "number": 4,
+                "vi": "Hỏi hướng dẫn",
+                "en": "Asking for guidance"
+            },
+            {
+                "number": 5,
+                "vi": "Đổi hạn chót",
+                "en": "Negotiating a deadline"
+            },
+            {
+                "number": 6,
+                "vi": "Đón nhân viên mới",
+                "en": "Welcoming a colleague"
+            },
+            {
+                "number": 7,
+                "vi": "Xử lý bất đồng",
+                "en": "Handling disagreement"
+            },
+            {
+                "number": 8,
+                "vi": "Báo cáo tiến độ",
+                "en": "Reporting progress"
+            },
+            {
+                "number": 9,
+                "vi": "Đề xuất cải tiến",
+                "en": "Suggesting an improvement"
+            },
+            {
+                "number": 10,
+                "vi": "Bàn giao dự án",
+                "en": "Handing over a project"
+            }
+        ]
+    },
+    {
+        "id": "technology",
+        "vi": "Công nghệ",
+        "en": "Technology and digital life",
+        "scenarios": [
+            {
+                "number": 1,
+                "vi": "Đặt mật khẩu",
+                "en": "Managing passwords"
+            },
+            {
+                "number": 2,
+                "vi": "Chia sẻ tài liệu",
+                "en": "Sharing a document"
+            },
+            {
+                "number": 3,
+                "vi": "Sao lưu dữ liệu",
+                "en": "Backing up files"
+            },
+            {
+                "number": 4,
+                "vi": "Tắt thông báo",
+                "en": "Managing notifications"
+            },
+            {
+                "number": 5,
+                "vi": "Cập nhật ứng dụng",
+                "en": "Updating an application"
+            },
+            {
+                "number": 6,
+                "vi": "Sửa kết nối",
+                "en": "Troubleshooting a connection"
+            },
+            {
+                "number": 7,
+                "vi": "Quyền riêng tư",
+                "en": "Reviewing privacy choices"
+            },
+            {
+                "number": 8,
+                "vi": "Khả năng tiếp cận",
+                "en": "Using accessibility options"
+            },
+            {
+                "number": 9,
+                "vi": "Đánh giá công cụ AI",
+                "en": "Evaluating an AI tool"
+            },
+            {
+                "number": 10,
+                "vi": "Hủy dịch vụ",
+                "en": "Cancelling a service"
+            }
+        ]
+    },
+    {
+        "id": "environment",
+        "vi": "Môi trường và cộng đồng",
+        "en": "Environment and community",
+        "scenarios": [
+            {
+                "number": 1,
+                "vi": "Phân loại rác",
+                "en": "Sorting waste"
+            },
+            {
+                "number": 2,
+                "vi": "Tiết kiệm nước",
+                "en": "Saving water"
+            },
+            {
+                "number": 3,
+                "vi": "Trồng cây",
+                "en": "Planting trees"
+            },
+            {
+                "number": 4,
+                "vi": "Dọn công viên",
+                "en": "Cleaning a park"
+            },
+            {
+                "number": 5,
+                "vi": "Chợ cộng đồng",
+                "en": "Organising a local market"
+            },
+            {
+                "number": 6,
+                "vi": "Chia sẻ đồ dùng",
+                "en": "Sharing household items"
+            },
+            {
+                "number": 7,
+                "vi": "Giảm nhựa",
+                "en": "Reducing single-use plastic"
+            },
+            {
+                "number": 8,
+                "vi": "Đi lại xanh",
+                "en": "Supporting greener travel"
+            },
+            {
+                "number": 9,
+                "vi": "Tiếng nói cư dân",
+                "en": "Gathering residents' views"
+            },
+            {
+                "number": 10,
+                "vi": "Ngân sách cộng đồng",
+                "en": "Discussing a local budget"
+            }
+        ]
+    }
+]

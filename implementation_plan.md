@@ -87,7 +87,7 @@ Cập nhật ngày 26/10/2026. Trạng thái: **Hoàn tất**, **Đang làm**, *
 
 - **Better Auth**: `user`, `session`, `account`, `verification` (sinh bằng CLI `auth@1.7.13 generate`, đối chiếu vào `schema.ts`; bổ sung timestamptz/index)
 - **attempt**: `id uuid pk`, `user_id fk → user (cascade)`, `word text`, `answer text null` (history khách cũ không có đáp án gốc), `correct bool`, `matches bool`, `revealed bool`, `created_at timestamptz`, `client_id text not null`
-  - index `(user_id, created_at)`, unique `(user_id, client_id)` để import idempotent
+    - index `(user_id, created_at)`, unique `(user_id, client_id)` để import idempotent
 - **user_settings**: `user_id pk/fk`, `rate real`, `auto bool`, `level text`, `updated_at`
 
 ## Server functions (`src/server`)
@@ -105,8 +105,8 @@ Tất cả (trừ session) dùng middleware `requireUser` → 401 nếu chưa đ
 ## Luồng FE
 
 - `useLearning` trừu tượng hóa nguồn dữ liệu:
-  - **Khách**: như hiện tại — chấm bằng `grade()` local, lưu localStorage.
-  - **Đã đăng nhập**: `submitAnswer` qua `useMutation`; lịch sử/settings qua `useQuery`; cập nhật lạc quan (optimistic) để UI phản hồi tức thì.
+    - **Khách**: như hiện tại — chấm bằng `grade()` local, lưu localStorage.
+    - **Đã đăng nhập**: `submitAnswer` qua `useMutation`; lịch sử/settings qua `useQuery`; cập nhật lạc quan (optimistic) để UI phản hồi tức thì.
 - Lần đầu đăng nhập (hoặc khi phát hiện localStorage có lịch sử): gọi `importLocalHistory`, thành công thì xóa history local và hiện thông báo "Đã đồng bộ N lượt".
 - Header thêm nút **Đăng nhập** / avatar + menu (Đăng xuất).
 - Trang `/login`: tab Đăng nhập / Đăng ký (tên, email, mật khẩu ≥ 8), nút "Tiếp tục với Google" (ẩn nếu chưa cấu hình `GOOGLE_CLIENT_ID`), cùng design system hiện tại.
@@ -264,3 +264,57 @@ Typography: Nunito Sans 400/500/600, Noto Sans IPA subset; font WOFF2 + giấy p
 | Rate limit dùng database giữa các serverless instance                    | Hoàn tất      | Migration 0001 đã áp dụng local; integration signup/login/import/retry/account isolation và lưu tiến độ qua với storage database. |
 | Hướng dẫn môi trường production và Google OAuth                          | Hoàn tất      | docs/DEPLOYMENT.md và README.                                                                                                     |
 | Tạo Neon/Vercel, migrate Neon và kiểm tra URL public                     | Chờ đăng nhập | Hai tab tài khoản đã mở; chưa có phiên đăng nhập.                                                                                 |
+
+## Chép hội thoại theo chủ đề (26/10/2026)
+
+| Công việc                                            | Trạng thái | Kiểm chứng                                                                                                                                                                                                                                                                                      |
+| ---------------------------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nội dung hội thoại và IPA, chấm theo từ              | Hoàn tất   | Ba chủ đề A1–A2, mỗi bài 4 lượt thoại và IPA; chấm theo từ bằng edit distance, xử lý từ thiếu/thừa/sai, hoa/thường và dấu câu.                                                                                                                                                                  |
+| Trang hội thoại: nghe, nhập, kiểm tra, đối chiếu IPA | Hoàn tất   | Nav Hội thoại /dialogues riêng; chọn chủ đề/câu, nghe–nhập–kiểm tra từng câu, Enter kiểm tra/chuyển câu, IPA và toàn bộ hội thoại; giọng hệ thống, Tailwind v4, Việt/Anh. Draft giữ khi đổi chủ đề trong trang; chưa đồng bộ kết quả hội thoại vào database.                                    |
+| Kiểm tra hành vi, mobile và build                    | Hoàn tất   | Build, strict typecheck và 20 unit tests qua; browser hội thoại Việt/Anh ở 5 kích thước 320–1440px, kiểm tra Enter/repeat, nghe/dừng/tốc độ, lọc im lặng, IPA, chấm, transcript, reset; hồi quy luyện từ và account PostgreSQL integration qua. Đã xem ảnh mobile/desktop; local 5175 cập nhật. |
+
+## Phân cấp hội thoại CEFR, 10 chủ đề × 10 bài (26/10/2026)
+
+| Công việc                                            | Trạng thái | Kiểm chứng                                                                                                                                                                                                                                                                                                                                                                                 |
+| ---------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Cấu trúc Cấp độ → Chủ đề → Hội thoại, ID bài độc lập | Hoàn tất   | Theo lựa chọn người dùng: A1–C2, 6 cấp × 10 chủ đề × 10 bài; ID cấp/chủ đề/số bài độc lập và tải dữ liệu theo cấp.                                                                                                                                                                                                                                                                         |
+| Nội dung 10 chủ đề/cấp, 10 hội thoại/chủ đề và IPA   | Hoàn tất   | 600 hội thoại/2.400 lượt nói, 100 tình huống được diễn đạt theo sáu cấp. A1/A2 có bản từ vựng đơn giản hơn; B1–C2 tăng chức năng diễn đạt và sắc thái. IPA en-gb tạo sẵn bằng công cụ offline; không có engine/model mới trong runtime. Cấp độ tham chiếu CEFR, chưa chứng nhận độc lập.                                                                                                   |
+| Bộ lọc, chọn bài, bản dịch và kiểm tra hồi quy       | Hoàn tất   | Build Node và Vercel/Node 24, strict typecheck và 20 unit tests qua. Unit xác nhận 600 ID/nội dung duy nhất và đúng 6×10×10. Browser kiểm tra 60 nhóm/10 lựa chọn bài mỗi nhóm, tải từng cấp, draft/reset riêng, lọc im lặng, giữ tốc độ, nghe/chấm/IPA/Enter, Việt/Anh ở 320–1440px và C2 dài. Hồi quy luyện từ qua; README và docs/DIALOGUE_CURRICULUM.md cập nhật. Local 5175 cập nhật. |
+
+## Bỏ thẻ tải dữ liệu gây dịch bố cục (26/10/2026)
+
+| Công việc                                                         | Trạng thái | Kiểm chứng                                                                                                                                                                                                                                                                                             |
+| ----------------------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Bỏ thẻ tải/đồng bộ phía trên nội dung, giữ trang luôn được render | Hoàn tất   | Trạng thái tải chỉ thông báo qua sr-only; aria-busy/inert chặn thao tác trước khi dữ liệu sẵn sàng. Giữ thông báo lỗi và nút thử lại. Build/typecheck, hồi quy luyện từ và PostgreSQL integration qua; SSR và sau hydration có cùng tọa độ đầu phần intro, không có loading card. Local 5175 cập nhật. |
+
+## Format 4 dấu cách và clean code (26/10/2026)
+
+| Công việc                                      | Trạng thái | Kiểm chứng                                                                                                                                                                                                                                          |
+| ---------------------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Prettier và EditorConfig thống nhất 4 dấu cách | Hoàn tất   | tabWidth 4, useTabs false, printWidth 100, LF; format/check bao phủ project. Black 24.10.0 và pyproject.toml cho Python. Dữ liệu nguồn JSON giữ nguyên giá trị; bỏ qua output build/mã sinh tự động và tài nguyên nhập từ bên ngoài.                |
+| Clean code phần Hội thoại và điều hướng        | Hoàn tất   | Tách DialogueTopicPicker, DialogueAudioSettings, DialogueTranscript, DialogueFeedback và kiểu/shared styles; handler có tên rõ nghĩa, props interface riêng. Điều hướng dùng map/switch thay ternary lồng nhau. Giữ hành vi UI.                     |
+| Kiểm tra format, typecheck, build và hồi quy   | Hoàn tất   | Prettier check, Black check/Python syntax, strict typecheck, build và 20 unit tests qua. Browser hội thoại 600 bài/6 cấp, luyện từ, voice, IPA, styles và PostgreSQL account integration đều qua; npm audit 0 vulnerabilities. Local 5175 cập nhật. |
+
+## Viết lại hội thoại tự nhiên, bỏ mẫu ghép câu lặp (26/10/2026)
+
+| Công việc                                                     | Trạng thái                     | Kiểm chứng                                                                                                                                                                                                                                                                                       |
+| ------------------------------------------------------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Viết riêng 600 hội thoại A1–C2                                | Hoàn tất — tiếp tục 27/10/2026 | Nguồn viết riêng đủ sáu cấp trong scripts/dialogue-content, giữ 600 ID. Mỗi bài có bốn lượt nói với phản hồi theo tình huống, không dùng mẫu thay vài từ.                                                                                                                                        |
+| Loại bỏ bộ sinh mẫu, cập nhật IPA và kiểm tra trùng/gần trùng | Hoàn tất                       | Curriculum chỉ đọc bài viết sẵn; generator kiểm tra trước khi xuất dữ liệu. Đã tái tạo 2.400 IPA. Bộ cũ: 87 câu dài và 1.704 cụm 8 từ lặp; bộ mới: 0, không có cặp gần trùng theo ngưỡng 55% Jaccard cụm 4 từ.                                                                                   |
+| Kiểm tra dữ liệu, nghe–chép, build và cập nhật tài liệu       | Hoàn tất                       | Strict typecheck, build, Prettier và 25 unit tests qua. Browser đi qua 6 cấp/60 nhóm/10 bài mỗi nhóm, xác nhận draft riêng, bộ lọc im lặng, giọng hệ thống/tốc độ, chấm/Enter, transcript/IPA, Việt/Anh ở 320–1440px. README và docs/DIALOGUE_CURRICULUM.md cập nhật; local 5175 đã dùng bộ mới. |
+
+## Giảm nhảy/khựng khi lọc Hội thoại (27/10/2026)
+
+| Công việc                                    | Trạng thái | Kiểm chứng                                                                                                                                                                                                                                                           |
+| -------------------------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Giữ workspace và vị trí cuộn khi tải cấp mới | Hoàn tất   | Baseline tháo workspace: scrollY 180 về 0, chiều cao 1781 xuống 900. Sau sửa giữ DOM và sidebar scroll; với tải chậm 900ms, scrollY 180 và chiều cao 1786 giữ nguyên, không đo thấy layout shift khi đổi cấp. Chủ đề/số bài giữ khi đổi cấp.                         |
+| Ổn định nhãn và giảm tính toán khi render    | Hoàn tất   | Dự phòng chiều cao nhãn/bộ chọn; memo bộ chọn chủ đề, callback và kết quả chấm câu; chỉ tính tổng khi hoàn thành. Prefetch cấp khi hover/focus, phản hồi tải bằng opacity/sr-only, không chèn banner đẩy bố cục.                                                     |
+| Đo lại và kiểm tra hồi quy                   | Hoàn tất   | Build/strict typecheck/25 unit tests qua. Browser hội thoại sáu cấp, nghe/chấm/Enter/IPA và draft qua; test mới xác nhận mạng chậm, request race, DOM/sidebar ổn định, vị trí ô nhập không đổi qua cấp/chủ đề trên Việt/Anh 320/375/768/1440px. Local 5175 cập nhật. |
+
+## Thu gọn ghi chú hội thoại vào tips (27/10/2026)
+
+| Công việc                                             | Trạng thái | Kiểm chứng                                                                                                                                                                                                                                         |
+| ----------------------------------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Gom ba ghi chú vào icon tips, hỗ trợ hover/focus/chạm | Hoàn tất   | DialogueTips có popup nổi giữ trong viewport, không làm đổi chiều cao/vị trí cuộn; hover sang nội dung vẫn mở, Escape/Tab/chạm ngoài đóng. Bản dịch Việt/Anh và nhãn trợ năng.                                                                     |
+| Đưa Làm lại lên cùng hàng các nút kiểm tra            | Hoàn tất   | Reset và icon tips cùng hàng thao tác ở desktop, tự wrap trên mobile. Bỏ footer ba ghi chú; vẫn có Reset khi xem toàn bộ hội thoại.                                                                                                                |
+| Kiểm tra responsive, trợ năng và hồi quy              | Hoàn tất   | Build/typecheck/25 unit tests qua; kiểm tra hover/focus/Escape/Tab, popup hoverable và tap/outside trên điện thoại 320px, viewport bounds và không dịch layout; reset đúng bài, browser hội thoại và test bộ lọc ổn định qua. Local 5175 cập nhật. |

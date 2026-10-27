@@ -10,14 +10,21 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as DialoguesRouteImport } from './routes/dialogues'
 import { Route as LibraryRouteImport } from './routes/library'
 import { Route as LoginRouteImport } from './routes/login'
 import { Route as ProgressRouteImport } from './routes/progress'
+import { Route as TensesRouteImport } from './routes/tenses'
 import { Route as ApiAuthSplatRouteImport } from './routes/api/auth/$'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DialoguesRoute = DialoguesRouteImport.update({
+  id: '/dialogues',
+  path: '/dialogues',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LibraryRoute = LibraryRouteImport.update({
@@ -35,6 +42,11 @@ const ProgressRoute = ProgressRouteImport.update({
   path: '/progress',
   getParentRoute: () => rootRouteImport,
 } as any)
+const TensesRoute = TensesRouteImport.update({
+  id: '/tenses',
+  path: '/tenses',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ApiAuthSplatRoute = ApiAuthSplatRouteImport.update({
   id: '/api/auth/$',
   path: '/api/auth/$',
@@ -43,39 +55,69 @@ const ApiAuthSplatRoute = ApiAuthSplatRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/dialogues': typeof DialoguesRoute
   '/library': typeof LibraryRoute
   '/login': typeof LoginRoute
   '/progress': typeof ProgressRoute
+  '/tenses': typeof TensesRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/dialogues': typeof DialoguesRoute
   '/library': typeof LibraryRoute
   '/login': typeof LoginRoute
   '/progress': typeof ProgressRoute
+  '/tenses': typeof TensesRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/dialogues': typeof DialoguesRoute
   '/library': typeof LibraryRoute
   '/login': typeof LoginRoute
   '/progress': typeof ProgressRoute
+  '/tenses': typeof TensesRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/library' | '/login' | '/progress' | '/api/auth/$'
+  fullPaths:
+    | '/'
+    | '/dialogues'
+    | '/library'
+    | '/login'
+    | '/progress'
+    | '/tenses'
+    | '/api/auth/$'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/library' | '/login' | '/progress' | '/api/auth/$'
-  id: '__root__' | '/' | '/library' | '/login' | '/progress' | '/api/auth/$'
+  to:
+    | '/'
+    | '/dialogues'
+    | '/library'
+    | '/login'
+    | '/progress'
+    | '/tenses'
+    | '/api/auth/$'
+  id:
+    | '__root__'
+    | '/'
+    | '/dialogues'
+    | '/library'
+    | '/login'
+    | '/progress'
+    | '/tenses'
+    | '/api/auth/$'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  DialoguesRoute: typeof DialoguesRoute
   LibraryRoute: typeof LibraryRoute
   LoginRoute: typeof LoginRoute
   ProgressRoute: typeof ProgressRoute
+  TensesRoute: typeof TensesRoute
   ApiAuthSplatRoute: typeof ApiAuthSplatRoute
 }
 
@@ -86,6 +128,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dialogues': {
+      id: '/dialogues'
+      path: '/dialogues'
+      fullPath: '/dialogues'
+      preLoaderRoute: typeof DialoguesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/library': {
@@ -109,6 +158,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProgressRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/tenses': {
+      id: '/tenses'
+      path: '/tenses'
+      fullPath: '/tenses'
+      preLoaderRoute: typeof TensesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/api/auth/$': {
       id: '/api/auth/$'
       path: '/api/auth/$'
@@ -121,9 +177,11 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  DialoguesRoute: DialoguesRoute,
   LibraryRoute: LibraryRoute,
   LoginRoute: LoginRoute,
   ProgressRoute: ProgressRoute,
+  TensesRoute: TensesRoute,
   ApiAuthSplatRoute: ApiAuthSplatRoute,
 }
 export const routeTree = rootRouteImport

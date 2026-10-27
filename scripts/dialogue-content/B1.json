@@ -1,0 +1,622 @@
+{
+    "cafe": [
+        [
+            "I usually order a flat white, but yours tasted quite bitter yesterday.",
+            "We changed the beans this week. Would you prefer a lighter roast?",
+            "Maybe. I liked the old one because it was less sharp.",
+            "I'll make you a small sample before you choose."
+        ],
+        [
+            "I'm meeting someone who doesn't drink caffeine.",
+            "Our fruit infusions are caffeine-free, although the green tea isn't.",
+            "That's useful. I nearly ordered green tea for both of us.",
+            "I'll leave the boxes here so your friend can read the ingredients."
+        ],
+        [
+            "Why is my coffee more expensive than hers? We ordered the same size.",
+            "Yours has almond milk. I should have mentioned the extra charge.",
+            "I don't mind paying, but I couldn't find it on the board.",
+            "You're right. The price needs to be beside the milk choices."
+        ],
+        [
+            "I brought a travel cup. Can you fill it to this line?",
+            "That leaves enough room for the lid, doesn't it?",
+            "Exactly. Last time the drink leaked into my bag.",
+            "I'll wipe the outside as well before handing it back."
+        ],
+        [
+            "Could you cut that slice into two smaller pieces?",
+            "Of course. Are they going on separate plates?",
+            "Yes. My son wants cake but never finishes a whole slice.",
+            "Then I'll put the cream on the side so you can share it."
+        ],
+        [
+            "This tastes of hazelnut, though I ordered vanilla.",
+            "Please don't drink any more while I check the order.",
+            "I don't have an allergy; it's just not what I wanted.",
+            "Thanks for clarifying. I'll replace it rather than add more vanilla."
+        ],
+        [
+            "Would you mind moving that bag from the empty chair?",
+            "Sorry, I was keeping the seat for my colleague.",
+            "Is she arriving soon? I'm only waiting for a takeaway.",
+            "She'll be another twenty minutes. You're welcome to sit there."
+        ],
+        [
+            "I think we've been charged for a sandwich we didn't receive.",
+            "Was it the toasted cheese one?",
+            "Yes. We cancelled it when you said the kitchen had closed.",
+            "I can see the cancellation now. I'll take it off the bill."
+        ],
+        [
+            "We need somewhere for a book group on Thursday evenings.",
+            "How many people usually come, and will you be ordering food?",
+            "Around eight, mostly drinks. We need to hear each other speak.",
+            "The back room is quieter, but we'd need a regular booking."
+        ],
+        [
+            "Your staff were lovely, but our order disappeared twice.",
+            "Were both orders placed at the counter?",
+            "One there and one through the table code.",
+            "That may explain the confusion. I'll check how those two systems connect."
+        ]
+    ],
+    "travel": [
+        [
+            "The cheaper ticket says I must travel after nine thirty.",
+            "My train leaves at nine twenty-eight. Does that really make a difference?",
+            "Unfortunately it does. The restriction is based on departure time.",
+            "Then I'll take the next one rather than risk paying again."
+        ],
+        [
+            "I've followed the signs, but they keep sending me round the same block.",
+            "The old bus stop signs haven't all been removed.",
+            "So the temporary stop isn't outside the station?",
+            "No, it's beside the cinema. I'll point it out from here."
+        ],
+        [
+            "My first train was cancelled, and the app wants me to buy a new ticket.",
+            "Don't buy it yet. Your existing ticket may cover the alternative route.",
+            "Even though that train belongs to a different company?",
+            "Check the disruption notice. It lists which services are accepting tickets."
+        ],
+        [
+            "Someone has taken a suitcase that looks exactly like mine.",
+            "Is the one left on the belt the same model?",
+            "Yes, but the label has a different name.",
+            "Give the desk that name. They can contact the other passenger privately."
+        ],
+        [
+            "We have forty minutes between flights, and we're still on the ground.",
+            "Have you booked both flights on the same reservation?",
+            "Yes, so I expected the connection to be possible.",
+            "Tell the airline staff now. They can check what happens if we miss it."
+        ],
+        [
+            "The bike's front light works, but the rear one doesn't.",
+            "Did you notice before leaving the hire station?",
+            "About two streets away. I've brought it straight back.",
+            "Thanks. We'll swap the bike and record the fault."
+        ],
+        [
+            "The app calls this route accessible, but it includes a long staircase.",
+            "Could it be referring only to the station entrance?",
+            "Maybe, but that isn't clear when you plan the whole journey.",
+            "I'll report the route itself, not just the broken lift."
+        ],
+        [
+            "The driver wants a separate payment for each of us.",
+            "Did we agree on two fares or one shared journey?",
+            "One journey. We gave both addresses before getting in.",
+            "Let's check the booking message before either of us pays."
+        ],
+        [
+            "The refund form asks for a ticket number I can't find.",
+            "It may be on the original confirmation rather than the payment receipt.",
+            "I only saved a screenshot of the code.",
+            "Keep that screenshot. Customer support should tell you which number they need."
+        ],
+        [
+            "Flying saves two hours, but getting to the airport adds nearly as much.",
+            "The train arrives right in the city centre too.",
+            "And we'd avoid paying for a taxi at the other end.",
+            "Once we include those costs, the train seems the better option."
+        ]
+    ],
+    "hotel": [
+        [
+            "Our booking is confirmed, but you say there are no rooms.",
+            "The system has your arrival down as yesterday.",
+            "The confirmation on my phone clearly shows today's date.",
+            "You're correct. Let me call the duty manager before we discuss alternatives."
+        ],
+        [
+            "The breakfast charge appeared even though we booked room only.",
+            "Did you visit the restaurant this morning?",
+            "Only to meet our friends. We didn't order anything.",
+            "I'll check with the restaurant and remove any charge made in error."
+        ],
+        [
+            "We asked for a quiet room because my partner works nights.",
+            "The room you've been given is quiet after the restaurant closes.",
+            "She needs to sleep during the day, though.",
+            "I see. A room above the garden would suit you better."
+        ],
+        [
+            "I'd like late checkout, but I don't need the room cleaned.",
+            "The main issue is preparing it for the next guest.",
+            "Could we leave our bags somewhere and just use the lounge?",
+            "Absolutely. That option won't require extending your room booking."
+        ],
+        [
+            "I returned the borrowed charger, but the deposit hasn't appeared.",
+            "Was the deposit taken in cash or held on your card?",
+            "It was a card hold when we checked in.",
+            "I'll give you written confirmation that we've released it."
+        ],
+        [
+            "One of my shirts came back from the laundry with a mark.",
+            "Do you still have the laundry receipt?",
+            "Yes, and I took a photo before sending it down.",
+            "Please leave the shirt with reception so the laundry team can investigate."
+        ],
+        [
+            "We booked a family room, and one person can no longer come.",
+            "Would you like to change rooms or keep the space?",
+            "Keep the room, but can the extra breakfast be removed?",
+            "Yes. The room rate stays the same, but breakfast is charged separately."
+        ],
+        [
+            "My key stopped working after I kept it beside my phone.",
+            "Sometimes the card needs to be reset.",
+            "Could you check it before issuing another one?",
+            "Of course. I'll also confirm that the checkout date is correct."
+        ],
+        [
+            "The bill includes a minibar item we didn't use.",
+            "Which item is listed?",
+            "A bottle of juice. We only drank the tap water.",
+            "I'll ask housekeeping to check the stock record."
+        ],
+        [
+            "I almost gave the hotel a poor review because of the building work.",
+            "Was the noise a problem throughout your stay?",
+            "Only on the first day, and the staff moved us promptly.",
+            "Then mentioning both the problem and the response would give a fairer picture."
+        ]
+    ],
+    "shopping": [
+        [
+            "I'm looking for a shirt I can wear to work without ironing it every morning.",
+            "This fabric creases less, but it feels slightly warmer.",
+            "Can I try it under the jacket I usually wear?",
+            "Certainly. Comfort matters more than how it looks on the hanger."
+        ],
+        [
+            "I'd like to exchange these shoes, although I've worn them indoors.",
+            "Was that just to check the fit?",
+            "Yes. After ten minutes I realised they pressed against my heel.",
+            "Let us inspect the soles and discuss a size that might work better."
+        ],
+        [
+            "The advertised discount makes this seem cheaper than the smaller pack.",
+            "Have you compared the price per item?",
+            "Not yet. The large label distracted me.",
+            "The shelf has both figures. The smaller pack is actually better value today."
+        ],
+        [
+            "The replacement headphones have developed the same fault as the first pair.",
+            "Do you have the record of the earlier exchange?",
+            "Yes. I don't want to keep replacing the same model.",
+            "We'll look at the full history before offering the next step."
+        ],
+        [
+            "I received a collection message, but the shop says the parcel hasn't arrived.",
+            "The message might have been sent when it reached the local depot.",
+            "It specifically says ready to collect, though.",
+            "Then you shouldn't have made the journey. I'll check where the scan happened."
+        ],
+        [
+            "I sent a gift directly to my friend, and she received the price invoice.",
+            "Did you select the gift option at checkout?",
+            "I did. I kept a screenshot because it was her birthday.",
+            "Please send that to us so we can find out what went wrong."
+        ],
+        [
+            "Your voucher says ten pounds off, but I only saved three.",
+            "The discount stops when the order reaches the minimum spend.",
+            "That condition wasn't visible on the offer page.",
+            "I'll compare the page with the full terms before answering you."
+        ],
+        [
+            "The used bicycle is cheaper, but it needs a new chain soon.",
+            "Has the shop included that in the asking price?",
+            "They reduced it a little after showing me the inspection sheet.",
+            "Then compare the total repair cost with a bike that's ready to ride."
+        ],
+        [
+            "Why are you putting the item in another box? It already has one.",
+            "The outer box protects it during delivery.",
+            "I'm collecting it on foot, so I won't need that.",
+            "In that case, we can leave the extra packaging here."
+        ],
+        [
+            "I've pre-ordered the book twice because the first payment looked unsuccessful.",
+            "Do you have two confirmation numbers?",
+            "Yes, and both payments now appear on my statement.",
+            "Don't place another order. We'll identify and cancel the duplicate."
+        ]
+    ],
+    "home": [
+        [
+            "The cleaning rota looks equal, but the bathroom takes much longer than the hall.",
+            "I hadn't thought about the time involved.",
+            "Could we swap jobs each week instead of keeping the same ones?",
+            "That would let everyone see how much work each job needs."
+        ],
+        [
+            "The plumber repaired the tap, but the cupboard underneath is still damp.",
+            "Did anyone check the pipe behind the washing machine?",
+            "No. We assumed the tap was the only source.",
+            "Let's record where the water appears before arranging another visit."
+        ],
+        [
+            "I lent my ladder to someone and now a step is bent.",
+            "Have they told you what happened?",
+            "They said it was already like that, but I used it yesterday.",
+            "I'd stop using it and speak to them before lending anything else."
+        ],
+        [
+            "The delivery driver left my parcel with a neighbour who is away.",
+            "Do you know when they're coming back?",
+            "Not for another week, and I need the contents for work.",
+            "Contact the delivery company with the photo rather than trying to enter the property."
+        ],
+        [
+            "My neighbour's washing machine runs against our bedroom wall every night.",
+            "Have you told them when you hear it?",
+            "I mentioned the noise, but not the time.",
+            "A specific example may help them understand what needs to change."
+        ],
+        [
+            "The person applying for our spare room works from home all week.",
+            "Would that be a problem for the shared space?",
+            "Only if they expect the kitchen table to be their desk.",
+            "Then discuss working arrangements before agreeing to the tenancy."
+        ],
+        [
+            "We packed the things we'll need first at the bottom of the van.",
+            "Is there a way to unload them separately?",
+            "Not easily. The bedding is behind every piece of furniture.",
+            "Next time we'll label an essentials box and keep it with us."
+        ],
+        [
+            "The new washing machine uses less energy, yet our bills haven't fallen.",
+            "Are we doing the same number of washes?",
+            "Probably more, because the new one is so convenient.",
+            "The lower cost per wash doesn't mean the total use has dropped."
+        ],
+        [
+            "The rent increase is small, but the new agreement removes our parking space.",
+            "Was the parking included in the original contract?",
+            "Yes. I nearly signed because I only checked the monthly amount.",
+            "It's worth comparing the whole agreement, not just the price."
+        ],
+        [
+            "Our cat hid from the neighbour and missed two meals while we were away.",
+            "Did the neighbour stay long enough for her to come out?",
+            "She visited at the agreed times, but left quickly.",
+            "We need a plan that suits the animal, not just a list of feeding times."
+        ]
+    ],
+    "health": [
+        [
+            "I booked the first available appointment, then realised I couldn't get there by bus.",
+            "Did the system show the location before you confirmed?",
+            "Yes, but I didn't know it was the branch outside town.",
+            "Ask about the nearer branch instead of simply missing the appointment."
+        ],
+        [
+            "The exercise class is described as suitable for everyone.",
+            "Did you find that accurate?",
+            "Most exercises were done on the floor, which didn't work for me.",
+            "Tell the organiser which part was difficult so they can explain the available options."
+        ],
+        [
+            "I keep saying yes to evening commitments because I don't want to disappoint people.",
+            "Then you end up cancelling when you're exhausted?",
+            "Exactly. It makes me feel less reliable, not more.",
+            "Perhaps deciding earlier would be kinder to everyone involved."
+        ],
+        [
+            "The restaurant gave us an allergy menu from last season.",
+            "Did they confirm whether the dishes have changed?",
+            "They said probably not, which wasn't reassuring.",
+            "Ask them to check the current information rather than rely on the old sheet."
+        ],
+        [
+            "Our walking group wants to move faster, but two members would be left behind.",
+            "Could you have two groups following different routes?",
+            "We'd need another leader, but both routes could end together.",
+            "That sounds more welcoming than asking people to keep up at any cost."
+        ],
+        [
+            "The refill point is free, yet almost nobody uses it.",
+            "Is it easy to find from the main entrance?",
+            "Not really. The sign is behind a tall display.",
+            "Move the sign before assuming people prefer bottled water."
+        ],
+        [
+            "My calendar has a break at lunchtime, but colleagues keep booking over it.",
+            "Do they see that time as available?",
+            "The calendar says tentative, so perhaps they do.",
+            "Make the status clear and explain when you can take their calls."
+        ],
+        [
+            "The replacement class costs more because it's run by a different instructor.",
+            "Was an extra charge mentioned when the first class was cancelled?",
+            "No. We were told our bookings would transfer.",
+            "Then the organiser needs to explain the change before taking any payment."
+        ],
+        [
+            "I've stopped recording my progress because I keep missing the target.",
+            "Does the target still reflect the time you actually have?",
+            "No, it was based on a quiet week last month.",
+            "You could review the target without treating that as a failure."
+        ],
+        [
+            "The sports centre improved the main entrance but left the changing area unchanged.",
+            "Did they ask users to test the whole route?",
+            "They only checked whether people could enter the building.",
+            "Access needs to work for the visit, not just the front door."
+        ]
+    ],
+    "study": [
+        [
+            "The library has the book, but only as a reference copy.",
+            "Can you use it in the reading room?",
+            "Yes, though I can't stay during the library's usual hours.",
+            "Ask whether another edition is available to borrow before buying one."
+        ],
+        [
+            "I answered the homework question, but I lost marks for the method.",
+            "Were you asked to show each stage?",
+            "Apparently, but I only wrote the final answer.",
+            "Ask which steps demonstrate understanding rather than just adding more writing."
+        ],
+        [
+            "We spend so much time organising our study group that we rarely study.",
+            "How many people have to agree on each session?",
+            "All twelve. Even choosing a chapter becomes a discussion.",
+            "Try setting a regular time and letting people join when they can."
+        ],
+        [
+            "My extension was approved, but the submission system still shows the old deadline.",
+            "Have you saved the approval message?",
+            "Yes. I'm worried an automatic late penalty will appear.",
+            "Send the message to the course office while there's still time to correct it."
+        ],
+        [
+            "The teacher's feedback says my argument is clear but not supported.",
+            "Does each paragraph include evidence?",
+            "I mostly explain what I think, then repeat it in the conclusion.",
+            "Choose one claim and show how a source or example supports it."
+        ],
+        [
+            "This course promises advanced conversation, but the sample lesson looks quite basic.",
+            "Have you asked who the course is intended for?",
+            "They said anyone who wants to improve.",
+            "Request the actual level requirements before paying for a place."
+        ],
+        [
+            "I can give my presentation from memory until someone interrupts.",
+            "Have you practised answering questions during it?",
+            "No. I always rehearse from the first sentence to the last.",
+            "Try starting from different points so one interruption doesn't break the whole sequence."
+        ],
+        [
+            "The recording of our online lesson has no captions.",
+            "Did anyone request them before the course began?",
+            "Yes, and the course page said recordings would be accessible.",
+            "Keep that information when you ask the provider to resolve it."
+        ],
+        [
+            "Two websites quote the same statistic, but neither links to the research.",
+            "Maybe they copied it from each other.",
+            "That's what I suspect. The number looks unusually exact.",
+            "Trace the earliest source rather than treating repeated claims as separate evidence."
+        ],
+        [
+            "I can recognise every term in my notes, but I struggle to explain them.",
+            "Have you tried closing the notes and teaching one idea to someone?",
+            "Not yet. Reading everything again feels safer.",
+            "That might show you which parts you understand and which only look familiar."
+        ]
+    ],
+    "work": [
+        [
+            "Our meeting has sixteen people, although only three need to make the decision.",
+            "Could the others send updates beforehand?",
+            "Probably. Most just read out information from the shared document.",
+            "Then separate the updates from the discussion that actually needs everyone."
+        ],
+        [
+            "I keep receiving new tasks because I finish the earlier ones quickly.",
+            "Have you explained what you're already responsible for?",
+            "I usually say yes and catch up after hours.",
+            "Make the workload visible before people assume you have spare capacity."
+        ],
+        [
+            "The remote-working trial went well, but management wants everyone back full-time.",
+            "Have they explained which problems returning would solve?",
+            "They mainly say that collaboration happens naturally in person.",
+            "It may help to compare specific examples from the trial rather than argue in general terms."
+        ],
+        [
+            "The guide tells new staff to ask a colleague whenever they're unsure.",
+            "That sounds reasonable, but what happens when the colleague is wrong?",
+            "Different people teach the same task in different ways.",
+            "We need one agreed process that people can check, not just informal advice."
+        ],
+        [
+            "We can meet the deadline if we leave out the testing.",
+            "Would the customer know the difference before using it?",
+            "Probably not, which makes the shortcut tempting.",
+            "Then we need to explain the risk instead of calling an untested delivery finished."
+        ],
+        [
+            "The new starter is friendly, but nobody has explained who decides what.",
+            "Has the induction covered roles as well as systems?",
+            "Mostly passwords, forms and where to find the printer.",
+            "Arrange a few short introductions around the work they'll actually be doing."
+        ],
+        [
+            "I thought my colleague rejected my idea, but she was questioning the budget.",
+            "Did you ask which part she disagreed with?",
+            "No. I started defending the whole proposal.",
+            "Clarifying the objection first could save both of you a difficult conversation."
+        ],
+        [
+            "The report is accurate, but readers can't tell which figures have changed.",
+            "Could we highlight the changes instead of making them compare two long files?",
+            "Yes. We already have the earlier version.",
+            "Add a short explanation as well, so the reason for each change is clear."
+        ],
+        [
+            "Our suggestion scheme gets plenty of ideas, but nobody hears what happens next.",
+            "Do the people submitting them get a reply?",
+            "Only an automatic thank-you message.",
+            "Even a reason for not proceeding would show that someone has considered the proposal."
+        ],
+        [
+            "I'm taking over a project with dozens of messages but no decision record.",
+            "Can the previous lead give you a short handover call?",
+            "She's available tomorrow, though only for half an hour.",
+            "Use that time to identify the decisions and open questions rather than read every message."
+        ]
+    ],
+    "technology": [
+        [
+            "Our team shares one login because it's easier than creating separate accounts.",
+            "Does that make it difficult to see who changed a document?",
+            "Yes. Last week we couldn't trace an accidental deletion.",
+            "Convenience is costing us accountability. Let's ask about individual access."
+        ],
+        [
+            "The client could view the draft yesterday, but today the link is blocked.",
+            "Was the file moved into a different folder?",
+            "Yes. I didn't realise that would affect the permissions.",
+            "Check the new folder's rules before sending another link."
+        ],
+        [
+            "We have a backup drive, but nobody has tried restoring a file from it.",
+            "Is it even clear which folders are included?",
+            "Not since we reorganised the shared space.",
+            "A successful backup message isn't enough. We should test a small restore."
+        ],
+        [
+            "I muted the work chat, then missed a genuinely urgent message.",
+            "Could urgent issues use a different channel?",
+            "We never agreed what counts as urgent.",
+            "That's the conversation to have before turning every notification back on."
+        ],
+        [
+            "The update solved a bug, but removed a feature our team relied on.",
+            "Was the removal mentioned in the release notes?",
+            "It was, buried near the bottom.",
+            "We should check important changes before rolling future updates out to everyone."
+        ],
+        [
+            "Support asked me to restart the router for the third time.",
+            "Have you given them a record of when the connection drops?",
+            "I've described it, but I haven't kept times.",
+            "A short log might help move the investigation beyond the standard checklist."
+        ],
+        [
+            "The app says my data is anonymous, yet it still asks for my exact location.",
+            "Does it explain why that level of detail is needed?",
+            "Only that it improves the service.",
+            "That's too general. I'd look for a clearer explanation before enabling it."
+        ],
+        [
+            "The new website works with bigger text until the payment screen.",
+            "What happens there?",
+            "Two buttons overlap, and I can't tell which one is selected.",
+            "Include that step in the report. The earlier pages alone don't show the problem."
+        ],
+        [
+            "The assistant produced a convincing answer with a reference that doesn't exist.",
+            "Did anyone check it before putting it in the report?",
+            "Luckily, one person searched for the source.",
+            "We need that check built into the process, not left to whoever happens to notice."
+        ],
+        [
+            "I thought I'd cancelled, but I had only turned off the reminder emails.",
+            "Was the cancellation option labelled clearly?",
+            "Not at all. It was several screens away.",
+            "Save the confirmation once you finish, so there's no doubt about what changed."
+        ]
+    ],
+    "environment": [
+        [
+            "The recycling rate has fallen since the new bins arrived.",
+            "Are residents confused by the colours?",
+            "Possibly. The colours mean something different in the neighbouring town.",
+            "Use labels with examples instead of expecting everyone to know the local system."
+        ],
+        [
+            "The council installed a water-saving tap, but it now runs for too long.",
+            "Has anyone reported the actual fault?",
+            "The maintenance request just says the new tap is unpopular.",
+            "Describe the problem precisely so it reaches the right team."
+        ],
+        [
+            "The school planted trees for an event, but several died over the summer.",
+            "Was anyone responsible for watering them during the holidays?",
+            "Each group assumed another group was doing it.",
+            "The next planting plan needs a maintenance plan too."
+        ],
+        [
+            "Volunteers spent the morning collecting litter, then left full bags beside the river.",
+            "Was a collection arranged?",
+            "They expected the usual waste service to take them.",
+            "We should confirm the final step before inviting people to do the first one."
+        ],
+        [
+            "The community market wants more local sellers but has raised the stall fee.",
+            "Is the increase covering a specific new cost?",
+            "Mostly advertising outside the area.",
+            "Then ask whether that spending helps the small sellers the market wants to attract."
+        ],
+        [
+            "The tool-sharing project is busy, but the same two people repair everything.",
+            "Do users know how much time maintenance takes?",
+            "They only see the borrowing calendar.",
+            "Show the work behind the service and invite people to share it."
+        ],
+        [
+            "People keep saying reusable cups are always the greener choice.",
+            "Does that include how often they're used and washed?",
+            "Nobody has measured that here.",
+            "Let's find out about our actual use before printing a confident claim."
+        ],
+        [
+            "The cycle lane is protected except for the busiest part of the road.",
+            "Why was that section left out?",
+            "It would remove a few parking spaces.",
+            "Then the safety claim needs to be weighed against the route people really have to take."
+        ],
+        [
+            "Our public meeting was well attended, but only five people spoke.",
+            "Were there other ways to give feedback?",
+            "No, and several people left before questions began.",
+            "Offer a quieter way to contribute rather than assuming silence means agreement."
+        ],
+        [
+            "The winning project has the most supporters online, but serves only one street.",
+            "Was the grant meant to reward popularity or wider benefit?",
+            "The rules never made that clear.",
+            "We should settle the criteria before asking residents to vote again."
+        ]
+    ]
+}

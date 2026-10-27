@@ -1,0 +1,82 @@
+[
+    {
+        "id": "cafe",
+        "title": {
+            "vi": "Quán cà phê",
+            "en": "At a café"
+        },
+        "lessonCount": 10
+    },
+    {
+        "id": "travel",
+        "title": {
+            "vi": "Đi lại và du lịch",
+            "en": "Travel and transport"
+        },
+        "lessonCount": 10
+    },
+    {
+        "id": "hotel",
+        "title": {
+            "vi": "Khách sạn",
+            "en": "At a hotel"
+        },
+        "lessonCount": 10
+    },
+    {
+        "id": "shopping",
+        "title": {
+            "vi": "Mua sắm",
+            "en": "Shopping"
+        },
+        "lessonCount": 10
+    },
+    {
+        "id": "home",
+        "title": {
+            "vi": "Nhà ở và sinh hoạt",
+            "en": "Home and daily life"
+        },
+        "lessonCount": 10
+    },
+    {
+        "id": "health",
+        "title": {
+            "vi": "Sức khỏe và vận động",
+            "en": "Health and wellbeing"
+        },
+        "lessonCount": 10
+    },
+    {
+        "id": "study",
+        "title": {
+            "vi": "Học tập",
+            "en": "Study and learning"
+        },
+        "lessonCount": 10
+    },
+    {
+        "id": "work",
+        "title": {
+            "vi": "Công việc",
+            "en": "Work and collaboration"
+        },
+        "lessonCount": 10
+    },
+    {
+        "id": "technology",
+        "title": {
+            "vi": "Công nghệ",
+            "en": "Technology and digital life"
+        },
+        "lessonCount": 10
+    },
+    {
+        "id": "environment",
+        "title": {
+            "vi": "Môi trường và cộng đồng",
+            "en": "Environment and community"
+        },
+        "lessonCount": 10
+    }
+]
