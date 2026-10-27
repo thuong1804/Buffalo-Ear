@@ -2,6 +2,7 @@ import { parseLocaleCookie } from "../i18n/locale";
 import { createMiddleware, createServerFn } from "@tanstack/react-start";
 import { getRequestHeaders, setResponseStatus } from "@tanstack/react-start/server";
 import { authConfigured, googleConfigured, getAuth } from "../lib/auth";
+import { getSiteConfig } from "../core/site";
 
 export const getSessionFn = createServerFn({ method: "GET" }).handler(async () => {
     const configured = authConfigured();
@@ -24,6 +25,7 @@ export const getSessionFn = createServerFn({ method: "GET" }).handler(async () =
         locale: parseLocaleCookie(headers.get("cookie")),
         configured,
         googleEnabled: configured && googleConfigured(),
+        site: getSiteConfig(process.env),
     };
 });
 export const requireUser = createMiddleware({ type: "function" }).server(async ({ next }) => {

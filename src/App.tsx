@@ -279,6 +279,35 @@ export default function App() {
                 >
                     buffalo ear <i /> <span>{t("app:footerCredit")}</span>
                 </span>
+                <nav
+                    data-testid="footer-navigation"
+                    aria-label={t("app:footerNavigation")}
+                    className="flex flex-wrap gap-x-5 gap-y-1"
+                >
+                    {nav
+                        .filter((item) => item.id !== "progress")
+                        .map(({ id, label }) => (
+                            <a
+                                key={id}
+                                href={viewPaths[id]}
+                                onClick={(event) => {
+                                    if (
+                                        !event.metaKey &&
+                                        !event.ctrlKey &&
+                                        !event.shiftKey &&
+                                        !event.altKey &&
+                                        event.button === 0
+                                    ) {
+                                        event.preventDefault();
+                                        navigate(id);
+                                    }
+                                }}
+                                className="inline-flex min-h-11 items-center text-primary-ink underline-offset-4 hover:underline"
+                            >
+                                {label}
+                            </a>
+                        ))}
+                </nav>
                 <span>{t("app:footerTagline")}</span>
             </footer>
         </PracticeContext.Provider>

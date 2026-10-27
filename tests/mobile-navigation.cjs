@@ -60,7 +60,7 @@ const base = process.env.APP_URL || "http://127.0.0.1:5175";
             "compact mobile header",
         );
         assert.equal(await page.getByTestId("header-actions").isVisible(), false);
-        assert.equal(await page.getByRole("navigation").count(), 0);
+        assert.equal(await page.getByTestId("site-header").getByRole("navigation").count(), 0);
         await page.evaluate(() => scrollTo(0, 0));
         const beforeScroll = await page.evaluate(() => scrollY);
         await open();

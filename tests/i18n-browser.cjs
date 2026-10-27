@@ -1,5 +1,7 @@
 const { chromium } = require("playwright");
 const assert = require("node:assert/strict");
+const viApp = require("../src/i18n/locales/vi/app.json");
+const enApp = require("../src/i18n/locales/en/app.json");
 const base = process.env.APP_URL || "http://127.0.0.1:5175";
 (async () => {
     const browser = await chromium.launch({ headless: true });
@@ -56,9 +58,9 @@ const base = process.env.APP_URL || "http://127.0.0.1:5175";
                 assert.ok(html.includes(`<html lang="${locale}"`), `SSR lang ${locale}`);
                 assert.ok(
                     html.includes(
-                        locale === "en"
-                            ? "Buffalo Ear — Listen closely. Remember longer."
-                            : "Buffalo Ear — Nghe kỹ. Nhớ lâu.",
+                        (locale === "en" ? enApp : viApp)[
+                            i % 3 === 0 ? "seoLoginTitle" : "seoLibraryTitle"
+                        ],
                     ),
                 );
                 assert.ok(html.includes(locale === "en" ? "Main navigation" : "Điều hướng chính"));

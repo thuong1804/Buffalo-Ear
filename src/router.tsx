@@ -1,6 +1,7 @@
 import { createRouter } from "@tanstack/react-router";
 import { QueryClient } from "@tanstack/react-query";
 import { routeTree } from "./routeTree.gen";
+import { getCspNonce } from "./lib/csp-nonce";
 export function getRouter() {
     const queryClient = new QueryClient({
         defaultOptions: { queries: { retry: false, refetchOnWindowFocus: false } },
@@ -8,6 +9,7 @@ export function getRouter() {
     return createRouter({
         routeTree,
         context: { queryClient },
+        ssr: { nonce: getCspNonce() },
         scrollRestoration: true,
         defaultPreload: "intent",
     });

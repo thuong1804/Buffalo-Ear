@@ -31,6 +31,15 @@ const initialHistory = [
 ];
 let browser;
 (async () => {
+    assert.ok(
+        ["localhost", "127.0.0.1"].includes(new URL(baseURL).hostname),
+        "Integration tests must target a local app",
+    );
+    assert.ok(
+        process.env.DATABASE_URL &&
+            ["localhost", "127.0.0.1"].includes(new URL(process.env.DATABASE_URL).hostname),
+        "Integration tests must use a local test database",
+    );
     browser = await chromium.launch({
         headless: true,
         ...(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {}),
@@ -123,6 +132,23 @@ let browser;
         await page.getByLabel("Mật khẩu", { exact: true }).fill(password);
         await page.getByRole("button", { name: "Tạo tài khoản", exact: true }).click();
         await page.getByRole("button", { name: "Đăng xuất", exact: true }).waitFor();
+        const sessionCookie = (await context.cookies()).find((cookie) =>
+            cookie.name.includes("better-auth.session_token"),
+        );
+        assert.ok(sessionCookie?.httpOnly, "Session cookie must be HttpOnly");
+        assert.equal(sessionCookie.sameSite, "Lax");
+        assert.ok(sessionCookie.value.includes("."), "Session cookie is signed");
+        const securityDb = postgres(process.env.DATABASE_URL);
+        try {
+            const [credential] =
+                await securityDb`select a.password from account a inner join "user" u on u.id = a.user_id where u.email = ${email} and a.provider_id = 'credential' limit 1`;
+            assert.ok(
+                credential?.password && credential.password !== password,
+                "Password must be hashed in database",
+            );
+        } finally {
+            await securityDb.end();
+        }
         if (waitForPractice) {
             await page.getByLabel("Bạn nghe được từ gì?").waitFor();
             await page.locator("[data-testid=learning-content][aria-busy=false]").waitFor();
@@ -236,6 +262,11 @@ let browser;
         },
     });
     assert.equal(crossOrigin.status(), 403, "cross-origin writes must be rejected");
+    const crossOriginAuth = await page.request.post(baseURL + "/api/auth/sign-in/email", {
+        headers: { origin: "https://untrusted.invalid" },
+        data: { email: emails[0], password },
+    });
+    assert.equal(crossOriginAuth.status(), 403, "Auth API rejects cross-origin writes");
     await page.reload();
     await page.waitForLoadState("networkidle");
     await page.getByRole("button", { name: "Tiến độ", exact: true }).click();
@@ -287,7 +318,11 @@ let browser;
     await page.getByRole("link", { name: "Đăng nhập", exact: true }).waitFor();
     await page.getByRole("button", { name: "Tiến độ", exact: true }).click();
     await expectHistory(0);
-    await register(emails[1], "Other Account");
+    const untrustedName = 'Other Account <img src=x onerror="window.profileXss=1">';
+    await register(emails[1], untrustedName);
+    assert.equal(await page.getByTestId("account-name").innerText(), untrustedName);
+    assert.equal(await page.locator('img[src="x"]').count(), 0, "Account names render as text");
+    assert.equal(await page.evaluate(() => Boolean(window.profileXss)), false);
     await page.getByRole("button", { name: "Tiến độ", exact: true }).click();
     await expectHistory(0);
     await page.getByRole("button", { name: "Đăng xuất", exact: true }).click();

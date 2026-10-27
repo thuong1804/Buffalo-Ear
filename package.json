@@ -26,7 +26,8 @@
         "test:dialogue-content": "node --test tests/dialogue-content.test.mjs",
         "test:dialogue-filters": "node tests/dialogue-filters-browser.cjs",
         "test:tenses": "node tests/tenses-browser.cjs",
-        "test:mobile-navigation": "node tests/mobile-navigation.cjs"
+        "test:mobile-navigation": "node tests/mobile-navigation.cjs",
+        "test:security-seo": "node tests/security-seo-browser.cjs"
     },
     "dependencies": {
         "@better-auth/drizzle-adapter": "1.7.13",
